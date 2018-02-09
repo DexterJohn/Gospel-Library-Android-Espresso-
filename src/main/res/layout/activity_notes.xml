@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="?attr/themeStyleColorBackground">
+
+    <include
+        android:id="@+id/mainToolbar"
+        layout="@layout/toolbar_actionbar"/>
+
+    <org.lds.mobile.ui.widget.toolbar.ToolbarExpandLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mainToolbar">
+
+        <org.lds.ldssa.ui.widget.DisablePagingViewPager
+            android:id="@+id/notesViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/notesTabLayout"/>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/notesTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:tabIndicatorColor="?attr/colorAccent"
+            app:tabTextColor="@color/tab_text"
+            app:tabSelectedTextColor="@color/tab_selected_text"
+            app:tabGravity="center"
+            app:tabMode="scrollable"/>
+
+    </org.lds.mobile.ui.widget.toolbar.ToolbarExpandLayout>
+
+    <include layout="@layout/toolbar_expanded"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/notesFloatingActionButton"
+        style="@style/AppTheme.Widget.Button.FloatingActionButton.New"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+</RelativeLayout>
+

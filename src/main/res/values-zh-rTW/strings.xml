@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">加入</string>
+    <string name="all">全部</string>
+    <string name="app_name">福音圖書館</string>
+    <string name="auto">自動</string>
+    <string name="allow_in_app_notifications">允許應用程式內的通知</string>
+    <string name="exact_phrase">完全符合的字詞</string>
+    <string name="keywords">關鍵字</string>
+    <string name="bookmark">書籤</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_all">全部取消</string>
+    <string name="content">內容</string>
+    <string name="copy">複製</string>
+    <string name="delete">刪除</string>
+    <string name="define">定義</string>
+    <string name="display">顯示</string>
+    <string name="done">完成</string>
+    <string name="download">下載</string>
+    <string name="download_all">全部下載</string>
+    <string name="download_item">下載項目</string>
+    <string name="edit_note">編輯筆記</string>
+    <string name="feedback">意見回饋</string>
+    <string name="keep">保留</string>
+    <string name="library">圖書館</string>
+    <string name="link">連結</string>
+    <string name="links">連結</string>
+    <string name="merge">合併</string>
+    <string name="never">永不</string>
+    <string name="no">否</string>
+    <string name="note">筆記</string>
+    <string name="none">無</string>
+    <string name="ok">確定</string>
+    <string name="remove">移除</string>
+    <string name="remove_all">全部移除</string>
+    <string name="rename">重新命名</string>
+    <string name="search">搜尋</string>
+    <string name="settings">設定</string>
+    <string name="screen_settings">畫面設定</string>
+    <string name="share">分享</string>
+    <string name="skip">跳過</string>
+    <string name="sort">排序</string>
+    <string name="tag">標籤</string>
+    <string name="tags">標籤</string>
+    <string name="theme_default">預設</string>
+    <string name="theme_night">夜晚</string>
+    <string name="theme_sepia">深褐</string>
+    <string name="theme_dark_blue">深藍</string>
+    <string name="today">今日</string>
+    <string name="undo">復原</string>
+    <string name="update">更新</string>
+    <string name="view">檢視</string>
+    <string name="yes">是</string>
+    <string name="yesterday">昨天</string>
+    <!-- Other -->
+    <string name="add_bookmark">加入書籤</string>
+    <string name="create_note">新增筆記</string>
+    <string name="add_to">加入</string>
+    <string name="add_to_ellipsis">加入到…</string>
+    <string name="add_to_notebook">加入筆記本</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">因為沒有安裝「%s」，所以無法顯示註解。</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">點選來安裝更新。</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">福音圖書館可取得更新。</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">音訊設定</string>
+    <string name="backup_annotations_message">用後期聖徒帳號登入可以備份你的醒目標記、筆記、書籤，維護它們的安全，供人在網頁或任何行動裝置上使用。</string>
+    <string name="backup_annotations_title">備份註解</string>
+    <string name="bookmarks">書籤</string>
+    <string name="bookmark_added">已加入書籤</string>
+    <string name="bookmark_empty">你尚未加入書籤。</string>
+    <string name="bookmark_updated">書籤已更新</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">投放</string>
+    <string name="catalog_title">福音圖書館目錄</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">選擇醒目標記</string>
+    <string name="citation_chapter_verse_separator">：</string>
+    <string name="citation_chapter_verse_separator_text">%1$s：%2$s</string>
+    <string name="citation_range_separator">—</string>
+    <string name="citation_range_group_separator">"，"</string>
+    <string name="clear_downloaded_media">清除已下載的媒體</string>
+    <string name="clear_history">清除歷程紀錄</string>
+    <string name="content_no_content" comment="Shown in content drawer">因為沒有安裝「%s」，所以無法顯示內容</string>
+    <string name="content_not_downloaded">未下載%s。</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">持續播放</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">文字已複製到剪貼簿</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">建立「%s」</string>
+    <string name="current_downloads">目前的下載</string>
+    <string name="custom_collections">自訂收藏</string>
+    <string name="delete_annotation_title">移除註解</string>
+    <string name="delete_annotation_message">任何與這個醒目標記相關的筆記、標籤、連結都將會一併移除。</string>
+    <string name="delete_collection_item_title">要刪除「%1$s」？</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">將刪除%s。\n要刪除全部媒體?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">無法刪除全部媒體。</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">將從「%1$s」中刪除%2$s。\n要刪除媒體？</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">刪除媒體</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">刪除筆記本</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">刪除所選的筆記本？</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">刪除標籤</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">刪除標籤</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">確定要把這個標籤從所有筆記和醒目標記中移除？</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">確定要把這些標籤從所有筆記和醒目標記中移除？</string>
+    <string name="deleted">%s已刪除</string>
+    <string name="dialog_sign_out_confirmation">確定要登出嗎？</string>
+    <string name="double_tap_fullscreen_training">提示：在畫面點兩下來離開全螢幕模式。</string>
+    <string name="download_audio" comment="download audio">下載音訊</string>
+    <string name="download_all_selected_confirm">即將下載%d項目\n確定要下載所選的項目嗎?</string>
+    <string name="download_cancel_confirm_all">將取消目前所有的下載。\n要取消下載？</string>
+    <string name="download_cancel">取消下載</string>
+    <string name="download_canceling">取消下載中…</string>
+    <string name="download_item_message">%s尚未安裝。你要現在下載嗎？</string>
+    <string name="download_video" comment="download video">下載影片</string>
+    <string name="downloaded_media">已下載的媒體</string>
+    <string name="downloading_ellipsis">下載中……</string>
+    <string name="downloading_audio">%s音訊下載中</string>
+    <string name="downloading_video">%s影片下載中</string>
+    <string name="download_file_failed_insufficient_space">〔%s〕無法下載。\n空間不足。</string>
+    <string name="download_file_failed">〔%s〕無法下載。\n檢查你的網路連線，然後再試一次。</string>
+    <string name="download_dir_error">無法建立下載的目錄。</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">收藏名稱</string>
+    <string name="existing_annotations">現有註解</string>
+    <string name="featured_apps">精選應用程式</string>
+    <string name="female" comment="Option for using a female voice for audio playback">女性</string>
+    <string name="finalizing_ellipsis">最終化中…</string>
+    <string name="find_by_name">按名稱搜尋</string>
+    <string name="find_count">第%1$d頁，共%2$d頁</string>
+    <string name="find_x_on_page">在頁面上尋找「%s」</string>
+    <string name="find_x_in_x">在%2$s中尋找「%1$s」</string>
+    <string name="find_exact_x_in_x">在%2$s中尋找完全符合「%1$s」的字詞</string>
+    <string name="marked_text_position">第%1$d個結果，共%2$d個結果</string>
+    <string name="marked_text_position_no_results">0個結果</string>
+    <string name="sign_in_error" comment="Failed to login invalid username or password.">登入錯誤</string>
+    <string name="highlight_style">醒目標記樣式</string>
+    <string name="history">歷程紀錄</string>
+    <string name="installing_ellipsis">安裝中…</string>
+    <string name="journal">日記</string>
+    <string name="journal_restore">復原日記</string>
+    <string name="journal_create_notebook">建立日記筆記本</string>
+    <string name="journal_restore_description">雖然「日記」部分移除了，但是你的筆記已經保存下來。如果你想要的話，我們可以收集「日記」部分先前的所有筆記，把它們放在名為「日記」的新筆記本裡。</string>
+    <string name="journal_restore_result">日記復原完成，%d項筆記已移除。</string>
+    <string name="language">語言</string>
+    <string name="lds_account_summary">後期聖徒帳號是用來備份及同步你的裝置和LDS.org之間的註解。</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">到%1$s</string>
+    <string name="loading_ellipsis">載入中……</string>
+    <string name="male" comment="Option for using a male voice for audio playback">男性</string>
+    <string name="mark" comment="Select highlight color">劃記</string>
+    <string name="media_type">媒體類型</string>
+    <string name="menu_new_screen">新畫面…</string>
+    <string name="merged_notebook_name_prompt">所選的筆記本會合併在一起，請為後來產生的筆記本輸入名稱。</string>
+    <string name="merged_notebook_name">已合併的筆記本名稱</string>
+    <string name="merged_tag_name">已合併的標籤名稱</string>
+    <string name="move_to_notebook">移到筆記本</string>
+    <string name="my_collections">我的收藏</string>
+    <string name="network_required" comment="Not connected to any network">此動作要有網路連線。請連上網路（行動網路或Wi-Fi）來存取伺服器。</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">根據你的設定，你必須連上Wi-Fi來存取伺服器。</string>
+    <string name="no_bookmarks">沒有書籤</string>
+    <string name="no_bookmarks_description">加入書籤以迅速返回之前告一段落的地方。</string>
+    <string name="no_content">沒有內容</string>
+    <string name="no_custom_collections">沒有自訂收藏</string>
+    <string name="no_custom_collections_description">建立自訂收藏，方便存取相關項目。</string>
+    <string name="no_downloads_in_progress">沒有下載進行中</string>
+    <string name="no_downloads_in_progress_description">目前正在下載內容和媒體。</string>
+    <string name="no_downloaded_media">沒有下載的媒體</string>
+    <string name="no_history">無歷程紀錄</string>
+    <string name="no_history_description">查看內容，找到路徑回去。</string>
+    <string name="no_matches" comment="No results">沒有結果</string>
+    <string name="no_matches_description">特定搜尋無結果。</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">沒有筆記本</string>
+    <string name="no_notes">沒有筆記</string>
+    <string name="no_notes_in_notebook">這本筆記本中沒有筆記</string>
+    <string name="no_related_content">沒有相關內容</string>
+    <string name="no_related_content_description2">沒有可用的註腳，個人筆記，或其他類似的內容</string>
+    <string name="no_tags" comment="The message to show when there are no tags">沒有標籤</string>
+    <string name="no_tags_description">建立標籤來組織應用程式中的各處內容。</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">無標籤內容</string>
+    <string name="no_tagged_content_description">附加標籤到任一內容以供未來參考。</string>
+    <string name="no_thanks">不了，謝謝</string>
+    <string name="no_tips">沒有提示</string>
+    <string name="note_content">筆記內容</string>
+    <string name="notebook">筆記本</string>
+    <string name="notebooks">筆記本</string>
+    <string name="notes">筆記</string>
+    <string name="num_item_add_to">%1$s個項目已加入至%2$s</string>
+    <string name="num_item">%d個項目</string>
+    <string name="num_items_add_to">%1$s個項目已加入至%2$s</string>
+    <string name="num_items">%d個項目</string>
+    <string name="open">開啟</string>
+    <string name="open_in_music">在後期聖徒音樂中開啟</string>
+    <string name="open_in_new_screen">在新畫面中開啟</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">固定側邊列</string>
+    <string name="play_audio">播放音訊</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">播放速度</string>
+    <string name="playback_speed_0.5x">0.5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1.25x</string>
+    <string name="playback_speed_1.5x">1.5x</string>
+    <string name="playback_speed_1.75x">1.75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">錯誤的用戶名和密碼組合。請檢查你的用戶名和密碼，然後再試一次。</string>
+    <string name="pref_show_obsolete">顯示過期的內容</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"...看啊，我告訴你，藉著微小而簡單的事能成就偉大的事，微小的方法在許多例子中都使聰明人羞愧。"</string>
+    <string name="pref_general_list_mode">列表模式</string>
+    <string name="pref_hide_footnotes">隱藏註腳</string>
+    <string name="pref_limit_mobile_network_subtitle">只用無線網路下載和進行串流</string>
+    <string name="pref_theme">佈景主題</string>
+    <string name="problem_playing_video">播放影片時發生問題。</string>
+    <string name="recent" comment="label for study notebook">最近</string>
+    <string name="related_content">相關內容</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">確定要移除所選的項目？</string>
+    <string name="remove_from_collection">從收藏中移除</string>
+    <string name="rename_bookmark">重新命名書籤</string>
+    <string name="rename_screen">重新命名畫面</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d個結果</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d個結果</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s - %2$d個結果</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s - %2$d個結果</string>
+    <string name="save">儲存</string>
+    <string name="screens">畫面</string>
+    <string name="screen_missing_content">你尚未下載所選畫面的內容。\n你現在想要下載「%1$s」的內容嗎？</string>
+    <string name="screens_separate_windows">將畫面以不同視窗顯示</string>
+    <string name="search_all_content">搜尋全部內容</string>
+    <string name="select_highlight">選取醒目標記</string>
+    <string name="select_items">選取項目</string>
+    <string name="select_link">選取連結</string>
+    <string name="select_text_to_link" comment="title for link to Activity">選取要連結的文字</string>
+    <string name="selected_media_unavailable">所選媒體無法使用。</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">上一次同步：%s</string>
+    <string name="sort_by_count" comment="Sort items by their count">按數量排序</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">按最近期的時間排序</string>
+    <string name="sort_by_name" comment="sort items by their name">按名稱排序</string>
+    <string name="sort_by_size" comment="sort media items">按大小排序</string>
+    <string name="sort_by_item" comment="sort media items">按項目排序</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">%s版</string>
+    <string name="style">樣式</string>
+    <string name="sync_notification_failure">同步失敗</string>
+    <string name="sync_notification_gathering_changes">變更收集中</string>
+    <string name="sync_notification_processing_changes">變更處理中</string>
+    <string name="sync_notification_receiving_changes">變更接收中</string>
+    <string name="sync_notification_receiving_update_list">列表更新接收中</string>
+    <string name="sync_notification_sending_changes">變更傳送中</string>
+    <string name="sync_notification_sending_update_request">申請更新傳送中</string>
+    <string name="syncing_notebooks">筆記本同步中</string>
+    <string name="syncing_annotations">註解同步中...</string>
+    <string name="notification_channel_general">一般通知</string>
+    <string name="notification_channel_sync">同步註解</string>
+    <string name="notification_channel_media_playback">媒體播放</string>
+    <string name="text_size" comment="">文字大小</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">文字轉語音</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">文字轉語音設定</string>
+    <string name="tips">提示</string>
+    <string name="title_optional">標題（選用）</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">將側邊列解除固定</string>
+    <string name="update_catalog_wifi_required">有更新的內容可用，但是你必須連上無線網路以下載。</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">編輯標籤</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp 高清</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">影片品質</string>
+    <string name="video_unavailable">影片無法使用</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">主要聲音</string>
+    <string name="whats_new">最新消息</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- For an example see: https://developer.android.com/samples/AutoBackupForApps/res/xml/backup.html -->
+    <!-- For testing see: http://developer.android.com/training/backup/autosyncapi.html#Testing_Backup -->
+
+    <include domain="sharedpref" path="BACKED_UP_PREFERENCES.xml"/>
+</full-backup-content>

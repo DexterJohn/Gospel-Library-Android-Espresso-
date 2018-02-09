@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/themeStyleColorBackground">
+
+    <include
+        android:id="@+id/mainToolbar"
+        layout="@layout/toolbar_dim"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/notebookSelectionRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mainToolbar"
+        android:clipToPadding="false"
+        android:paddingTop="8dp"
+        android:scrollbars="vertical"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/notebookSelectionFloatingActionButton"
+        style="@style/AppTheme.Widget.Button.FloatingActionButton.New"
+        tools:visibility="gone"/>
+
+    <org.lds.mobile.ui.widget.EmptyStateIndicator
+        android:id="@+id/emptyStateIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        app:image="@drawable/ic_lds_notebook_80dp"
+        app:imageTint="?attr/emptyStateImageColor"
+        app:subTitle="@string/no_notebooks_description"
+        app:subTitleTextColor="?attr/emptyStateSubTitleColor"
+        app:title="@string/no_notebooks"
+        app:titleTextColor="?attr/emptyStateTitleColor"
+        />
+</RelativeLayout>

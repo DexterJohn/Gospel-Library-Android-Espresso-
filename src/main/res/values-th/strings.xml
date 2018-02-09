@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">เพิ่ม</string>
+    <string name="all">ทั้งหมด</string>
+    <string name="app_name">คลังค้นคว้าพระกิตติคุณ</string>
+    <string name="auto">อัตโนมัติ</string>
+    <string name="allow_in_app_notifications">อนุญาตการแจ้งเตือนในแอพ</string>
+    <string name="exact_phrase">วลีที่ตรงกันทุกคำ</string>
+    <string name="keywords">คำสำคัญ</string>
+    <string name="bookmark">คั่นหน้า</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="cancel_all">ยกเลิกทั้งหมด</string>
+    <string name="content">เนื้อหา</string>
+    <string name="copy">คัดลอก</string>
+    <string name="delete">ลบ</string>
+    <string name="define">อธิบาย</string>
+    <string name="display">การแสดงผล</string>
+    <string name="done">เสร็จแล้ว</string>
+    <string name="download">ดาวน์โหลด</string>
+    <string name="download_all">ดาวน์โหลดทั้งหมด</string>
+    <string name="download_item">รายการดาวน์โหลด</string>
+    <string name="feedback">คำติชม</string>
+    <string name="keep">เก็บไว้</string>
+    <string name="library">คลังค้นคว้า</string>
+    <string name="link">ลิงก์</string>
+    <string name="links">ลิงก์</string>
+    <string name="merge">รวม</string>
+    <string name="never">ไม่ต้อง</string>
+    <string name="no">ไม่</string>
+    <string name="note">โน้ต</string>
+    <string name="none">ไม่มี</string>
+    <string name="ok">ตกลง</string>
+    <string name="remove">ลบ</string>
+    <string name="remove_all">ลบทั้งหมด</string>
+    <string name="rename">ตั้งชื่อใหม่</string>
+    <string name="search">ค้นหา</string>
+    <string name="settings">การตั้งค่า</string>
+    <string name="screen_settings">การตั้งค่าหน้าจอ</string>
+    <string name="share">แบ่งปัน</string>
+    <string name="skip">ข้าม</string>
+    <string name="sort">จัดเรียง</string>
+    <string name="tag">แท็ก</string>
+    <string name="tags">แท็ก</string>
+    <string name="theme_default">ค่าเริ่มต้น</string>
+    <string name="theme_night">กลางคืน</string>
+    <string name="theme_sepia">ซีเปีย</string>
+    <string name="theme_dark_blue">น้ำเงินเข้ม</string>
+    <string name="today">วันนี้</string>
+    <string name="undo">ยกเลิก</string>
+    <string name="update">อัพเดท</string>
+    <string name="view">ดู</string>
+    <string name="yes">ใช่</string>
+    <string name="yesterday">เมื่อวาน</string>
+    <!-- Other -->
+    <string name="add_bookmark">เพิ่มคั่นหน้า</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">เพิ่มแท็ก</string>
+    <string name="add_to">เพิ่มใน</string>
+    <string name="add_to_ellipsis">เพิ่มใน...</string>
+    <string name="add_to_notebook">เพิ่มในสมุดบันทึก</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">ไม่สามารถแสดงหมายเหตุเพราะยังไม่ได้ติดตั้ง \"%s\"</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">แตะเพื่อติดตั้งอัพเดท</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">มีอัพเดทสำหรับคลังค้นคว้าพระกิตติคุณ</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">การตั้งค่าเสียง</string>
+    <string name="backup_annotations_message">การไม่ลงชื่อเข้าใช้ก่อนอัพเดทแอพ คลังค้นคว้าพระกิตติคุณ ครั้งหน้าจะทำให้ท่านสูญเสียหมายเหตุส่วนตัว (ไฮไลท์ โน้ต คั่นหน้า และอื่นๆ)</string>
+    <string name="backup_annotations_title">สำรองหมายเหตุ</string>
+    <string name="bookmarks">คั่นหน้า</string>
+    <string name="bookmark_added">เพิ่มคั่นหน้าแล้ว</string>
+    <string name="bookmark_empty">ท่านไม่ได้เพิ่มคั่นหน้าใดๆ</string>
+    <string name="bookmark_updated">อัพเดทคั่นหน้าแล้ว</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">ส่ง</string>
+    <string name="catalog_title">แค็ตตาล็อกคลังค้นคว้าพระกิตติคุณ</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">เลือกไฮไลท์</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">ลบสื่อที่ดาวน์โหลดแล้ว</string>
+    <string name="clear_history">ล้างประวัติการใช้งาน</string>
+    <string name="content_no_content" comment="Shown in content drawer">ไม่สามารถแสดงหมายเหตุเพราะยังไม่ได้ติดตั้ง \"%s\"</string>
+    <string name="content_not_downloaded">ไม่ได้ดาวน์โหลด %s</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">เล่นต่อเนื่อง</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">คัดลอกข้อความไปยังคลิปบอร์ด</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">สร้าง “%s”</string>
+    <string name="current_downloads">ดาวน์โหลดปัจจุบัน</string>
+    <string name="custom_collections">ชุดข้อมูลแบบจัดเอง</string>
+    <string name="delete_annotation_title">ลบหมายเหตุ</string>
+    <string name="delete_annotation_message">โน้ต แท็ก หรือลิงก์ที่อยู่ในไฮไลท์นี้จะถูกลบด้วย</string>
+    <string name="delete_collection_item_title">ลบ “%1$s”?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s จะถูกลบ\n\nลบสื่อทั้งหมด?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">ไม่สามารถลบสื่อทั้งหมด</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s จะถูกลบออกจาก “%1$s”.\n\nลบสื่อ?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">ลบสื่อ</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">ลบสมุดบันทึก</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">ลบสมุดบันทึกที่เลือกไว้</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">ลบแท็ก</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">ลบแท็ก</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">แน่ใจไหมว่าต้องการลบแท็กนี้ออกจากโน้ตและไฮไลท์ทั้งหมด?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">แน่ใจไหมว่าต้องการลบแท็กเหล่านี้ออกจากโน้ตและไฮไลท์ทั้งหมด?</string>
+    <string name="deleted">ลบ %s แล้ว</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">ลบคั่นหน้า %s แล้ว</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">ลบสมุดบันทึก %s แล้ว</string>
+    <string name="dialog_sign_out_confirmation">แน่ใจไหมว่าต้องการออกจากระบบ?</string>
+    <string name="double_tap_fullscreen_training">คำแนะนำ: แตะจอสองทีเพื่อออกจากรูปแบบเต็มจอ</string>
+    <string name="download_audio" comment="download audio">ดาวน์โหลดไฟล์เสียง</string>
+    <string name="download_all_selected_confirm">%d รายการจะถูกดาวน์โหลด\n\nดาวน์โหลดรายการที่เลือก?</string>
+    <string name="download_cancel_confirm_all">ดาวน์โหลดปัจจุบันทั้งหมดจะถูกยกเลิก\n\nยกเลิกดาวน์โหลด?</string>
+    <string name="download_cancel">ยกเลิกดาวน์โหลด?</string>
+    <string name="download_canceling">กำลังยกเลิกดาวน์โหลด...</string>
+    <string name="download_item_message">ไม่ได้ติดตั้ง %s ไว้ ต้องการดาวน์โหลดเดี๋ยวนี้ไหม?</string>
+    <string name="download_video" comment="download video">ดาวน์โหลดวีดิทัศน์</string>
+    <string name="downloaded_media">สื่อที่ดาวน์โหลดแล้ว</string>
+    <string name="downloading_ellipsis">กำลังดาวน์โหลด…</string>
+    <string name="downloading_audio">กำลังดาวน์โหลดไฟล์เสียงสำหรับ %s</string>
+    <string name="downloading_video">กำลังดาวน์โหลดวีดิทัศน์สำหรับ %s</string>
+    <string name="download_file_failed_insufficient_space">การดาวน์โหลด [%s] ล้มเหลว\nมีพื้นที่ไม่พอ</string>
+    <string name="download_file_failed">การดาวน์โหลด [%s] ล้มเหลว\nโปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของท่านและลองอีกครั้ง</string>
+    <string name="download_dir_error">การสร้างสมุดรายการดาวน์โหลดล้มเหลว</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">ชื่อชุดข้อมูล</string>
+    <string name="existing_annotations_prompt">มี %d หมายเหตุอยู่ในอุปกรณ์นี้แล้ว ท่านต้องการทำอะไรกับหมายเหตุที่มีอยู่?</string>
+    <string name="existing_annotations">หมายเหตุที่มีอยู่</string>
+    <string name="featured_apps">แอพเด่น</string>
+    <string name="female" comment="Option for using a female voice for audio playback">หญิง</string>
+    <string name="finalizing_ellipsis">กำลังทำให้สมบูรณ์…</string>
+    <string name="find_by_name">ค้นหาด้วยชื่อ</string>
+    <string name="find_count">%1$d จาก %2$d</string>
+    <string name="find_x_on_page">ค้นหา “%s” ในหน้า</string>
+    <string name="find_x_in_x">ค้นหา “%1$s” ใน %2$s</string>
+    <string name="find_exact_x_in_x">ค้นหาวลีที่ตรงกับ “%1$s” ใน %2$s</string>
+    <string name="marked_text_position">%1$d จาก %2$d ผลลัพธ์</string>
+    <string name="marked_text_position_no_results">0 ผลลัพธ์</string>
+    <string name="sign_in_error" comment="Failed to login invalid username or password.">ผิดพลาดในการลงชื่อเข้าใช้</string>
+    <string name="highlight_style">รูปแบบไฮไลท์</string>
+    <string name="history">ประวัติการใช้งาน</string>
+    <string name="history_cleared">ล้างประวัติการใช้งานแล้ว</string>
+    <string name="installing_ellipsis">กำลังติดตั้ง…</string>
+    <string name="journal">บันทึกประจำวัน</string>
+    <string name="journal_restore">กู้คืนบันทึกประจำวัน</string>
+    <string name="journal_create_notebook">สร้างสมุดบันทึกประจำวัน</string>
+    <string name="journal_restore_description">แม้ว่าหมวดบันทึกประจำวันจะถูกลบออกไปแล้ว แต่ยังได้เก็บรักษาโน้ตของท่านไว้ หากท่านต้องการ เราสามารถเก็บรวบรวมโน้ตทั้งหมดที่อยู่ในหมวดบันทึกประจำวันและนำมาใส่ในสมุดบันทึกใหม่ที่เรียกว่าบันทึกประจำวัน</string>
+    <string name="journal_restore_result">การกู้คืนบันทึกประจำวันเสร็จสมบูรณ์ ย้าย %d โน้ต</string>
+    <string name="language">ภาษา</string>
+    <string name="lds_account_summary">ต้องใช้บัญชีแอลดีเอสในการสำรองและเชื่อมข้อมูลหมายเหตุของท่านกับอุปกรณ์ต่างๆ และใน LDS.org</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">ไปยัง %1$s</string>
+    <string name="loading_ellipsis">กำลังโหลด…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">ชาย</string>
+    <string name="mark" comment="Select highlight color">ทำเครื่องหมาย</string>
+    <string name="media_type">ชนิดของสื่อ</string>
+    <string name="menu_new_screen">หน้าจอใหม่...</string>
+    <string name="merged_notebook_name_prompt">สมุดบันทึกที่เลือกไว้จะถูกนำมารวมกัน โปรดใส่ชื่อสำหรับสมุดบันทึกใหม่</string>
+    <string name="merged_notebook_name">ชื่อใหม่ของสมุดบันทึกที่ถูกนำมารวมกัน</string>
+    <string name="merged_tag_name">ชื่อใหม่ของแท็กที่ถูกนำมารวมกัน</string>
+    <string name="move_to_notebook">ย้ายไปสมุดบันทึก</string>
+    <string name="my_collections">ชุดข้อมูลของฉัน</string>
+    <string name="network_required" comment="Not connected to any network">ขั้นตอนนี้ต้องเชื่อมต่ออินเทอร์เน็ต โปรดเชื่อมต่อเครือข่ายมือถือหรือไว-ไฟและลองอีกครั้ง</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">ตามการตั้งค่าของท่าน ท่านต้องเชื่อมต่อกับไว-ไฟเพื่อทำขั้นตอนนี้</string>
+    <string name="no_bookmarks">ไม่มีคั่นหน้า</string>
+    <string name="no_bookmarks_description">เพิ่มคั่นหน้าเพื่อกลับไปยังหน้าที่ค้างไว้ได้อย่างรวดเร็ว</string>
+    <string name="no_content">ไม่มีเนื้อหา</string>
+    <string name="no_collection_content_description">เพิ่มรายการในชุดข้อมูลเพื่อเข้าใช้ได้ง่าย</string>
+    <string name="no_custom_collections">ไม่มีชุดข้อมูลที่กำหนดเอง</string>
+    <string name="no_custom_collections_description">สร้างชุดข้อมูลแบบกำหนดเองเพื่อเข้าใช้รายการที่เกี่ยวข้องได้ง่าย</string>
+    <string name="no_downloads_in_progress">ไม่มีการดาวน์โหลดในขณะนี้</string>
+    <string name="no_downloads_in_progress_description">ขณะนี้กำลังดาวน์โหลดเนื้อหาและสื่อ</string>
+    <string name="no_downloaded_media">ไม่มีสื่อที่ดาวน์โหลด</string>
+    <string name="no_downloaded_media_description">ดาวน์โหลดไฟล์เสียงหรือวีดิทัศน์สำหรับดูแบบออฟไลน์</string>
+    <string name="no_history">ไม่มีประวัติการใช้งาน</string>
+    <string name="no_history_description">สำรวจเนื้อหา หาเส้นทางของท่าน และกลับไปตรงนั้น</string>
+    <string name="no_matches" comment="No results">ไม่มีผลลัพธ์</string>
+    <string name="no_matches_description">ไม่มีผลลัพธ์สำหรับการค้นหาที่ระบุไว้</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">ไม่มีสมุดบันทึก</string>
+    <string name="no_notebooks_description">สร้างสมุดบันทึกมากเท่าที่ต้องการเพื่อจัดระเบียบโน้ตทั้งหมดของท่าน</string>
+    <string name="no_notes">ไม่มีโน้ต</string>
+    <string name="no_notes_in_notebook">ไม่มีโน้ตในสมุดบันทึกนี้</string>
+    <string name="no_notes_description">เขียนโน้ตเพื่อเก็บรักษาความคิดและแรงบรรดาลใจของท่าน</string>
+    <string name="no_related_content">ไม่มีเนื้อหาที่เกี่ยวข้อง</string>
+    <string name="no_related_content_description2">ไม่มีเชิงอรรถหรือเนื้อหาอื่นๆ ที่เกี่ยวข้อง</string>
+    <string name="no_tags" comment="The message to show when there are no tags">ไม่มีแท็ก</string>
+    <string name="no_tags_description">สร้างแท็กเพื่อรวบรวมเนื้อหาจากทุกแห่งในแอพ</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">ไม่มีเนื้อหาที่ติดแท็ก</string>
+    <string name="no_tagged_content_description">ติดแท็กที่เนื้อหาใดก็ได้สำหรับการอ้างอิงในอนาคต</string>
+    <string name="no_thanks">ไม่ ขอบคุณ</string>
+    <string name="no_tips">ไม่มีข้อแนะนำ</string>
+    <string name="no_tips_description">ข้อแนะนำแสดงถึงการใช้งานแอพที่เป็นประโยชน์</string>
+    <string name="note_content">เนื้อหาโน้ต</string>
+    <string name="notebook">สมุดบันทึก</string>
+    <string name="notebooks">สมุดบันทึก</string>
+    <string name="notes">โน้ต</string>
+    <string name="num_item_add_to">%1$s รายการเพิ่มใน %2$s</string>
+    <string name="num_item">%d รายการ</string>
+    <string name="num_items_add_to">%1$s รายการเพิ่มใน %2$s</string>
+    <string name="num_items">%d รายการ</string>
+    <string name="open">เปิด</string>
+    <string name="open_in_music">เปิดในดนตรีแอลดีเอส</string>
+    <string name="open_in_new_screen">เปิดในหน้าจอใหม่</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">ปักหมุดแถบด้านข้าง</string>
+    <string name="play_audio">เล่นไฟล์เสียง</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">ระดับความเร็วในการเล่น</string>
+    <string name="playback_speed_0.5x">0.5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1.25x</string>
+    <string name="playback_speed_1.5x">1.5x</string>
+    <string name="playback_speed_1.75x">1.75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">โปรดลงชื่อเข้าใช้อีกครั้งเพื่อแก้ไขชื่อผู้ใช้และรหัสผ่านของท่าน</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">จัดการหรือดูไฟล์เสียงและวีดิทัศน์ที่ดาวน์โหลดไว้</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"…แต่ดูเถิดพ่อกล่าวแก่ลูก, ว่าโดยเรื่องเล็กและเรียบง่ายสิ่งสำคัญจะเกิดขึ้น; และวิธีเล็กน้อยในหลายครั้งทำให้ผู้มีปัญญาจำนน."</string>
+    <string name="pref_general_list_mode">โหมดรายการ</string>
+    <string name="pref_hide_footnotes">ซ่อนเชิงอรรถ</string>
+    <string name="pref_limit_mobile_network_subtitle">ดาวน์โหลดและสตรีมเมื่อเชื่อมต่อไว-ไฟเท่านั้น</string>
+    <string name="pref_limit_mobile_network">จำกัดการใช้เครือข่ายโทรศัพท์มือถือ</string>
+    <string name="pref_theme">ธีม</string>
+    <string name="problem_playing_video">มีปัญหาขณะเล่นวีดิทัศน์</string>
+    <string name="read_more">อ่านเพิ่มเติม</string>
+    <string name="recent" comment="label for study notebook">ล่าสุด</string>
+    <string name="related_content">เนื้อหาที่เกี่ยวข้อง</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">แน่ใจไหมว่าต้องการลบรายการที่เลือก?</string>
+    <string name="remove_from_collection">ลบออกจากชุดข้อมูล</string>
+    <string name="rename_bookmark">ตั้งชื่อคั่นหน้าใหม่</string>
+    <string name="rename_screen">ตั้งชื่อหน้าจอใหม่</string>
+    <string name="requested_ellipsis">ขอไว้แล้ว…</string>
+    <string name="requested_paused_retry_ellipsis">ขอไว้แล้ว… (กำลังรอเพื่อลองอีกครั้ง)</string>
+    <string name="requested_paused_network_ellipsis">ขอไว้แล้ว… (กำลังรอเครือข่าย)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d ผลลัพธ์</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d ผลลัพธ์</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s - %2$d ผลลัพธ์</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s - %2$d ผลลัพธ์</string>
+    <string name="save">บันทึก</string>
+    <string name="screens">หน้าจอ</string>
+    <string name="screen_missing_content">ท่านไม่ได้ดาวน์โหลดเนื้อหาสำหรับหน้าจอที่เลือกไว้\n\nท่านต้องการดาวน์โหลดเนื้อหาสำหรับ “%1$s” เดี๋ยวนี้หรือไม่?</string>
+    <string name="screens_separate_windows">แสดงหน้าจอในหน้าต่างใหม่</string>
+    <string name="search_all_content">ค้นหาเนื้อหาทั้งหมด</string>
+    <string name="search_for_links">ค้นหาคำสำคัญ ข้อ หรือชื่อ</string>
+    <string name="select_highlight">เลือกไฮไลท์</string>
+    <string name="select_items">เลือกรายการ</string>
+    <string name="select_link">เลือกลิงก์</string>
+    <string name="select_text_to_link" comment="title for link to Activity">เลือกข้อความเพื่อทำการลิงก์</string>
+    <string name="selected_media_unavailable">ไม่มีสื่อที่เลือก</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">เชื่อมข้อมูลครั้งสุดท้าย: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">เรียงลำดับตามจำนวน</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">เรียงลำดับตามการใช้งานล่าสุด</string>
+    <string name="sort_by_name" comment="sort items by their name">เรียงลำดับตามชื่อ</string>
+    <string name="sort_by_size" comment="sort media items">เรียงลำดับตามขนาด</string>
+    <string name="sort_by_item" comment="sort media items">เรียงลำดับตามรายการ</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">รุ่น %s</string>
+    <string name="style">รูปแบบ</string>
+    <string name="sync_error_invalid_credentials">ชื่อผู้ใช้/รหัสผ่านไม่ถูกต้อง</string>
+    <string name="sync_error_no_network">ไม่มีการเชื่อมต่อเครือข่าย</string>
+    <string name="sync_notification_failure">การเชื่อมข้อมูลหมายเหตุล้มเหลว</string>
+    <string name="sync_notification_gathering_changes">กำลังรวบรวมการเปลี่ยนแปลง</string>
+    <string name="sync_notification_processing_changes">กำลังดำเนินการเปลี่ยนแปลง</string>
+    <string name="sync_notification_receiving_changes">กำลังรับการเปลี่ยนแปลง</string>
+    <string name="sync_notification_receiving_update_list">กำลังรับรายการที่อัพเดท</string>
+    <string name="sync_notification_sending_changes">กำลังส่งการเปลี่ยนแปลง</string>
+    <string name="sync_notification_sending_update_request">กำลังส่งคำขออัพเดท</string>
+    <string name="syncing_notebooks">กำลังเชื่อมข้อมูลสมุดบันทึก</string>
+    <string name="syncing_annotations">กำลังเชื่อมข้อมูลหมายเหตุ</string>
+    <string name="notification_channel_general">การแจ้งเตือนทั่วไป</string>
+    <string name="notification_channel_sync">การเชื่อมข้อมูลหมายเหตุ</string>
+    <string name="notification_channel_media_playback">การเล่นสื่อ</string>
+    <string name="text_size" comment="">ขนาดข้อความ</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">อ่านออกเสียงข้อความ</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">การตั้งค่าการอ่านออกเสียงข้อความ</string>
+    <string name="tips">คำแนะนำ</string>
+    <string name="title_optional">ชื่อเรื่อง (ทางเลือก)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">ยกเลิกปักหมุดแถบด้านข้าง</string>
+    <string name="update_catalog_wifi_required">มีเนื้อหาให้อัพเดท แต่ต้องเชื่อมต่อกับไว-ไฟเพื่อดาวน์โหลด</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">แก้ไขแท็ก</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">คุณภาพวีดิทัศน์</string>
+    <string name="video_unavailable">ไม่มีวีดิทัศน์</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">เสียงหลัก</string>
+    <string name="whats_new">มีอะไรใหม่</string>
+</resources>

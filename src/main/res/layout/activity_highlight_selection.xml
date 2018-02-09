@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="?attr/themeStyleColorBackground"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/mainToolbar"
+        layout="@layout/toolbar_actionbar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chooseHighlightRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:scrollbars="vertical"/>
+</LinearLayout>

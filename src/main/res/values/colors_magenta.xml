@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colors for the Magenta theme -->
+<resources>
+    <color name="theme_magenta_primary">@color/red_30</color>
+    <color name="theme_magenta_primary_dark">@color/red_40</color>
+    <color name="theme_magenta_accent">@color/red_10</color>
+    <color name="theme_magenta_accent_dim">#33FC4E6D</color>
+
+    <color name="theme_magenta_main_content_background">@color/theme_light_background</color>
+    <color name="theme_magenta_sidebar_content_background">@color/theme_light_background</color>
+
+    <color name="theme_magenta_background">@color/theme_light_background</color> <!-- Calling the light theme color for consistency -->
+    <color name="theme_magenta_background_dim">@color/theme_light_background_dim</color> <!-- Calling the light theme color for consistency -->
+
+    <color name="theme_magenta_background_dialog">@color/theme_light_background_dialog</color>
+    <color name="theme_magenta_background_menu">@color/theme_light_background_menu</color>
+
+    <color name="theme_magenta_background_card">@color/theme_light_background_card</color>
+    <color name="theme_magenta_background_card_note">@color/theme_light_background_card_note</color>
+
+    <color name="theme_magenta_filter_background">@color/theme_light_filter_background</color>
+
+    <color name="theme_magenta_toolbar_icon">@color/theme_light_toolbar_icon</color>
+    <color name="theme_magenta_toolbar_icon_dim">@color/graphite</color>
+    <color name="theme_magenta_toolbar_icon_dim_disabled">#7F333333</color>
+    <color name="theme_magenta_toolbar_action_mode_icon">@color/black</color>
+
+    <color name="theme_magenta_background_action_mode">#f4f4f4</color>
+
+    <color name="theme_magenta_side_bar_toolbar_background">#023F64</color>
+    <color name="theme_magenta_side_bar_reference_background">@color/gray_03</color>
+
+    <color name="theme_magenta_catalog_grid_title">#FF33322E</color>
+    <color name="theme_magenta_catalog_grid_summary">#8833322E</color>
+    <color name="theme_magenta_catalog_item_background">#F1F1F1</color>
+
+    <color name="theme_magenta_item_title">#FF333333</color>
+    <color name="theme_magenta_item_sub_title">#8F333333</color>
+
+    <color name="theme_magenta_text_normal">#333333</color>
+    <color name="theme_magenta_text_secondary">#8F333333</color>
+
+    <color name="theme_magenta_widget_playback_controls_background">#CC000000</color>
+
+    <color name="theme_magenta_link_icon">@color/theme_magenta_accent</color>
+
+    <color name="theme_magenta_find_on_page_background">#64FC4E6D</color>
+    <color name="theme_magenta_find_on_page_icon">@color/theme_light_text_normal</color>
+
+    <!-- Highlight Colors:
+         these values are also defined in the HighlightColorUtil.java and in android_main.css
+    -->
+    <color name="theme_magenta_highlight_red">#27fd4a69</color>
+    <color name="theme_magenta_highlight_red_underline">#FFfd4a69</color>
+
+    <color name="theme_magenta_highlight_orange">#33FC9326</color>
+    <color name="theme_magenta_highlight_orange_underline">#FFFC9326</color>
+
+    <color name="theme_magenta_highlight_yellow">#33FFD50E</color>
+    <color name="theme_magenta_highlight_yellow_underline">#FFFFD50E</color>
+
+    <color name="theme_magenta_highlight_green">#33A4D512</color>
+    <color name="theme_magenta_highlight_green_underline">#FFA4D512</color>
+
+    <color name="theme_magenta_highlight_blue">#3410D8E1</color>
+    <color name="theme_magenta_highlight_blue_underline">#FF10D8E1</color>
+
+    <color name="theme_magenta_highlight_magenta">#261789FF</color>
+    <color name="theme_magenta_highlight_magenta_underline">#FF1789FF</color>
+
+    <color name="theme_magenta_highlight_purple">#267E34E3</color>
+    <color name="theme_magenta_highlight_purple_underline">#FF7E34E3</color>
+
+    <color name="theme_magenta_highlight_pink">#31FF5AF4</color>
+    <color name="theme_magenta_highlight_pink_underline">#FFFF5AF4</color>
+
+    <color name="theme_magenta_highlight_brown">#4DD48C63</color>
+    <color name="theme_magenta_highlight_brown_underline">#FFD48C63</color>
+
+    <color name="theme_magenta_highlight_gray">#4DAEB8C1</color>
+    <color name="theme_magenta_highlight_gray_underline">#FFAEB8C1</color>
+</resources>

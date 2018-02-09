@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_items" comment="the number of items selected">
+        <item quantity="one">@string/num_item</item>
+        <item quantity="other">@string/num_items</item>
+    </plurals>
+
+    <plurals name="num_items_add_to" comment="Message that shows after items are added to a collection">
+        <item quantity="one">@string/num_item_add_to</item>
+        <item quantity="other">@string/num_items_add_to</item>
+    </plurals>
+
+    <plurals name="delete_tag_title" comment="Title that displays when deleting a tag from all annotations">
+        <item quantity="one">@string/delete_tag_title_single</item>
+        <item quantity="other">@string/delete_tag_title_multiple</item>
+    </plurals>
+
+    <plurals name="delete_tag_message" comment="Message that displays when deleting a tag from all annotations">
+        <item quantity="one">@string/delete_tag_message_single</item>
+        <item quantity="other">@string/delete_tag_message_multiple</item>
+    </plurals>
+
+    <plurals name="search_count_results" comment="Message that displays the number of search results">
+        <item quantity="one">@string/search_count_result_single</item>
+        <item quantity="other">@string/search_count_result_multiple</item>
+    </plurals>
+
+    <plurals name="search_count_results_subtitle" comment="Message that displays the number of search results alongside the name of content">
+        <item quantity="one">@string/search_count_results_subtitle_single</item>
+        <item quantity="other">@string/search_count_results_subtitle_multiple</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><!--These values also need to be in values-large-->
+<resources>
+
+    <!--Grid View stuff-->
+    <dimen name="catalog_grid_item_font_size">16sp</dimen>
+    <dimen name="catalog_grid_item_preview_font_size">13.7sp</dimen>
+
+    <!-- Tips -->
+    <dimen name="tip_preview_image_size">380dp</dimen>
+</resources>

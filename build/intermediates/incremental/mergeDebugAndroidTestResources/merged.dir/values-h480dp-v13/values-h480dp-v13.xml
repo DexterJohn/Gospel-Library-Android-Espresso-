@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pinDotPadding">8dp</dimen>
+    <dimen name="pinDotSize">40dp</dimen>
+    <dimen name="pinDotTextSize">30dp</dimen>
+    <dimen name="pinKeyTextSize">30dp</dimen>
+    <dimen name="pinKeyWidth">78dp</dimen>
+    <dimen name="pinSplashIconSize">72dp</dimen>
+</resources>

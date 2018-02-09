@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/item_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/content_card_height"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardBackgroundColor="?attr/themeStyleColorBackgroundCard"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true"
+    tools:layout_width="@dimen/content_card_width">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/content_grid_horizontal_padding">
+
+        <ImageView
+            android:id="@+id/content_item_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/content_card_image_height"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"
+            tools:ignore="ContentDescription"
+            tools:visibility="visible"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/content_item_chapter"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="?attr/themeStyleColorTextCatalogGridTitle"
+                android:textSize="32sp"
+                tools:text="1"/>
+
+            <TextView
+                android:id="@+id/content_item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:fontFamily="sans-serif"
+                android:isScrollContainer="false"
+                android:textColor="?attr/themeStyleColorTextCatalogGridTitle"
+                android:textSize="@dimen/catalog_grid_item_font_size"
+                android:textStyle="normal"
+                tools:text="Title"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/content_item_preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:isScrollContainer="false"
+            android:textColor="?attr/themeStyleColorTextCatalogGridSummary"
+            android:textSize="@dimen/catalog_grid_item_preview_font_size"
+            android:textStyle="italic"
+            tools:text="This is the preview text for the item"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Tambahkan</string>
+    <string name="all">Semua</string>
+    <string name="app_name">Perpustakaan Injil</string>
+    <string name="auto">Otomatis</string>
+    <string name="allow_in_app_notifications">Izinkan Pemberitahuan Dalam Aplikasi</string>
+    <string name="exact_phrase">Frasa Persis</string>
+    <string name="keywords">Kata Kunci</string>
+    <string name="bookmark">Penanda Buku</string>
+    <string name="cancel">Batalkan</string>
+    <string name="cancel_all">Batalkan Semua</string>
+    <string name="content">Konten</string>
+    <string name="copy">Salin</string>
+    <string name="delete">Hapus</string>
+    <string name="define">Definisi</string>
+    <string name="display">Tampilan</string>
+    <string name="done">Selesai</string>
+    <string name="download">Unduh</string>
+    <string name="download_all">Unduh Semua</string>
+    <string name="download_item">Unduh Pokok</string>
+    <string name="feedback">Umpan Balik</string>
+    <string name="keep">Simpan</string>
+    <string name="library">Perpustakaan</string>
+    <string name="link">Tautan</string>
+    <string name="links">Tautan</string>
+    <string name="merge">Gabungkan</string>
+    <string name="never">Jangan pernah</string>
+    <string name="no">Tidak</string>
+    <string name="note">Catatan</string>
+    <string name="none">Tidak ada</string>
+    <string name="ok">OK</string>
+    <string name="remove">Hapus</string>
+    <string name="remove_all">Hapus Semua</string>
+    <string name="rename">Ubah Nama</string>
+    <string name="search">Telusuri</string>
+    <string name="settings">Pengaturan</string>
+    <string name="screen_settings">Pengaturan Layar</string>
+    <string name="share">Bagikan</string>
+    <string name="skip">Lewati</string>
+    <string name="sort">Urutkan</string>
+    <string name="tag">Label</string>
+    <string name="tags">Label</string>
+    <string name="theme_default">Bawaan</string>
+    <string name="theme_night">Malam</string>
+    <string name="theme_sepia">Coklat Tua</string>
+    <string name="theme_dark_blue">Biru Tua</string>
+    <string name="today">Hari ini</string>
+    <string name="undo">Urungkan</string>
+    <string name="update">Perbarui</string>
+    <string name="view">Tampilkan</string>
+    <string name="yes">Ya</string>
+    <string name="yesterday">Kemarin</string>
+    <!-- Other -->
+    <string name="add_bookmark">Tambahkan Penanda Buku</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Tambahkan Label</string>
+    <string name="add_to">Tambahkan ke</string>
+    <string name="add_to_ellipsis">Tambahkan ke...</string>
+    <string name="add_to_notebook">Tambahkan ke Buku Catatan</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">Tidak dapat menampilkan anotasi karena \"%s\" tidak terpasang.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Ketuk untuk memasang pembaruan.</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">Pembaruan Perpustakaan Injil telah tersedia.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Pengaturan Audio</string>
+    <string name="backup_annotations_message">Masuk dengan Akun LDS mencadangkan semua sorotan, catatan, dan buku catatan, menjaganya tetap aman dan membuatnya tersedia di web atau perangkat seluler apa pun.</string>
+    <string name="backup_annotations_title">Cadangkan Anotasi</string>
+    <string name="bookmarks">Penanda Buku</string>
+    <string name="bookmark_added">Penanda Buku ditambahkan</string>
+    <string name="bookmark_empty">Anda belum menambahkan penanda buku</string>
+    <string name="bookmark_updated">Penanda Buku Diperbarui</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Transmisikan</string>
+    <string name="catalog_title">Katalog Perpustakaan Injil</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Pilih Sorotan</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Hapus Media Terunduh</string>
+    <string name="clear_history">Hapus Sejarah</string>
+    <string name="content_no_content" comment="Shown in content drawer">Tidak dapat menampilkan konten karena \"%s\" tidak terpasang.</string>
+    <string name="content_not_downloaded">%s tidak terunduh</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Pemutaran Berlanjut</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Teks disalin pada papan jepit</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">Membuat “%s”</string>
+    <string name="current_downloads">Unduhan Saat Ini</string>
+    <string name="custom_collections">Koleksi Khusus</string>
+    <string name="delete_annotation_title">Hapus Anotasi</string>
+    <string name="delete_annotation_message">Semua catatan, label, atau tautan yang melekat pada sorotan ini juga akan terhapus.</string>
+    <string name="delete_collection_item_title">Hapus “%1$s”?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s akan dihapus.\n\nHapus semua media?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">Tidak dapat menghapus semua media.</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s akan dihapus dari “%1$s\".\n\nHapus media?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Hapus Media</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Hapus Buku Catatan</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Hapus buku catatan terpilih?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Hapus Label?</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Hapus Label?</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">Apakah Anda yakin ingin menghapus label ini dari semua catatan dan sorotan?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">Apakah Anda yakin ingin menghapus label-label ini dari semua catatan dan sorotan?</string>
+    <string name="deleted">%s Terhapus</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">Penanda Buku %s terhapus.</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">Buku Catatan %s terhapus.</string>
+    <string name="dialog_sign_out_confirmation">Apakah Anda yakin ingin keluar?</string>
+    <string name="double_tap_fullscreen_training">Tip: Ketuk dua kali layar untuk keluar dari mode layar penuh.</string>
+    <string name="download_audio" comment="download audio">Unduh Audio</string>
+    <string name="download_all_selected_confirm">%d item akan diunduh.\n\nUnduh item terpilih?</string>
+    <string name="download_cancel_confirm_all">Semua unduhan saat ini akan dibatalkan.\n\nBatalkan unduhan?</string>
+    <string name="download_cancel">Batalkan Unduhan?</string>
+    <string name="download_canceling">Membatalkan unduhan...</string>
+    <string name="download_item_message">%s tidak terpasang. Apakah Anda ingin mengunduhkannya sekarang?</string>
+    <string name="download_video" comment="download video">Unduh Video</string>
+    <string name="downloaded_media">Media Terunduh</string>
+    <string name="downloading_ellipsis">Mengunduh…</string>
+    <string name="downloading_audio">Mengunduh audio untuk %s</string>
+    <string name="downloading_video">Mengunduh video untuk %s</string>
+    <string name="download_file_failed_insufficient_space">Gagal mengunduh [%s].\nRuang tidak mencukupi.</string>
+    <string name="download_file_failed">Gagal mengunduh [%s].\nPeriksa koneksi internet Anda dan coba lagi.</string>
+    <string name="download_dir_error">Gagal membuat direktori unduhan.</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">Nama Koleksi</string>
+    <string name="existing_annotations_prompt">Ada %d anotasi yang belum disimpan. Anda dapat menggabungkannya ke anotasi Anda atau menghapusnya.</string>
+    <string name="existing_annotations">Anotasi yang ada</string>
+    <string name="featured_apps">Aplikasi Unggulan</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Wanita</string>
+    <string name="finalizing_ellipsis">Menyelesaikan…</string>
+    <string name="find_by_name">Cari berdasarkan nama</string>
+    <string name="find_count">%1$d dari %2$d</string>
+    <string name="find_x_on_page">Cari “%s” pada halaman</string>
+    <string name="find_x_in_x">Cari “%1$s” dalam %2$s</string>
+    <string name="find_exact_x_in_x">Cari frasa persis “%1$s” dalam %2$s</string>
+    <string name="marked_text_position">%1$d dari %2$d hasil</string>
+    <string name="marked_text_position_no_results">0 hasil</string>
+    <string name="sign_in_error" comment="Failed to login invalid username or password.">Galat Sign In</string>
+    <string name="highlight_style">Gaya Sorotan</string>
+    <string name="history">Sejarah</string>
+    <string name="history_cleared">Sejarah Terhapus</string>
+    <string name="installing_ellipsis">Memasang…</string>
+    <string name="journal">Jurnal</string>
+    <string name="journal_restore">Pulihkan Jurnal</string>
+    <string name="journal_create_notebook">Buat Buku Catatan Jurnal</string>
+    <string name="journal_restore_description">Meskipun bagian Jurnal telah dihapus, catatan Anda telah tersimpan. Jika Anda mau, kami dapat mengumpulkan semua catatan yang sebelumya ada di bagian Jurnal dan memasukkannya ke dalam Buku Catatan baru bernama Jurnal.</string>
+    <string name="journal_restore_result">Pemulihan Jurnal selesai. %d catatan dipindahkan.</string>
+    <string name="language">Bahasa</string>
+    <string name="lds_account_summary">Akun OSZA digunakan untuk mencadangkan dan menyelaraskan anotasi di seluruh perangkat dan pada LDS.org</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">ke %1$s</string>
+    <string name="loading_ellipsis">Memuat…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Pria</string>
+    <string name="mark" comment="Select highlight color">Tanda</string>
+    <string name="media_type">Jenis media</string>
+    <string name="menu_new_screen">Layar Baru...</string>
+    <string name="merged_notebook_name_prompt">Buku Catatan terpilih akan digabung. Silakan masukkan nama untuk Buku Catatan yang akan dihasilkan.</string>
+    <string name="merged_notebook_name">Nama Buku Catatan Tergabung</string>
+    <string name="merged_tag_name">Nama Label Tergabung</string>
+    <string name="move_to_notebook">Pindahkan ke Buku Catatan</string>
+    <string name="my_collections">Koleksi Saya</string>
+    <string name="network_required" comment="Not connected to any network">Tindakan ini memerlukan koneksi internet. Sambungkan ke jaringan seluler atau Wi-Fi dan coba lagi.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">Berdasarkan pada pengaturan Anda, Anda harus terhubung dengan Wi-Fi untuk melakukan tindakan ini.</string>
+    <string name="no_bookmarks">Tidak ada Penanda Buku</string>
+    <string name="no_bookmarks_description">Tambahkan pananda buku untuk kembali ke tempat semula dengan cepat.</string>
+    <string name="no_content">Tidak ada Konten</string>
+    <string name="no_collection_content_description">Tambahkan item ke koleksi untuk kemudahan akses.</string>
+    <string name="no_custom_collections">Tidak ada Koleksi Khusus</string>
+    <string name="no_custom_collections_description">Buat koleksi khusus untuk mengakses item terkait dengan mudah.</string>
+    <string name="no_downloads_in_progress">Tidak ada Pengunduhan dalam Proses</string>
+    <string name="no_downloads_in_progress_description">Konten dan media saat ini sedang diunduh.</string>
+    <string name="no_downloaded_media">Tidak ada Media Terunduh</string>
+    <string name="no_downloaded_media_description">Unduh audio atau video untuk akses offline.</string>
+    <string name="no_history">Tidak ada Sejarah</string>
+    <string name="no_history_description">Jelajahi konten, temukan jalan Anda, dan kembali ke sana.</string>
+    <string name="no_matches" comment="No results">Tidak ada Hasil</string>
+    <string name="no_matches_description">Tidak ada hasil penelusuran yang dimaksud.</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">Tidak ada Buku Catatan</string>
+    <string name="no_notebooks_description">Buat Buku Catatan untuk mengumpulkan dan mengatur catatan Anda untuk ceramah, pelajaran, dan pembelajaran pribadi.</string>
+    <string name="no_notes">Tidak ada Catatan</string>
+    <string name="no_notes_in_notebook">Tidak ada Catatan dalam Buku Catatan ini.</string>
+    <string name="no_notes_description">Buat catatan untuk menyimpan gagasan Anda.</string>
+    <string name="no_related_content">Tidak ada Konten Terkait</string>
+    <string name="no_related_content_description2">Tidak ada catatan kaki, catatan pribadi, atau konten terkait lainnya yang tersedia.</string>
+    <string name="no_tags" comment="The message to show when there are no tags">Tidak ada Label</string>
+    <string name="no_tags_description">Buat label untuk mengelompokkan konten dari mana saja dalam aplikasi.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">Tidak ada Konten yang diberi label</string>
+    <string name="no_tagged_content_description">Tempelkan sebuah label pada bagian konten untuk referensi kemudian hari.</string>
+    <string name="no_thanks">Tidak Terima Kasih</string>
+    <string name="no_tips">Tidak ada Tip</string>
+    <string name="no_tips_description">Tip menunjukkan kepada Anda fungsionalitas aplikasi yang bermanfaat.</string>
+    <string name="note_content">Konten Catatan</string>
+    <string name="notebook">Buku Catatan</string>
+    <string name="notebooks">Buku Catatan</string>
+    <string name="notes">Catatan</string>
+    <string name="num_item_add_to">%1$s item ditambahkan ke %2$s</string>
+    <string name="num_item">%d item</string>
+    <string name="num_items_add_to">%1$s item ditambahkan ke %2$s</string>
+    <string name="num_items">%d item</string>
+    <string name="open">Buka</string>
+    <string name="open_in_music">Buka dalam Musik OSZA</string>
+    <string name="open_in_new_screen">Buka di Layar Baru</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Tahan Bilah Sisi</string>
+    <string name="play_audio">Putar Audio</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Kecepatan Pemutaran</string>
+    <string name="playback_speed_0.5x">0,5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1,25x</string>
+    <string name="playback_speed_1.5x">1,5x</string>
+    <string name="playback_speed_1.75x">1,75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Kombinasi nama pengguna dan kata sandi salah. Silakan periksa nama pengguna dan kata kunci Anda dan coba lagi.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Mengelola atau melihat audio dan video terunduh.</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"... lihatlah aku berkata kepadamu, bahwa melalui apa yang kecil dan sederhana apa yang besar didatangkan; dan cara-cara yang kecil dalam banyak hal mempermalukan yang bijak."</string>
+    <string name="pref_general_list_mode">Daftar Mode</string>
+    <string name="pref_hide_footnotes">Sembunyikan Catatan Kaki</string>
+    <string name="pref_limit_mobile_network_subtitle">Hanya Unduh dan Streaming di Wi-Fi</string>
+    <string name="pref_limit_mobile_network">Batasi Penggunaan Jaringan Seluler</string>
+    <string name="pref_theme">Tema</string>
+    <string name="problem_playing_video">Terdapat masalah saat memutar video.</string>
+    <string name="read_more">Baca Selengkapnya</string>
+    <string name="recent" comment="label for study notebook">Terbaru</string>
+    <string name="related_content">Konten Terkait</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">Apakah Anda yakin ingin menghapus item terpilih?</string>
+    <string name="remove_from_collection">Hapus dari Koleksi</string>
+    <string name="rename_bookmark">Ubah Nama Penanda Buku</string>
+    <string name="rename_screen">Ubah Nama Layar</string>
+    <string name="requested_ellipsis">Diminta…</string>
+    <string name="requested_paused_retry_ellipsis">Diminta... (menunggu untuk mencoba lagi)</string>
+    <string name="requested_paused_network_ellipsis">Diminta... (menunggu jaringan)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d hasil</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d hasil</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s – %2$d hasil</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s – %2$d hasil</string>
+    <string name="save">Simpan</string>
+    <string name="screens">Layar</string>
+    <string name="screen_missing_content">Anda belum mengunduh konten untuk layar terpilih.\nApakah Anda ingin mengunduh konten untuk \"%1$s\" sekarang?</string>
+    <string name="screens_separate_windows">Tampilkan Layar Jendela Terpisah</string>
+    <string name="search_all_content">Telusuri Semua Isi</string>
+    <string name="search_for_links">Telusuri kata kunci, ayat, atau judul.</string>
+    <string name="select_highlight">Pilih Sorotan</string>
+    <string name="select_items">Pilih Item</string>
+    <string name="select_link">Pilih Tautan</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Pilih Teks untuk Tautan</string>
+    <string name="selected_media_unavailable">Media terpilih tidak tersedia.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Penyelarasan Terakhir: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Urutkan Berdasarkan Nomor</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Urutkan Berdasarkan Terbaru</string>
+    <string name="sort_by_name" comment="sort items by their name">Urutkan Berdasarkan Nama</string>
+    <string name="sort_by_size" comment="sort media items">Urutkan Berdasarkan Ukuran</string>
+    <string name="sort_by_item" comment="sort media items">Urutkan Berdasarkan Item</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Versi %s</string>
+    <string name="style">Gaya</string>
+    <string name="sync_error_invalid_credentials">Nama Pengguna/Kata Sandi tidak benar</string>
+    <string name="sync_error_no_network">Koneksi jaringan tidak tersedia</string>
+    <string name="sync_notification_failure">Penyelarasan Anotasi Gagal</string>
+    <string name="sync_notification_gathering_changes">Mengumpulkan Perubahan</string>
+    <string name="sync_notification_processing_changes">Memproses Perubahan</string>
+    <string name="sync_notification_receiving_changes">Menerima Perubahan</string>
+    <string name="sync_notification_receiving_update_list">Menerima Daftar Pembaruan</string>
+    <string name="sync_notification_sending_changes">Mengirim Perubahan</string>
+    <string name="sync_notification_sending_update_request">Mengirim Permintaan Pembaruan</string>
+    <string name="syncing_notebooks">Menyelaraskan Buku Catatan</string>
+    <string name="syncing_annotations">Menyelaraskan Anotasi...</string>
+    <string name="notification_channel_general">Pemberitahuan Umum</string>
+    <string name="notification_channel_sync">Penyelarasan Anotasi</string>
+    <string name="notification_channel_media_playback">Pemutar Media</string>
+    <string name="text_size" comment="">Ukuran Teks</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Text-to-speech</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Pengaturan Text-to-speech</string>
+    <string name="tips">Tip</string>
+    <string name="title_optional">Judul (Opsional)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Lepas Bilah Sisi</string>
+    <string name="update_catalog_wifi_required">Konten yang telah diperbarui tersedia, namun Anda harus terhubung ke Wi-Fi untuk mengunduh.</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">Edit Tanda</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Kualitas Video</string>
+    <string name="video_unavailable">Video Tidak Tersedia</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Suara Utama</string>
+    <string name="whats_new">Apa yang Baru</string>
+</resources>

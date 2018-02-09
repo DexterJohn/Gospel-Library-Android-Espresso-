@@ -1,0 +1,5 @@
+package org.lds.ldssa.ux.search
+
+enum class SearchMode {
+    HISTORY, SUGGESTION, SEARCH_ALL_COUNT, SEARCH_COUNT_COLLECTION, PREVIEW_CONTENT, PREVIEW_NOTES
+}

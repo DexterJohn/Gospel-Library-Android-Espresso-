@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tips -->
+    <dimen name="tip_preview_image_size">500dp</dimen>
+</resources>

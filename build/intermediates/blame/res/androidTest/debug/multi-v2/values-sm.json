@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sm/values-sm.xml",
+            "map": [
+                {
+                    "source": "/Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/res/values-sm/values-sm.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,100,248,360,431,514,551,613,681,751,842,976,1046,1109,1212,1268,1331,1407,1457,1550,1594,1648,1716",
+                        "endColumns": "44,147,111,70,82,36,61,67,69,90,133,69,62,102,55,62,75,49,92,43,53,67,56",
+                        "endOffsets": "95,243,355,426,509,546,608,676,746,837,971,1041,1104,1207,1263,1326,1402,1452,1545,1589,1643,1711,1768"
+                    }
+                }
+            ]
+        }
+    ]
+}

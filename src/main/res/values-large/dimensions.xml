@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><!--These values also need to be in values-sw600dp-->
+<resources>
+
+    <!--Grid View stuff-->
+    <dimen name="catalog_grid_item_font_size">16sp</dimen>
+    <dimen name="catalog_grid_item_preview_font_size">13.7sp</dimen>
+
+    <!-- Catalog Directory Sizes -->
+    <dimen name="catalog_grid_horizontal_padding">52dp</dimen>
+
+    <!-- Tab Sizes -->
+    <dimen name="tab_min_card_separation_padding">16dp</dimen>
+    <dimen name="tab_recycler_horizontal_padding">16dp</dimen>
+
+</resources>

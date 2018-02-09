@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Styles to use for the Light (White, Default) theme.
+     NOTE: Other themes should extend this one
+-->
+<resources>
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/theme_light_primary</item>
+        <item name="colorPrimaryDark">@color/theme_light_primary_dark</item>
+        <item name="colorAccent">@color/theme_light_accent</item>
+        <item name="colorAccentDim">@color/theme_light_accent_dim</item>
+
+        <item name="themeStyleColorMainContentBackground">@color/theme_light_main_content_background</item>
+        <item name="themeStyleColorSideBarContentBackground">@color/theme_light_sidebar_content_background</item>
+
+        <!-- Used by the MediaRouter to determine icon coloring -->
+        <item name="isLightTheme">false</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/AppTheme.Light.Widget.Toolbar.ActionMode</item>
+        <item name="actionOverflowMenuStyle">@style/AppTheme.Light.Widget.Toolbar.ActionMode.Overflow</item>
+        <!-- temp work around for v23.3 Support Library and pre-Android 5.0 issues (use arrow_back_dark_wrapper instead)-->
+        <item name="actionModeCloseDrawable">@drawable/ic_arrow_back_dark</item>
+
+        <item name="dialogTheme">@style/AppTheme.Light.Dialog</item>
+        <item name="alertDialogTheme">@style/AppTheme.Light.Dialog.Alert</item>
+
+        <item name="android:popupWindowStyle">@style/AppTheme.Light.PopupMenu</item>
+
+        <!-- Custom Attributes -->
+        <item name="themeStyleToolbar">@style/AppTheme.Light.Widget.Toolbar</item>
+        <item name="themeStyleToolbarDim">@style/AppTheme.Light.Widget.Toolbar.Dim</item>
+
+        <item name="themeStyleColorToolbarIcon">@color/theme_light_toolbar_icon</item>
+        <item name="themeStyleColorToolbarIconDim">@color/theme_light_toolbar_icon_dim</item>
+        <item name="themeStyleColorToolbarIconDimDisabled">@color/theme_light_toolbar_icon_dim_disabled</item>
+        <item name="themeStyleColorToolbarActionModeIcon">@color/theme_light_toolbar_action_mode_icon</item>
+
+        <item name="themeStyleColorSidebarToolbar">@color/theme_light_side_bar_toolbar_background</item>
+        <item name="themeStyleColorSidebarReferenceBackground">@color/theme_light_side_bar_reference_background</item>
+
+        <item name="themeStyleTitleTextAppearanceDim">@style/AppTheme.Light.Widget.Toolbar.Title.Dim</item>
+        <item name="themeStyleSubTitleTextAppearanceDim">@style/AppTheme.Light.Widget.Toolbar.SubTitle.Dim</item>
+
+        <item name="themeStyleWidgetText">@style/AppTheme.Light.Widget.Text</item>
+        <item name="themeStyleWidgetTextSubtle">@style/AppTheme.Light.Widget.Text.Subtle</item>
+
+        <item name="themeStyleColorBackground">@color/theme_light_background</item>
+        <item name="themeStyleColorListBackground">@color/theme_light_background_dim</item>
+        <item name="themeStyleColorBackgroundCard">@color/theme_light_background_card</item>
+        <item name="themeStyleColorBackgroundCardNote">@color/theme_light_background_card_note</item>
+        <item name="themeStyleColorBackgroundDialog">@color/theme_light_background_dialog</item>
+        <item name="themeStyleColorCatalogItemBackground">@color/theme_light_catalog_item_background</item>
+
+        <item name="themeStyleColorBackgroundCardTab">@color/white</item>
+        <item name="themeStyleColorBackgroundCardTabBottom">@color/theme_light_background_card</item>
+
+        <item name="themeStyleColorBackgroundFilter">@color/theme_light_filter_background</item>
+        <item name="themeStyleColorBackgroundFilterInput">@color/theme_light_background_card</item>
+
+        <item name="themeStyleColorBackgroundSearch">@color/white</item>
+
+        <item name="themeStyleColorPlaybackControlsBackground">@color/theme_light_widget_playback_controls_background</item>
+
+        <item name="themeStyleColorTextDefault">@color/theme_light_text_normal</item>
+        <item name="themeStyleColorTextItemTitle">@color/theme_light_item_title</item>
+        <item name="themeStyleColorTextItemSubTitle">@color/theme_light_item_sub_title</item>
+        <item name="themeStyleColorTextHint">@color/theme_light_text_hint</item>
+
+        <item name="themeStyleColorTextCatalogGridTitle">@color/theme_light_catalog_grid_title</item>
+        <item name="themeStyleColorTextCatalogGridSummary">@color/theme_light_catalog_grid_summary</item>
+        <item name="themeStyleColorTextCatalogGridMenuIcon">@drawable/ic_lds_more_vert_24dp</item>
+
+        <item name="themeStyleColorLinkIcon">@color/theme_light_accent</item>
+
+        <item name="themeStyleColorBackgroundFindOnPage">@color/theme_light_find_on_page_background</item>
+        <item name="themeStyleColorIconFindOnPage">@color/theme_light_find_on_page_icon</item>
+
+        <!-- About library -->
+        <item name="aboutBackgroundColor">#FFFBFBFB</item>
+        <item name="aboutCopyrightColor">#FF737373</item>
+        <item name="aboutSubtitleColor">#FF888888</item>
+        <item name="aboutTitleColor">#FF333333</item>
+        <item name="aboutToolbarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="aboutPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+        <!-- Sign In -->
+        <item name="signinBackgroundColor">@color/white</item>
+        <item name="signinTextColor">@color/text_120</item>
+        <item name="signinButtonBackgroundColor">@color/theme_light_accent</item>
+        <item name="signinButtonTextColor">@color/white</item>
+        <item name="signinLinkTextColor">@color/theme_light_accent</item>
+        <item name="signinHintTextColor">@color/onyx_80</item>
+
+        <!-- Empty State -->
+        <item name="emptyStateImageColor">@color/theme_light_item_sub_title</item>
+        <item name="emptyStateTitleColor">@color/theme_light_item_title</item>
+        <item name="emptyStateSubTitleColor">@color/theme_light_item_sub_title</item>
+
+
+        <!-- Highlight colors -->
+        <item name="themeStyleColorHighlightRed">@color/theme_light_highlight_red</item>
+        <item name="themeStyleColorHighlightRedUnderline">@color/theme_light_highlight_red_underline</item>
+
+        <item name="themeStyleColorHighlightOrange">@color/theme_light_highlight_orange</item>
+        <item name="themeStyleColorHighlightOrangeUnderline">@color/theme_light_highlight_orange_underline</item>
+
+        <item name="themeStyleColorHighlightYellow">@color/theme_light_highlight_yellow</item>
+        <item name="themeStyleColorHighlightYellowUnderline">@color/theme_light_highlight_yellow_underline</item>
+
+        <item name="themeStyleColorHighlightGreen">@color/theme_light_highlight_green</item>
+        <item name="themeStyleColorHighlightGreenUnderline">@color/theme_light_highlight_green_underline</item>
+
+        <item name="themeStyleColorHighlightBlue">@color/theme_light_highlight_blue</item>
+        <item name="themeStyleColorHighlightBlueUnderline">@color/theme_light_highlight_blue_underline</item>
+
+        <item name="themeStyleColorHighlightDarkBlue">@color/theme_light_highlight_dark_blue</item>
+        <item name="themeStyleColorHighlightDarkBlueUnderline">@color/theme_light_highlight_dark_blue_underline</item>
+
+        <item name="themeStyleColorHighlightPurple">@color/theme_light_highlight_purple</item>
+        <item name="themeStyleColorHighlightPurpleUnderline">@color/theme_light_highlight_purple_underline</item>
+
+        <item name="themeStyleColorHighlightPink">@color/theme_light_highlight_pink</item>
+        <item name="themeStyleColorHighlightPinkUnderline">@color/theme_light_highlight_pink_underline</item>
+
+        <item name="themeStyleColorHighlightBrown">@color/theme_light_highlight_brown</item>
+        <item name="themeStyleColorHighlightBrownUnderline">@color/theme_light_highlight_brown_underline</item>
+
+        <item name="themeStyleColorHighlightGray">@color/theme_light_highlight_gray</item>
+        <item name="themeStyleColorHighlightGrayUnderline">@color/theme_light_highlight_gray_underline</item>
+    </style>
+
+    <style name="AppTheme.Light.Search">
+        <item name="colorPrimary">@color/theme_light_primary</item>
+        <item name="colorPrimaryDark">@color/theme_light_primary_dark</item>
+        <item name="colorAccent">@color/theme_light_accent</item>
+        <item name="android:windowBackground">@color/theme_light_background_dim</item>
+    </style>
+
+    <style name="AppTheme.Light.Settings" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_light_primary</item>
+        <item name="colorPrimaryDark">@color/theme_light_primary_dark</item>
+        <item name="colorAccent">@color/theme_light_accent</item>
+
+        <!-- work around for https://code.google.com/p/android/issues/detail?id=183376 -->
+        <!-- http://stackoverflow.com/questions/32070670/preferencefragmentcompat-requires-preferencetheme-to-be-set -->
+        <!--<item name="preferenceTheme">@style/PreferenceThemeOverlay</item>--> <!-- -->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+
+        <item name="themeStyleColorListBackground">@color/theme_light_background</item>
+
+        <item name="dialogTheme">@style/AppTheme.Light.Dialog</item>
+        <item name="alertDialogTheme">@style/AppTheme.Light.Dialog.Alert</item>
+    </style>
+
+
+
+    <!-- Toolbar -->
+    <style name="AppTheme.Light.Widget.Toolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/theme_light_primary</item>
+        <item name="colorPrimaryDark">@color/theme_light_primary_dark</item>
+        <item name="colorAccent">@color/theme_light_accent</item>
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="background">?attr/colorPrimary</item>
+
+        <item name="colorControlNormal">@color/white</item>
+
+        <item name="actionModeStyle">@style/AppTheme.Light.Widget.Toolbar.ActionMode</item>
+        <!-- temp work around for v23.3 Support Library and pre-Android 5.0 issues (use arrow_back_dark_wrapper instead)-->
+        <item name="actionModeCloseDrawable">@drawable/ic_arrow_back_dark</item>
+    </style>
+
+    <style name="AppTheme.Light.Widget.Toolbar.ActionMode" parent="Widget.AppCompat.ActionMode">
+        <item name="titleTextStyle">@style/AppTheme.Light.Widget.Toolbar.ActionMode.Title</item>
+        <item name="background">@color/theme_light_background_action_mode</item>
+    </style>
+
+    <style name="AppTheme.Light.Widget.Toolbar.Dim">
+        <item name="android:background">@color/theme_light_background_action_mode</item>
+        <item name="background">@color/theme_light_background_action_mode</item>
+    </style>
+
+    <style name="AppTheme.Light.Widget.Toolbar.ActionMode.Overflow" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@color/theme_light_background_dialog</item>
+    </style>
+
+
+    <!-- Text -->
+    <style name="AppTheme.Light.Widget.Text" parent="">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/theme_light_text_normal</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="AppTheme.Light.Widget.Text.Subtle">
+        <item name="android:textColor">@color/theme_light_text_hint</item>
+    </style>
+
+    <style name="AppTheme.Light.Widget.Text.Tip">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="AppTheme.Light.Widget.Text.Subtle.Tip">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Light.Widget.Toolbar.ActionMode.Title" parent="AppTheme.Widget.Toolbar.Title">
+        <item name="android:textColor">@color/theme_light_primary</item> <!-- Main Text Color -->
+    </style>
+
+    <style name="AppTheme.Light.Widget.Toolbar.Title.Dim" parent="AppTheme.Widget.Toolbar.Title">
+        <!--<item name="android:textSize">@dimen/toolbar_title_size_dim</item>-->
+        <item name="android:textColor">@color/theme_light_primary</item>
+    </style>
+
+    <style name="AppTheme.Light.Widget.Toolbar.SubTitle.Dim" parent="AppTheme.Widget.Toolbar.SubTitle">
+        <item name="android:textColor">@color/theme_light_primary</item>
+        <!--<item name="android:textSize">@dimen/toolbar_subtitle_size_dim</item>-->
+    </style>
+
+
+
+
+    <!-- Dialog -->
+    <style name="AppTheme.Light.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/theme_light_primary</item>
+        <item name="colorPrimaryDark">@color/theme_light_primary_dark</item>
+        <item name="colorAccent">@color/theme_light_accent</item>
+
+        <item name="android:background">@color/theme_light_background_dialog</item>
+    </style>
+
+    <style name="AppTheme.Light.Dialog.Alert" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/theme_light_primary</item>
+        <item name="colorPrimaryDark">@color/theme_light_primary_dark</item>
+        <item name="colorAccent">@color/theme_light_accent</item>
+
+        <item name="android:background">@color/theme_light_background_dialog</item>
+    </style>
+
+    <style name="AppTheme.Light.MediaRoute.Chooser" parent="Theme.MediaRouter.Light">
+        <item name="android:textColor">@color/theme_light_item_title</item>
+        <item name="android:textColorPrimary">@color/theme_light_item_title</item>
+        <item name="android:textColorSecondary">@color/theme_light_item_sub_title</item>
+
+        <!--For AppCompat compatibility-->
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Light.MediaRoute.ControlsPanel" parent="Theme.MediaRouter.Light">
+        <!--The primary color is currently being used for the controls background-->
+        <item name="colorPrimary">@color/theme_light_background_dialog</item>
+
+        <item name="android:textColor">@color/theme_light_item_title</item>
+        <item name="android:textColorPrimary">@color/theme_light_item_title</item>
+        <item name="android:textColorSecondary">@color/theme_light_item_sub_title</item>
+    </style>
+
+
+    <style name="AppTheme.Light.PopupMenu" parent="Widget.AppCompat.PopupMenu">
+    </style>
+
+    <!-- TODO bmw: correct styling (and naming) -->
+    <style name="RightDrawer">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+</resources>

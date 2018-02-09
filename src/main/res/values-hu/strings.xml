@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Hozzáadás</string>
+    <string name="all">Összes</string>
+    <string name="app_name">Evangéliumi könyvtár</string>
+    <string name="auto">Automatikus</string>
+    <string name="allow_in_app_notifications">Alkalmazáson belüli értesítések engedélyezése</string>
+    <string name="exact_phrase">Pontos kifejezés</string>
+    <string name="keywords">Kulcsszavak</string>
+    <string name="bookmark">Könyvjelző</string>
+    <string name="cancel">Mégsem</string>
+    <string name="cancel_all">Összes megszakítása</string>
+    <string name="content">Tartalom</string>
+    <string name="copy">Másolás</string>
+    <string name="delete">Törlés</string>
+    <string name="define">Meghatározás</string>
+    <string name="display">Megjelenítés</string>
+    <string name="done">Kész</string>
+    <string name="download">Letöltés</string>
+    <string name="download_all">Összes letöltése</string>
+    <string name="download_item">Tartalom letöltése</string>
+    <string name="feedback">Visszajelzés</string>
+    <string name="keep">Megtartás</string>
+    <string name="library">Könyvtár</string>
+    <string name="link">Hivatkozás</string>
+    <string name="links">Hivatkozások</string>
+    <string name="merge">Összevonás</string>
+    <string name="never">Soha</string>
+    <string name="no">Nem</string>
+    <string name="note">Jegyzet</string>
+    <string name="none">Nincs</string>
+    <string name="ok">OK</string>
+    <string name="remove">Eltávolítás</string>
+    <string name="remove_all">Összes eltávolítása</string>
+    <string name="rename">Átnevezés</string>
+    <string name="search">Keresés</string>
+    <string name="settings">Beállítások</string>
+    <string name="screen_settings">Képernyőbeállítások</string>
+    <string name="share">Megosztás</string>
+    <string name="skip">Kihagy</string>
+    <string name="sort">Rendezés</string>
+    <string name="tag">Címke</string>
+    <string name="tags">Címkék</string>
+    <string name="theme_default">Alapértelmezett</string>
+    <string name="theme_night">Éjszakai</string>
+    <string name="theme_sepia">Szépia</string>
+    <string name="theme_dark_blue">Sötétkék</string>
+    <string name="today">Ma</string>
+    <string name="undo">Visszavonás</string>
+    <string name="update">Frissítés</string>
+    <string name="view">Ellenőrzés</string>
+    <string name="yes">Igen</string>
+    <string name="yesterday">Tegnap</string>
+    <!-- Other -->
+    <string name="add_bookmark">Könyvjelző hozzáadása</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Címke hozzáadása</string>
+    <string name="add_to">Ide</string>
+    <string name="add_to_ellipsis">Hozzáadás ehhez…</string>
+    <string name="add_to_notebook">Hozzáadás a jegyzetfüzethez</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">A bejegyzés megjelenítése nem lehetséges, mert a(z) %s nincs telepítve.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Koppints a frissítés telepítéséhez.</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">Frissítés érhető el az Evangéliumi könyvtárhoz.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Hangbeállítások</string>
+    <string name="backup_annotations_message">Ha nem jelentkezel be az Evangéliumi könyvtár alkalmazás következő frissítésééig, el fognak veszni a személyes bejegyzéseid (kiemelések, jegyzetek, könyvjelzők és így tovább).</string>
+    <string name="backup_annotations_title">Bejegyzések biztonsági mentése</string>
+    <string name="bookmarks">Könyvjelzők</string>
+    <string name="bookmark_added">Könyvjelző hozzáadva</string>
+    <string name="bookmark_empty">Még nem adtál hozzá könyvjelzőt.</string>
+    <string name="bookmark_updated">Könyvjelző frissítve</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Átküldés</string>
+    <string name="catalog_title">Evangéliumi könyvtár katalógus</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Kiemelés kiválasztása</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Letöltött médiatartalom törlése</string>
+    <string name="clear_history">Előzmények törlése</string>
+    <string name="content_no_content" comment="Shown in content drawer">A tartalom nem jeleníthető meg, mert a(z) %s nincs telepítve.</string>
+    <string name="content_not_downloaded">Nincs letöltve: %s.</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Folyamatos lejátszás</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Szöveg kimásolva a vágólapra</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">%s létrehozása</string>
+    <string name="current_downloads">Jelenlegi letöltések</string>
+    <string name="custom_collections">Egyedi gyűjtemények</string>
+    <string name="delete_annotation_title">Bejegyzés eltávolítása</string>
+    <string name="delete_annotation_message">A kiemeléshez kapcsolódó jegyzetek, címkék és hivatkozások is el lesznek távolítva.</string>
+    <string name="delete_collection_item_title">Törölni akarod: „%1$s”?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">" %s törölve lesz.\n\nÖsszes médiatartalom törlése?"</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">Összes médiatartalom törlése nem lehetséges</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s törlésre kerül innen: %1$s.\n\nTörlöd ezt a médiatartalmat?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Médiatartalom törlése</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Jegyzetfüzetek törlése</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Törlöd a kiválasztott jegyzetfüzeteket?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Címke törlése</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Címkék törlése</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">Biztos vagy benne, hogy el akarod távolítani ezt a címkét az összes jegyzetből és kiemelésből?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">Biztos vagy benne, hogy el akarod távolítani ezeket a címkéket az összes jegyzetből és kiemelésből?</string>
+    <string name="deleted">Törölve: %s</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">Könyvjelző törölve: %s</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">%s jegyzetfüzet törölve</string>
+    <string name="dialog_sign_out_confirmation">Biztosan ki akarsz jelentkezni?</string>
+    <string name="double_tap_fullscreen_training">Tipp: koppints a képernyőre a teljes képernyős nézetből való kilépéshez.</string>
+    <string name="download_audio" comment="download audio">Hanganyag letöltése</string>
+    <string name="download_all_selected_confirm">Letöltésre váró tételek: %d\n\nLetöltöd a kiválasztott tételeket?</string>
+    <string name="download_cancel_confirm_all">Minden futó letöltés visszavonásra kerül.\n\nVisszavonod a letöltéseket?</string>
+    <string name="download_cancel">Visszavonod a letöltést?</string>
+    <string name="download_canceling">Letöltés visszavonása…</string>
+    <string name="download_item_message">A(z) %s nincs telepítve. Szeretnéd most telepíteni?</string>
+    <string name="download_video" comment="download video">Bejátszás letöltése</string>
+    <string name="downloaded_media">Letöltött médiatartalom</string>
+    <string name="downloading_ellipsis">Letöltés…</string>
+    <string name="downloading_audio">Hanganyag letöltése: %s</string>
+    <string name="downloading_video">Bejátszás letöltése: %s</string>
+    <string name="download_file_failed_insufficient_space">Nem sikerült letölteni: %s.\nNincs elég hely.</string>
+    <string name="download_file_failed">Nem sikerült letölteni: %s. \nEllenőrizd a hálózati kapcsolatot, és próbáld újra!</string>
+    <string name="download_dir_error">Nem sikerült létrehozni a letöltési könyvtárat.</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">Gyűjtemény neve</string>
+    <string name="existing_annotations_prompt">Ez a készülék már tartalmaz %d  bejegyzést. Mit szeretnél tenni a meglévő bejegyzésekkel?</string>
+    <string name="existing_annotations">Meglévő bejegyzések</string>
+    <string name="featured_apps">Kiemelt alkalmazások</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Női</string>
+    <string name="finalizing_ellipsis">Véglegesítés…</string>
+    <string name="find_by_name">Keresés elnevezés szerint</string>
+    <string name="find_count">%1$d/%2$d</string>
+    <string name="find_x_on_page">„%s” keresése az oldalon</string>
+    <string name="find_x_in_x">„%1$s” keresése ebben: %2$s</string>
+    <string name="find_exact_x_in_x">A(z) „%1$s” pontos kifejezés keresése ebben: %2$s</string>
+    <string name="marked_text_position">%1$d/%2$d találat</string>
+    <string name="marked_text_position_no_results">0 találat</string>
+    <string name="sign_in_error" comment="Failed to login invalid username or password.">Bejelentkezési hiba</string>
+    <string name="highlight_style">Kiemelési stílus</string>
+    <string name="history">Előzmények</string>
+    <string name="history_cleared">Előzmények törölve</string>
+    <string name="installing_ellipsis">Telepítés…</string>
+    <string name="journal">Napló</string>
+    <string name="journal_restore">Napló visszaállítása</string>
+    <string name="journal_create_notebook">Napló jegyzetfüzet létrehozása</string>
+    <string name="journal_restore_description">Habár a Napló rész kikerült az alkalmazásból, a jegyzeteidet megőriztük. Ha szeretnéd, összegyűjthetjük a korábban a Napló részben lévő minden jegyzetedet, és berakhatjuk egy Napló elnevezésű jegyzetfüzetbe.</string>
+    <string name="journal_restore_result">A Napló visszaállítása befejeződött. %d jegyzetet vittünk át.</string>
+    <string name="language">Nyelv</string>
+    <string name="lds_account_summary">A bejegyzéseid biztonsági mentése, valamint a több készüléken és az LDS.org oldalon történő összehangolása az UNSZ-fiókod segítségével történik.</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">ehhez: %1$s</string>
+    <string name="loading_ellipsis">Betöltés…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Férfi</string>
+    <string name="mark" comment="Select highlight color">Megjelölés</string>
+    <string name="media_type">Médiatípus</string>
+    <string name="menu_new_screen">Új képernyő…</string>
+    <string name="merged_notebook_name_prompt">A kiválasztott jegyzetfüzetek össze lesznek vonva. Kérjük, nevezd el az így létrejövő jegyzetfüzetet.</string>
+    <string name="merged_notebook_name">Összevont jegyzetfüzet elnevezése</string>
+    <string name="merged_tag_name">Összevont címke elnevezése</string>
+    <string name="move_to_notebook">Áthelyezés jegyzetfüzetbe</string>
+    <string name="my_collections">Gyűjteményeim</string>
+    <string name="network_required" comment="Not connected to any network">A megadott utasítás végrehajtásához hálózati (mobil vagy Wi-Fi) kapcsolat szükséges. Kérjük, csatlakozás után próbáld meg újra.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">A jelenlegi beállításaid alapján a megadott utasítás végrehajtásához Wi-Fi kapcsolattal kell rendelkezned.</string>
+    <string name="no_bookmarks">Nincs könyvjelző</string>
+    <string name="no_bookmarks_description">Adj meg könyvjelzőt, hogy gyorsan vissza tudj térni oda, ahol abbahagytad.</string>
+    <string name="no_content">Nincs tartalom</string>
+    <string name="no_collection_content_description">Adj hozzá olyan tartalmat a gyűjteményhez, amelyhez könnyen hozzá szeretnél férni.</string>
+    <string name="no_custom_collections">Nincsenek egyedi gyűjtemények</string>
+    <string name="no_custom_collections_description">Hozz létre egyedi gyűjteményeket az összefüggő tartalmak könnyű eléréséhez.</string>
+    <string name="no_downloads_in_progress">Nincs folyamatban letöltés</string>
+    <string name="no_downloads_in_progress_description">Letöltés alatt lévő média- és egyéb tartalom</string>
+    <string name="no_downloaded_media">Nincs letöltött médiatartalom</string>
+    <string name="no_downloaded_media_description">Tölts le bejátszásokat vagy hanganyagokat, hogy hálózati kapcsolat nélkül is megnyithasd őket</string>
+    <string name="no_history">Nincsenek előzmények</string>
+    <string name="no_history_description">Fedezd fel a tartalmakat, és az útvonaladat visszakövetve térj vissza azokhoz.</string>
+    <string name="no_matches" comment="No results">Nincs találat</string>
+    <string name="no_matches_description">A megadott keresés nem eredményezett találatot</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">Nincsenek jegyzetfüzetek</string>
+    <string name="no_notebooks_description">Rendezd a jegyzeteidet teszőleges számú jegyzetfüzetbe.</string>
+    <string name="no_notes">Nincsenek jegyzetek</string>
+    <string name="no_notes_in_notebook">Ebben a jegyzetfüzetben nincsenek jegyzetek</string>
+    <string name="no_notes_description">Örökítsd meg jegyzetekben a gondolataidat és a kapott sugalmazásokat.</string>
+    <string name="no_related_content">Nincs kapcsolódó tartalom</string>
+    <string name="no_related_content_description2">Ehhez nem érhető el lábjegyzet vagy egyéb kapcsolódó tartalom</string>
+    <string name="no_tags" comment="The message to show when there are no tags">Nincsenek címkék</string>
+    <string name="no_tags_description">Hozz létre címkét, hogy az alkalmazás bármelyik részéből csoportosíthasd a tartalmakat.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">Nincs felcímkézett tartalom</string>
+    <string name="no_tagged_content_description">A tartalmak bármelyik részét felcímkézheted a jövőbeni tájékozódáshoz.</string>
+    <string name="no_thanks">Nem, köszönöm</string>
+    <string name="no_tips">Nincsenek tippek</string>
+    <string name="no_tips_description">A tippek az alkalmazás használatában segítenek</string>
+    <string name="note_content">Jegyzet tartalma</string>
+    <string name="notebook">Jegyzetfüzet</string>
+    <string name="notebooks">Jegyzetfüzetek</string>
+    <string name="notes">Megjegyzések</string>
+    <string name="num_item_add_to">%1$s tétel hozzáaadva ehhez: %2$s</string>
+    <string name="num_item">%d tétel</string>
+    <string name="num_items_add_to">%1$s tétel hozzáadva ehhez: %2$s</string>
+    <string name="num_items">%d tétel</string>
+    <string name="open">Megnyitás</string>
+    <string name="open_in_music">Megnyitás az LDS Music alkalmazásban</string>
+    <string name="open_in_new_screen">Megnyitás új képernyőn</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Oldalsáv rögzítése</string>
+    <string name="play_audio">Hanganyag lejátszása</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Lejátszási sebesség</string>
+    <string name="playback_speed_0.5x">0,5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1,25x</string>
+    <string name="playback_speed_1.5x">1,5x</string>
+    <string name="playback_speed_1.75x">1,75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Kérjük, jelentkezz be újra a felhasználóneved és jelszavad frissítéséhez.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Letöltött hanganyagok és bejátszások kezelése vagy megtekintése</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"…íme, azt mondom neked, hogy kis és egyszerű dolgok visznek véghez nagyszerű dolgokat; és a kis eszközök sok esetben megszégyenítik a bölcseket."</string>
+    <string name="pref_general_list_mode">Listázott megjelenítés</string>
+    <string name="pref_hide_footnotes">Lábjegyzetek elrejtése</string>
+    <string name="pref_limit_mobile_network_subtitle">Letöltés és élő lejátszás csak Wi-Fi kapcsolat esetén</string>
+    <string name="pref_limit_mobile_network">Mobilhálózati forgalom korlátozása</string>
+    <string name="pref_theme">Megjelenítési stílus</string>
+    <string name="problem_playing_video">Gond volt a bejátszás közben.</string>
+    <string name="read_more">Bővebben</string>
+    <string name="recent" comment="label for study notebook">Legutóbbiak</string>
+    <string name="related_content">Kapcsolódó tartalom</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">Biztosan el akarod távolítani a kiválasztott tételeket?</string>
+    <string name="remove_from_collection">Eltávolítás a gyűjteményből</string>
+    <string name="rename_bookmark">Könyvjelző átnevezése</string>
+    <string name="rename_screen">Képernyő átnevezése</string>
+    <string name="requested_ellipsis">Elindítva…</string>
+    <string name="requested_paused_retry_ellipsis">Elindítva… (mindjárt újra megpróbáljuk)</string>
+    <string name="requested_paused_network_ellipsis">Elindítva… (hálózati kapcsolatra vár)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d találat</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d találat</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s: %2$d találat</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s: %2$d találat</string>
+    <string name="save">Mentés</string>
+    <string name="screens">Képernyők</string>
+    <string name="screen_missing_content">Még nem töltötted le a kiválasztott képernyőhöz tartozó tartalmat.\n\nSzeretnéd most letölteni a(z) %1$s anyagát?</string>
+    <string name="screens_separate_windows">Képernyők megjelenítése külön ablakban</string>
+    <string name="search_all_content">Keresés a teljes tartalomban</string>
+    <string name="search_for_links">Keresés kulcsszavakra, versekre vagy címekre</string>
+    <string name="select_highlight">Kiemelés kiválasztása</string>
+    <string name="select_items">Tételek kiválasztása</string>
+    <string name="select_link">Hivatkozás kiválasztása</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Kapcsolni kívánt szöveg kiválasztása</string>
+    <string name="selected_media_unavailable">A kiválasztott médiatartalom nem elérhető.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Legutóbbi összehangolás: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Találatszám szerinti rendezés</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Legfrissebb szerinti rendezés</string>
+    <string name="sort_by_name" comment="sort items by their name">Elnevezés szerinti rendezés</string>
+    <string name="sort_by_size" comment="sort media items">Méret szerinti rendezés</string>
+    <string name="sort_by_item" comment="sort media items">Tétel szerinti rendezés</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Verziószám: %s</string>
+    <string name="style">Stílus</string>
+    <string name="sync_error_invalid_credentials">Érvénytelen felhasználónév/jelszó</string>
+    <string name="sync_error_no_network">Nem áll rendelkezésre hálózati kapcsolat</string>
+    <string name="sync_notification_failure">A bejegyzések összehangolása sikertelen volt</string>
+    <string name="sync_notification_gathering_changes">Változtatások összegyűjtése</string>
+    <string name="sync_notification_processing_changes">Változtatások feldolgozása</string>
+    <string name="sync_notification_receiving_changes">Változtatások fogadása</string>
+    <string name="sync_notification_receiving_update_list">Frissitési lista fogadása</string>
+    <string name="sync_notification_sending_changes">Változtatások küldése</string>
+    <string name="sync_notification_sending_update_request">Frissítési kérés küldése</string>
+    <string name="syncing_notebooks">Jegyzetfüzetek összehangolása</string>
+    <string name="syncing_annotations">Bejegyzések összehangolása</string>
+    <string name="notification_channel_general">Általános értesítések</string>
+    <string name="notification_channel_sync">Bejegyzések összehangolása</string>
+    <string name="notification_channel_media_playback">Médiatartalom lejátszása</string>
+    <string name="text_size" comment="">Szövegméret</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Szövegfelolvasó</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Szövegfelolvasó beállításai</string>
+    <string name="tips">Tippek</string>
+    <string name="title_optional">Cím (nem kötelező)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Oldalsáv rögzítésének feloldása</string>
+    <string name="update_catalog_wifi_required">Frissített tartalom érhető el, de a letöltéséhez Wi-Fi kapcsolatra lesz szükséged.</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">Címke szerkesztése</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Lejátszás minősége</string>
+    <string name="video_unavailable">Nem elérhető</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Elsődleges hang</string>
+    <string name="whats_new">Újdonságok</string>
+</resources>

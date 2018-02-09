@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-land-v4/values-large-land-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/res/values-large-land/dimensions.xml",
+                    "from": {
+                        "startLines": "4,7,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "146,235,298",
+                        "endColumns": "64,62,62",
+                        "endOffsets": "206,293,356"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,120,183",
+                        "endColumns": "64,62,62",
+                        "endOffsets": "115,178,241"
+                    }
+                }
+            ]
+        }
+    ]
+}

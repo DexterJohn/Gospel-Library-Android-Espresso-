@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Cancel</string>
+    <string name="fingerprint_disabled_use_pin">Ang fingerprint temporaryong gi-disable. Gamita ang PIN o sulayi pag-usab unya.</string>
+    <string name="fingerprint_not_recognized">Ang fingerprint wala ma-recognize. Palihug sulayi pag-usab.</string>
+    <string name="fingerprint_please">Fingerprint, Palihug</string>
+    <string name="fingerprint_please_try_again">Palihug sulayi pag-usab.</string>
+    <string name="ok">OK</string>
+    <string name="pin_confirm">I-confirm ang PIN</string>
+    <string name="pin_create_title">Pilia ang imong PIN</string>
+    <string name="pin_enter_title">I-type ang imong PIN</string>
+    <string name="pin_error_incorrect_title">Sayop nga PIN ang na-type.</string>
+    <string name="pin_error_invalid_pin">Ang PIN dili pwede nga dunay sunod o nagbalik-balik nga mga numero.</string>
+    <string name="pin_error_mismatch">Ang mga PIN wala magkatukma.</string>
+    <string name="pref_reset_data">Mo-sign Out</string>
+    <string name="pref_reset_data_explanation">Sigurado ka ba nga gusto nimong mo-sign out?</string>
+    <string name="signin">Mo-sign In</string>
+    <string name="signin_authenticating">Nag-authenticate</string>
+    <string name="signin_error">Error</string>
+    <string name="signin_instructions">Sign in gamit ang imong LDS Account</string>
+    <string name="signin_ok">OK</string>
+    <string name="signin_password">Password</string>
+    <string name="signin_prefs_signout">Mo-sign Out</string>
+    <string name="signin_username">Username</string>
+</resources>

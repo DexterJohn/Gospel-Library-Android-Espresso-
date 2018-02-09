@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/mainToolbar"
+        layout="@layout/toolbar_actionbar"/>
+
+    <org.lds.mobile.ui.widget.toolbar.ToolbarExpandLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mainToolbar">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_below="@+id/tabLayoutContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <FrameLayout
+            android:id="@+id/tabLayoutContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:tabIndicatorColor="?attr/colorAccent"
+                app:tabTextColor="@color/tab_text"
+                app:tabSelectedTextColor="@color/tab_selected_text"/>
+
+        </FrameLayout>
+
+    </org.lds.mobile.ui.widget.toolbar.ToolbarExpandLayout>
+
+    <include layout="@layout/toolbar_expanded"/>
+
+</RelativeLayout>
+

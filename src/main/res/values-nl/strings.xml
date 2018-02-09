@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Toevoegen</string>
+    <string name="all">Alles</string>
+    <string name="app_name">Evangeliebibliotheek</string>
+    <string name="auto">Automatisch</string>
+    <string name="allow_in_app_notifications">Meldingen in app toestaan</string>
+    <string name="exact_phrase">Precieze zinsnede</string>
+    <string name="keywords">Trefwoorden</string>
+    <string name="bookmark">Bladwijzer</string>
+    <string name="cancel">Annuleren</string>
+    <string name="cancel_all">Alles annuleren</string>
+    <string name="content">Inhoud</string>
+    <string name="copy">Kopiëren</string>
+    <string name="delete">Verwijderen</string>
+    <string name="define">Definiëren</string>
+    <string name="display">Weergave</string>
+    <string name="done">Klaar</string>
+    <string name="download">Downloaden</string>
+    <string name="download_all">Alles downloaden</string>
+    <string name="download_item">Item downloaden</string>
+    <string name="feedback">Feedback</string>
+    <string name="keep">Bewaren</string>
+    <string name="library">Bibliotheek</string>
+    <string name="link">Link</string>
+    <string name="links">Links</string>
+    <string name="merge">Samenvoegen</string>
+    <string name="never">Nooit</string>
+    <string name="no">Nee</string>
+    <string name="note">Notitie</string>
+    <string name="none">Geen</string>
+    <string name="ok">OK</string>
+    <string name="remove">Verwijderen</string>
+    <string name="remove_all">Alles verwijderen</string>
+    <string name="rename">Hernoemen</string>
+    <string name="search">Zoeken</string>
+    <string name="settings">Instellingen</string>
+    <string name="screen_settings">Scherminstellingen</string>
+    <string name="share">Delen</string>
+    <string name="skip">Overslaan</string>
+    <string name="sort">Sorteren</string>
+    <string name="tag">Taggen</string>
+    <string name="tags">Tags</string>
+    <string name="theme_default">Standaard</string>
+    <string name="theme_night">Nacht</string>
+    <string name="theme_sepia">Sepia</string>
+    <string name="theme_dark_blue">Donkerblauw</string>
+    <string name="today">Vandaag</string>
+    <string name="undo">Ongedaan maken</string>
+    <string name="update">Bijwerken</string>
+    <string name="view">Bekijken</string>
+    <string name="yes">Ja</string>
+    <string name="yesterday">Gisteren</string>
+    <!-- Other -->
+    <string name="add_bookmark">Bladwijzer toevoegen</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Tag toevoegen</string>
+    <string name="add_to">Toevoegen aan</string>
+    <string name="add_to_ellipsis">Toevoegen aan…</string>
+    <string name="add_to_notebook">Aan notitieblok toevoegen</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">Aantekening kan niet getoond worden omdat “%s” niet geïnstalleerd is.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Tikken om update te installeren.</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">Er is een update voor de Evangeliebibliotheek beschikbaar.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Geluidsinstellingen</string>
+    <string name="backup_annotations_message">Als u zich niet vóór de volgende update van de app Evangeliebibliotheek aanmeldt, gaan uw persoonlijke aantekeningen (markeringen, notities, bladwijzers enzovoort) verloren.</string>
+    <string name="backup_annotations_title">Aantekeningen back-uppen</string>
+    <string name="bookmarks">Bladwijzers</string>
+    <string name="bookmark_added">Bladwijzer toegevoegd</string>
+    <string name="bookmark_empty">U hebt nog geen bladwijzers toegevoegd.</string>
+    <string name="bookmark_updated">Bladwijzer bijgewerkt</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Casten</string>
+    <string name="catalog_title">Catalogus Evangeliebibliotheek</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Markering kiezen</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Gedownloade media wissen</string>
+    <string name="clear_history">Geschiedenis wissen</string>
+    <string name="content_no_content" comment="Shown in content drawer">Inhoud kan niet getoond worden omdat “%s” niet geïnstalleerd is</string>
+    <string name="content_not_downloaded">%s niet gedownload.</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Ononderbroken afspelen</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Tekst naar klembord gekopieerd</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">“%s” aanmaken</string>
+    <string name="current_downloads">Huidige downloads</string>
+    <string name="custom_collections">Aangepaste collecties</string>
+    <string name="delete_annotation_title">Aantekening verwijderen</string>
+    <string name="delete_annotation_message">Notities, tags of links die met deze markering verbonden zijn, worden ook verwijderd.</string>
+    <string name="delete_collection_item_title">“%1$s” verwijderen?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s wordt/worden verwijderd.\n\nAlle media verwijderen?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">Niet mogelijk om alle media te verwijderen</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s wordt/worden uit “%1$s” verwijderd.\n\nMedia verwijderen?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Media verwijderen</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Notitieblokken verwijderen</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Geselecteerde notitieblokken verwijderen?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Tag verwijderen</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Tags verwijderen</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">Weet u zeker dat u deze tag uit alle notities en markeringen wilt verwijderen?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">Weet u zeker dat u deze tags uit alle notities en markeringen wilt verwijderen?</string>
+    <string name="deleted">%s verwijderd</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">Bladwijzer %s verwijderd</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">Notitieblok %s verwijderd</string>
+    <string name="dialog_sign_out_confirmation">Weet u zeker dat u wilt uitloggen?</string>
+    <string name="double_tap_fullscreen_training">Tip: dubbeltik op het scherm om de volledig-schermmodus te verlaten.</string>
+    <string name="download_audio" comment="download audio">Audio downloaden</string>
+    <string name="download_all_selected_confirm">%d items worden gedownload.\n\nGeselecteerde items downloaden?</string>
+    <string name="download_cancel_confirm_all">Alle huidige downloads worden geannuleerd.\n\nDownloads annuleren?</string>
+    <string name="download_cancel">Download annuleren?</string>
+    <string name="download_canceling">Download wordt geannuleerd…</string>
+    <string name="download_item_message">%s is niet geïnstalleerd. Nu installeren?</string>
+    <string name="download_video" comment="download video">Video downloaden</string>
+    <string name="downloaded_media">Gedownloade media</string>
+    <string name="downloading_ellipsis">Downloaden…</string>
+    <string name="downloading_audio">Audio voor %s wordt gedownload</string>
+    <string name="downloading_video">Video voor %s wordt gedownload</string>
+    <string name="download_file_failed_insufficient_space">Download [%s] mislukt.\nOnvoldoende opslagruimte.</string>
+    <string name="download_file_failed">Download [%s] mislukt.\nControleer uw internetverbinding en probeer het nogmaals.</string>
+    <string name="download_dir_error">Aanmaken downloadmap mislukt.</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">Naam verzameling</string>
+    <string name="existing_annotations_prompt">Dit apparaat bevat %d aantekening(en). Wat wilt u met de bestaande aantekening(en) doen?</string>
+    <string name="existing_annotations">Bestaande aantekeningen</string>
+    <string name="featured_apps">Interessante apps</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Vrouw</string>
+    <string name="finalizing_ellipsis">Wordt afgerond...</string>
+    <string name="find_by_name">Op naam zoeken</string>
+    <string name="find_count">%1$d van %2$d</string>
+    <string name="find_x_on_page">Zoek “%s” op pagina</string>
+    <string name="find_x_in_x">Zoek “%1$s” in %2$s</string>
+    <string name="find_exact_x_in_x">De exacte zinsnede “%1$s” in %2$s zoeken</string>
+    <string name="marked_text_position">%1$d van %2$d resultaten</string>
+    <string name="marked_text_position_no_results">0 resultaten</string>
+    <string name="sign_in_error" comment="Failed to login invalid username or password.">Inlogfout</string>
+    <string name="highlight_style">Markeerstijl</string>
+    <string name="history">Geschiedenis</string>
+    <string name="history_cleared">Geschiedenis gewist</string>
+    <string name="installing_ellipsis">Wordt geïnstalleerd…</string>
+    <string name="journal">Dagboek</string>
+    <string name="journal_restore">Dagboek herstellen</string>
+    <string name="journal_create_notebook">Notitieblok Dagboek aanmaken</string>
+    <string name="journal_restore_description">De sectie Dagboek is verwijderd, maar we hebben uw notities bewaard. Als u wilt, kunnen we alle notities die in Dagboek stonden in een nieuw notitieblok genaamd ‘Dagboek’ bewaren.</string>
+    <string name="journal_restore_result">Herstellen Dagboek voltooid. %d notities verplaatst.</string>
+    <string name="language">Taal</string>
+    <string name="lds_account_summary">Met een LDS-account worden uw aantekeningen op uw apparaten en op LDS.org gesynchroniseerd en geback-upt.</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">naar %1$s</string>
+    <string name="loading_ellipsis">Wordt geladen…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Man</string>
+    <string name="mark" comment="Select highlight color">Markeren</string>
+    <string name="media_type">Mediasoort</string>
+    <string name="menu_new_screen">Nieuw scherm…</string>
+    <string name="merged_notebook_name_prompt">De geselecteerde notitieblokken worden samengevoegd. Gelieve een naam voor het samengevoegde notitieblok in te voeren.</string>
+    <string name="merged_notebook_name">Naam samengevoegd notitieblok</string>
+    <string name="merged_tag_name">Naam samengevoegde tag</string>
+    <string name="move_to_notebook">Naar notitieblok verplaatsen</string>
+    <string name="my_collections">Mijn collecties</string>
+    <string name="network_required" comment="Not connected to any network">Hiervoor is een internetverbinding vereist. Gelieve verbinding met het internet te maken en het nogmaals te proberen.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">Op grond van uw instellingen moet u een wifiverbinding hebben om dit te doen.</string>
+    <string name="no_bookmarks">Geen bladwijzers</string>
+    <string name="no_bookmarks_description">Voeg een bladwijzer toe om later snel verder te gaan.</string>
+    <string name="no_content">Geen inhoud</string>
+    <string name="no_collection_content_description">Voeg items aan de collectie toe, zodat u er makkelijk bij kunt</string>
+    <string name="no_custom_collections">Geen aangepaste collecties</string>
+    <string name="no_custom_collections_description">Maak aangepaste collecties aan om verwante items te bekijken.</string>
+    <string name="no_downloads_in_progress">Geen downloads in behandeling</string>
+    <string name="no_downloads_in_progress_description">Inhoud en media die gedownload worden</string>
+    <string name="no_downloaded_media">Geen gedownloade media</string>
+    <string name="no_downloaded_media_description">Download audio of video voor gebruik offline</string>
+    <string name="no_history">Geen geschiedenis</string>
+    <string name="no_history_description">Bekijk inhoud, vind uw pad en ga ernaar terug.</string>
+    <string name="no_matches" comment="No results">Geen resultaten</string>
+    <string name="no_matches_description">De zoekopdracht heeft geen resultaten opgeleverd</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">Geen notitieblokken</string>
+    <string name="no_notebooks_description">Maak zoveel notitieblokken aan als u wilt om al uw notities te ordenen.</string>
+    <string name="no_notes">Geen notities</string>
+    <string name="no_notes_in_notebook">Geen notities in dit notitieblok</string>
+    <string name="no_notes_description">Maak notities om uw inzichten en inspiratie te bewaren.</string>
+    <string name="no_related_content">Geen verwante inhoud</string>
+    <string name="no_related_content_description2">Geen voetnoten of andere verwante inhoud beschikbaar</string>
+    <string name="no_tags" comment="The message to show when there are no tags">Geen tags</string>
+    <string name="no_tags_description">Maak een tag aan om inhoud in de app te groeperen.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">Geen getagde inhoud</string>
+    <string name="no_tagged_content_description">Tag inhoud om die later te raadplegen.</string>
+    <string name="no_thanks">Nee bedankt</string>
+    <string name="no_tips">Geen tips</string>
+    <string name="no_tips_description">Tips maken u wegwijs in de functies van de app</string>
+    <string name="note_content">Inhoud notitie</string>
+    <string name="notebook">Notitieblok</string>
+    <string name="notebooks">Notitieblokken</string>
+    <string name="notes">Notities</string>
+    <string name="num_item_add_to">%1$s item aan %2$s toegevoegd</string>
+    <string name="num_item">%d item</string>
+    <string name="num_items_add_to">%1$s items aan %2$s toegevoegd</string>
+    <string name="num_items">%d items</string>
+    <string name="open">Openen</string>
+    <string name="open_in_music">In Kerkmuziek openen</string>
+    <string name="open_in_new_screen">In nieuw scherm openen</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Zijbalk vastzetten</string>
+    <string name="play_audio">Audio afspelen</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Afspeelsnelheid</string>
+    <string name="playback_speed_0.5x">0,5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1,25x</string>
+    <string name="playback_speed_1.5x">1,5x</string>
+    <string name="playback_speed_1.75x">1,75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Gelieve u opnieuw aan te melden om uw gebruikersnaam en wachtwoord in orde te brengen.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Gedownloade audio en video beheren of bekijken</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"Zie, ik zeg je dat door kleine en eenvoudige dingen grote dingen worden teweeggebracht; en in vele gevallen worden de wijzen door kleine middelen beschaamd."</string>
+    <string name="pref_general_list_mode">Lijstweergave</string>
+    <string name="pref_hide_footnotes">Voetnoten verbergen</string>
+    <string name="pref_limit_mobile_network_subtitle">Alleen met een wifiverbinding downloaden en streamen</string>
+    <string name="pref_limit_mobile_network">Gebruik mobiel netwerk beperken</string>
+    <string name="pref_theme">Thema</string>
+    <string name="problem_playing_video">Er heeft zich een probleem voorgedaan bij het afspelen van de video.</string>
+    <string name="read_more">Meer lezen</string>
+    <string name="recent" comment="label for study notebook">Recent</string>
+    <string name="related_content">Verwante inhoud</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">Weet u zeker dat u de geselecteerde items wilt verwijderen?</string>
+    <string name="remove_from_collection">Uit collectie verwijderen</string>
+    <string name="rename_bookmark">Bladwijzer hernoemen</string>
+    <string name="rename_screen">Scherm hernoemen</string>
+    <string name="requested_ellipsis">Aangevraagd…</string>
+    <string name="requested_paused_retry_ellipsis">Aangevraagd… (wachten op nieuwe poging)</string>
+    <string name="requested_paused_network_ellipsis">Aangevraagd… (wachten op netwerk)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d resultaat</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d resultaten</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s - %2$d resultaat</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s - %2$d resultaten</string>
+    <string name="save">Opslaan</string>
+    <string name="screens">Schermen</string>
+    <string name="screen_missing_content">U hebt de inhoud voor het geselecteerde scherm niet gedownload.\n\nWilt u de inhoud voor “%1$s” nu downloaden?</string>
+    <string name="screens_separate_windows">Schermen als aparte vensters tonen</string>
+    <string name="search_all_content">Alles doorzoeken</string>
+    <string name="search_for_links">Trefwoorden, verzen of titels zoeken</string>
+    <string name="select_highlight">Markering selecteren</string>
+    <string name="select_items">Items selecteren</string>
+    <string name="select_link">Link selecteren</string>
+    <string name="select_text_to_link" comment="title for link to Activity">De te linken tekst selecteren</string>
+    <string name="selected_media_unavailable">Het geselecteerde mediabestand is niet beschikbaar.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Laatste synchronisatie: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Op aantal sorteren</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Op datum sorteren</string>
+    <string name="sort_by_name" comment="sort items by their name">Op naam sorteren</string>
+    <string name="sort_by_size" comment="sort media items">Op grootte sorteren</string>
+    <string name="sort_by_item" comment="sort media items">Op item sorteren</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Versie %s</string>
+    <string name="style">Stijl</string>
+    <string name="sync_error_invalid_credentials">Gebruikersnaam/wachtwoord is ongeldig</string>
+    <string name="sync_error_no_network">Geen netwerkverbinding</string>
+    <string name="sync_notification_failure">Synchronisatie aantekening mislukt</string>
+    <string name="sync_notification_gathering_changes">Wijzigingen worden verzameld</string>
+    <string name="sync_notification_processing_changes">Wijzigingen worden verwerkt</string>
+    <string name="sync_notification_receiving_changes">Wijzigingen worden opgehaald</string>
+    <string name="sync_notification_receiving_update_list">Updatelijst wordt opgehaald</string>
+    <string name="sync_notification_sending_changes">Wijzigingen worden verstuurd</string>
+    <string name="sync_notification_sending_update_request">Updateverzoek wordt verstuurd</string>
+    <string name="syncing_notebooks">Notitieblokken worden gesynchroniseerd</string>
+    <string name="syncing_annotations">Aantekeningen worden gesynchroniseerd</string>
+    <string name="notification_channel_general">Algemene kennisgevingen</string>
+    <string name="notification_channel_sync">Synchronisatie aantekeningen</string>
+    <string name="notification_channel_media_playback">Afspelen media</string>
+    <string name="text_size" comment="">Lettergrootte</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Spraaksynthese</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Instellingen spraaksynthese</string>
+    <string name="tips">Tips</string>
+    <string name="title_optional">Titel (facultatief)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Zijbalk losmaken</string>
+    <string name="update_catalog_wifi_required">Er is bijgewerkte inhoud, maar u moet een wifiverbinding hebben om die te downloaden.</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">Tag bewerken</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Videokwaliteit</string>
+    <string name="video_unavailable">Video niet beschikbaar</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Hoofdstem</string>
+    <string name="whats_new">Wat nieuw is</string>
+</resources>

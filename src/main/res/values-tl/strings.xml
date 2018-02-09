@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Idagdag</string>
+    <string name="all">Lahat</string>
+    <string name="app_name">Gospel Library</string>
+    <string name="auto">Auto</string>
+    <string name="allow_in_app_notifications">Payagan ang mga In-App Notification</string>
+    <string name="exact_phrase">Eksaktong Parilala</string>
+    <string name="keywords">Mga Keyword</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="cancel_all">Kanselahin Lahat</string>
+    <string name="content">Nilalaman</string>
+    <string name="copy">Kopyahin</string>
+    <string name="delete">Burahin</string>
+    <string name="define">Kahulugan</string>
+    <string name="display">Display</string>
+    <string name="done">Tapos na</string>
+    <string name="download">I-download</string>
+    <string name="download_all">I-download Lahat</string>
+    <string name="download_item">I-download ang item</string>
+    <string name="feedback">Feedback</string>
+    <string name="keep">I-save</string>
+    <string name="library">Library</string>
+    <string name="link">Link</string>
+    <string name="links">Mga Link</string>
+    <string name="merge">Pagsamahin</string>
+    <string name="never">Hindi kailanman</string>
+    <string name="no">Hindi</string>
+    <string name="note">Tala</string>
+    <string name="none">Wala</string>
+    <string name="ok">OK</string>
+    <string name="remove">Tanggalin</string>
+    <string name="remove_all">Tanggalin Lahat</string>
+    <string name="rename">Palitan ng Pangalan</string>
+    <string name="search">Hanapin</string>
+    <string name="settings">Mga Setting</string>
+    <string name="screen_settings">Mga Screen Setting</string>
+    <string name="share">Ibahagi</string>
+    <string name="skip">Laktawan</string>
+    <string name="sort">I-sort</string>
+    <string name="tag">Tag</string>
+    <string name="tags">Mga Tag</string>
+    <string name="theme_default">Default</string>
+    <string name="theme_night">Night View</string>
+    <string name="theme_sepia">Sepia</string>
+    <string name="theme_dark_blue">Dark Blue</string>
+    <string name="today">Ngayong Araw</string>
+    <string name="undo">Kanselahin</string>
+    <string name="update">I-update</string>
+    <string name="view">Tingnan</string>
+    <string name="yes">Oo</string>
+    <string name="yesterday">Kahapon</string>
+    <!-- Other -->
+    <string name="add_bookmark">Magdagdag ng Bookmark</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Magdagdag ng tag</string>
+    <string name="add_to">Idagdag sa</string>
+    <string name="add_to_ellipsis">Idagdag sa...</string>
+    <string name="add_to_notebook">Idagdag sa Notebook</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">Hindi maipakita ang annotation dahil ang “%s” ay hindi pa na-install.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Mag-tap para i-install ang update.</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">May available na update and Gospel Library.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Audio Settings</string>
+    <string name="backup_annotations_message">Ang hindi pag-sign in bago ang susunod na update ng Gospel Library ay magreresulta sa pagkawala ng iyong mga personal annotation (mga highlight, mga tala, mga bookmark, at iba pa).</string>
+    <string name="backup_annotations_title">I-back up ang mga Annotation</string>
+    <string name="bookmarks">Mga Bookmark</string>
+    <string name="bookmark_added">Naidagdag na ang Bookmark</string>
+    <string name="bookmark_empty">Wala kang idinagdag na bookmark.</string>
+    <string name="bookmark_updated">Na-update na ang Bookmark</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">I-cast</string>
+    <string name="catalog_title">Gospel Library Catalog</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Piliin ang Highlight</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Burahin ang mga Nai-download na Media</string>
+    <string name="clear_history">Clear History</string>
+    <string name="content_no_content" comment="Shown in content drawer">Hindi maipakita ang content dahil ang “%s” ay hindi pa na-install.</string>
+    <string name="content_not_downloaded">Ang %s ay hindi pa nai-download.</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Continuous Play</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Nakopya na ang teksto sa clipboard</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">Gumawa ng tag na \"%s\"</string>
+    <string name="current_downloads">Mga Kasalukuyang Dinadownload</string>
+    <string name="custom_collections">Mga Custom Collection</string>
+    <string name="delete_annotation_title">Alisin ang Annotation</string>
+    <string name="delete_annotation_message">Ang anumang tala, tag, o link na naka-ugnay sa highlight na ito ay aalisin din.</string>
+    <string name="delete_collection_item_title">Burahin ang \"%1$s\"?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s ang mabubura.\n\nBurahin ang lahat ng media?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">Hindi Mabura ang Lahat ng Media</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s ang mabubura mula sa \"%1$s\".\n\nBurahin ang media?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Burahin ang Media</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Burahin ang mga Notebook</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Burahin ang piniling mga notebook?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Burahin ang Tag</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Burahin ang mga Tag</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">Sigurado ka ba na gusto mong alisin ang tag na ito mula sa lahat ng tala at highlight?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">Sigurado ka ba na gusto mong alisin ang mga tag na ito mula sa lahat ng tala at highlight?</string>
+    <string name="deleted">ang %s ay nabura na</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">ang bookmark na %s ay nabura na</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">Ang notebook na %s ay nabura na</string>
+    <string name="dialog_sign_out_confirmation">Sigurado ka ba na gusto mong mag-sign out?</string>
+    <string name="double_tap_fullscreen_training">Tip: mag-double-tap sa screen para makaalis sa fullscreen mode.</string>
+    <string name="download_audio" comment="download audio">I-download and Audio</string>
+    <string name="download_all_selected_confirm">%d item ang ida-download.\n\nI-download ang piniling mga item?</string>
+    <string name="download_cancel_confirm_all">Lahat ng kasalukuyang dina-download ay makakansela.\n\nKanselahin ang mga dina-download?</string>
+    <string name="download_cancel">Kanselahin ang mga dina-download?</string>
+    <string name="download_canceling">Kinakansela na ang mga dina-download...</string>
+    <string name="download_item_message">Ang %s ay hindi pa na-install. Gusto mo bang i-download ito ngayon?</string>
+    <string name="download_video" comment="download video">I-download ang Video</string>
+    <string name="downloaded_media">Mga Na-download na Media</string>
+    <string name="downloading_ellipsis">Nagda-download…</string>
+    <string name="downloading_audio">Dina-download ang audio para sa %s</string>
+    <string name="downloading_video">Dina-download ang video para sa %s</string>
+    <string name="download_file_failed_insufficient_space">Hindi matagumpay ang pag-download sa [%s].\nWalang sapat na storage space.</string>
+    <string name="download_file_failed">Hindi matagumpay ang pag-download sa [%s].\nTingnan kung maayos ang iyong Internet connection at subukang muli.</string>
+    <string name="download_dir_error">Hindi matagumpay ang paggawa ng download directory.</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">Pangalan ng Koleksyon</string>
+    <string name="existing_annotations_prompt">May %d na annotation na sa device na ito. Ano ang gusto mong gawin sa mga annotation na ito?</string>
+    <string name="existing_annotations">Mga Annotation sa Device</string>
+    <string name="featured_apps">Tampok na Apps</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Babae</string>
+    <string name="finalizing_ellipsis">Tinatapos…</string>
+    <string name="find_by_name">Maghanap gamit ang pangalan</string>
+    <string name="find_count">%1$d/%2$d</string>
+    <string name="find_x_on_page">Hanapin ang \"%s\" sa pahinang ito</string>
+    <string name="find_x_in_x">Hanapin ang \"%1$s\" sa %2$s</string>
+    <string name="find_exact_x_in_x">Hanapin ang eksaktong pariralang \"%1$s\" sa %2$s</string>
+    <string name="marked_text_position">Mga resulta: %1$d/%2$d</string>
+    <string name="marked_text_position_no_results">Walang resulta</string>
+    <string name="highlight_style">Style ng Highlight</string>
+    <string name="history">kasaysayan</string>
+    <string name="history_cleared">Nabura na ang History</string>
+    <string name="installing_ellipsis">Nag-i-install…</string>
+    <string name="journal">Journal</string>
+    <string name="journal_restore">Ibalik ang Journal</string>
+    <string name="journal_create_notebook">Ibalik ang Journal</string>
+    <string name="journal_restore_description">Kahit na inalis na ang Journal section, hindi nawala ang iyong mga tala. Kung nais mo, maaari naming kolektahin ang lahat ng tala na nasa Journal section dati at ilagay ang mga ito sa bagong notebook na pinangalanang Journal.</string>
+    <string name="journal_restore_result">Matagumpay na naibalik ang Journal. %d notes ang nailipat.</string>
+    <string name="language">Wika</string>
+    <string name="lds_account_summary">Ginagamit ang LDS Account para i-back up at i-synchronize ang iyong mga annotation sa iba\'t ibang device at sa LDS.org.</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">sa %1$s</string>
+    <string name="loading_ellipsis">Naglo-load…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Lalaki</string>
+    <string name="mark" comment="Select highlight color">Markahan</string>
+    <string name="media_type">media type</string>
+    <string name="menu_new_screen">Bagong Screen...</string>
+    <string name="merged_notebook_name_prompt">Ang piniling mga Notebook ay pagsasamahin. Bigyan ng pangalan ang bagong Notebook na mabubuo mula sa pagsasamang ito.</string>
+    <string name="merged_notebook_name">Pangalan ng Pinagsamang Notebook</string>
+    <string name="merged_tag_name">Pangalan ng Pinagsamang Tag</string>
+    <string name="move_to_notebook">Ilipat sa Notebook</string>
+    <string name="my_collections">Aking mga Koleksyon</string>
+    <string name="network_required" comment="Not connected to any network">Dapat ay nakakonekta ka sa internet para magawa ito. Mangyaring kumonekta sa isang mobile o Wi-fi network at subukang muli.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">Batay sa settings mo, dapat ay nakakonekta ka sa Wi-Fi para magawa ito.</string>
+    <string name="no_bookmarks">Walang Bookmark</string>
+    <string name="no_bookmarks_description">Magdagdag ng bookmark para mabilis na mabalikan ang mga binabasa mo.</string>
+    <string name="no_content">Walang Content</string>
+    <string name="no_collection_content_description">Magdagdag ng mga item sa collection para sa mas madaling pag-access</string>
+    <string name="no_custom_collections">Walang mga Custom Collection</string>
+    <string name="no_custom_collections_description">Gumawa ng mga custom collection para madaling ma-access ang magkakaugnay na mga item.</string>
+    <string name="no_downloads_in_progress">Walang Dina-download</string>
+    <string name="no_downloads_in_progress_description">Mga content at media na kasalukuyang dina-download</string>
+    <string name="no_downloaded_media">Wala Media na Na-download</string>
+    <string name="no_downloaded_media_description">Mag-download ng audio o video para ma-access off-line</string>
+    <string name="no_history">Walang History</string>
+    <string name="no_history_description">Tumingin at magbukas ng mga content ang balikan ang mga ito.</string>
+    <string name="no_matches" comment="No results">Walang mga Resulta</string>
+    <string name="no_matches_description">Walang resulta ang ginawang paghahanap</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">Walang mga Notebook</string>
+    <string name="no_notebooks_description">Gumawa ng kahit ilang notebook o ayusin ang mga tala mo.</string>
+    <string name="no_notes">Walang mga Tala</string>
+    <string name="no_notes_in_notebook">Walang mga Tala sa Notebook na Ito</string>
+    <string name="no_notes_description">Irekord ang iyong mga tala at i-save ang iyong mga kaisipan at inspirasyon</string>
+    <string name="no_related_content">Walang Kaugnay na Content</string>
+    <string name="no_related_content_description2">Walang mga footnote o iba pang kaugnay na content</string>
+    <string name="no_tags" comment="The message to show when there are no tags">Walang mga Tag</string>
+    <string name="no_tags_description">Gumawa ng tag para pagsamahin ang mga content saanman sa app.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">Walang Content na Naka-tag</string>
+    <string name="no_tagged_content_description">Lagyan ng tag sa anumang content para madali itong mahanap sa hinaharap.</string>
+    <string name="no_thanks">Salamat, Pero Huwag na Lang</string>
+    <string name="no_tips">Walang mga Tip</string>
+    <string name="no_tips_description">Ang mga tip ay magpapakita sa iyo ng mga kapaki-pakinabang na functionality ng app</string>
+    <string name="note_content">Content ng Tala</string>
+    <string name="notebook">Notebook</string>
+    <string name="notebooks">Mga Notebook</string>
+    <string name="notes">Mga Tala</string>
+    <string name="num_item_add_to">%1$s item ang nai-dagdag sa %2$s</string>
+    <string name="num_item">%d item</string>
+    <string name="num_items_add_to">%1$s item ang nai-dagdag sa %2$s</string>
+    <string name="num_items">%d item</string>
+    <string name="open">Buksan</string>
+    <string name="open_in_music">Buksan sa LDS Music</string>
+    <string name="open_in_new_screen">Buksan sa Bagong Screen</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">I-pin ang Sidebar</string>
+    <string name="play_audio">I-play ang Audio</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Playback Speed</string>
+    <string name="playback_speed_0.5x">0.5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1.25x</string>
+    <string name="playback_speed_1.5x">1.5x</string>
+    <string name="playback_speed_1.75x">1.75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Mag-sign in muli para maayos ang iyong username at password.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Ayusin o tingnan ang mga na-download na audio at video</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"...masdan sinasabi ko sa iyo, na sa pamamagitan ng maliliit at mga karaniwang bagay ay naisasakatuparan ang mga dakilang bagay; at sa maliliit na pamamaraan sa maraming pagkakataon ay lumilito sa marurunong."</string>
+    <string name="pref_general_list_mode">List Mode</string>
+    <string name="pref_hide_footnotes">Itago ang mga Footnote</string>
+    <string name="pref_limit_mobile_network_subtitle">Mag-download at Mag-stream lamang kapag nakakonekta sa Wi-Fi</string>
+    <string name="pref_limit_mobile_network">Limitahan ang Paggamit sa Mobile Network</string>
+    <string name="pref_theme">Theme</string>
+    <string name="problem_playing_video">May problema sa pag-play ng video.</string>
+    <string name="read_more">Magpatuloy sa Pagbasa</string>
+    <string name="recent" comment="label for study notebook">Recent</string>
+    <string name="related_content">Kaugnay na Content</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">Sigurado ka ba na gusto mong alisin ang mga item na pinili mo?</string>
+    <string name="remove_from_collection">Alisin sa Collection</string>
+    <string name="rename_bookmark">Palitan ang Pangalan ng Bookmark</string>
+    <string name="rename_screen">Palitan ang Pangalan ng Screen</string>
+    <string name="requested_ellipsis">Hiniling…</string>
+    <string name="requested_paused_retry_ellipsis">Hiniling... (naghihintay na masubukang muli)</string>
+    <string name="requested_paused_network_ellipsis">Hiniling... (hinihintay ang network)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d resulta</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d resulta</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s - %2$d resulta</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s - %2$d resulta</string>
+    <string name="save">I-save</string>
+    <string name="screens">Mga Screen</string>
+    <string name="screen_missing_content">Hindi mo pa na-download ang content para sa piniling screen.\n\nGusto mo bang i-download na ngayon ang content para sa \"%1$s\"?</string>
+    <string name="screens_separate_windows">Ipakita ang mga Screen Bilang Magkahiwalay na mga Window</string>
+    <string name="search_for_links">Maghanap gamit ang mga keyword, talata, o pamagat</string>
+    <string name="select_highlight">Piliin ang Naka-highlight</string>
+    <string name="select_items">Pumili ng mga item</string>
+    <string name="select_link">Piliin ang Link</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Pumili ng Teksto na Ili-link</string>
+    <string name="selected_media_unavailable">Ang pinilig media ay hindi available</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Huling Nag-sync: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">I-sort ayon sa Bilang</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">I-sort ayon sa Pinakabago</string>
+    <string name="sort_by_name" comment="sort items by their name">I-sort ayon sa Pangalan</string>
+    <string name="sort_by_size" comment="sort media items">I-sort ayon sa Laki</string>
+    <string name="sort_by_item" comment="sort media items">I-sort ayon sa Item</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Version %s</string>
+    <string name="style">Style</string>
+    <string name="sync_error_invalid_credentials">Invalid ang Username/Password</string>
+    <string name="sync_error_no_network">Walang network connection</string>
+    <string name="sync_notification_failure">Hindi matagumpay ang Pag-sync</string>
+    <string name="sync_notification_gathering_changes">Kinukuha ang mga Pagbabago</string>
+    <string name="sync_notification_processing_changes">Pinoproseso ang mga Pagbabago</string>
+    <string name="sync_notification_receiving_changes">Tinatanggap ang mga Pagbabago</string>
+    <string name="sync_notification_receiving_update_list">Tinatanggap ang Updated na LIstahan</string>
+    <string name="sync_notification_sending_changes">Pinapadala ang mga Pagbabago</string>
+    <string name="sync_notification_sending_update_request">Nagpapadala ng Update Request</string>
+    <string name="syncing_notebooks">Isini-sync ang mga Notebook</string>
+    <string name="syncing_annotations">Isini-sync ang mga Annotation</string>
+    <string name="notification_channel_general">General Notifications</string>
+    <string name="notification_channel_sync">Pag-sync ng mga Annotation</string>
+    <string name="notification_channel_media_playback">Media Playback</string>
+    <string name="text_size" comment="">Laki ng teksto</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Text-to-speech</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Mga Setting para sa Text-to-speech</string>
+    <string name="tips">Mga Tip</string>
+    <string name="title_optional">Pamagat (Opsiyonal)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Alisin sa Pagkaka-pin ang Sidebar</string>
+    <string name="update_catalog_wifi_required">Available na ang pinakabagong content, pero kailangang konektdo ka sa Wi-Fi para makapagdownload.</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">Baguhin ang Tag</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Kalidad ng Video</string>
+    <string name="video_unavailable">Hindi Available ang Video</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Pangunahing Boses</string>
+    <string name="whats_new">Anong Bago</string>
+</resources>

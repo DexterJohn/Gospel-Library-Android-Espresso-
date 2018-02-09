@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:key="advanced_options"
+    android:title="@string/pref_developer_options">
+
+    <PreferenceCategory android:title="@string/pref_developer_options">
+
+        <Preference
+            android:key="dev_account_app_info"
+            android:summary="Show details about content and catalogs"
+            android:title="Information" />
+
+        <ListPreference
+            android:entries="@array/dev_settings_server"
+            android:entryValues="@array/dev_settings_server_values"
+            android:key="dev_content_server"
+            android:title="Content Environment" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="dev_force_no_roles"
+            android:summary="When syncing role based content"
+            android:title="Force No Roles" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="dev_catalog_download_timeout_override"
+            android:title="Force 1 minute catalog update timeout" />
+
+        <EditTextPreference
+            android:defaultValue="0"
+            android:key="dev_catalog_version"
+            android:summary="Setting to 0 will ignore"
+            android:title="Override Online Catalog Version" />
+
+        <EditTextPreference
+            android:defaultValue="0"
+            android:key="dev_tips_version"
+            android:summary="Setting to 0 will ignore"
+            android:title="Override Online Tips Version" />
+
+        <EditTextPreference
+            android:key="dev_override_download_uri"
+            android:summary="Simulate bad redirects. Set to no text to disable."
+            android:title="Override download URI" />
+
+        <Preference
+            android:key="dev_account_scramble_password"
+            android:summary="Used to test expiring/changing password"
+            android:title="Scramble Password" />
+
+        <Preference
+            android:key="dev_test_sync_data"
+            android:summary="Test synced data for the currently logged in user"
+            android:title="Test Sync Data" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="direct_download"
+            android:summary="Directly download content instead of using Android System DownloadManager"
+            android:title="Direct Download" />
+    </PreferenceCategory>
+</PreferenceScreen>

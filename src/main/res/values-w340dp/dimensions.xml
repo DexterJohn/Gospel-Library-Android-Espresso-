@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Catalog Directory Sizes -->
+    <dimen name="catalog_card_width">120dp</dimen>
+    <dimen name="catalog_card_height">199dp</dimen>
+
+    <!-- Content Directory Sizes -->
+    <dimen name="content_card_width">120dp</dimen>
+    <dimen name="content_card_height">199dp</dimen>
+    <dimen name="content_card_image_height">80dp</dimen>
+    <dimen name="catalog_card_artwork_width">104dp</dimen>
+    <dimen name="catalog_card_artwork_height">143dp</dimen>
+
+    <!-- Tab Sizes -->
+    <dimen name="tab_card_width">168dp</dimen>
+    <dimen name="tab_thumb_height">160dp</dimen>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="@dimen/highlight_palette_item_size"
+                                             android:layout_height="@dimen/highlight_palette_item_size"
+    >
+
+    <View
+        android:id="@+id/backgroundView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/highlight_item_background"
+        android:visibility="gone"
+        tools:backgroundTint="@color/theme_light_highlight_blue"
+        tools:visibility="visible"
+        />
+
+    <ImageView
+        android:id="@+id/highlightStyleImageView"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/underlineView"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backgroundView"
+        app:srcCompat="@drawable/ic_highlight_style_a_24dp"
+        />
+
+    <View
+        android:id="@+id/underlineView"
+        android:layout_width="24dp"
+        android:layout_height="3dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="@color/theme_light_highlight_dark_blue"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,253 @@
+/* ===================================
+ * Custom Text Selection Color
+ * =================================== */
+::selection {
+    background-color: rgba(91, 195, 235, 0.5);
+}
+
+/* disable link touch styling */
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+* {
+    -webkit-focus-ring-color: rgba(0, 0, 0, 0);
+}
+
+div.ribbon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    -user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+div.ribbonDisplay {
+    position: absolute;
+    width: 0;
+    border-style: solid;
+    border-color: #c7c7c7;
+    border-bottom-color: transparent;
+    height: 6px;
+    top: 8px;
+    left: 7px;
+    border-width: 5px;
+    border-bottom-width: 4px;
+    -webkit-transition: border-color 1s ease;
+    -moz-transition: border-color 1s ease;
+    transition: border-color 1s ease;
+}
+
+body[data-scheme = 'sepia'] div.ribbonDisplay {
+    border-color: #b8aa93;
+    border-bottom-color: transparent;
+}
+
+body[data-scheme = 'night'] div.ribbonDisplay {
+    border-color: #424242;
+    border-bottom-color: transparent;
+}
+
+div.ribbonDisplayRed {
+    border-color: #ff0000;
+    border-bottom-color: transparent;
+}
+
+body[data-scheme = 'sepia'] div.ribbonDisplayRed {
+    border-color: #ff0000;
+    border-bottom-color: transparent;
+}
+
+body[data-scheme = 'night'] div.ribbonDisplayRed {
+    border-color: #ff0000;
+    border-bottom-color: transparent;
+}
+
+/* ===================================
+ * Annotation Sticky Markers (right margin)
+ * =================================== */
+div.hiddenElement {
+    display: none;
+}
+
+div.sticky {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+div.stickyDisambiguate {
+}
+
+div.stickyDisambiguateDisplay {
+    z-index: 15;
+    -webkit-transform: scale(2);
+}
+
+div.stickyRotate1 {
+    z-index: 12;
+    -webkit-transform: translate(0px, 0px);
+}
+
+div.stickyDisplay {
+    text-align: center;
+    position: relative;
+    top: 6px;
+    left: 8px;
+    width: 24px;
+    height: 24px;
+    -webkit-box-shadow: none;
+    background-image: none;
+    -webkit-user-select: none;
+}
+
+div.stickyNote {
+    background-image: url('../images/annotation_note.png');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+}
+
+div.stickyLink{
+    background-image: url('../images/annotation_link.png');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+}
+
+div.stickyTag{
+    background-image: url('../images/annotation_tag.png');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+}
+
+div.stickyNotebook{
+    background-image: url('../images/annotation_notebook.png');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+}
+
+
+/* ===================================
+ * Mark Elements
+ * used to highlight text or paragraphs
+ * when coming from a search or external
+ * link
+ * =================================== */
+@keyframes markFadeInDefault {
+    0% {
+        background-color: rgba(255, 184, 28, 0.88);
+    }
+}
+
+@keyframes markFadeInNight {
+    0% {
+        background-color: rgba(255, 184, 28, 0.32);
+    }
+}
+
+@keyframes markFadeInSepia {
+    0% {
+        background-color: rgba(246, 141, 46, 0.88);
+    }
+}
+
+@keyframes markFadeInDarkBlue {
+    0% {
+        background-color: rgba(125, 227, 244, 0.88);
+    }
+}
+
+
+
+/* ===================================
+ * Mark Text (find on page / keyword results / phrase results)
+ * =================================== */
+mark {
+    margin-left: -2px;
+    margin-right:-2px;
+    padding-right: 2px; /* offset margin */
+    padding-left: 2px; /* offset margin */
+    border-radius: 2px;
+
+    background-color: rgba(255, 184, 28, 0.32);
+}
+
+mark.selected {
+    background-color: rgba(255, 184, 28, 0.88);
+}
+
+body[data-scheme = 'night'] mark {
+    color: white;
+    background-color: rgba(255, 184, 28, 0.35);
+}
+
+body[data-scheme = 'night'] mark.selected {
+    color: white;
+    background-color: rgba(255, 184, 28, 0.60);
+}
+
+body[data-scheme = 'sepia'] mark {
+    background-color: rgba(255, 184, 28, 0.25);
+}
+
+body[data-scheme = 'sepia'] mark.selected {
+    background-color: rgba(255, 184, 28, 0.50);
+}
+
+body[data-scheme = 'darkBlue'] mark {
+    background-color: rgba(125, 227, 244, 0.32);
+}
+
+body[data-scheme = 'darkBlue'] mark.selected {
+    background-color: rgba(125, 227, 244, 0.88);
+}
+
+/* ===================================
+ * Mark Paragraph
+ * =================================== */
+.mark {
+    animation: markFadeInDefault 3s;
+    margin-left: -8px;
+    margin-right:-8px;
+    padding-right: 8px; /* offset margin */
+    padding-left: 8px; /* offset margin */
+    border-radius: 2px;
+
+    background-color: rgba(255, 184, 28, 0.32);
+}
+
+body[data-scheme = 'night'] .mark {
+    animation: markFadeInNight 3s;
+    background-color: rgba(255, 184, 28, 0.16);
+}
+
+body[data-scheme = 'sepia'] .mark {
+    animation: markFadeInSepia 3s;
+    background-color: rgba(246, 141, 46, 0.32);
+}
+
+body[data-scheme = 'darkBlue'] .mark {
+    animation: markFadeInDarkBlue 3s;
+    background-color: rgba(125, 227, 244, 0.32);
+}
+
+/* ===================================
+ * Bookmark Ribbon
+ * =================================== */
+.bookmarkHighlight {
+    margin-left: -0.15em;
+    margin-right: -0.15em;
+    padding-right: 0.15em;
+    padding-left: 0.15em;
+    border-radius: 0.1em;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+body[data-scheme = 'night'] .bookmarkHighlight {
+    background-color: rgba(255, 255, 255, 0.3);
+}

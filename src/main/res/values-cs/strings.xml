@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Přidat</string>
+    <string name="all">Vše</string>
+    <string name="app_name">Knihovna evangelia</string>
+    <string name="auto">Auto</string>
+    <string name="allow_in_app_notifications">Povolit upozornění v aplikaci</string>
+    <string name="exact_phrase">Přesný výraz</string>
+    <string name="keywords">Klíčová slova</string>
+    <string name="bookmark">Záložka</string>
+    <string name="cancel">Zrušit</string>
+    <string name="cancel_all">Zrušit vše</string>
+    <string name="content">Obsah</string>
+    <string name="copy">Kopírovat</string>
+    <string name="delete">Smazat</string>
+    <string name="define">Definice</string>
+    <string name="display">Zobrazení</string>
+    <string name="done">Hotovo</string>
+    <string name="download">Stáhnout</string>
+    <string name="download_all">Stáhnout vše</string>
+    <string name="download_item">Stáhnout položku</string>
+    <string name="feedback">Odeslat komentář</string>
+    <string name="keep">Ponechat</string>
+    <string name="library">Knihovna</string>
+    <string name="link">Odkaz</string>
+    <string name="links">Odkazy</string>
+    <string name="merge">Sloučit</string>
+    <string name="never">Nikdy</string>
+    <string name="no">Ne</string>
+    <string name="note">Poznámka</string>
+    <string name="none">Žádné</string>
+    <string name="ok">OK</string>
+    <string name="remove">Odstranit</string>
+    <string name="remove_all">Odstranit vše</string>
+    <string name="rename">Přejmenovat</string>
+    <string name="search">Vyhledat</string>
+    <string name="settings">Nastavení</string>
+    <string name="screen_settings">Nastavení obrazovek</string>
+    <string name="share">Sdílet</string>
+    <string name="skip">Přeskočit</string>
+    <string name="sort">Setřídit</string>
+    <string name="tag">Štítek</string>
+    <string name="tags">Štítky</string>
+    <string name="theme_default">Výchozí</string>
+    <string name="theme_night">Noční režim</string>
+    <string name="theme_sepia">Sépie</string>
+    <string name="theme_dark_blue">Tmavě modrá</string>
+    <string name="today">Dnes</string>
+    <string name="undo">Zpět</string>
+    <string name="update">Aktualizovat</string>
+    <string name="view">Zobrazit</string>
+    <string name="yes">Ano</string>
+    <string name="yesterday">Včera</string>
+    <!-- Other -->
+    <string name="add_bookmark">Přidat záložku</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Přidat štítek</string>
+    <string name="add_to">Přidat do</string>
+    <string name="add_to_ellipsis">Přidat do...</string>
+    <string name="add_to_notebook">Přidat do poznámkového bloku</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">Nelze zobrazit anotaci, protože položka „%s“ není nainstalována.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Klepnutím nainstalujete aktualizaci.</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">Je k dispozici aktualizace Knihovny evangelia.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Nastavení audia</string>
+    <string name="backup_annotations_message">Pokud se nepřihlásíte před příští aktualizací aplikace Knihovna evangelia, dojde ke ztrátě vašich osobních anotací (zvýraznění, poznámky, záložky atd.).</string>
+    <string name="backup_annotations_title">Zálohovat anotace</string>
+    <string name="bookmarks">Záložky</string>
+    <string name="bookmark_added">Záložka přidána</string>
+    <string name="bookmark_empty">Nepřidali jste žádné záložky.</string>
+    <string name="bookmark_updated">Záložka aktualizována</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Odeslat</string>
+    <string name="catalog_title">Katalog Knihovny evangelia</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Vyberte zvýraznění</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Vymazat stažené multimediální soubory</string>
+    <string name="clear_history">Vymazat historii</string>
+    <string name="content_no_content" comment="Shown in content drawer">Nelze zobrazit obsah, protože položka „%s“ není nainstalována.</string>
+    <string name="content_not_downloaded">Položka %s není stažena.</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Nepřetržité přehrávání</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Text byl zkopírován do schránky</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">Vytvořit položku „%s“</string>
+    <string name="current_downloads">Probíhající stahování</string>
+    <string name="custom_collections">Uživatelské sbírky</string>
+    <string name="delete_annotation_title">Odstranit anotaci</string>
+    <string name="delete_annotation_message">Odstraněny budou také veškeré poznámky, štítky nebo odkazy připojené k tomuto zvýrazněnému textu.</string>
+    <string name="delete_collection_item_title">Smazat položku „%1$s“?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">Počet souborů ke smazání: %s.\n\nSmazat všechny multimediální soubory?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">Nelze smazat všechny multimediální soubory</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">Počet souborů, které budou smazány z položky „%1$s“: %2$s.\n\nSmazat multimediální soubory?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Smazat multimediální soubory</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Smazat poznámkové bloky</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Smazat vybrané poznámkové bloky?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Smazat štítek</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Smazat štítky</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">Opravdu chcete odstranit tento štítek ze všech poznámek a zvýraznění?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">Opravdu chcete odstranit tyto štítky ze všech poznámek a zvýraznění?</string>
+    <string name="deleted">%s smazáno</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">Záložka %s smazána</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">Poznámkový blok %s smazán</string>
+    <string name="dialog_sign_out_confirmation">Opravdu se chcete odhlásit?</string>
+    <string name="double_tap_fullscreen_training">Tip: zobrazení na celou obrazovku vypnete dvojitým klepnutím na displej.</string>
+    <string name="download_audio" comment="download audio">Stáhnout audio</string>
+    <string name="download_all_selected_confirm">Počet položek ke stažení: %d.\n\nStáhnout vybrané položky?</string>
+    <string name="download_cancel_confirm_all">Všechna probíhající stahování budou zrušena.\n\nZrušit stahování?</string>
+    <string name="download_cancel">Zrušit stahování?</string>
+    <string name="download_canceling">Ruším stahování...</string>
+    <string name="download_item_message">Položka %s není nainstalována. Chcete ji nyní stáhnout?</string>
+    <string name="download_video" comment="download video">Stáhnout video</string>
+    <string name="downloaded_media">Stažené multimediální soubory</string>
+    <string name="downloading_ellipsis">Stahování…</string>
+    <string name="downloading_audio">Stahování audia k položce %s</string>
+    <string name="downloading_video">Stahování videa k položce %s</string>
+    <string name="download_file_failed_insufficient_space">Nepodařilo se stáhnout položku [%s].\nNedostatek místa.</string>
+    <string name="download_file_failed">Nepodařilo se stáhnout položku [%s].\nZkontrolujte internetové připojení a zkuste to znovu.</string>
+    <string name="download_dir_error">Nepodařilo se vytvořit adresář pro stahované soubory.</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">Název sbírky</string>
+    <string name="existing_annotations_prompt">Počet anotací na tomto zařízení: %d. Co chcete udělat s těmito stávajícími anotacemi?</string>
+    <string name="existing_annotations">Stávající anotace</string>
+    <string name="featured_apps">Další aplikace</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Žena</string>
+    <string name="finalizing_ellipsis">Dokončování…</string>
+    <string name="find_by_name">Najít podle názvu</string>
+    <string name="find_count">%1$d z %2$d</string>
+    <string name="find_x_on_page">Najít „%s“ na stránce</string>
+    <string name="find_x_in_x">Najít „%1$s“ v položce %2$s</string>
+    <string name="find_exact_x_in_x">Najít „%1$s“ v přesném znění v položce %2$s</string>
+    <string name="marked_text_position">%1$d z %2$d výsledků</string>
+    <string name="marked_text_position_no_results">0 výsledků</string>
+    <string name="sign_in_error" comment="Failed to login invalid username or password.">Chyba přihlášení</string>
+    <string name="highlight_style">Styl zvýraznění</string>
+    <string name="history">Historie</string>
+    <string name="history_cleared">Historie vymazána</string>
+    <string name="installing_ellipsis">Instalování…</string>
+    <string name="journal">Deník</string>
+    <string name="journal_restore">Obnovení deníku</string>
+    <string name="journal_create_notebook">Vytvořit poznámkový blok s názvem Deník</string>
+    <string name="journal_restore_description">Ačkoli sekce Deník byla odstraněna, vaše poznámky byly zachovány. Pokud chcete, můžeme všechny poznámky, které dříve byly v sekci Deník, přesunout do nového poznámkového bloku s názvem Deník.</string>
+    <string name="journal_restore_result">Obnovení deníku dokončeno. Počet přesunutých poznámek: %d.</string>
+    <string name="language">Jazyk</string>
+    <string name="lds_account_summary">K zálohování a synchronizaci anotací mezi vašimi zařízeními a stránkami LDS.org se používá účet LDS Account.</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">k místu %1$s</string>
+    <string name="loading_ellipsis">Nahrávání…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Muž</string>
+    <string name="mark" comment="Select highlight color">Označit</string>
+    <string name="media_type">Typ multimediálního souboru</string>
+    <string name="menu_new_screen">Nová obrazovka...</string>
+    <string name="merged_notebook_name_prompt">Vybrané poznámkové bloky budou sloučeny. Zadejte prosím název nového poznámkového bloku.</string>
+    <string name="merged_notebook_name">Název sloučeného poznámkového bloku</string>
+    <string name="merged_tag_name">Název sloučeného štítku</string>
+    <string name="move_to_notebook">Přesunout do poznámkového bloku</string>
+    <string name="my_collections">Mé sbírky</string>
+    <string name="network_required" comment="Not connected to any network">Tato volba vyžaduje připojení k internetu. Připojte se prosím k mobilní síti nebo přes Wi-Fi a zkuste to znovu.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">K provedení této volby musíte být podle svého nastavení připojeni k Wi-Fi.</string>
+    <string name="no_bookmarks">Žádné záložky</string>
+    <string name="no_bookmarks_description">Záložky slouží k tomu, abyste se rychle vrátili tam, kde jste skončili.</string>
+    <string name="no_content">Žádný obsah</string>
+    <string name="no_collection_content_description">Přidáním položek do sbírky k nim získáte snadný přístup.</string>
+    <string name="no_custom_collections">Žádné uživatelské sbírky</string>
+    <string name="no_custom_collections_description">Vytvořením uživatelských sbírek získáte snadný přístup k souvisejícím položkám.</string>
+    <string name="no_downloads_in_progress">Žádná probíhající stahování</string>
+    <string name="no_downloads_in_progress_description">Obsah a multimediální soubory, které se právě stahují</string>
+    <string name="no_downloaded_media">Žádné stažené multimediální soubory</string>
+    <string name="no_downloaded_media_description">Stažením audia a videa si budete moci tyto soubory přehrát i bez připojení k internetu</string>
+    <string name="no_history">Žádná historie</string>
+    <string name="no_history_description">Když procházíte jednotlivé položky, zde k nim najdete cestu a můžete se k nim vrátit.</string>
+    <string name="no_matches" comment="No results">Žádné výsledky</string>
+    <string name="no_matches_description">Pro tento konkrétní výraz nebyly nalezeny žádné výsledky.</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">Žádné poznámkové bloky</string>
+    <string name="no_notebooks_description">Zorganizujte si své poznámky vytvořením libovolného počtu poznámkových bloků.</string>
+    <string name="no_notes">Žádné poznámky</string>
+    <string name="no_notes_in_notebook">V tomto poznámkovém bloku nejsou žádné poznámky.</string>
+    <string name="no_notes_description">Uchovejte si své myšlenky a inspiraci zaznamenáním poznámek.</string>
+    <string name="no_related_content">Žádný související obsah</string>
+    <string name="no_related_content_description2">Nejsou k dispozici žádné poznámky pod čarou ani jiný související obsah.</string>
+    <string name="no_tags" comment="The message to show when there are no tags">Žádné štítky</string>
+    <string name="no_tags_description">Vytvořením štítku seskupíte obsah z libovolného místa v aplikaci.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">Žádný obsah se štítkem</string>
+    <string name="no_tagged_content_description">Přidejte štítek k libovolnému textu či položce, abyste ji mohli kdykoli v budoucnu najít.</string>
+    <string name="no_thanks">Ne, děkuji</string>
+    <string name="no_tips">Žádné tipy</string>
+    <string name="no_tips_description">Tipy vám ukazují užitečné funkce aplikace</string>
+    <string name="note_content">Obsah poznámky</string>
+    <string name="notebook">Poznámkový blok</string>
+    <string name="notebooks">Poznámkové bloky</string>
+    <string name="notes">Poznámky</string>
+    <string name="num_item_add_to">Počet položek přidaných k položce %2$s: %1$s</string>
+    <string name="num_item">Počet položek: %d</string>
+    <string name="num_items_add_to">Počet položek přidaných k položce %2$s: %1$s</string>
+    <string name="num_items">Počet položek: %d</string>
+    <string name="open">Otevřít</string>
+    <string name="open_in_music">Otevřít v aplikaci LDS Music</string>
+    <string name="open_in_new_screen">Otevřít v nové obrazovce</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Připnout postranní panel</string>
+    <string name="play_audio">Přehrát audio</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Rychlost přehrávání</string>
+    <string name="playback_speed_0.5x">0,5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1,25x</string>
+    <string name="playback_speed_1.5x">1,5x</string>
+    <string name="playback_speed_1.75x">1,75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Chcete-li opravit své uživatelské jméno nebo heslo, přihlaste se prosím znovu.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Spravovat nebo zobrazit stažené audio a videosoubory</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"… viz, já ti pravím, že malými a prostými věcmi se uskutečňují věci veliké; a malé prostředky v mnoha případech zahanbují moudré."</string>
+    <string name="pref_general_list_mode">Zobrazení v seznamu</string>
+    <string name="pref_hide_footnotes">Skrývat poznámky pod čarou</string>
+    <string name="pref_limit_mobile_network_subtitle">Stahovat a přehrávat pouze na Wi-Fi</string>
+    <string name="pref_limit_mobile_network">Omezit používání mobilní sítě</string>
+    <string name="pref_theme">Motiv</string>
+    <string name="problem_playing_video">Při přehrávání videa došlo k problému.</string>
+    <string name="read_more">Číst více</string>
+    <string name="recent" comment="label for study notebook">Nedávno</string>
+    <string name="related_content">Související obsah</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">Opravdu chcete odstranit vybrané položky?</string>
+    <string name="remove_from_collection">Odstranit ze sbírky</string>
+    <string name="rename_bookmark">Přejmenovat záložku</string>
+    <string name="rename_screen">Přejmenovat obrazovku</string>
+    <string name="requested_ellipsis">Požadavek odeslán…</string>
+    <string name="requested_paused_retry_ellipsis">Požadavek odeslán... (čeká se na opětovný pokus)</string>
+    <string name="requested_paused_network_ellipsis">Požadavek odeslán... (čeká se na síť)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">Počet výsledků: %d</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">Počet výsledků: %d</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">Počet výsledků pro položku %1$s: %2$d</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">Počet výsledků pro položku %1$s: %2$d</string>
+    <string name="save">Uložit</string>
+    <string name="screens">Obrazovky</string>
+    <string name="screen_missing_content">Dosud jste pro vybranou obrazovku nestáhli příslušný obsah.\n\nChcete obsah položky „%1$s“ stáhnout nyní?</string>
+    <string name="screens_separate_windows">Zobrazovat obrazovky jako samostatná okna</string>
+    <string name="search_all_content">Prohledávání veškerého obsahu</string>
+    <string name="search_for_links">Vyhledat klíčová slova, verše nebo názvy</string>
+    <string name="select_highlight">Vybrat zvýraznění</string>
+    <string name="select_items">Vybrat položky</string>
+    <string name="select_link">Vybrat odkaz</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Vyberte text k vytvoření odkazu</string>
+    <string name="selected_media_unavailable">Vybraný multimediální soubor není k dispozici.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Poslední synchronizace: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Setřídit podle počtu</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Setřídit od nejnovějších</string>
+    <string name="sort_by_name" comment="sort items by their name">Setřídit podle názvu</string>
+    <string name="sort_by_size" comment="sort media items">Setřídit podle velikosti</string>
+    <string name="sort_by_item" comment="sort media items">Setřídit podle položek</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Verze %s</string>
+    <string name="style">Styl</string>
+    <string name="sync_error_invalid_credentials">Neplatné uživatelské jméno/heslo</string>
+    <string name="sync_error_no_network">Není k dispozici připojení k internetu</string>
+    <string name="sync_notification_failure">Při synchronizaci anotací došlo k chybě</string>
+    <string name="sync_notification_gathering_changes">Shromažďování změn</string>
+    <string name="sync_notification_processing_changes">Zpracovávání změn</string>
+    <string name="sync_notification_receiving_changes">Přijímání změn</string>
+    <string name="sync_notification_receiving_update_list">Přijímám seznam aktualizací</string>
+    <string name="sync_notification_sending_changes">Odesílám změny</string>
+    <string name="sync_notification_sending_update_request">Odesílám požadavek na aktualizaci</string>
+    <string name="syncing_notebooks">Synchronizace poznámkových bloků</string>
+    <string name="syncing_annotations">Synchronizace anotací</string>
+    <string name="notification_channel_general">Obecná upozornění</string>
+    <string name="notification_channel_sync">Synchronizace anotací</string>
+    <string name="notification_channel_media_playback">Přehrávání multimediálních souborů</string>
+    <string name="text_size" comment="">Velikost textu</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Převod textu na řeč</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Nastavení převodu textu na řeč</string>
+    <string name="tips">Tipy</string>
+    <string name="title_optional">Název (volitelný)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Odepnout postranní panel</string>
+    <string name="update_catalog_wifi_required">Je k dispozici aktualizovaný obsah, ale k jeho stažení musíte být připojeni k Wi-Fi.</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">Upravit štítek</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Kvalita videa</string>
+    <string name="video_unavailable">Video není dostupné</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Hlavní hlas</string>
+    <string name="whats_new">Co je nového</string>
+</resources>

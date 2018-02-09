@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Faaopoopo</string>
+    <string name="all">Uma</string>
+    <string name="app_name">Potutusi o le Talalelei (Gospel Library)</string>
+    <string name="auto">Otometi</string>
+    <string name="allow_in_app_notifications">Faataga Faaaliga i le Polokalama</string>
+    <string name="exact_phrase">Fasifaitau e Sao Atoa</string>
+    <string name="keywords">Upu autu</string>
+    <string name="bookmark">Faailogatusi</string>
+    <string name="cancel">Faaleaoga</string>
+    <string name="cancel_all">Faaleaoga Uma</string>
+    <string name="content">Anotusi</string>
+    <string name="copy">Kopi</string>
+    <string name="delete">Tapēese</string>
+    <string name="define">Faamalamalama</string>
+    <string name="display">Faaali</string>
+    <string name="done">Uma</string>
+    <string name="download">Sii mai</string>
+    <string name="download_all">Sii Mai Mea Uma</string>
+    <string name="edit_note">Faafou Faamatalaga</string>
+    <string name="feedback">Manatu faaalia</string>
+    <string name="keep">Tausi</string>
+    <string name="library">Potutusi</string>
+    <string name="link">Sootaga</string>
+    <string name="links">Sootaga</string>
+    <string name="merge">Tuufaatasi</string>
+    <string name="never">Lei faia lava</string>
+    <string name="no">Leai</string>
+    <string name="note">Faamatalaga</string>
+    <string name="none">Leai se Mea</string>
+    <string name="ok">LELEI</string>
+    <string name="remove">Aveese</string>
+    <string name="remove_all">Aveese Uma</string>
+    <string name="rename">Toe Faaigoa</string>
+    <string name="search">Saili</string>
+    <string name="settings">Faatulagaga</string>
+    <string name="screen_settings">Faatulagaga o le Lau</string>
+    <string name="share">Faasoa atu</string>
+    <string name="skip">Sikipi</string>
+    <string name="sort">Faavasega</string>
+    <string name="tag">Faailoga</string>
+    <string name="tags">Faailoga</string>
+    <string name="theme_default">Tiumasani</string>
+    <string name="theme_night">Po</string>
+    <string name="theme_sepia">Sepia</string>
+    <string name="theme_dark_blue">Lanumoana Malosi</string>
+    <string name="today">Aso nei</string>
+    <string name="undo">Toe Faafoi i Tua</string>
+    <string name="update">Faafou</string>
+    <string name="view">Maimoa</string>
+    <string name="yes">Ioe</string>
+    <string name="yesterday">Ananafi</string>
+    <!-- Other -->
+    <string name="add_bookmark">Faaopoopo le Faailogatusi</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Faaopoopo le faailoga</string>
+    <string name="add_to">Faaopoopo i</string>
+    <string name="add_to_ellipsis">Faaopoopo I...</string>
+    <string name="add_to_notebook">Faaopoopo i le Api o Faamatalaga</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">E le mafai ona faaali atu le faamatalaga ona e lei faapipiia le “%s” .</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Oomi ia faapipii le faafouga.</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">Ua maua nei mea na toe faafou a le Potutusi o le Talalelei.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Faatulagaga o le Otio</string>
+    <string name="backup_annotations_message">O le le saini i totonu ao lei faia le isi faafouga o le polokalama o le Potutusi o le Talalelei o le a iu ai ina lei loloa ou faamatalaga patino (mea ua e faamamafaina, faamatalaga, faailogatusi, ma isi mea faapena).</string>
+    <string name="backup_annotations_title">Faamatalaga Faaleoleo</string>
+    <string name="bookmarks">Faailogatusi</string>
+    <string name="bookmark_added">Ua Faaopoopo Faailogatusi</string>
+    <string name="bookmark_empty">E te lei faaopoopoina ni faailogatusi</string>
+    <string name="bookmark_updated">Faafou le Faailogatusi</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Cast</string>
+    <string name="catalog_title">Lisi a le Potutusi o le Talalelei</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Filifili Mea na Faamamafa Atu</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Tapeese Ala o Faasalalauga na Sii Mai</string>
+    <string name="clear_history">Tapeese Talafaasolopito</string>
+    <string name="content_no_content" comment="Shown in content drawer">E le mafai ona faaali atu anotusi ona e lei faapipiiina le “%s”</string>
+    <string name="content_not_downloaded">e lei siiina mai %s.</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Faaauau ai Pea ona Taina</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Anotusi na Kopiina i Faila Kilipi</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">Fatu le “%s”</string>
+    <string name="current_downloads">Mea na Sii Mai i le Taimi Nei</string>
+    <string name="custom_collections">Faaputuga Masani</string>
+    <string name="delete_annotation_title">Aveese ia Faamatalaga</string>
+    <string name="delete_annotation_message">Soo se tusiga, faailoga, po o sootaga o loo faapipii atu i lenei mea ua faamamafaina o le a aveesea foi.</string>
+    <string name="delete_collection_item_title">Tapeese “%1$s”?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s o le a tapeese.\n\nTape ala o faasalalauga uma?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">Ua le mafai ona tape ala uma o faasalalauga.</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s o le a tapeese mai “%1$s”.\n\nTape ala o faasalalauga uma?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Tape Ala o Faasalalauga</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Tape Api o Faamatalaga</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Tape api o faamatalaga ua filifilia?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Tapē le Faailoga</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Tapeese Faailoga</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">E te mautinoa ua e manao e aveese lenei faailoga mai au faamatalaga ma mea uma ua e faamamafaina?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">E te mautinoa ua e manao e aveese nei faailoga mai faamatalaga ma mea uma ua e faamamafaina?</string>
+    <string name="deleted">%s Tapeese</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">ua tapeese le faailogatusi %s.</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">ua tape le api o faamatalaga %s.</string>
+    <string name="dialog_sign_out_confirmation">E te mautinoa ua e manao e saini e alu i fafo?</string>
+    <string name="double_tap_fullscreen_training">Motugaafa: oomi faalua le lau e aluese ai mai le tulaga o le lau atoa.</string>
+    <string name="download_audio" comment="download audio">Sii Mai le Otio</string>
+    <string name="download_all_selected_confirm">o le a siiina mai aitema %d.\n\nSii mai ia aitema ua filifilia?</string>
+    <string name="download_cancel_confirm_all">O le a faaleaogaina mea uma na siiina mai o i ai nei.\n\nFaaleaogaina mea na sii mai?</string>
+    <string name="download_cancel">Faaleaogaina Mea na Sii Mai</string>
+    <string name="download_canceling">Faaleaogaina mea na sii mai...</string>
+    <string name="download_item_message">e lei faapipiina le %s.  E te manao e sii mai i le taimi nei?</string>
+    <string name="download_video" comment="download video">Sii mai le Vitio</string>
+    <string name="downloaded_media">Sii Mai Faila o Ala o Faasalalauga</string>
+    <string name="downloading_ellipsis">Sii mai…</string>
+    <string name="downloading_audio">Siiina mai le otio mo %s</string>
+    <string name="downloading_video">Siiina mai le vitio mo %s</string>
+    <string name="download_file_failed_insufficient_space">E le mafai ona sii mai [%s].\n E le lava le avanoa.</string>
+    <string name="download_file_failed">E le mafai ona sii mai [%s].\nSiaki le fesootaiga o lau initoneti ma toe taumafai.</string>
+    <string name="download_dir_error">E lei manuia le fatuina o le tusi faasinoala na sii mai.</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">Igoa o le Faaputuga</string>
+    <string name="create_notebook" comment="prompt for the name of a new Notebook">Fatu se Api o Tusigamanatu</string>
+    <string name="existing_annotations_prompt">O loo i ai ni faamatalaga %d e lei sefeina. E mafai ona e tuufaatasia i au faamatalaga pe faaleaogaina.</string>
+    <string name="existing_annotations">Faamatalaga o I Ai Nei</string>
+    <string name="featured_apps">Polokalama ua Faaalia</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Tamaitai</string>
+    <string name="finalizing_ellipsis">Faamaeaina…</string>
+    <string name="find_by_name">Saili e ala i le igoa</string>
+    <string name="find_count">%1$d o le %2$d</string>
+    <string name="find_x_on_page">Saili “%s” i le itulau</string>
+    <string name="find_x_in_x">Saili “%1$s” i le %2$s</string>
+    <string name="find_exact_x_in_x">Saili le fasifuaitau sao atoa “%1$s” i le %2$s</string>
+    <string name="marked_text_position">%1$d o %2$d taunuuga</string>
+    <string name="marked_text_position_no_results">0 taunuuga</string>
+    <string name="highlight_style">Sitaili o Mea e Faamamafa</string>
+    <string name="history">Talafaasolopito</string>
+    <string name="history_cleared">Talafaasolopito ua Aveese</string>
+    <string name="installing_ellipsis">Faapipiiina…</string>
+    <string name="journal">Api o Talaaga</string>
+    <string name="journal_restore">Toefuata\'i le Api o Talaaga</string>
+    <string name="journal_create_notebook">Fatu se Api Talaaga mo Faamatalaga</string>
+    <string name="journal_restore_description">E ui ua aveese le vaega o talaaga, ae o loo faasaoina au faamatalaga. Afai e te manao ai, e mafai ona tatou aoina mai faamatalaga uma sa i ai talu ai nei i le vaega o talaaga ma tuu i totonu o le api o faamatalaga fou ua faaigoaina o le api o talaaga.</string>
+    <string name="journal_restore_result">Toefuata\'i le api talaaga ua maea. Ua aveesea faamatalaga %d.</string>
+    <string name="language">Gagana</string>
+    <string name="lds_account_summary">E faaaoga le Faitotoa a le AAG e sefe ma tuufaatasia ai au faamatalaga i masini ma le LDS.org.</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">i le %1$s</string>
+    <string name="loading_ellipsis">Sii…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Alii</string>
+    <string name="mark" comment="Select highlight color">Mareko</string>
+    <string name="media_type">ituaiga o ala o faasalalauga</string>
+    <string name="menu_new_screen">Lau Fou...</string>
+    <string name="merged_notebook_name_prompt">O le a tuufaatasia ia api o faamatalaga ua filifilia.  Faamolemole ta i totonu se igoa mo le api o faamatalaga.</string>
+    <string name="merged_notebook_name">Ua Tuufaatasia Igoa o le Api o Faamatalaga</string>
+    <string name="merged_tag_name">Ua Tuufaatasia Igoa o le Faailoga</string>
+    <string name="move_to_notebook">Mei i le Api o Faamatalaga</string>
+    <string name="my_collections">O A\'u Faaputuga</string>
+    <string name="network_required" comment="Not connected to any network">O lenei faatinoga e manaomia ai se fesootaiga faainitoneti. Faamolemole fesootai i se upegatafailagi feaveai po o le Wi-Fi ma toe taumafai mai.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">E tusa ai ma ou faatulagaga, e tatau ona e fesootai i le Wi-Fi e faatino ai lenei faatinoga.</string>
+    <string name="no_bookmarks">Leai ni Faailogatusi</string>
+    <string name="no_bookmarks_description">Faaopoopo le faailogatusi ia vave ai ona e toe foi i le mea sa e i ai.</string>
+    <string name="no_content">Leai Se Anotusi</string>
+    <string name="no_collection_content_description">Faaopoopo ia aitema i faaputuga e faigofie ai ona faaaoga.</string>
+    <string name="no_custom_collections">Leai ni Faaputuga Masani</string>
+    <string name="no_custom_collections_description">Fatu ni faaputuga masani ina ia faigofie ai ona faaaoga aitema e fesootai i ai.</string>
+    <string name="no_downloads_in_progress">Leai ni Mea na Sii Mai o loo Faagasolo</string>
+    <string name="no_downloads_in_progress_description">O loo sii mai i le taimi nei ia anotusi ma ala o faasalalauga</string>
+    <string name="no_downloaded_media">Leai ni Ala o Faasalalauga o Sii Mai</string>
+    <string name="no_downloaded_media_description">Sii mai le otio po o le vitio mo le faaaogaina e aunoa ma le initoneti</string>
+    <string name="no_history">Leai se Talafaasolopito</string>
+    <string name="no_history_description">Saili i le anotusi, sue lou auala, ma toe foi i ai.</string>
+    <string name="no_matches" comment="No results">Leai ni Taunuuga</string>
+    <string name="no_matches_description">Leai ni taunuuga mo le sailiga faapitoa</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">Leai ni Api o Faamatalaga</string>
+    <string name="no_notebooks_description">Fatu ni api o faamatalaga e ao mai ma faatulaga au faamatalaga mo lauga, lesona, ma suesuega a le tagata lava ia.</string>
+    <string name="no_notes">Leai ni Faamatalaga</string>
+    <string name="no_notes_in_notebook">Leai ni Faamatalaga i lenei Api o Faamatalaga</string>
+    <string name="no_notes_description">Faamaumau ia faamatalaga e teuina ai ou manatu ma uunaiga.</string>
+    <string name="no_related_content">Leai se Anotusi e Fesootai I Ai</string>
+    <string name="no_related_content_description2">Leai ni vaefaamatalaga po o nisi anotusi e fesootai i ai o loo maua</string>
+    <string name="no_tags" comment="The message to show when there are no tags">Leai ni Faailoga</string>
+    <string name="no_tags_description">Fatu se faailoga e tuuvaega ai anotusi mai soo se mea i le polokalama.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">Leai se Anotusi ua Faailogaina</string>
+    <string name="no_tagged_content_description">Faapipii se faailoga i soo se vaega o le anotusi e faasino i ai i le lumanai.</string>
+    <string name="no_thanks">Leai Faafetai</string>
+    <string name="no_tips">Leai ni Motugaafa</string>
+    <string name="no_tips_description">O motugaafa e faaali atu ia te outou le aoga o le faatinoga o le polokalama</string>
+    <string name="note_content">Manatua le Anotusi</string>
+    <string name="notebook">Api o Faamatalaga</string>
+    <string name="notebooks">Tusigamanatu</string>
+    <string name="notes">Faamatalaga</string>
+    <string name="num_item_add_to">ua faaopoopo le aitema %1$s i le %2$s</string>
+    <string name="num_item">aitema %d</string>
+    <string name="num_items_add_to">ua faaopoopo ia aitema %1$s i le %2$s</string>
+    <string name="num_items">aitema %d</string>
+    <string name="open">Tatala</string>
+    <string name="open_in_music">Tatala i le LDS Musika</string>
+    <string name="open_in_new_screen">Tatala i se Lau Fou</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Pin Sidebar</string>
+    <string name="play_audio">Ta le Otio</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Saoasaoa o le Toe Taina</string>
+    <string name="playback_speed_0.5x">0.5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1.25x</string>
+    <string name="playback_speed_1.5x">1.5x</string>
+    <string name="playback_speed_1.75x">1.75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Sese le tuufaatasiga o le igoa faaaoga ma le uputatala. Faamolemole toe siaki lou igoa faaaoga ma le upu tatala.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Faatautaia pe maimoa i le otio ma le vitio na sii mai.</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"ae faauta ou te fai atu ia te oe, o mea laiti ma faatauvaa e faataunuu ai mea tetele; ma o auala laiti i le tele o taimi, e faamaasiasia ai e popoto..."</string>
+    <string name="pref_general_list_mode">Faiga o Lisi</string>
+    <string name="pref_hide_footnotes">Nana Vaefaamatalaga</string>
+    <string name="pref_limit_mobile_network_subtitle">Na o Mea e Sii Mai ma Mea e Maua i le Wi-Fi</string>
+    <string name="pref_limit_mobile_network">Faatapulaa le Faaaogaina o Upegatafailiga Feaveai</string>
+    <string name="pref_theme">Autu</string>
+    <string name="problem_playing_video">Sa i ai se faaletonu a\'o taina le vitio.</string>
+    <string name="read_more">Faitau Atili</string>
+    <string name="recent" comment="label for study notebook">Talu ai Nei</string>
+    <string name="related_content">Anotusi e Fesootai I Ai</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">E te mautinoa ua e manao e aveese ia aitema na filifilia?</string>
+    <string name="remove_from_collection">Aveese mai le Faaputuga</string>
+    <string name="rename_bookmark">Toe Faaioga Faailogatusi</string>
+    <string name="rename_screen">Toe Faaigoa le Lau</string>
+    <string name="requested_ellipsis">O Loo Talosagaina…</string>
+    <string name="requested_paused_retry_ellipsis">Talosagaina...(faatali mo le toe taumafai)</string>
+    <string name="requested_paused_network_ellipsis">Talosagaina...(faatali mo le upegatafailagi)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d taunuuga</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d taunuuga</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s - %2$d taunuuga</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s - %2$d taunuuga</string>
+    <string name="save">Sefe</string>
+    <string name="screens">Lau</string>
+    <string name="screen_missing_content">E te lei sii maia le anotusi mo le lau ua filifilia.\n\nE te manao e sii mai le anotusi mo “%1$s” i le taimi nei?</string>
+    <string name="screens_separate_windows">O Loo Faaali mai Lau o ni Faamalama Eseese</string>
+    <string name="search_for_links">Saili mo upu autu, fuaiupu, po o ulutala.</string>
+    <string name="select_highlight">Filifili Mea e Faamamafa</string>
+    <string name="select_items">Filifili ia Aitema</string>
+    <string name="select_link">Filifili le Sootaga</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Filifili Fasifuaitau e Fesootai</string>
+    <string name="selected_media_unavailable">E le o maua le ala o faasalalauga ua filifilia.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Faalaugatasia Mulimuli: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Faavasegaga e ala i le Faitau</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Faavasega e ala i le Taimi Sili ona Lata Mai</string>
+    <string name="sort_by_name" comment="sort items by their name">Faavasega e ala i Igoa</string>
+    <string name="sort_by_size" comment="sort media items">Faavasega e ala i le Telē</string>
+    <string name="sort_by_item" comment="sort media items">Faavasega e ala i Aitema</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Lomiga %s</string>
+    <string name="style">Sitaili</string>
+    <string name="sync_error_invalid_credentials">Le Toe Faaaogaina le Igoa Faaaoga/Uputatala</string>
+    <string name="sync_error_no_network">E le o maua le upegatafailagi o fesootaiga</string>
+    <string name="sync_notification_failure">Le Manuia le Tuufaatasiga</string>
+    <string name="sync_notification_gathering_changes">Aoina Mai o Suiga</string>
+    <string name="sync_notification_processing_changes">Faagasologa o Suiga</string>
+    <string name="sync_notification_receiving_changes">Mauaina o Suiga</string>
+    <string name="sync_notification_receiving_update_list">Mauina o se Lisi ua Toe Faafou</string>
+    <string name="sync_notification_sending_changes">Auina Atu o Suiga</string>
+    <string name="sync_notification_sending_update_request">Auina Atu o Talosaga ua Toe Faafou</string>
+    <string name="syncing_notebooks">Faalaugatasia o Api o Faamatalaga</string>
+    <string name="syncing_annotations">Faalaugatasia o Faamatalaga...</string>
+    <string name="notification_channel_general">Faaaliga Lautele</string>
+    <string name="notification_channel_sync">Faalaugatasia Faamatalaga</string>
+    <string name="notification_channel_media_playback">Toe Taina o Ala o Faasalalauga</string>
+    <string name="text_size" comment="">Telē o Upu</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Upu i le tautala</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Faatulagaga o Upu i le tautala</string>
+    <string name="tips">Motugaafa</string>
+    <string name="title_optional">Ulutala (Tuu i le Faitalia)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Unpin Sidebar</string>
+    <string name="update_catalog_wifi_required">Ua maua anotusi ua toe faafou, ae e tatau ona e fesootai i le Wi-Fi e sii mai ai.</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Tulaga Lelei o le Vitio</string>
+    <string name="video_unavailable">E Le Maua le Vitio</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Leo Autu</string>
+    <string name="whats_new">O Le A Se Mea Fou</string>
+</resources>

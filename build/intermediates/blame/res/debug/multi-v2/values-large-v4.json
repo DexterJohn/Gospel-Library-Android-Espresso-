@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/67d4e4f830c482351279f7ee9e3bad7a/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,908,1012",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,1007,1123"
+                    }
+                },
+                {
+                    "source": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/res/values-large/dimensions.xml",
+                    "from": {
+                        "startLines": "8,4,5,11,12",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "302,136,195,389,452",
+                        "endColumns": "62,58,68,62,62",
+                        "endOffsets": "360,190,259,447,510"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,13,14",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "532,595,654,782,845",
+                        "endColumns": "62,58,68,62,62",
+                        "endOffsets": "590,649,718,840,903"
+                    }
+                },
+                {
+                    "source": "/Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/commons-0.9.6.0.aar/afeaaf112cd57adb5080adf3bec85283/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "723",
+                        "endColumns": "58",
+                        "endOffsets": "777"
+                    }
+                }
+            ]
+        }
+    ]
+}

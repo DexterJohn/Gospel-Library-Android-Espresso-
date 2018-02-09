@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string translatable="false" name="chromecast_app_id">58873D8A</string>
+    <string translatable="false" name="localytics_key">6cbc41ddab16eca862898e0-c9dc8d92-cc1a-11e3-99e0-005cf8cbabd8</string>
+    <string translatable="false" name="facebook_app_id">1450355775239261</string>
+</resources>

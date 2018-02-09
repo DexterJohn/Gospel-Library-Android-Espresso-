@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colors for the Light theme -->
+<resources>
+    <color name="theme_light_primary">#29343c</color>
+    <color name="theme_light_primary_dark">#20292F</color>
+    <color name="theme_light_accent">#eb9c00</color>
+    <color name="theme_light_accent_dim">#33eb9c00</color>
+
+    <color name="theme_light_background">@color/white</color>
+    <color name="theme_light_background_dim">@color/gray_03</color>
+
+    <color name="theme_light_main_content_background">@color/theme_light_background</color>
+    <color name="theme_light_sidebar_content_background">@color/theme_light_background_card</color>
+
+    <color name="theme_light_background_dialog">@color/onyx_05</color>
+    <color name="theme_light_background_menu">@color/onyx_05</color>
+
+    <color name="theme_light_background_card">@color/onyx_05</color>
+    <color name="theme_light_background_card_note">@color/white</color>
+
+    <color name="theme_light_filter_background">@color/onyx_05</color>
+
+    <color name="theme_light_toolbar_icon">@color/white</color>
+    <color name="theme_light_toolbar_icon_dim">@color/graphite</color>
+    <color name="theme_light_toolbar_icon_dim_disabled">@color/onyx_80</color>
+    <color name="theme_light_toolbar_action_mode_icon">@color/black_125</color>
+
+    <color name="theme_light_background_action_mode">#f4f4f4</color>
+
+    <color name="theme_light_side_bar_toolbar_background">#323C44</color>
+    <color name="theme_light_side_bar_reference_background">@color/gray_03</color>
+
+    <color name="theme_light_catalog_grid_title">@color/text_120</color>
+    <color name="theme_light_catalog_grid_summary">@color/onyx_80</color>
+    <color name="theme_light_catalog_item_background">#F1F1F1</color>
+
+    <color name="theme_light_item_title">@color/text_120</color>
+    <color name="theme_light_item_sub_title">@color/onyx_80</color>
+
+    <color name="theme_light_text_normal">@color/text_120</color>
+    <color name="theme_light_text_secondary">@color/onyx_80</color>
+    <color name="theme_light_text_hint">@color/onyx_60</color>
+
+    <color name="theme_light_widget_playback_controls_background">#CC000000</color>
+
+    <color name="theme_light_link_icon">@color/theme_light_accent</color>
+
+    <color name="theme_light_find_on_page_background">#64eb9c00</color>
+    <color name="theme_light_find_on_page_icon">@color/theme_light_text_normal</color>
+
+    <!-- Highlight Colors:
+         these values are also defined in the HighlightColorUtil.java and in android_main.css
+    -->
+    <color name="theme_light_highlight_red">#22FE4F66</color>
+    <color name="theme_light_highlight_red_underline">#FE4F66</color>
+
+    <color name="theme_light_highlight_orange">#27FE9829</color>
+    <color name="theme_light_highlight_orange_underline">#FE9829</color>
+
+    <color name="theme_light_highlight_yellow">#32FCDB3B</color>
+    <color name="theme_light_highlight_yellow_underline">#FCDB3B</color>
+
+    <color name="theme_light_highlight_green">#27A9D527</color>
+    <color name="theme_light_highlight_green_underline">#A9D527</color>
+
+    <color name="theme_light_highlight_blue">#2410D9E1</color>
+    <color name="theme_light_highlight_blue_underline">#10D9E1</color>
+
+    <color name="theme_light_highlight_dark_blue">#252596FF</color>
+    <color name="theme_light_highlight_dark_blue_underline">#2596FF</color>
+
+    <color name="theme_light_highlight_purple">#209D53FE</color>
+    <color name="theme_light_highlight_purple_underline">#9D53FE</color>
+
+    <color name="theme_light_highlight_pink">#24F85BEA</color>
+    <color name="theme_light_highlight_pink_underline">#F85BEA</color>
+
+    <color name="theme_light_highlight_brown">#24CD7D5A</color>
+    <color name="theme_light_highlight_brown_underline">#CD7D5A</color>
+
+    <color name="theme_light_highlight_gray">#30AEB8C1</color>
+    <color name="theme_light_highlight_gray_underline">#AEB8C1</color>
+</resources>

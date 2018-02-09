@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="16dp"
+    >
+
+    <TextView
+        android:id="@+id/titleTextView"
+        style="?attr/themeStyleWidgetText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/colorAccent"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        tools:text="2 Nephi 11:3"
+        />
+
+    <TextView
+        android:id="@+id/subTitleTextView"
+        style="?attr/themeStyleWidgetTextSubtle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:paddingBottom="8dp"
+        tools:text="Book of Mormon"
+        />
+
+    <org.lds.ldssa.ui.widget.ContentExpandableLayout
+        android:id="@+id/expandableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:maxCollapsedHeight="160dp"
+        app:content="@+id/contentWebView"
+        app:handle="@+id/expandTextView"
+        app:isviewgroup="true"
+        >
+
+        <include layout="@layout/content_webview"/>
+
+        <TextView
+            android:id="@+id/expandTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/read_more"
+            android:textColor="?attr/colorAccent"
+            android:textSize="12sp"
+            android:visibility="gone"
+            tools:visibility="visible"
+            />
+    </org.lds.ldssa.ui.widget.ContentExpandableLayout>
+
+    <TextView
+        android:id="@+id/messageTextView"
+        style="?attr/themeStyleWidgetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:text="Content is not available"
+        tools:visibility="visible"
+        />
+</LinearLayout>

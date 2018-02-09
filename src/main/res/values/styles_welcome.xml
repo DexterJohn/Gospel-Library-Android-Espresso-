@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Styles to use for the Welcome theme -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme.Welcome" parent="AppTheme.Light">
+        <item name="colorPrimary">@color/theme_welcome_primary</item>
+        <item name="colorPrimaryDark">@color/theme_welcome_primary_dark</item>
+        <item name="colorAccent">@color/theme_welcome_accent</item>
+
+        <item name="signinBackgroundColor">@color/theme_welcome_accent</item>
+        <item name="signinTextColor">@color/white</item>
+        <item name="signinHintTextColor">@color/theme_welcome_hint</item>
+        <item name="signinButtonBackgroundColor">@color/white</item>
+        <item name="signinButtonTextColor">@color/theme_welcome_accent</item>
+        <item name="signinLinkTextColor">@color/white</item>
+
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/theme_welcome_primary_dark</item>
+    </style>
+
+    <style name="AppTheme.Welcome.Widget.Toolbar" parent="AppTheme.Light.Widget.Toolbar">
+        <item name="android:background">@color/theme_welcome_accent</item>
+        <item name="background">@color/theme_welcome_accent</item>
+    </style>
+
+</resources>

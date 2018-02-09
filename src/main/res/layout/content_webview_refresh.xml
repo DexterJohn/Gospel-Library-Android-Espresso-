@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <org.lds.ldssa.ui.web.ContentWebView
+        android:id="@+id/contentWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:scrollbarStyle="insideOverlay">
+
+        <ImageView
+            android:id="@+id/left_select_handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="30dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_selection_handle_left"/>
+
+        <ImageView
+            android:id="@+id/right_select_handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="4dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_selection_handle_right"/>
+
+    </org.lds.ldssa.ui.web.ContentWebView>
+</android.support.v4.widget.SwipeRefreshLayout>

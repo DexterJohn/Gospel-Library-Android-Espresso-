@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/notebooksRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/fab_list_bottom_padding"
+            android:paddingTop="72dp"
+            android:scrollbars="vertical"/>
+
+        <FrameLayout
+            android:id="@+id/filterContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/themeStyleColorListBackground">
+
+            <org.lds.mobile.ui.widget.input.ListFilterEditText
+                android:id="@+id/notebooksListFilterEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="?attr/themeStyleColorBackgroundFilterInput"
+                android:elevation="4dp"
+                app:inputHint="@string/find_by_name"/>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/filterContainer">
+
+
+            <org.lds.mobile.ui.widget.EmptyStateIndicator
+                android:id="@+id/emptyStateIndicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                app:image="@drawable/ic_lds_notebook_80dp"
+                app:imageTint="?attr/emptyStateImageColor"
+                app:subTitle="@string/no_notebooks_description"
+                app:subTitleTextColor="?attr/emptyStateSubTitleColor"
+                app:title="@string/no_notebooks"
+                app:titleTextColor="?attr/emptyStateTitleColor"
+                android:visibility="gone"
+                />
+
+            <org.lds.ldssa.ui.widget.LoadingView
+                android:id="@+id/notesLoadingView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/loading_ellipsis"
+                android:visibility="visible"
+                tools:visibility="visible"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Legg til</string>
+    <string name="all">Alle</string>
+    <string name="app_name">Gospel Library</string>
+    <string name="auto">Automatisk</string>
+    <string name="allow_in_app_notifications">Tillat varslinger i appen</string>
+    <string name="exact_phrase">Identisk uttrykk</string>
+    <string name="keywords">Nøkkelord</string>
+    <string name="bookmark">Bokmerke</string>
+    <string name="cancel">Avbryt</string>
+    <string name="cancel_all">Avbryt alt</string>
+    <string name="content">Innhold</string>
+    <string name="copy">Kopiér</string>
+    <string name="delete">Slett</string>
+    <string name="define">Definér</string>
+    <string name="display">Skjerm</string>
+    <string name="done">Ferdig</string>
+    <string name="download">Last ned</string>
+    <string name="download_all">Last ned alle</string>
+    <string name="download_item">Last ned element</string>
+    <string name="feedback">Tilbakemelding</string>
+    <string name="keep">Behold</string>
+    <string name="library">Bibliotek</string>
+    <string name="link">Koble</string>
+    <string name="links">Koblinger</string>
+    <string name="merge">Slå sammen</string>
+    <string name="never">Aldri</string>
+    <string name="no">Nei</string>
+    <string name="note">Notat</string>
+    <string name="none">Ingen</string>
+    <string name="ok">OK</string>
+    <string name="remove">Fjern</string>
+    <string name="remove_all">Fjern alle</string>
+    <string name="rename">Endre navn</string>
+    <string name="search">Søk</string>
+    <string name="settings">Innstillinger</string>
+    <string name="screen_settings">Skjerminnstillinger</string>
+    <string name="share">Del</string>
+    <string name="skip">Hopp over</string>
+    <string name="sort">Sortér</string>
+    <string name="tag">Etikett</string>
+    <string name="tags">Etiketter</string>
+    <string name="theme_default">Standardinnstilling</string>
+    <string name="theme_night">Natt</string>
+    <string name="theme_sepia">Sepia</string>
+    <string name="theme_dark_blue">Mørkeblå</string>
+    <string name="today">I dag</string>
+    <string name="undo">Angre</string>
+    <string name="update">Oppdatér</string>
+    <string name="view">Se på</string>
+    <string name="yes">Ja</string>
+    <string name="yesterday">I går</string>
+    <!-- Other -->
+    <string name="add_bookmark">Legg til bokmerke</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Legg til etikett</string>
+    <string name="add_to">Legg til</string>
+    <string name="add_to_ellipsis">Legg til…</string>
+    <string name="add_to_notebook">Legg til i notatbok</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">Kan ikke vise merknaden fordi “%s” ikke er installert.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Trykk for å installere oppdateringen.</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">En Gospel Library-oppdatering er tilgjengelig.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Lydinnstillinger</string>
+    <string name="backup_annotations_message">Hvis du ikke logger på før neste oppdatering av Gospel Library-appen, vil det føre til tap av dine personlige merknader (uthevelser, notater, bokmerker og så videre).</string>
+    <string name="backup_annotations_title">Sikkerhetskopiér merknader</string>
+    <string name="bookmarks">Bokmerker</string>
+    <string name="bookmark_added">Bokmerke lagt til</string>
+    <string name="bookmark_empty">Du har ikke lagt til noen bokmerker.</string>
+    <string name="bookmark_updated">Bokmerke oppdatert</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Cast</string>
+    <string name="catalog_title">Gospel Library-katalog</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Velg markering</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Fjern nedlastede medier</string>
+    <string name="clear_history">Slett logg</string>
+    <string name="content_no_content" comment="Shown in content drawer">Kan ikke vise innhold fordi “%s” ikke er installert</string>
+    <string name="content_not_downloaded">%s er ikke nedlastet.</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Kontinuerlig avspilling</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Tekst kopiert til utklippstavlen</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">Opprett “%s”</string>
+    <string name="current_downloads">Pågående nedlastinger</string>
+    <string name="custom_collections">Egendefinerte samlinger</string>
+    <string name="delete_annotation_title">Fjern merknad</string>
+    <string name="delete_annotation_message">Notater, etiketter eller koblinger knyttet til denne markeringen vil også bli fjernet.</string>
+    <string name="delete_collection_item_title">Slett “%1$s”?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s vil bli slettet.\n\nSlett alle medier?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">Kan ikke slette alle medier</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s vil bli slettet fra “%1$s”.\n\nSlett medier?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Slett medier</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Slett notatbøker</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Slett valgte notatbøker?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Slett etikett</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Slett etiketter</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">Er du sikker på at du vil fjerne denne etiketten fra alle notater og markeringer?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">Er du sikker på at du vil fjerne disse etikettene fra alle notater og markeringer?</string>
+    <string name="deleted">%s slettet</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">%s bokmerker slettet</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">%s notatbok slettet</string>
+    <string name="dialog_sign_out_confirmation">Er du sikker på at du vil logge ut?</string>
+    <string name="double_tap_fullscreen_training">Tips: Dobbelttrykk lett på skjermen for å gå ut av fullskjermmodus.</string>
+    <string name="download_audio" comment="download audio">Last ned lyd</string>
+    <string name="download_all_selected_confirm">%d elementer vil bli lastet ned.\n\nLast ned valgte elementer?</string>
+    <string name="download_cancel_confirm_all">Alle aktuelle nedlastinger vil bli avbrutt.\n\nAvbryte nedlastinger?</string>
+    <string name="download_cancel">Avbryte nedlasting?</string>
+    <string name="download_canceling">Avbryter nedlasting…</string>
+    <string name="download_item_message">%s er ikke installert. Vil du laste den ned nå?</string>
+    <string name="download_video" comment="download video">Last ned video</string>
+    <string name="downloaded_media">Nedlastede medier</string>
+    <string name="downloading_ellipsis">Laster ned…</string>
+    <string name="downloading_audio">Laster ned lyd til %s</string>
+    <string name="downloading_video">Laster ned video til %s</string>
+    <string name="download_file_failed_insufficient_space">Kunne ikke laste ned [%s].\nIkke tilstrekkelig plass.</string>
+    <string name="download_file_failed">Kunne ikke laste ned [%s].\nKontrollér Internettforbindelsen og prøv på nytt.</string>
+    <string name="download_dir_error">Kunne ikke opprette nedlastingskatalog.</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">Navn på samling</string>
+    <string name="existing_annotations_prompt">%d merknad(er) finnes allerede på enheten. Hva vil du gjøre med eksisterende merknad(er)?</string>
+    <string name="existing_annotations">Eksisterende merknader</string>
+    <string name="featured_apps">Utvalgte apper</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Kvinne</string>
+    <string name="finalizing_ellipsis">Fullfører…</string>
+    <string name="find_by_name">Søk på navn</string>
+    <string name="find_count">%1$d av %2$d</string>
+    <string name="find_x_on_page">Finn “%s” på siden</string>
+    <string name="find_x_in_x">Finn “%1$s” i %2$s</string>
+    <string name="find_exact_x_in_x">Finn identisk uttrykk “%1$s” i %2$s</string>
+    <string name="marked_text_position">%1$d av %2$d resultater</string>
+    <string name="marked_text_position_no_results">0 resultater</string>
+    <string name="sign_in_error" comment="Failed to login invalid username or password.">Innloggingsfeil</string>
+    <string name="highlight_style">Markeringsstil</string>
+    <string name="history">Logg</string>
+    <string name="history_cleared">Logg slettet</string>
+    <string name="installing_ellipsis">Installerer…</string>
+    <string name="journal">Dagbok</string>
+    <string name="journal_restore">Gjenopprett dagbok</string>
+    <string name="journal_create_notebook">Opprett dagbok</string>
+    <string name="journal_restore_description">Selv om dagbokdelen har blitt fjernet, er notatene dine blitt bevart. Hvis du ønsker kan vi samle alle notatene som var i den forrige dagbokdelen og legge dem i en ny notatbok under Dagbok.</string>
+    <string name="journal_restore_result">Gjenoppretting av Dagbok er fullført. %d notater er flyttet.</string>
+    <string name="language">Språk</string>
+    <string name="lds_account_summary">En LDS-konto blir brukt til å sikkerhetskopiere og synkronisere dine merknader på flere enheter og på LDS.org.</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">til %1$s</string>
+    <string name="loading_ellipsis">Laster…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Mann</string>
+    <string name="mark" comment="Select highlight color">Markér</string>
+    <string name="media_type">Medietype</string>
+    <string name="menu_new_screen">Nytt skjermbilde…</string>
+    <string name="merged_notebook_name_prompt">De valgte notatbøkene vil bli slått sammen. Vennligst skriv inn et navn på den nye notatboken.</string>
+    <string name="merged_notebook_name">Navnet på sammenslått notatbok</string>
+    <string name="merged_tag_name">Navnet på sammenslått etikett</string>
+    <string name="move_to_notebook">Flytt til notatbok</string>
+    <string name="my_collections">Mine samlinger</string>
+    <string name="network_required" comment="Not connected to any network">Denne handlingen krever tilkobling til Internett. Vennligst koble til et mobilt eller trådløst nettverk og prøv igjen.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">Basert på innstillingene dine, må du være koblet til et trådløst nettverk for å foreta denne handlingen.</string>
+    <string name="no_bookmarks">Ingen bokmerker</string>
+    <string name="no_bookmarks_description">Legg til et bokmerke for å raskt komme tilbake til der du sluttet.</string>
+    <string name="no_content">Intet innhold</string>
+    <string name="no_collection_content_description">Legg til elementer til samlingen for lett tilgang</string>
+    <string name="no_custom_collections">Ingen egendefinerte samlinger</string>
+    <string name="no_custom_collections_description">Lag egendefinerte samlinger for å lett ha tilgang til beslektede elementer.</string>
+    <string name="no_downloads_in_progress">Ingen nedlastinger pågår</string>
+    <string name="no_downloads_in_progress_description">Innhold og medier som lastes ned nå</string>
+    <string name="no_downloaded_media">Ingen nedlastede medier</string>
+    <string name="no_downloaded_media_description">Last ned lyd eller video til offline avspilling</string>
+    <string name="no_history">Ingen logg</string>
+    <string name="no_history_description">Utforsk innhold, finn din vei og gå tilbake til den.</string>
+    <string name="no_matches" comment="No results">Ingen resultater</string>
+    <string name="no_matches_description">Ingen resultater for dette konkrete søket</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">Ingen notatbøker</string>
+    <string name="no_notebooks_description">Opprett så mange notatbøker du ønsker for å organisere alle notatene dine.</string>
+    <string name="no_notes">Ingen notater</string>
+    <string name="no_notes_in_notebook">Ingen notater i denne notatboken</string>
+    <string name="no_notes_description">Skriv notater for å ta vare på tanker og inspirasjoner.</string>
+    <string name="no_related_content">Intet beslektet innhold</string>
+    <string name="no_related_content_description2">Ingen fotnoter eller annet beslektet innhold tilgjengelig</string>
+    <string name="no_tags" comment="The message to show when there are no tags">Ingen etiketter</string>
+    <string name="no_tags_description">Lag en etikett for å gruppere innhold fra hvor som helst i appen.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">Intet innhold merket med etikett</string>
+    <string name="no_tagged_content_description">Fest en etikett på hvilket som helst innhold som fremtidig referanse.</string>
+    <string name="no_thanks">Nei takk</string>
+    <string name="no_tips">Intet tips</string>
+    <string name="no_tips_description">Tips viser nyttig funksjonalitet i appen</string>
+    <string name="note_content">Notatinnhold</string>
+    <string name="notebook">Notatbok</string>
+    <string name="notebooks">Notatbøker</string>
+    <string name="notes">Notater</string>
+    <string name="num_item_add_to">%1$s element er lagt til %2$s</string>
+    <string name="num_item">%d element</string>
+    <string name="num_items_add_to">%1$s elementer er lagt til %2$s</string>
+    <string name="num_items">%d elementer</string>
+    <string name="open">Åpne</string>
+    <string name="open_in_music">Åpne i SDH Musikk</string>
+    <string name="open_in_new_screen">Åpne i nytt skjermbilde</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Fest sidepanelet</string>
+    <string name="play_audio">Spill av lyd</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Avspillingshastighet</string>
+    <string name="playback_speed_0.5x">0.5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1.25x</string>
+    <string name="playback_speed_1.5x">1.5x</string>
+    <string name="playback_speed_1.75x">1.75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Vennligst logg inn igjen for å bekrefte brukernavn og passord.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Behandle eller se nedlastet lyd og video</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"… se, jeg sier deg at ved små og enkle ting vil store ting skje, og ved små midler blir de vise i mange tilfeller gjort til skamme."</string>
+    <string name="pref_general_list_mode">Listemodus</string>
+    <string name="pref_hide_footnotes">Skjul fotnoter</string>
+    <string name="pref_limit_mobile_network_subtitle">Last ned og strøm innhold kun via Wi-Fi</string>
+    <string name="pref_limit_mobile_network">Begrens bruk av mobilt nettverk</string>
+    <string name="pref_theme">Tema</string>
+    <string name="problem_playing_video">Det oppsto et problem ved avspilling av videoen.</string>
+    <string name="read_more">Les mer</string>
+    <string name="recent" comment="label for study notebook">Nylig</string>
+    <string name="related_content">Beslektet innhold</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">Er du sikker på at du vil fjerne de valgte elementene?</string>
+    <string name="remove_from_collection">Fjern fra samling</string>
+    <string name="rename_bookmark">Endre navn på bokmerke</string>
+    <string name="rename_screen">Endre navn på skjermbilde</string>
+    <string name="requested_ellipsis">Behandler forespørsel…</string>
+    <string name="requested_paused_retry_ellipsis">Behandler forespørsel… (venter på nytt forsøk)</string>
+    <string name="requested_paused_network_ellipsis">Behandler forespørsel… (venter på nettverk)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d resultat</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d resultater</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s - %2$d resultat</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s - %2$d resultater</string>
+    <string name="save">Lagre</string>
+    <string name="screens">Skjermbilder</string>
+    <string name="screen_missing_content">Du har ikke lastet ned innholdet på det valgte skjermbildet.\n\nVil du laste ned innholdet på “%1$s” nå?</string>
+    <string name="screens_separate_windows">Vis skjermbilder som separate vinduer</string>
+    <string name="search_all_content">Søk i alt innhold</string>
+    <string name="search_for_links">Søk etter nøkkelord, vers eller overskrifter</string>
+    <string name="select_highlight">Velg markering</string>
+    <string name="select_items">Velg elementer</string>
+    <string name="select_link">Velg kobling</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Velg tekst til kobling</string>
+    <string name="selected_media_unavailable">Valgte medier er ikke tilgjengelig.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Forrige synkronisering: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Sortér etter antall</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Sortér etter nyligste</string>
+    <string name="sort_by_name" comment="sort items by their name">Sortér etter navn</string>
+    <string name="sort_by_size" comment="sort media items">Sortér etter størrelse</string>
+    <string name="sort_by_item" comment="sort media items">Sortér etter elementer</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Versjon %s</string>
+    <string name="style">Stil</string>
+    <string name="sync_error_invalid_credentials">Ugyldig brukernavn/passord</string>
+    <string name="sync_error_no_network">Nettverksforbindelsen er ikke tilgjengelig</string>
+    <string name="sync_notification_failure">Synkronisering av merknader mislyktes</string>
+    <string name="sync_notification_gathering_changes">Samler endringer</string>
+    <string name="sync_notification_processing_changes">Behandler endringer</string>
+    <string name="sync_notification_receiving_changes">Mottar endringer</string>
+    <string name="sync_notification_receiving_update_list">Mottar liste over oppdateringer</string>
+    <string name="sync_notification_sending_changes">Sender endringer</string>
+    <string name="sync_notification_sending_update_request">Sender anmodning om oppdatering</string>
+    <string name="syncing_notebooks">Synkroniserer notatbøker</string>
+    <string name="syncing_annotations">Synkronisere merknader</string>
+    <string name="notification_channel_general">Generelle varslinger</string>
+    <string name="notification_channel_sync">Synkronisering av merknader</string>
+    <string name="notification_channel_media_playback">Medieavspilling</string>
+    <string name="text_size" comment="">Tekststørrelse</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Tekst-til-tale</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Tekst-til-tale-innstillinger</string>
+    <string name="tips">Tips</string>
+    <string name="title_optional">Tittel (valgfritt)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Løsne sidepanelet</string>
+    <string name="update_catalog_wifi_required">Oppdatert innhold er tilgjengelig, men du må være tilknyttet Wi-Fi for å laste det ned.</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">Rediger etikett</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Videokvalitet</string>
+    <string name="video_unavailable">Video utilgjengelig</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Stemme</string>
+    <string name="whats_new">Hva er nytt?</string>
+</resources>

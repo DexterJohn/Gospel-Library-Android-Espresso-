@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/highlightTitleTextView"
+            style="?attr/themeStyleWidgetText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorAccent"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded"
+            tools:text="2 Nephi 32:9"/>
+
+        <TextView
+            android:id="@+id/highlightSubTitleTextView"
+            style="?attr/themeStyleWidgetTextSubtle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/themeStyleColorTextItemSubTitle"
+            android:textSize="12sp"
+            tools:text="Book of Mormon"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/highlightContentTextView"
+            style="?attr/themeStyleWidgetText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/themeStyleColorTextDefault"
+            android:fontFamily="@font/pahoranldslat_roman"
+            tools:text="But behold, I say unto you that ye must pray always and not faint;..."/>
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colors for the Dark theme -->
+<resources>
+    <color name="theme_dark_primary">@color/onyx_123</color>
+    <color name="theme_dark_primary_dark">@color/black_125</color>
+    <color name="theme_dark_accent">@color/citrine_600</color>
+    <color name="theme_dark_accent_dim">#33ffbf1c</color>
+
+    <color name="theme_dark_main_content_background">@color/black</color>
+    <color name="theme_dark_sidebar_content_background">@color/theme_dark_background_card</color>
+
+    <color name="theme_dark_background">@color/text_120</color>
+    <color name="theme_dark_background_dim">@color/theme_dark_background</color>
+
+    <color name="theme_dark_background_dialog">@color/onyx_110</color>
+    <color name="theme_dark_background_menu">@color/theme_dark_background_dialog</color>
+
+    <color name="theme_dark_background_card">#2d2e32</color>
+    <color name="theme_dark_background_card_note">@color/theme_dark_background_card</color>
+
+    <color name="theme_dark_filter_background">#3D3F42</color>
+
+    <color name="theme_dark_toolbar_icon">#deffffff</color>
+    <color name="theme_dark_toolbar_icon_dim">#deffffff</color>
+    <color name="theme_dark_toolbar_icon_dim_disabled">#64ffffff</color>
+    <color name="theme_dark_toolbar_action_mode_icon">@color/white</color>
+
+    <color name="theme_dark_background_action_mode">#1E2021</color>
+
+    <color name="theme_dark_side_bar_toolbar_background">#1f2021</color>
+    <color name="theme_dark_side_bar_reference_background">#242526</color>
+
+    <color name="theme_dark_catalog_grid_title">#fff7f7f7</color>
+    <color name="theme_dark_catalog_grid_summary">#b2f7f7f7</color>
+    <color name="theme_dark_catalog_item_background">#3F4042</color>
+
+    <color name="theme_dark_item_title">#fff7f7f7</color>
+    <color name="theme_dark_item_sub_title">#b2f7f7f7</color>
+    <color name="theme_dark_section_header_text">#7ff7f7f7</color>
+
+    <color name="theme_dark_text_normal">#fff7f7f7</color>
+    <color name="theme_dark_text_secondary">#b2f7f7f7</color>
+    <color name="theme_dark_text_hint">#80ffffff</color>
+
+    <color name="theme_dark_widget_playback_controls_background">#CC000000</color>
+
+    <color name="theme_dark_link_icon">@color/theme_dark_accent</color>
+
+    <color name="theme_dark_find_on_page_background">#64ffbf1c</color>
+    <color name="theme_dark_find_on_page_icon">@color/theme_dark_text_normal</color>
+
+
+    <!-- Highlight Colors:
+         these values are also defined in the HighlightColorUtil.java and in android_main.css
+    -->
+    <color name="theme_dark_highlight_red">#24FD4F66</color>
+    <color name="theme_dark_highlight_red_underline">#BA505D</color>
+
+    <color name="theme_dark_highlight_orange">#28EC8F2A</color>
+    <color name="theme_dark_highlight_orange_underline">#C68C4E</color>
+
+    <color name="theme_dark_highlight_yellow">#32FCDA3C</color>
+    <color name="theme_dark_highlight_yellow_underline">#D6C059</color>
+
+    <color name="theme_dark_highlight_green">#27A9D527</color>
+    <color name="theme_dark_highlight_green_underline">#8CA051</color>
+
+    <color name="theme_dark_highlight_blue">#2410D8E1</color>
+    <color name="theme_dark_highlight_blue_underline">#60B5B8</color>
+
+    <color name="theme_dark_highlight_dark_blue">#272596FF</color>
+    <color name="theme_dark_highlight_dark_blue_underline">#5687B5</color>
+
+    <color name="theme_dark_highlight_purple">#249D53FD</color>
+    <color name="theme_dark_highlight_purple_underline">#7754A5</color>
+
+    <color name="theme_dark_highlight_pink">#26F85BEA</color>
+    <color name="theme_dark_highlight_pink_underline">#B66BB1</color>
+
+    <color name="theme_dark_highlight_brown">#24CD7D5A</color>
+    <color name="theme_dark_highlight_brown_underline">#956D5C</color>
+
+    <color name="theme_dark_highlight_gray">#3083919E</color>
+    <color name="theme_dark_highlight_gray_underline">#8E969E</color>
+</resources>

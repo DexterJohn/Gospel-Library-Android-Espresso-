@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="toolbar_title_size_dim">18sp</dimen>
+    <dimen name="toolbar_subtitle_size_dim">12sp</dimen>
+</resources>

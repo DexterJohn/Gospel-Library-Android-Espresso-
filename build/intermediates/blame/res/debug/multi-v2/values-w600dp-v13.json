@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/res/values-w600dp/dimensions.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "80",
+                        "endColumns": "49",
+                        "endOffsets": "125"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    }
+                },
+                {
+                    "source": "/Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,117",
+                        "endColumns": "61,59",
+                        "endOffsets": "112,172"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "105,167",
+                        "endColumns": "61,59",
+                        "endOffsets": "162,222"
+                    }
+                }
+            ]
+        }
+    ]
+}

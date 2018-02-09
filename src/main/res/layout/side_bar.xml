@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/themeStyleColorBackgroundCard"
+    android:clickable="true"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/contentDrawerToolbar"
+        style="?attr/themeStyleToolbar"
+        android:elevation="4dp"
+        android:theme="@style/AppTheme.Widget.Toolbar"
+        app:popupTheme="@style/AppTheme.Widget.Toolbar.Popup"
+        >
+        <TextView
+            android:id="@+id/contentDrawerToolbarTitleTextView"
+            style="@style/AppTheme.Widget.Toolbar.Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:autoSizeMaxTextSize="20sp"
+            app:autoSizeMinTextSize="13sp"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform"
+            tools:text="Note"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/sideBarContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/contentDrawerToolbar"
+        />
+
+    <org.lds.mobile.ui.widget.EmptyStateIndicator
+        android:id="@+id/emptyStateIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        app:image="@drawable/ic_lds_note_80dp"
+        app:imageTint="?attr/emptyStateImageColor"
+        app:subTitle="@string/no_related_content_description2"
+        app:subTitleTextColor="?attr/emptyStateSubTitleColor"
+        app:title="@string/no_related_content"
+        app:titleTextColor="?attr/emptyStateTitleColor"
+        />
+</RelativeLayout>

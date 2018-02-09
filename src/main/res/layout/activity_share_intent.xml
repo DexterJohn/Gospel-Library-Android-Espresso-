@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/themeStyleColorBackground">
+
+    <include
+        android:id="@+id/mainToolbar"
+        layout="@layout/toolbar_actionbar"/>
+
+    <GridView
+        android:id="@+id/topAppGridView"
+        android:numColumns="@integer/application_picker_num_columns"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="?attr/themeStyleColorTextItemSubTitle"/>
+
+    <GridView
+        android:id="@+id/bottomAppGridView"
+        android:numColumns="@integer/application_picker_num_columns"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

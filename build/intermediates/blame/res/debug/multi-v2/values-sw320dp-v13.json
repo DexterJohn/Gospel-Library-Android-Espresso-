@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw320dp-v13/values-sw320dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/res/values-sw320dp/dimensions.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "73",
+                        "endColumns": "54",
+                        "endOffsets": "123"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Faaleaoga</string>
+    <string name="fingerprint_disabled_use_pin">Ua faaleaogaina le tumau ia tulagalima. Faaaoga le PIN pe toe taumafai mai i se isi taimi.</string>
+    <string name="fingerprint_not_recognized">E le o iloaina tulagalima. Faamolemole toe taumafai mai.</string>
+    <string name="fingerprint_please">Faamolemole, Tulagalima</string>
+    <string name="fingerprint_please_try_again">Faamolemole toe taumafai.</string>
+    <string name="ok">LELEI</string>
+    <string name="pin_confirm">Faamautu le Uputatala</string>
+    <string name="pin_create_title">Filifili lou Uputatala</string>
+    <string name="pin_enter_title">Ta i totonu lou Uputatala</string>
+    <string name="pin_error_incorrect_title">Sese le Uputatala na taina i totonu.</string>
+    <string name="pin_error_invalid_pin">E le mafai ona i ai i le Uputatala le faatulagaga o numera po o numera e ta faalua.</string>
+    <string name="pin_error_mismatch">E le tutusa Uputatala.</string>
+    <string name="pref_reset_data">Saini e Alu i Fafo</string>
+    <string name="pref_reset_data_explanation">E te mautinoa ua e manao e saini e alu i fafo?</string>
+    <string name="signin">Saini e Alu i Totonu</string>
+    <string name="signin_authenticating">Faamaoniaina</string>
+    <string name="signin_create_account">Fatu se Faitotoa o le AAG</string>
+    <string name="signin_error">Mea Sese</string>
+    <string name="signin_instructions">Saini e alu i totonu i lau Faitotoa o le AAG</string>
+    <string name="signin_ok">LELEI</string>
+    <string name="signin_password">Uputatala</string>
+    <string name="signin_prefs_signout">Saini e Alu i Fafo</string>
+    <string name="signin_username">Igoa faaaoga</string>
+</resources>

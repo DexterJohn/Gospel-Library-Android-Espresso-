@@ -1,0 +1,109 @@
+{
+  "syncFolders": {
+    "count": 7,
+    "since": "1970-01-01T00:00:00.000-07:00",
+    "before": "2016-07-06T10:17:51.101-06:00",
+    "timeDiff": "PT0.712S",
+    "changes": [
+      {
+        "folderId": "03B51CC6-66FC-4535-8AA4-04EB4BAEC19B",
+        "changeType": "new",
+        "timestamp": "2015-09-04T09:25:25.268-06:00",
+        "folder": {
+          "label": "Test 44",
+          "timestamp": "2015-09-04T09:25:25.268-06:00",
+          "@guid": "03B51CC6-66FC-4535-8AA4-04EB4BAEC19B"
+        }
+      },
+      {
+        "folderId": "79f059bb-7415-4609-9115-16aff0fd3486",
+        "changeType": "new",
+        "timestamp": "2016-04-19T11:11:12.028-06:00",
+        "folder": {
+          "label": "Test55",
+          "timestamp": "2016-04-19T11:11:12.028-06:00",
+          "order": {
+            "id": [
+              "3db3f59b-c003-402f-9301-ce20df36a827",
+              "non-existing-annotation-guid"
+            ]
+          },
+          "@guid": "79f059bb-7415-4609-9115-16aff0fd3486"
+        }
+      },
+      {
+        "folderId": "e2b42eb3-fe9b-4fc6-a6a7-47668824bbde",
+        "changeType": "new",
+        "timestamp": "2016-03-10T20:57:46.867-07:00",
+        "folder": {
+          "label": "NB3",
+          "timestamp": "2016-03-10T20:57:46.867-07:00",
+          "order": {
+            "id": [
+              "0d203893-7b17-4635-9470-d83158749cfc",
+              "c38fada1-015f-41d1-bd5c-c63378f5aae0"
+            ]
+          },
+          "@guid": "e2b42eb3-fe9b-4fc6-a6a7-47668824bbde"
+        }
+      },
+      {
+        "folderId": "140829c2-5269-406a-8034-03f32955cb14",
+        "changeType": "new",
+        "timestamp": "2016-02-02T15:15:50.269-07:00",
+        "folder": {
+          "label": "Nb2",
+          "timestamp": "2016-02-02T15:15:50.269-07:00",
+          "order": {
+            "id": [
+              "0371f0ee-fc61-4089-a345-4ba6a6ced23c"
+            ]
+          },
+          "@guid": "140829c2-5269-406a-8034-03f32955cb14"
+        }
+      },
+      {
+        "folderId": "e04ae5c5-0528-4626-a43e-36f40b3f9786",
+        "changeType": "new",
+        "timestamp": "2016-04-01T09:53:27.282-06:00",
+        "folder": {
+          "label": "Test",
+          "timestamp": "2016-04-01T09:53:27.282-06:00",
+          "order": {
+            "id": [
+              "cc1b75ff-8337-4f0a-9f9f-e38620f3ac08"
+            ]
+          },
+          "@guid": "e04ae5c5-0528-4626-a43e-36f40b3f9786"
+        }
+      },
+      {
+        "folderId": "618af341-b228-4fcc-8ee3-fac5e1f1e5d1",
+        "changeType": "new",
+        "timestamp": "2016-01-22T17:09:39.773-07:00",
+        "folder": {
+          "label": "Notebook1",
+          "timestamp": "2016-01-22T17:09:39.773-07:00",
+          "@guid": "618af341-b228-4fcc-8ee3-fac5e1f1e5d1"
+        }
+      },
+      {
+        "folderId": "f6cccab8-c142-4eb8-921d-76d9f27ff4ff",
+        "changeType": "new",
+        "timestamp": "2016-01-12T15:51:59.351-07:00",
+        "folder": {
+          "label": "Duty to God",
+          "timestamp": "2016-01-12T15:51:59.351-07:00",
+          "order": {
+            "id": [
+              "07dab172-3853-4f98-9a85-c8fc6f074338",
+              "544ea844-f728-4374-8abe-728f687aa15b",
+              "d1dcc255-4693-499f-839d-037b2d225d15"
+            ]
+          },
+          "@guid": "f6cccab8-c142-4eb8-921d-76d9f27ff4ff"
+        }
+      }
+    ]
+  }
+}

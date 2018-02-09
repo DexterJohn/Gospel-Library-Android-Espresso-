@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Tu’u</string>
+    <string name="app_name">Vaira’a buka ’evanelia</string>
+    <string name="auto">Tei iāna iho</string>
+    <string name="allow_in_app_notifications">Fa’ati’a i te fa’aarara’a i roto i te fa’anahora’a</string>
+    <string name="exact_phrase">Te parau iho</string>
+    <string name="keywords">Te mau ta’o</string>
+    <string name="bookmark">’Api tāpa’o</string>
+    <string name="cancel">Fa’a’ore</string>
+    <string name="cancel_all">Fa’a’ore pauroa</string>
+    <string name="content">Tāpura</string>
+    <string name="copy">Haruharu</string>
+    <string name="delete">Tūmā</string>
+    <string name="define">Aura’a</string>
+    <string name="display">Pia</string>
+    <string name="done">’Ua oti</string>
+    <string name="download">Fa’auta uira mai</string>
+    <string name="download_all">Fa’auta uira pauroa</string>
+    <string name="feedback">Parau mai</string>
+    <string name="keep">Tāpe’a</string>
+    <string name="library">Vaira’a buka</string>
+    <string name="link">Hono</string>
+    <string name="links">Mau hono</string>
+    <string name="merge">’Āmui tahi</string>
+    <string name="never">’Eiaha roa</string>
+    <string name="no">’Aita</string>
+    <string name="note">Mana’o</string>
+    <string name="none">’Aore</string>
+    <string name="ok">Fāri’i</string>
+    <string name="remove">Tātara</string>
+    <string name="remove_all">Tātara pauroa</string>
+    <string name="rename">Taui i te i’oa</string>
+    <string name="search">Mā’imi</string>
+    <string name="settings">Mau fa’atanora’a</string>
+    <string name="screen_settings">Fa’atano i te piara’a</string>
+    <string name="share">Fa’a’ite</string>
+    <string name="skip">Ha’apae</string>
+    <string name="sort">’Āpapa</string>
+    <string name="tag">Fa’ahoro parau</string>
+    <string name="tags">Mau fa’ahoro parau</string>
+    <string name="theme_default">Tei tu’uhia mai</string>
+    <string name="theme_night">Pō</string>
+    <string name="theme_sepia">Māre’are’a</string>
+    <string name="theme_dark_blue">Moana</string>
+    <string name="today">Teie mahana</string>
+    <string name="undo">Fa’a’ore tei ravehia</string>
+    <string name="update">Fa’ananea</string>
+    <string name="view">Hi’o</string>
+    <string name="yes">’Ē</string>
+    <string name="yesterday">Inanahi</string>
+    <!-- Other -->
+    <string name="add_bookmark">’Api tāpa’o ’āpī</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Fa’ahoro parau ’āpī</string>
+    <string name="add_to">Tu’u i roto</string>
+    <string name="add_to_ellipsis">Tu’u i roto…</string>
+    <string name="add_to_notebook">Tu’u i roto i te buka mana’o</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">E’ita e nehenehe e pia i te tāpa’opa’ora’a, ’aita te “%s” i roto i te vaira’a buka.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Tāumi nō te fa’ananea.</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">Tē vai ra te fa’ananeara’a nō te Buka vaira’a ’evanelia.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Fa’atano i te rāve’a fa’aro’o</string>
+    <string name="backup_annotations_message">Mai te mea e’ita ’oe e fa’a’ohipa i tā ’oe tomora’a i te fa’anahora’a Vaira’a buka ’evanelia, e mo’e tā ’oe mau mea i tāpa’opa’o (mau rēni ’ū, mau mana’o, mau ’api tāpa’o ’e tē vai atu ra).</string>
+    <string name="backup_annotations_title">Fa’aherehere i te tāpa’opa’ora’a</string>
+    <string name="bookmarks">Mau ’api tāpa’o</string>
+    <string name="bookmark_added">’Ua tu’uhia te ’api tāpa’o</string>
+    <string name="bookmark_empty">’Aore ’api tāpa’o tā ’oe i tu’u.</string>
+    <string name="bookmark_updated">’Ua fa’a’āpīhia te ’api tāpa’o</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Cast</string>
+    <string name="catalog_title">Tāpura o te Vaira’a buka ’evanelia</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Mā’iti i te fa’a’ūra’a</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Fa’aru’e i te mātēria i fa’auta-uira-hia</string>
+    <string name="clear_history">Tūmā i te pāpa’a tai’ora’a</string>
+    <string name="content_no_content" comment="Shown in content drawer">E’ita e nehenehe e pia i te reira, ’aita te “%s” i roto i te vaira’a buka.</string>
+    <string name="content_not_downloaded">’Aita te %s i fa’auta-uira-hia.</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Ha’uti tō muri iho ato’a</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">’Ua haruharuhia te parau</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">Ha’amau i te “%s”</string>
+    <string name="current_downloads">Mau mea e fa’autahia ra</string>
+    <string name="custom_collections">Mau ha’apu’era’a ta’a ’ē</string>
+    <string name="delete_annotation_title">Tātara i te tāpa’opa’ora’a</string>
+    <string name="delete_annotation_message">E tātara-ato’a-hia te mau mana’o, te mau fa’ahoro parau ’e te mau hono e tū’ati i teie fa’a’ūra’a.</string>
+    <string name="delete_collection_item_title">Tūmā “%1$s”?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">E tūmāhia %s.\n\nTūmā pauroa?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">’Aita i roa’a i te tūmā pauroa</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">E tūmāhia %2$s i roto i te “%1$s”.\n\nTūmā i te reira?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Tūmā</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Tūmā i te mau buka mana’o</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Tūmā i te mau buka mana’o i mā’itihia?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Tūmā i te fa’ahoro parau</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Tūmā i te mau  fa’ahoro parau</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">’Ua hina’aro mau ānei ’oe i te tātara i teie fa’ahoro parau mai te mau mana’o ’e te mau fa’a’ūra’a?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">’Ua hina’aro mau ānei ’oe i te tātara i teie mau fa’ahoro parau mai te mau mana’o ’e te mau fa’a’ūra’a?</string>
+    <string name="deleted">’Ua tūmāhia %s</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">’Ua tūmāhia te fa’ahoro parau %s</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">’Ua tūmāhia te buka mana’o %s</string>
+    <string name="dialog_sign_out_confirmation">’Ua hina’aro mau ānei ’oe e haere i rāpae?</string>
+    <string name="double_tap_fullscreen_training">"Tauturu: piti fa’atōtēra’a i te paruai nō te fa’a’ore i te piara’a ’ā’ano. "</string>
+    <string name="download_audio" comment="download audio">Fa’auta uira mai i te mātēria fa’aro’o</string>
+    <string name="download_all_selected_confirm">%d mātēria te fa’auta-uira-hia mai.\n\nFa’auta uira i tei mā’itihia?</string>
+    <string name="download_cancel_confirm_all">E fa’a’orehia te mea ato’a e fa’auta-uira-hia ra.\n\nFa’a’ore i te mau fa’auta-uira-ra’a?</string>
+    <string name="download_cancel">Fa’a’ore i te fa’auta-uira-ra’a?</string>
+    <string name="download_canceling">Tē fa’a’orehia ra te fa’auta-uira-ra’a…</string>
+    <string name="download_item_message">’Aita te %s i roto i te mātini. E fa’auta uira i teienei?</string>
+    <string name="download_video" comment="download video">Fa’auta uira i te video</string>
+    <string name="downloaded_media">Mātēria i fa’auta-uira-hia</string>
+    <string name="downloading_ellipsis">Tē fa’auta-uira-hia nei…</string>
+    <string name="downloading_audio">Tē fa’auta-uira-hia nei te mātēria fa’aro’o nō %s</string>
+    <string name="downloading_video">Tē fa’auta-uira-hia nei te video nō %s</string>
+    <string name="download_file_failed_insufficient_space">’Aita i manuia te fa’auta-uira-ra’a nō [%s].\n’Aita i nava’i te vāhi.</string>
+    <string name="download_file_failed">’Aita i manuia te fa’auta-uira-ra’a nō [%s].\nHi’o i te natirara ’e tāmata fa’ahou ā.</string>
+    <string name="download_dir_error">’Aita i manuia te ha’amaura’a te tāpura’a fa’auta-uira-ra’a</string>
+    <string name="existing_annotations_prompt">E %d tāpa’opa’ora’a a’ena i roto i te mātini. E aha tā ’oe e hina’aro e rave i te reira?</string>
+    <string name="existing_annotations">Mau tāpa’opa’ora’a e vai ra</string>
+    <string name="featured_apps">Mau fa’anahora’a ta’a ’ē</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Vahine</string>
+    <string name="finalizing_ellipsis">Fātata i te oti…</string>
+    <string name="find_by_name">’Imi nā ni’a i te i’oa</string>
+    <string name="find_count">%1$d i ni’a %2$d</string>
+    <string name="find_x_on_page">’Imi “%s” i ni’a i te ’api</string>
+    <string name="find_x_in_x">’Imi “%1$s” i roto i te %2$s</string>
+    <string name="find_exact_x_in_x">’Imi i teie iho parau “%1$s” i roto i te %2$s</string>
+    <string name="marked_text_position">%1$d i ni’a %2$d tei ’itehia mai</string>
+    <string name="marked_text_position_no_results">0 tei ’itehia mai</string>
+    <string name="highlight_style">Huru fa’a’ūra’a</string>
+    <string name="history">Pāpa’a tai’ora’a</string>
+    <string name="history_cleared">’Ua tūmāhia te pāpa’a tai’ora’a</string>
+    <string name="installing_ellipsis">Tē ha’amauhia nei…</string>
+    <string name="journal">Buka tāmahana</string>
+    <string name="journal_restore">Fa’aho’i mai i te buka tāmahana</string>
+    <string name="journal_create_notebook">Ha’amau i te buka tāmahana nō te mau mana’o</string>
+    <string name="journal_restore_description">Noa atu ā ’ua tātarahia te tuha’a buka tāmahana, ’ua fa’ahereherehia te mau mana’o i tu’uhia. Mai te mea ’ua hina’aro ’oe, e nehenehe e ha’aputu i te mau mana’o ato’a i vai na i roto i te tuha’a buka tāmahana ’e tu’u atu ai i roto i te hō’ē buka mana’o ’āpī e topahia te i’oa e buka tāmahana.</string>
+    <string name="journal_restore_result">Fa’aho’i i te buka tāmahana tā’āto’a. %d mana’o i fa’anu’uhia.</string>
+    <string name="language">Reo</string>
+    <string name="lds_account_summary">E fa’a’ohipahia te tomora’a LDS nō te fa’aherehere ’e nō te fa’arōtahi i tā ’oe tāpa’opa’ora’a i ni’a i te mau mātini ’e i ni’a i te LDS.org.</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">i te %1$s</string>
+    <string name="loading_ellipsis">Fa’auta-uira-ra’a…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Tāne</string>
+    <string name="mark" comment="Select highlight color">Fa’a’ū</string>
+    <string name="media_type">Huru mātēria</string>
+    <string name="menu_new_screen">Piara’a ’āpī…</string>
+    <string name="merged_notebook_name_prompt">E ’āmui-tahi-hia te mau buka mana’o i mā’itihia. ’A topa i te hō’ē i’oa nō te buka mana’o ’āpī.</string>
+    <string name="merged_notebook_name">I’oa nō te buka mana’o i ’āmui-tahi-hia</string>
+    <string name="merged_tag_name">I’oa nō te fa’ahoro parau i ’āmui-tahi-hia</string>
+    <string name="move_to_notebook">Tu’u i roto i te buka mana’o</string>
+    <string name="my_collections">Ta’u mau ha’apu’era’a</string>
+    <string name="network_required" comment="Not connected to any network">Tītauhia te natirara nō teie ’ohipa. ’A tū’ati i te mātini i te natirara ’āfa’ifa’i ’aore rā i te WI-FI ’e ’a tāmata fa’ahou ā.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">’Ia au i tā ’oe mau fa’atanora’a, tītauhia ’ia tū’ati i te WI-FI nō te rave i te reira ’ohipa.</string>
+    <string name="no_bookmarks">’Aore ’api tāpa’o</string>
+    <string name="no_bookmarks_description">Tu’u i te ’api tāpa’o nō ’ite ’oi’oi i te vāhi i vaiihohia.</string>
+    <string name="no_content">’Aore mea</string>
+    <string name="no_collection_content_description">Tu’u i te mau mātēria i roto i te ha’apu’era’a ’ia ’ōhie te ho’ira’a i ni’a iho i te reira</string>
+    <string name="no_custom_collections">’Aore ha’apu’era’a ta’a ’ē</string>
+    <string name="no_custom_collections_description">Ha’amau i te mau ha’apu’era’a ta’a ’ē nō te ho’i ’ōhie i ni’a i te reira.</string>
+    <string name="no_downloads_in_progress">’Aore fa’auta-uira-ra’a e ravehia ra</string>
+    <string name="no_downloads_in_progress_description">Tē fa’auta-uira-hia ra te mau mātēria</string>
+    <string name="no_downloaded_media">’Aore mātēria i fa’auta-uira-hia</string>
+    <string name="no_downloaded_media_description">Fa’auta uira mai i te rāve’a fa’aro’o ’e te video nō te fa’a’ohipa i te taime ’aita e natirara</string>
+    <string name="no_history">’Aore pāpa’a tai’ora’a</string>
+    <string name="no_history_description">Hi’o i te mea e vai ra, ’ite i te ’ē’a ’e ho’i i reira.</string>
+    <string name="no_matches" comment="No results">’Aore pāhonora’a</string>
+    <string name="no_matches_description">’Aore pāhonora’a nō teie mā’imira’a ta’a ’ē</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">’Aore buka mana’o</string>
+    <string name="no_notebooks_description">Ha’amau i te mau buka mana’o ato’a ’ua hina’aro ’oe nō te fa’anaho i tō ’oe mau mana’o.</string>
+    <string name="no_notes">’Aore mana’o</string>
+    <string name="no_notes_in_notebook">’Aore mana’o i roto i teie buka mana’o</string>
+    <string name="no_notes_description">Pāpa’i nō te fa’aherehere i tō ’oe mau mana’o ’e te fa’aurura’a.</string>
+    <string name="no_related_content">’Aore mea e tū’ati i te reira</string>
+    <string name="no_related_content_description2">’Aore fa’ata’ara’a ’aore rā mātēria tū’ati e vai ra</string>
+    <string name="no_tags" comment="The message to show when there are no tags">’Aore fa’ahoro parau</string>
+    <string name="no_tags_description">Ha’amau i te hō’ē fa’ahoro parau nō te putuputu i te mātēria e ’itehia noa atu te vāhi i roto i te Vaira’a buka ’evanelia.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">’Aore mātēria i tu’uhia te fa’ahoro parau</string>
+    <string name="no_tagged_content_description">Tu’u i te hō’ē fa’ahoro parau i ni’a i te mea ato’a i tai’ohia ’ia ’itehia mai ’āraua’e.</string>
+    <string name="no_thanks">’Eiaha māuruuru</string>
+    <string name="no_tips">’Aore mana’o tauturu</string>
+    <string name="no_tips_description">E fa’a’ite te mau mana’o tauturu i te mau ’ohipa au e nehenehe e rave</string>
+    <string name="note_content">Mea i roto i te mana’o</string>
+    <string name="notebook">Buka mana’o</string>
+    <string name="notebooks">Mau buka mana’o</string>
+    <string name="notes">Mau mana’o</string>
+    <string name="num_item_add_to">%1$s mātēria tei ’āmuihia i te %2$s</string>
+    <string name="num_item">%d mātēria</string>
+    <string name="num_items_add_to">%1$s mātēria tei ’āmuihia i te %2$s</string>
+    <string name="num_items">%d mātēria</string>
+    <string name="open">Hi’o</string>
+    <string name="open_in_music">Hi’o i roto ia LDS Music</string>
+    <string name="open_in_new_screen">Hi’o i roto i te hō’ē piara’a ’āpī</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Pine i te piara’a hiti</string>
+    <string name="play_audio">Ha’uti i te rāve’a fa’aro’o</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Vitiviti o te ha’utira’a</string>
+    <string name="playback_speed_0.5x">0.5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1.25x</string>
+    <string name="playback_speed_1.5x">1.5x</string>
+    <string name="playback_speed_1.75x">1.75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Patapata fa’ahou i te tomora’a nō te tātā’i i te i’oa ’e te parau huna.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Fa’anaho ’aore rā hi’o i te mau mātēria fa’aro’o ’e video i fa’auta-uira-hia</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"… inaha rā, e parau atu vau ia ’oe na, nā roto i te mau mea iti ’e te pāpū ra e fa’atupuhia ai te mau mea rarahi ; ’e nā te mau mea iti ho’i e fa’aha’amā pinepine atu i tei pa’ari ra."</string>
+    <string name="pref_general_list_mode">Hi’ora’a tāpura</string>
+    <string name="pref_hide_footnotes">Tāpuni i te mau fa’ata’ara’a</string>
+    <string name="pref_limit_mobile_network_subtitle">Fa’auta uira ’e hi’o i ni’a i te natirara nā roto noa i te Wi-Fi</string>
+    <string name="pref_limit_mobile_network">Tā’ōti’a i te fa’a’ohipara’a o te natirara ’āfa’ifa’i</string>
+    <string name="pref_theme">Huru piara’a</string>
+    <string name="problem_playing_video">’Ua tupu te hō’ē fifi i te ha’utira’a te video.</string>
+    <string name="read_more">Tai’o i te toe’a</string>
+    <string name="recent" comment="label for study notebook">I ma’iri a’enei</string>
+    <string name="related_content">Mau mea tū’ati</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">’Ua hina’aro mau ānei ’oe e tātara i te mau mātēria i mā’itihia?</string>
+    <string name="remove_from_collection">Tātara mai roto mai i te ha’apu’era’a</string>
+    <string name="rename_bookmark">Taui i te i’oa o te ’api tāpa’o</string>
+    <string name="rename_screen">Taui i te i’oa o te piara’a</string>
+    <string name="requested_ellipsis">’Ua tītauhia…</string>
+    <string name="requested_paused_retry_ellipsis">’Ua tītauhia… (tē tīa’ihia ra ’ia tāmata fa’ahou ā)</string>
+    <string name="requested_paused_network_ellipsis">’Ua tītauhia… (tē tīa’ihia ra te rāve’a ’ōperera’a)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d pāhonora’a</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d pāhonora’a</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s - %2$d pāhonora’a</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s - %2$d pāhonora’a</string>
+    <string name="save">Fa’aherehere</string>
+    <string name="screens">Mau pia</string>
+    <string name="screen_missing_content">’Aita ’oe i fa’auta uira i te mea e vai ra nō teie piara’a.\n\n’Ua hina’aro ānei ’oe e fa’auta uira mai i te mea e vai ra nō te “%1$s” i teienei?</string>
+    <string name="screens_separate_windows">Fa’ata’a i te mau piara’a, te tahi i te tahi</string>
+    <string name="search_for_links">Mā’imi i te ta’o ta’a ’ē, te ’īrava ’aore rā te upo’o parau</string>
+    <string name="select_highlight">Mā’iti i te fa’a’ūra’a</string>
+    <string name="select_items">Mā’iti i te mau mātēria</string>
+    <string name="select_link">Mā’iti i te hono</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Mā’iti i te tuha’a e tāhono</string>
+    <string name="selected_media_unavailable">’Aita e vai ra te mātēria i mā’itihia.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Fa’arōtahira’a hope’a: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">’Āpapa nā ni’a i te rahira’a</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">’Āpapa nā ni’a i te ’āpī roa a’e</string>
+    <string name="sort_by_name" comment="sort items by their name">’Āpapa nā ni’a i te i’oa</string>
+    <string name="sort_by_size" comment="sort media items">’Āpapa nā ni’a i te rahi</string>
+    <string name="sort_by_item" comment="sort media items">’Āpapa nā ni’a i te mātēria</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Fa’anahora’a nūmera %s</string>
+    <string name="style">Huru</string>
+    <string name="sync_error_invalid_credentials">’Aita i te tano te i’oa/te parau huna</string>
+    <string name="sync_error_no_network">’Aita e vai ra te ’ōpereraa natirara</string>
+    <string name="sync_notification_failure">’Aita i manuia te fa’arōtahira’a tāpa’opa’ora’a</string>
+    <string name="sync_notification_gathering_changes">Tē putuputuhia ra te mau tauira’a</string>
+    <string name="sync_notification_processing_changes">Tē ravehia ra te mau tauira’a</string>
+    <string name="sync_notification_receiving_changes">Tē fāri’ihia ra te mau tauira’a</string>
+    <string name="sync_notification_receiving_update_list">Tē fāri’ihia ra i te tāpura fa’ananea</string>
+    <string name="sync_notification_sending_changes">Tē hāponohia ra te mau tauira’a</string>
+    <string name="sync_notification_sending_update_request">Tē hāponohia ra te tītaura’a fa’ananeara’a</string>
+    <string name="syncing_notebooks">Tē fa’arōtahihia ra te mau buka mana’o</string>
+    <string name="syncing_annotations">Tē fa’arōtahihia ra te mau tāpa’opa’ora’a</string>
+    <string name="notification_channel_general">Mau parau fa’aara rarahi</string>
+    <string name="notification_channel_sync">Fa’arōtahira’a tāpa’opa’ora’a</string>
+    <string name="notification_channel_media_playback">Ha’utira’a</string>
+    <string name="text_size" comment="">Fāito pāpa’ira’a</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Reo mātini</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Fa’atanora’a nō te reo mātini</string>
+    <string name="tips">Mau mana’o tauturu</string>
+    <string name="title_optional">Upo’o parau (’aita e fa’ahepora’a)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">’Eiaha e pine i te piara’a hiti</string>
+    <string name="update_catalog_wifi_required">Tē vai ra te fa’ananeara’a, tītauhia rā ’ia haere i ni’a i te Wi-Fi nō te fa’auta uira mai i te reira.</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Maita’i o te video</string>
+    <string name="video_unavailable">’Aita te video e vai ra</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Mau reo</string>
+    <string name="whats_new">E aha te parau ’āpī</string>
+</resources>

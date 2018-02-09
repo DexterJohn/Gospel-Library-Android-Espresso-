@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w340dp-v13/values-w340dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/res/values-w340dp/dimensions.xml",
+                    "from": {
+                        "startLines": "11,10,4,3,8,9,7,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "463,403,147,95,292,345,240,550,598",
+                        "endColumns": "59,58,51,50,51,56,50,46,48",
+                        "endOffsets": "518,457,194,141,339,397,286,592,642"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,174,226,277,329,386,437,484",
+                        "endColumns": "59,58,51,50,51,56,50,46,48",
+                        "endOffsets": "110,169,221,272,324,381,432,479,528"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/highlight_palette_item_size"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    >
+
+    <org.lds.ldssa.ui.widget.HighlightStyleIndicator
+        android:id="@+id/indicatorHighlightStyle"
+        android:layout_width="@dimen/highlight_palette_item_size"
+        android:layout_height="@dimen/highlight_palette_item_size"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/indicatorImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/indicatorImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:scaleType="centerInside"
+        android:tint="@color/icon_grey_indicator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_lds_arrow_indicator_up_24dp"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/ic_lds_arrow_indicator_up_24dp"/>
+</android.support.constraint.ConstraintLayout>

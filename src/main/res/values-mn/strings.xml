@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Нэмэх</string>
+    <string name="all">Бүх</string>
+    <string name="app_name">Сайн мэдээний номын сан</string>
+    <string name="auto">Автомат</string>
+    <string name="allow_in_app_notifications">Аппликейшнээс ирэх мэдээллийг зөвшөөрөх</string>
+    <string name="exact_phrase">Яг адил үг хэллэг</string>
+    <string name="keywords">Түлхүүр үг</string>
+    <string name="bookmark">Номын хавчуурга</string>
+    <string name="cancel">Цуцлах</string>
+    <string name="cancel_all">Бүгдийг цуцлах</string>
+    <string name="content">Агуулга</string>
+    <string name="copy">Хуулах</string>
+    <string name="delete">Устгах</string>
+    <string name="define">Тодорхойлох</string>
+    <string name="display">Харуулах</string>
+    <string name="done">Дууслаа</string>
+    <string name="download">Татаж авах</string>
+    <string name="download_all">Бүгдийг татаж авах</string>
+    <string name="feedback">Санал хүсэлт</string>
+    <string name="keep">Хадгалах</string>
+    <string name="library">Номын сан</string>
+    <string name="link">Холбоос</string>
+    <string name="links">Холбоосууд</string>
+    <string name="merge">Нэгтгэх</string>
+    <string name="never">Хэзээ ч үгүй</string>
+    <string name="no">Үгүй</string>
+    <string name="note">Тэмдэглэл</string>
+    <string name="none">Юу ч алга</string>
+    <string name="ok">Батлах</string>
+    <string name="remove">Устгах</string>
+    <string name="remove_all">Бүгдийг устгах</string>
+    <string name="rename">Дахин нэр өгөх</string>
+    <string name="search">Хайх</string>
+    <string name="settings">Тохиргоо</string>
+    <string name="screen_settings">Дэлгэцийн тохиргоо</string>
+    <string name="share">Хуваалцах</string>
+    <string name="skip">Алгасах</string>
+    <string name="sort">Эрэмбэл</string>
+    <string name="tag">Пайз/тэмдэглэгээ</string>
+    <string name="tags">Пайз/тэмдэглэгээнүүд</string>
+    <string name="theme_default">Өгөгдмөл</string>
+    <string name="theme_night">Шөнө</string>
+    <string name="theme_sepia">Бор</string>
+    <string name="theme_dark_blue">Хар хөх</string>
+    <string name="today">Өнөөдөр</string>
+    <string name="undo">Буцаах</string>
+    <string name="update">Шинэчлэх</string>
+    <string name="view">Харах</string>
+    <string name="yes">Тийм</string>
+    <string name="yesterday">Өчигдөр</string>
+    <!-- Other -->
+    <string name="add_bookmark">Номын хавчуурга нэмэх</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Пайз/тэмдэглэгээ нэмэх</string>
+    <string name="add_to">Нэмэх</string>
+    <string name="add_to_ellipsis">...-д нэмэх</string>
+    <string name="add_to_notebook">Тэмдэглэлийн дэвтэрт нэмэх</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">“%s” татаж аваагүй учраас тэмдэглэлийг харах боломжгүй байна.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Шинэчлэх үйлдлийг татаж авахын тулд дар</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">Сайн мэдээний номын сан шинэчлэгдлээ.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Дууны тохиргоо</string>
+    <string name="backup_annotations_message">Сайн мэдээний номын сан аппликэйшнийг дахин шинэчлэгдэхээс өмнө нэвтрэхгүй бол таны хувийн тэмдэглэл (тодруулсан хэсэг, тэмдэглэл, номын хавчуурга гэх мэт) устгагдах болно.</string>
+    <string name="backup_annotations_title">Тэмдэглэглэлийг давхар хадгалах</string>
+    <string name="bookmarks">Номын хавчуургууд</string>
+    <string name="bookmark_added">Номын хавчуурга нэмэгдсэн</string>
+    <string name="bookmark_empty">Та номын хавчуурга нэмээгүй байна.</string>
+    <string name="bookmark_updated">Номын хавчуурга шинэчлэгдсэн</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Каст</string>
+    <string name="catalog_title">Сайн мэдээний номын сангийн товъёог</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Тодруулсан хэсгийг сонгох</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Татаж авсан мэдээллийг устгах</string>
+    <string name="clear_history">Устгасан түүх</string>
+    <string name="content_no_content" comment="Shown in content drawer">“%s”-г татаж аваагүй тул агуулгыг харуулах боломжгүй</string>
+    <string name="content_not_downloaded">%s-г татаж аваагүй байна</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Тасралтгүй тоглуулах</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Бичвэрийг хавтсанд хуулсан</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">“%s” үүсгэх</string>
+    <string name="current_downloads">Одоо татаж авч буй</string>
+    <string name="custom_collections">Тусгайлан хийсэн цуглуулгууд</string>
+    <string name="delete_annotation_title">Тэмдэглэлийг устгах</string>
+    <string name="delete_annotation_message">Энэ тодруулсан хэсэгтэй холбоотой тэмдэглэл, пайз/тэмдэглэгээ, холбоосууд түүнчлэн устгагдах болно.</string>
+    <string name="delete_collection_item_title">“%1$s”-г устгах уу?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s устгагдах болно.\n\nБүх мэдээллийг устгах уу?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">Бүх мэдээллийг устгах боломжгүй байна</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s “%1$s”-с устгагдах болно.\n\nМэдээллийг устгах уу?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Мэдээллийг устгах</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Тэмдэглэлийн дэвтрүүдийг устгах</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Сонгосон тэмдэглэлийн дэвтрийг устгах уу?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Пайз/тэмдэглэгээг устгах</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Пайз/тэмдэглэгээнүүдийг устгах</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">Та энэ пайз/тэмдэглэгээг бүх тэмдэглэл, тодруулсан хэсгээс устгахдаа итгэлтэй байна уу?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">Та энэ пайз/тэмдэглэгээнүүдийг бүх тэмдэглэл, тодруулсан хэсгээс устгахдаа итгэлтэй байна уу?</string>
+    <string name="deleted">%s устгагдсан</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">%s номын хавчуурга устгагдсан</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">%s тэмдэглэлийн дэвтэр устгагдсан</string>
+    <string name="dialog_sign_out_confirmation">Та системээс гарахыг хүсэж байна уу?</string>
+    <string name="double_tap_fullscreen_training">Зөвлөмж: Бүтэн дэлгэц горимоос гарахын тулд дэлгэц дээр хоёр удаа товш</string>
+    <string name="download_audio" comment="download audio">Дуу бичлэг татаж авах</string>
+    <string name="download_all_selected_confirm">%d зүйлсийг татаж авна.\n\nСонгосон зүйлүүдийг татаж авах уу?</string>
+    <string name="download_cancel_confirm_all">Одоо татаж авч байгаа зүйлүүд цуцлагдах болно.\n\nТатаж авахыг цуцлах уу?</string>
+    <string name="download_cancel">Татаж авахыг цуцлах уу?</string>
+    <string name="download_canceling">Татаж авахыг цуцалж байна …</string>
+    <string name="download_item_message">%s-г татаж аваагүй байна. Та үүнийг одоо татаж авахыг хүсэж байна уу?</string>
+    <string name="download_video" comment="download video">Видео бичлэг татаж авах</string>
+    <string name="downloaded_media">Татагдсан мэдээлэл</string>
+    <string name="downloading_ellipsis">Татаж авч байна …</string>
+    <string name="downloading_audio">%s-ын дуу бичлэгийг татаж авч байна</string>
+    <string name="downloading_video">%s-ын видео бичлэгийг татаж авч байна</string>
+    <string name="download_file_failed_insufficient_space">[%s] амжилттай татагдсангүй.\nБагтаамж хангалтгүй байна.</string>
+    <string name="download_file_failed">[%s] амжилттай татагдсангүй.\nИнтернэт холбоогоо шалгаад, дахин оролдож үзнэ үү.</string>
+    <string name="download_dir_error">Татаж авсан зүйлийн жагсаалт гаргаж чадсангүй.</string>
+    <string name="existing_annotations_prompt">%d тэмдэглэгээ энэ хэрэгсэл дээр байна. Та одоо байгаа тэмдэглэлийгийг яах хүсэлтэй байна вэ?</string>
+    <string name="existing_annotations">Одоо байгаа тэмдэглэл</string>
+    <string name="featured_apps">Онцлох аппликэйшнүүд</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Эмэгтэй</string>
+    <string name="finalizing_ellipsis">Эцэслэж байна …</string>
+    <string name="find_by_name">Нэрээр олох</string>
+    <string name="find_count">%2$d-н %1$d</string>
+    <string name="find_x_on_page">%s-г хуудас дээр ол</string>
+    <string name="find_x_in_x">%2$s-н%1$s-г ол</string>
+    <string name="find_exact_x_in_x">%2$s-н дахь %1$s гэсэн яг адил үг хэллэгийг ол</string>
+    <string name="marked_text_position">%2$d-н %1$d үр дүн</string>
+    <string name="marked_text_position_no_results">0 үр дүн</string>
+    <string name="highlight_style">Өнгөөр тодруулах загвар</string>
+    <string name="history">Түүх</string>
+    <string name="history_cleared">Түүх устгагдсан</string>
+    <string name="installing_ellipsis">Татаж авч байна …</string>
+    <string name="journal">Тэмдэглэл</string>
+    <string name="journal_restore">Тэмдэглэлийг сэргээх</string>
+    <string name="journal_create_notebook">Тэмдэглэл гэсэн тэмдэглэлийн дэвтэр үүсгэ</string>
+    <string name="journal_restore_description">Тэмдэглэл хэсэг устгагдсан боловч таны тэмдэглэл хадгалагдсан. Хэрэв та хүсвэл бид тэмдэглэл хэсэгт байсан бүх тэмдэглэлийг цуглуулаад, тэмдэглэл гэсэн нэртэй шинэ тэмдэглэлийн дэвтэрт оруулах боломжтой.</string>
+    <string name="journal_restore_result">Тэмдэглэлийг бүрэн сэргээх. %d тэмдэглэл шилжсэн.</string>
+    <string name="language">Хэл</string>
+    <string name="lds_account_summary">Тэмдэглэгээнүүдээ хэрэгслүүд болон LDS.org дээр давхар хадгалж, ашиглахын тулд ХҮГ данс ашиглана.</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">%1$s руу</string>
+    <string name="loading_ellipsis">Ачааллаж байна …</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Эрэгтэй</string>
+    <string name="mark" comment="Select highlight color">Тэмдэглэх</string>
+    <string name="media_type">Медиа-ийн төрөл</string>
+    <string name="menu_new_screen">Шинэ дэлгэц…</string>
+    <string name="merged_notebook_name_prompt">Сонгогдсон тэмдэглэлийн дэвтрүүд нэгтгэгдэх болно. Үүссэн тэмдэглэлийн дэвтрийн нэрийг оруулна уу.</string>
+    <string name="merged_notebook_name">Нэгтгэсэн тэмдэглэлийн дэвтрийн нэр</string>
+    <string name="merged_tag_name">Нэгтгэсэн пайз/тэмдэглэгээний нэр</string>
+    <string name="move_to_notebook">Тэмдэглэлийн дэвтэр рүү шилжүүл</string>
+    <string name="my_collections">Миний цуглуулга</string>
+    <string name="network_required" comment="Not connected to any network">Энэ үйлдлийг хийхэд интернэтэд холбогдсон байх шаардлагатай. Гар утасны эсвэл Wi-Fi сүлжээнд холбогдоод, дахин оролдоно уу.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">Тохиргооноосоо хамаараад, энэ үйлдлийг хийхийн тулд та Wi-Fi –д холбогдсон байх ёстой.</string>
+    <string name="no_bookmarks">Номын хавчуурга байхгүй</string>
+    <string name="no_bookmarks_description">Байсан хэсэгтээ хурдан эргэж орохын тулд номын хавчуурга нэмэх.</string>
+    <string name="no_content">Агуулга байхгүй</string>
+    <string name="no_collection_content_description">Хялбар нэвтрэхийн тулд аливаа зүйлсийг цуглуулгад нэмэх</string>
+    <string name="no_custom_collections">Тусгайлан хийсэн цуглуулга байхгүй</string>
+    <string name="no_custom_collections_description">Холбоотой зүйлсийг хялбар ашиглахын тулд тусгай цуглуулга үүсгэх.</string>
+    <string name="no_downloads_in_progress">Одоо татаж авч буй зүйл байхгүй</string>
+    <string name="no_downloads_in_progress_description">Агуулга ба мэдээллийг одоо татаж авч байна</string>
+    <string name="no_downloaded_media">Татаж авсан мэдээлэл байхгүй</string>
+    <string name="no_downloaded_media_description">Интернэт холболтгүй үед ашиглах дуу болон видео бичлэгийг татаж авах</string>
+    <string name="no_history">Түүх байхгүй</string>
+    <string name="no_history_description">Агуулга эрж хайх, очих замаа олох, эргэж очих.</string>
+    <string name="no_matches" comment="No results">Үр дүн байхгүй</string>
+    <string name="no_matches_description">Заасан хайлтын үр дүн байхгүй</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">Тэмдэглэлийн дэвтэр байхгүй</string>
+    <string name="no_notebooks_description">Бүх тэмдэглэлээ цэгцлэхийн тулд хүссэн тоогоороо тэмдэглэлийн дэвтэр үүсгэх.</string>
+    <string name="no_notes">Тэмдэглэл байхгүй</string>
+    <string name="no_notes_in_notebook">Энэ тэмдэглэлийн дэвтэрт ямар ч тэмдэглэл байхгүй</string>
+    <string name="no_notes_description">Төрсөн санаа бодол, сүнслэг өдөөлтөө хадгалахын тулд тэмдэглэл бичих.</string>
+    <string name="no_related_content">Холбоотой агуулга байхгүй</string>
+    <string name="no_related_content_description2">Зүүлт тайлбар эсвэл холбоотой агуулга байхгүй</string>
+    <string name="no_tags" comment="The message to show when there are no tags">Пайз/тэмдэглэгээ байхгүй</string>
+    <string name="no_tags_description">Аппликейшний аль ч хэсгийн агуулгуудыг бүлэглэхийн тулд тэмдэглээс үүсгэх.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">Пайз/тэмдэглэгээтэй агуулга байхгүй</string>
+    <string name="no_tagged_content_description">Хожим ашиглах аливаа агуулгад пайз/тэмдэглэгээ хавсаргах.</string>
+    <string name="no_thanks">Баярлалаа, хэрэггүй.</string>
+    <string name="no_tips">Зөвлөмж байхгүй</string>
+    <string name="no_tips_description">Зөвлөмж нь аппликэйшнийн хэрэгтэй үйлдлийг харуулдаг</string>
+    <string name="note_content">Тэмдэглэлийн агуулга</string>
+    <string name="notebook">Тэмдэглэлийн дэвтэр</string>
+    <string name="notebooks">Тэмдэглэлийн дэвтрүүд</string>
+    <string name="notes">Тэмдэглэл</string>
+    <string name="num_item_add_to">%2$s-д %1$s зүйл нэмэгдсэн</string>
+    <string name="num_item">%d зүйл</string>
+    <string name="num_items_add_to">%2$s-д %1$s зүйл нэмэгдсэн</string>
+    <string name="num_items">%d зүйл</string>
+    <string name="open">Нээх</string>
+    <string name="open_in_music">ХҮГ Дуу хөгжим дотор нээх</string>
+    <string name="open_in_new_screen">Шинэ дэлгэцэн дээр нээх</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Хажуугийн шугаманд тэмдэглэх</string>
+    <string name="play_audio">Дуу бичлэг тоглуулах</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Дахин тоглуулах хурд</string>
+    <string name="playback_speed_0.5x">0.5 дахин</string>
+    <string name="playback_speed_1x">1 дахин</string>
+    <string name="playback_speed_1.25x">1.25 дахин</string>
+    <string name="playback_speed_1.5x">1.5 дахин</string>
+    <string name="playback_speed_1.75x">1.75 дахин</string>
+    <string name="playback_speed_2x">2 дахин</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Хэрэглэгчийн нэр, нууц үгээ засахын тулд дахин нэвтэрч орно уу.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Татаж авсан дуу, видео бичлэгийг ажиллуулах эсвэл харах</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"…болгоогтун, өчүүхэн мөн энгийн зүйлүүдээр агуу их зүйлүүд улиран авчрагддагийг би чамд хэлнэ; мөн өчүүхэн зүйлүүд олон тохиолдолд мэргэдийг гутаадаг бөлгөө."</string>
+    <string name="pref_general_list_mode">Жагсаалтаар харах горим</string>
+    <string name="pref_hide_footnotes">Зүүлт тайлбар нуух</string>
+    <string name="pref_limit_mobile_network_subtitle">Wi-Fi-д холбогдсон үед л татаж авах болон дамжуулах</string>
+    <string name="pref_limit_mobile_network">Гар утасны интернэтийн хэрэглээг хязгаарлах</string>
+    <string name="pref_theme">Загвар</string>
+    <string name="problem_playing_video">Видео бичлэгийг тоглуулж байхад алдаа гарлаа.</string>
+    <string name="read_more">Цааш унших</string>
+    <string name="recent" comment="label for study notebook">Саяхны</string>
+    <string name="related_content">Холбоотой агуулгууд</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">Та сонгосон зүйлсийг устгахдаа итгэлтэй байна уу?</string>
+    <string name="remove_from_collection">Цуглуулгаас устгах</string>
+    <string name="rename_bookmark">Номын хавчуургад дахин нэр өгөх</string>
+    <string name="rename_screen">Дэлгэцэнд дахин нэр өгөх</string>
+    <string name="requested_ellipsis">Хүсэлтийг илгээсэн …</string>
+    <string name="requested_paused_retry_ellipsis">Хүсэлтийг илгээсэн … (дахин оролдохыг хүлээж байна)</string>
+    <string name="requested_paused_network_ellipsis">Хүсэлтийг илгээсэн … (сүлжээ орж ирэхийг хүлээж байна)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d үр дүн</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d үр дүн</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s - %2$d үр дүн</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s - %2$d үр дүн</string>
+    <string name="save">Хадгалах</string>
+    <string name="screens">Цонхнууд</string>
+    <string name="screen_missing_content">Та сонгосон дэлгэцийн агуулгыг татаж аваагүй байна.\n\nта %1$s-д зориулсан агуулгыг татаж авахыг хүсэж байна уу?</string>
+    <string name="screens_separate_windows">Дэлгэцүүдийг тусдаа цонх болгож харуулах</string>
+    <string name="search_for_links">Түлхүүр үг, шүлэг, гарчгаар хайх</string>
+    <string name="select_highlight">Тодруулсан хэсгийг сонгох</string>
+    <string name="select_items">Эдгээрийг сонгох</string>
+    <string name="select_link">Холбоосыг сонгох</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Холбоос руу бичвэрийг сонгох</string>
+    <string name="selected_media_unavailable">Сонгосон мэдээлэл байхгүй байна.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Сүүлийн удаа шинэчилсэн: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Тоогоор ангилах</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Шинэлэг байдлаар нь ангилах</string>
+    <string name="sort_by_name" comment="sort items by their name">Нэрээр ангилах</string>
+    <string name="sort_by_size" comment="sort media items">Хэмжээгээр ангилах</string>
+    <string name="sort_by_item" comment="sort media items">Төрлөөр ангилах</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Хувилбар %s</string>
+    <string name="style">Загвар</string>
+    <string name="sync_error_invalid_credentials">Хүчингүй хэрэглэгчийн нэр/нууц үг</string>
+    <string name="sync_error_no_network">Сүлжээний холболт байхгүй</string>
+    <string name="sync_notification_failure">Тэмдэглэлийг нэгтгэж чадсангүй</string>
+    <string name="sync_notification_gathering_changes">Өөрчлөлт цуглуулж байна</string>
+    <string name="sync_notification_processing_changes">Өөрчлөлт илгээж байна</string>
+    <string name="sync_notification_receiving_changes">Өөрчлөлт хүлээн авч байна</string>
+    <string name="sync_notification_receiving_update_list">Шинэчлэх жагсаалт хүлээн авч байна</string>
+    <string name="sync_notification_sending_changes">Өөрчлөлт илгээж байна</string>
+    <string name="sync_notification_sending_update_request">Шинэчлэх хүсэлт илгээж байна</string>
+    <string name="syncing_notebooks">Тэмдэглэлийн дэвтрүүдийг нэгтгэж байна</string>
+    <string name="syncing_annotations">Тэмдэглэгээнүүдийг нэгтгэж байна</string>
+    <string name="notification_channel_general">Мэдээлэл</string>
+    <string name="notification_channel_sync">Тэмдэглэгээ оруулах</string>
+    <string name="notification_channel_media_playback">Медиа-г дахин тоглуулах</string>
+    <string name="text_size" comment="">Бичвэрийн хэмжээ</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Бичвэрийг унших</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Бичвэрийг унших тохиргоо</string>
+    <string name="tips">Зөвлөмж</string>
+    <string name="title_optional">Гарчиг (сонголтоор)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Хажуугийн шугамыг нуух</string>
+    <string name="update_catalog_wifi_required">"Шинэчлэгдсэн агуулгыг татаж авахын тулд та Wi-Fi-д холбогдсон байх ёстой. "</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dр HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dр</string>
+    <string name="video_quality">Видео бичлэгийн нягтрал</string>
+    <string name="video_unavailable">Видео бичлэг байхгүй</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Үндсэн дуу хоолой</string>
+    <string name="whats_new">Шинээр</string>
+</resources>

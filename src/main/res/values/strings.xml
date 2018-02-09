@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Add</string>
+    <string name="all">All</string>
+    <string name="app_name">Gospel Library</string>
+    <string name="auto">Auto</string>
+    <string name="allow_in_app_notifications">Allow In-App Notifications</string>
+    <string name="exact_phrase">Exact Phrase</string>
+    <string name="keywords">Keywords</string>
+
+    <string name="beta" translatable="false" comment="Used to inform the user in Developer Settings of the ContentServerType">Beta</string>
+    <string name="bookmark">Bookmark</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="cancel_all">Cancel All</string>
+    <string name="content">Content</string>
+    <string name="copy">Copy</string>
+
+    <string name="delete">Delete</string>
+    <string name="define">Define</string>
+    <string name="dev" translatable="false" comment="Used to inform the user in Developer Settings of the ContentServerType">Development</string>
+    <string name="display">Display</string>
+    <string name="done">Done</string>
+    <string name="download">Download</string>
+    <string name="download_all">Download All</string>
+    <string name="download_item">Download Item</string>
+
+    <string name="edit_note">Edit Note</string>
+
+    <string name="feedback">Feedback</string>
+
+    <string name="keep">Keep</string>
+
+    <string name="library">Library</string>
+    <string name="link">Link</string>
+    <string name="links">Links</string>
+
+    <string name="merge">Merge</string>
+
+    <string name="never">Never</string>
+    <string name="no">No</string>
+    <string name="note">Note</string>
+    <string name="none">None</string>
+
+    <string name="ok">OK</string>
+
+    <string name="prod" translatable="false" comment="Used to inform the user in Developer Settings of the ContentServerType">Production</string>
+
+    <string name="remove">Remove</string>
+    <string name="remove_all">Remove All</string>
+    <string name="rename">Rename</string>
+
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="screen_settings">Screen Settings</string>
+    <string name="share">Share</string>
+    <string name="skip">Skip</string>
+    <string name="sort">Sort</string>
+    <string name="staging" translatable="false" comment="Used to inform the user in Developer Settings of the ContentServerType">Staging</string>
+    <string name="template" translatable="false" comment="Used to inform the user in Developer Settings of the ContentServerType">Template</string>
+
+    <string name="tag">Tag</string>
+    <string name="tags">Tags</string>
+    <string name="theme_default">Default</string>
+    <string name="theme_night">Night</string>
+    <string name="theme_sepia">Sepia</string>
+    <string name="theme_dark_blue">Dark Blue</string>
+    <string name="theme_magenta">Magenta</string>
+    <string name="today">Today</string>
+
+    <string name="undo">Undo</string>
+    <string name="update">Update</string>
+
+    <string name="view">View</string>
+
+    <string name="yes">Yes</string>
+    <string name="yesterday">Yesterday</string>
+
+
+    <!-- Other -->
+    <string name="add_bookmark">Add Bookmark</string>
+    <string name="create_note">Create Note</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Add tag</string>
+    <string name="add_to">Add to</string>
+    <string name="add_to_ellipsis">Add to…</string>
+    <string name="add_to_notebook">Add to Notebook</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">Cannot show annotation because “%s” is not installed.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Tap to install update.</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">A Gospel Library update is available.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Audio Settings</string>
+
+    <string name="backup_annotations_message">Signing in with an LDS Account backs up all your highlights, notes, and bookmarks, keeping them safe and making them available on the web or any mobile device.</string>
+    <string name="backup_annotations_title">Back Up Annotations</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="bookmark_added">Bookmark Added</string>
+    <string name="bookmark_empty">You have not added any bookmarks.</string>
+    <string name="bookmark_updated">Bookmark Updated</string>
+
+    <string name="cast" comment="as in Chromecast; send to a different screen">Cast</string>
+    <string name="catalog_title">Gospel Library Catalog</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Choose Highlight</string>
+    <string name="citation_chapter_verse_separator">:</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="citation_range_separator">–</string>
+    <string name="citation_range_group_separator">", "</string>
+    <string name="clear_downloaded_media">Clear Downloaded Media</string>
+    <string name="clear_history">Clear History</string>
+    <string name="content_no_content" comment="Shown in content drawer">Cannot show content because “%s” is not installed.</string>
+    <string name="content_not_downloaded">%s not downloaded.</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Continuous Play</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Text Copied to Clipboard</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">Create “%s”</string>
+    <string name="current_downloads">Current Downloads</string>
+    <string name="custom_collections">Custom Collections</string>
+
+    <string name="delete_annotation_title">Remove Annotation</string>
+    <string name="delete_annotation_message">Any notes, tags, or links attached to this highlight will also be removed.</string>
+    <string name="delete_collection_item_title">Delete “%1$s”?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s will be deleted.\n\nDelete all media?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">Unable to delete all media.</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s will be deleted from “%1$s”.\n\nDelete media?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Delete Media</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Delete Notebooks</string>
+    <string name="delete_notebooks_message" comment = "message for dialog confirming delete of multiple notebooks">Delete selected notebooks?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Delete Tag</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Delete Tags</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">Are you sure you want to remove this tag from all notes and highlights?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">Are you sure you want to remove these tags from all notes and highlights?</string>
+    <string name="deleted">%s Deleted</string>
+    <string name="deleted_bookmark" comment = "message stating that a single bookmark was deleted">%s bookmark deleted.</string>
+    <string name="deleted_notebook" comment = "message stating that a single notebook was deleted">%s notebook deleted.</string>
+    <string name="developer_mode_disabled" translatable="false">Developer Mode Disabled</string>
+    <string name="developer_mode_enabled" translatable="false">Developer Mode Enabled</string>
+    <string name="dialog_sign_out_confirmation">Are you sure you want to sign out?</string>
+    <string name="double_tap_fullscreen_training">Tip: Double-tap the screen to exit full screen mode.</string>
+    <string name="download_audio" comment="download audio">Download Audio</string>
+    <string name="download_all_selected_confirm">%d items will be downloaded.\n\nDownload selected items?</string>
+    <string name="download_cancel_confirm_all">All current downloads will be canceled.\n\nCancel downloads?</string>
+    <string name="download_cancel">Cancel Download</string>
+    <string name="download_canceling">Canceling download…</string>
+    <string name="download_item_message">%s is not installed. Would you like to download it now?</string>
+    <string name="download_video" comment="download video">Download Video</string>
+    <string name="downloaded_media">Downloaded Media</string>
+    <string name="downloading_ellipsis">Downloading…</string>
+    <string name="downloading_audio">Downloading audio for %s</string>
+    <string name="downloading_video">Downloading video for %s</string>
+    <string name="download_file_failed_insufficient_space">Failed to download [%s].\n Insufficient space.</string>
+    <string name="download_file_failed">Failed to download [%s].\nCheck your Internet connection and try again.</string>
+    <string name="download_dir_error">Failed to create download directory.</string>
+
+    <string name="collection_name" comment="prompt for the name of a new custom collection">Collection Name</string>
+    <string name="create_notebook" comment="prompt for the name of a new Notebook">Create Notebook</string>
+    <string name="edit_notebook" comment="prompt for renaming a Notebook">Edit Notebook</string>
+    <string name="existing_annotations_prompt">There are %d annotations that have not been saved. You can merge them to your annotations or discard them.</string>
+    <string name="existing_annotations">Existing Annotations</string>
+
+    <string name="featured_apps">Featured Apps</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Female</string>
+    <string name="finalizing_ellipsis">Finalizing…</string>
+    <string name="find_by_name">Find by name</string>
+    <string name="find_count">%1$d of %2$d</string>
+    <string name="find_x_on_page">Find “%s” on page</string>
+    <string name="find_x_in_x">Find “%1$s” in %2$s</string>
+    <string name="find_exact_x_in_x">Find exact phrase “%1$s” in %2$s</string>
+    <string name="marked_text_position">%1$d of %2$d results</string>
+    <string name="marked_text_position_no_results">0 results</string>
+
+    <string name="sign_in_error" comment="Failed to login invalid username or password.">Sign-In Error</string>
+
+    <string name="highlight_style">Highlight Style</string>
+    <string name="history">History</string>
+    <string name="history_cleared">History Cleared</string>
+
+    <string name="installing_ellipsis">Installing…</string>
+
+    <string name="journal">Journal</string>
+    <string name="journal_restore">Restore Journal</string>
+    <string name="journal_create_notebook">Create Journal Notebook</string>
+    <string name="journal_restore_description">Although the Journal section has been removed, your notes have been preserved. If you would like, we can collect all notes that were previously in the Journal section and put them in a new notebook named Journal.</string>
+    <string name="journal_restore_result">Restore Journal complete. %d notes moved.</string>
+
+    <string name="language">Language</string>
+    <string name="lds_account_summary">An LDS Account is used to back up and synchronize your annotations across devices and on LDS.org.</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">to %1$s</string>
+    <string name="loading_ellipsis">Loading…</string>
+
+    <string name="male" comment="Option for using a male voice for audio playback">Male</string>
+    <string name="mark" comment="Select highlight color">Mark</string>
+    <string name="media_type">Media type</string>
+    <string name="menu_new_screen">New Screen…</string>
+    <string name="merged_notebook_name_prompt">The selected notebooks will be merged. Please enter a name for the resulting notebook.</string>
+    <string name="merged_notebook_name">Merged Notebook Name</string>
+    <string name="merged_tag_name">Merged Tag Name</string>
+    <string name="move_to_notebook">Move to Notebook</string>
+    <string name="my_collections">My Collections</string>
+
+    <string name="network_required" comment="Not connected to any network">This action requires an Internet connection. Please connect to a mobile or Wi-Fi network and try again.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">Based on your settings, you must be connected to Wi-Fi to perform this action.</string>
+    <string name="no_bookmarks">No Bookmarks</string>
+    <string name="no_bookmarks_description">Add a bookmark to quickly return to where you left off.</string>
+    <string name="no_content">No Content</string>
+    <string name="no_collection_content_description">Add items to the collection for easy access.</string>
+    <string name="no_custom_collections">No Custom Collections</string>
+    <string name="no_custom_collections_description">Create custom collections to easily access related items.</string>
+    <string name="no_downloads_in_progress">No Downloads in Progress</string>
+    <string name="no_downloads_in_progress_description">Content and media currently being downloaded.</string>
+    <string name="no_downloaded_media">No Downloaded Media</string>
+    <string name="no_downloaded_media_description">Download audio or video for offline access.</string>
+    <string name="no_history">No History</string>
+    <string name="no_history_description">Explore content, find your path, and go back to it.</string>
+    <string name="no_matches" comment="No results">No Results</string>
+    <string name="no_matches_description">No results for the specified search.</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">No Notebooks</string>
+    <string name="no_notebooks_description">Create notebooks to collect and organize your notes for talks, lessons, and personal study.</string>
+    <string name="no_notes">No Notes</string>
+    <string name="no_notes_in_notebook">No Notes in This Notebook</string>
+    <string name="no_notes_description">Record notes to preserve your thoughts.</string>
+    <string name="no_related_content">No Related Content</string>
+    <string name="no_related_content_description2">No footnotes, personal notes, or other related content available.</string>
+    <string name="no_tags" comment="The message to show when there are no tags">No Tags</string>
+    <string name="no_tags_description">Create a tag to group content from anywhere in the app.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">No Tagged Content</string>
+    <string name="no_tagged_content_description">Attach a tag to any piece of content for future reference.</string>
+    <string name="no_thanks">No Thanks</string>
+    <string name="no_tips">No Tips</string>
+    <string name="no_tips_description">Tips show you useful app functionality.</string>
+    <string name="note_content">Note Content</string>
+    <string name="notebook">Notebook</string>
+    <string name="notebooks">Notebooks</string>
+    <string name="notes">Notes</string>
+    <string name="num_item_add_to">%1$s item added to %2$s</string>
+    <string name="num_item">%d item</string>
+    <string name="num_items_add_to">%1$s items added to %2$s</string>
+    <string name="num_items">%d items</string>
+
+    <string name="open">Open</string>
+    <string name="open_in_music">Open in LDS Music</string>
+    <string name="open_in_new_screen">Open in New Screen</string>
+
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Pin Sidebar</string>
+    <string name="play_audio">Play Audio</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Playback Speed</string>
+    <string name="playback_speed_0.5x">0.5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1.25x</string>
+    <string name="playback_speed_1.5x">1.5x</string>
+    <string name="playback_speed_1.75x">1.75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Wrong username and password combination. Please check your username and password and try again.</string>
+    <string name="pref_developer_options" translatable="false">Developer Options</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Manage or view downloaded audio and video.</string>
+    <string name="pref_show_obsolete">Show Obsolete Content</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">… behold I say unto you, that by small and simple things are great things brought to pass; and small means in many instances doth confound the wise.</string>
+    <string name="pref_general_list_mode">List Mode</string>
+    <string name="pref_hide_footnotes">Hide Footnotes</string>
+    <string name="pref_limit_mobile_network_subtitle">Only Download and Stream on Wi-Fi</string>
+    <string name="pref_limit_mobile_network">Limit Mobile Network Use</string>
+    <string name="pref_theme">Theme</string>
+    <string name="problem_playing_video">There was a problem while playing the video.</string>
+
+    <string name="read_more">Read More</string>
+    <string name="recent" comment="label for study notebook">Recent</string>
+    <string name="related_content">Related Content</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">Are you sure you want to remove the selected items?</string>
+    <string name="remove_from_collection">Remove from Collection</string>
+    <string name="rename_bookmark">Rename Bookmark</string>
+    <string name="rename_screen">Rename Screen</string>
+    <string name="requested_ellipsis">Requested…</string>
+    <string name="requested_paused_retry_ellipsis">Requested… (waiting for retry)</string>
+    <string name="requested_paused_network_ellipsis">Requested… (waiting for network)</string>
+    <string name="space_parentheses_number" comment="A number in parentheses, preceded by a space">" (%d)"</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d result</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d results</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s – %2$d result</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s – %2$d results</string>
+
+    <string name="save">Save</string>
+    <string name="screens">Screens</string>
+    <string name="screen_missing_content">You have not downloaded the content for the selected screen.\n\nWould you like to download the content for “%1$s” now?</string>
+    <string name="screens_separate_windows">Show Screens as Separate Windows</string>
+    <string name="search_all_content">Search All Content</string>
+    <string name="search_for_links">Search for keywords, verses, or titles.</string>
+    <string name="select_footnote">Select Footnote</string>
+    <string name="select_highlight">Select Highlight</string>
+    <string name="select_items">Select Items</string>
+    <string name="select_link">Select Link</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Select Text to Link</string>
+    <string name="selected_media_unavailable">The selected media is not available.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Last Sync: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Sort by Count</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Sort by Most Recent</string>
+    <string name="sort_by_name" comment="sort items by their name">Sort by Name</string>
+    <string name="sort_by_size" comment="sort media items">Sort by Size</string>
+    <string name="sort_by_item" comment="sort media items">Sort by Item</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Version %s</string>
+    <string name="style">Style</string>
+    <string name="sync_error_invalid_credentials">Invalid Username/Password</string>
+    <string name="sync_error_no_network">Network connection not available.</string>
+    <string name="sync_notification_failure">Sync Failed</string>
+    <string name="sync_notification_gathering_changes">Gathering Changes</string>
+    <string name="sync_notification_processing_changes">Processing Changes</string>
+    <string name="sync_notification_receiving_changes">Receiving Changes</string>
+    <string name="sync_notification_receiving_update_list">Receiving Update List</string>
+    <string name="sync_notification_sending_changes">Sending Changes</string>
+    <string name="sync_notification_sending_update_request">Sending Update Request</string>
+    <string name="syncing_notebooks">Syncing Notebooks</string>
+    <string name="syncing_annotations">Syncing Annotations…</string>
+
+    <string name="notification_channel_general">General Notifications</string>
+    <string name="notification_channel_sync">Annotation Sync</string>
+    <string name="notification_channel_media_playback">Media Playback</string>
+
+    <string name="text_size" comment="">Text Size</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Text-to-speech</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Text-to-speech Settings</string>
+    <string name="tips">Tips</string>
+    <string name="title_optional">Title (Optional)</string>
+
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Unpin Sidebar</string>
+    <string name="update_catalog_wifi_required">Updated content is available, but you must be connected to Wi-Fi to download.</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">Edit Tag</string>
+
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Video Quality</string>
+    <string name="video_unavailable">Video Unavailable</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Main Voice</string>
+
+    <string name="whats_new">What’s New</string>
+    <string name="study_plans">Study Plans</string>
+    <string name="featured">Featured</string>
+    <string name="my_plans">My Plans</string>
+    <string name="plan_weeks">%d Weeks </string>
+    <string name="plan_items">%d Items</string>
+</resources>

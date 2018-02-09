@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardBackgroundColor="?attr/themeStyleColorBackgroundCardTab"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    tools:layout_width="@dimen/content_card_width">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="@dimen/tab_thumb_width"
+            android:layout_height="@dimen/tab_thumb_height">
+
+            <ImageView
+                android:id="@+id/screenImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                tools:ignore="ContentDescription"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/drop_shadow_inverse"/>
+        </RelativeLayout>
+
+        <!-- Line separator -->
+        <View
+            android:id="@+id/currentScreenLineView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/colorAccent"
+            android:visibility="gone"
+            tools:visibility="visible"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/themeStyleColorBackgroundCardTabBottom"
+            tools:ignore="RtlHardcoded">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingStart="8dp"
+                android:paddingTop="8dp"
+                tools:ignore="RtlHardcoded,RtlSymmetry">
+
+                <!--android:singleLine="true" is required for the ellipsize="middle" to work on pre 6.0 devices-->
+                <TextView
+                    android:id="@+id/screenTitleTextView"
+                    style="?attr/themeStyleWidgetText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="middle"
+                    android:singleLine="true"
+                    android:textColor="?attr/themeStyleColorTextItemTitle"
+                    android:textSize="13sp"
+                    tools:text="The Title"/>
+
+                <TextView
+                    android:id="@+id/screenSubTitleTextView"
+                    style="?attr/themeStyleWidgetTextSubtle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="?attr/themeStyleColorTextItemSubTitle"
+                    android:textSize="11sp"
+                    tools:ignore="SmallSp"
+                    tools:text="The subtitle"/>
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/screen_menu"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_alignParentEnd="true"
+                android:background="?attr/selectableItemBackground"
+                android:paddingBottom="16dp"
+                android:paddingEnd="4dp"
+                android:paddingStart="24dp"
+                android:paddingTop="016dp"
+                app:srcCompat="@drawable/ic_lds_more_vert_24dp"
+                tools:ignore="ContentDescription,RtlSymmetry"/>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

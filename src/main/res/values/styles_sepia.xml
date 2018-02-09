@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Styles to use for the Sepia theme -->
+<resources>
+    <style name="AppTheme.Sepia" parent="AppTheme.Light">
+        <item name="colorPrimary">@color/theme_sepia_primary</item>
+        <item name="colorPrimaryDark">@color/theme_sepia_primary_dark</item>
+        <item name="colorAccent">@color/theme_sepia_accent</item>
+        <item name="colorAccentDim">@color/theme_sepia_accent_dim</item>
+
+        <item name="themeStyleColorMainContentBackground">@color/theme_sepia_main_content_background</item>
+        <item name="themeStyleColorSideBarContentBackground">@color/theme_sepia_sidebar_content_background</item>
+
+        <item name="actionModeStyle">@style/AppTheme.Sepia.Widget.Toolbar.ActionMode</item>
+        <item name="actionOverflowMenuStyle">@style/AppTheme.Sepia.Widget.Toolbar.ActionMode.Overflow</item>
+
+        <item name="dialogTheme">@style/AppTheme.Sepia.Dialog</item>
+        <item name="alertDialogTheme">@style/AppTheme.Sepia.Dialog.Alert</item>
+
+        <item name="popupMenuStyle">@style/AppTheme.Sepia.PopupMenu</item>
+        <item name="android:popupMenuStyle">@style/AppTheme.Sepia.PopupMenu</item>
+
+        <!-- Custom Attributes -->
+        <item name="themeStyleToolbar">@style/AppTheme.Sepia.Widget.Toolbar</item>
+        <item name="themeStyleToolbarDim">@style/AppTheme.Sepia.Widget.Toolbar.Dim</item>
+
+        <item name="themeStyleColorToolbarIcon">@color/theme_sepia_toolbar_icon</item>
+        <item name="themeStyleColorToolbarIconDim">@color/theme_sepia_toolbar_icon_dim</item>
+        <item name="themeStyleColorToolbarIconDimDisabled">@color/theme_sepia_toolbar_icon_dim_disabled</item>
+        <item name="themeStyleColorToolbarActionModeIcon">@color/theme_sepia_toolbar_action_mode_icon</item>
+
+        <item name="themeStyleColorSidebarToolbar">@color/theme_sepia_side_bar_toolbar_background</item>
+        <item name="themeStyleColorSidebarReferenceBackground">@color/theme_sepia_side_bar_reference_background</item>
+
+        <item name="themeStyleTitleTextAppearanceDim">@style/AppTheme.Light.Widget.Toolbar.Title.Dim</item>
+        <item name="themeStyleSubTitleTextAppearanceDim">@style/AppTheme.Light.Widget.Toolbar.SubTitle.Dim</item>
+
+        <item name="themeStyleWidgetText">@style/AppTheme.Light.Widget.Text</item>
+        <item name="themeStyleWidgetTextSubtle">@style/AppTheme.Light.Widget.Text.Subtle</item>
+
+        <item name="themeStyleColorBackground">@color/theme_sepia_background</item>
+        <item name="themeStyleColorListBackground">@color/theme_sepia_background_dim</item>
+        <item name="themeStyleColorBackgroundCard">@color/theme_sepia_background_card</item>
+        <item name="themeStyleColorBackgroundCardNote">@color/theme_sepia_background_card_note</item>
+        <item name="themeStyleColorBackgroundDialog">@color/theme_sepia_background_dialog</item>
+        <item name="themeStyleColorCatalogItemBackground">@color/theme_sepia_catalog_item_background</item>
+
+        <item name="themeStyleColorBackgroundCardTab">@color/theme_sepia_background_card_tag</item>
+        <item name="themeStyleColorBackgroundCardTabBottom">@color/theme_sepia_background_card</item>
+
+        <item name="themeStyleColorBackgroundFilter">@color/theme_sepia_filter_background</item>
+        <item name="themeStyleColorBackgroundFilterInput">@color/theme_sepia_background_card_note</item>
+
+        <item name="themeStyleColorBackgroundSearch">@color/theme_sepia_background_card_note</item>
+
+        <item name="themeStyleColorPlaybackControlsBackground">@color/theme_sepia_widget_playback_controls_background</item>
+
+        <item name="themeStyleColorTextDefault">@color/theme_sepia_text_normal</item>
+        <item name="themeStyleColorTextItemTitle">@color/theme_sepia_item_title</item>
+        <item name="themeStyleColorTextItemSubTitle">@color/theme_sepia_item_sub_title</item>
+        <item name="themeStyleColorTextHint">@color/theme_sepia_text_hint</item>
+
+        <item name="themeStyleColorTextCatalogGridTitle">@color/theme_sepia_catalog_grid_title</item>
+        <item name="themeStyleColorTextCatalogGridSummary">@color/theme_sepia_catalog_grid_summary</item>
+
+        <item name="themeStyleColorLinkIcon">@color/theme_sepia_link_icon</item>
+
+        <item name="themeStyleColorBackgroundFindOnPage">@color/theme_sepia_find_on_page_background</item>
+        <item name="themeStyleColorIconFindOnPage">@color/theme_sepia_find_on_page_icon</item>
+
+        <!-- About library -->
+        <item name="aboutBackgroundColor">@color/theme_sepia_background_dim</item>
+        <item name="aboutCopyrightColor">@color/theme_sepia_text_normal</item>
+        <item name="aboutSubtitleColor">@color/theme_sepia_text_secondary</item>
+        <item name="aboutTitleColor">@color/theme_sepia_text_normal</item>
+        <item name="aboutToolbarTheme">@style/AppTheme.Dark.Widget.Toolbar</item>
+        <item name="aboutPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+        <!-- Empty State -->
+        <item name="emptyStateImageColor">@color/theme_sepia_item_sub_title</item>
+        <item name="emptyStateTitleColor">@color/theme_sepia_item_title</item>
+        <item name="emptyStateSubTitleColor">@color/theme_sepia_item_sub_title</item>
+
+    </style>
+
+    <style name="AppTheme.Sepia.Search">
+        <item name="colorPrimary">@color/theme_sepia_primary</item>
+        <item name="colorPrimaryDark">@color/theme_sepia_primary_dark</item>
+        <item name="colorAccent">@color/theme_sepia_accent</item>
+        <item name="android:windowBackground">@color/theme_sepia_background_dim</item>
+    </style>
+
+    <style name="AppTheme.Sepia.Settings" parent="AppTheme.Light.Settings">
+        <item name="colorPrimary">@color/theme_sepia_primary</item>
+        <item name="colorPrimaryDark">@color/theme_sepia_primary_dark</item>
+        <item name="colorAccent">@color/theme_sepia_accent</item>
+
+        <item name="themeStyleColorListBackground">@color/theme_sepia_background</item>
+
+        <item name="dialogTheme">@style/AppTheme.Sepia.Dialog</item>
+        <item name="alertDialogTheme">@style/AppTheme.Sepia.Dialog.Alert</item>
+    </style>
+
+    <style name="AppTheme.Sepia.Dialog" parent="AppTheme.Light.Dialog">
+        <item name="colorPrimary">@color/theme_sepia_primary</item>
+        <item name="colorPrimaryDark">@color/theme_sepia_primary_dark</item>
+        <item name="colorAccent">@color/theme_sepia_accent</item>
+
+        <item name="android:background">@color/theme_sepia_background_dialog</item>
+    </style>
+
+    <style name="AppTheme.Sepia.Dialog.Alert" parent="AppTheme.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/theme_sepia_primary</item>
+        <item name="colorPrimaryDark">@color/theme_sepia_primary_dark</item>
+        <item name="colorAccent">@color/theme_sepia_accent</item>
+
+        <item name="android:background">@color/theme_sepia_background_dialog</item>
+    </style>
+
+
+
+    <!-- Toolbar -->
+    <style name="AppTheme.Sepia.Widget.Toolbar" parent="AppTheme.Light.Widget.Toolbar">
+        <item name="colorPrimary">@color/theme_sepia_primary</item>
+        <item name="colorPrimaryDark">@color/theme_sepia_primary_dark</item>
+        <item name="colorAccent">@color/theme_sepia_accent</item>
+        <item name="actionModeStyle">@style/AppTheme.Dark.Widget.Toolbar.ActionMode</item>
+    </style>
+
+    <style name="AppTheme.Sepia.Widget.Toolbar.ActionMode" parent="AppTheme.Light.Widget.Toolbar.ActionMode">
+        <item name="titleTextStyle">@style/AppTheme.Sepia.Widget.Toolbar.ActionMode.Title</item>
+        <item name="background">@color/theme_sepia_background_action_mode</item>
+    </style>
+
+    <style name="AppTheme.Sepia.Widget.Toolbar.Dim">
+        <item name="android:background">@color/theme_sepia_background_action_mode</item>
+        <item name="background">@color/theme_sepia_background_action_mode</item>
+    </style>
+
+    <style name="AppTheme.Sepia.Widget.Toolbar.ActionMode.Overflow" parent="AppTheme.Light.Widget.Toolbar.ActionMode.Overflow">
+        <item name="android:popupBackground">@color/theme_sepia_background_dialog</item>
+    </style>
+
+
+
+    <!-- Text -->
+    <style name="AppTheme.Sepia.Widget.Toolbar.ActionMode.Title" parent="AppTheme.Light.Widget.Toolbar.ActionMode.Title">
+        <item name="android:textColor">@color/theme_sepia_primary</item>
+    </style>
+
+
+
+    <style name="AppTheme.Sepia.PopupMenu" parent="AppTheme.Light.PopupMenu">
+        <item name="android:popupBackground">@color/theme_sepia_background_dialog</item>
+    </style>
+</resources>

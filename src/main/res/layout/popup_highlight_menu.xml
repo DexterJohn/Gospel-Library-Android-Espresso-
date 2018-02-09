@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popupLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="12dp"
+    android:paddingEnd="8dp"
+    android:paddingStart="8dp"
+    android:paddingTop="8dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/markHighlightMenuTextView"
+            style="@style/HighlightMenuItem"
+            android:text="@string/mark"
+            tools:drawableTop="@drawable/ic_lds_annotation_mark_24dp"/>
+
+        <TextView
+            android:id="@+id/noteHighlightMenuTextView"
+            style="@style/HighlightMenuItem"
+            android:text="@string/note"
+            tools:drawableTop="@drawable/ic_lds_action_note_24dp"/>
+
+        <TextView
+            android:id="@+id/tagHighlightMenuTextView"
+            style="@style/HighlightMenuItem"
+            android:text="@string/tag"
+            tools:drawableTop="@drawable/ic_lds_tag_24dp"/>
+
+        <TextView
+            android:id="@+id/addToHighlightMenuTextView"
+            style="@style/HighlightMenuItem"
+            android:text="@string/add_to"
+            tools:drawableTop="@drawable/ic_lds_notebook_24dp"/>
+
+        <TextView
+            android:id="@+id/linkHighlightMenuTextView"
+            style="@style/HighlightMenuItem"
+            android:text="@string/link"
+            tools:drawableTop="@drawable/ic_lds_link_24dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        >
+
+        <TextView
+            android:id="@+id/copyHighlightMenuTextView"
+            style="@style/HighlightMenuItem"
+            android:text="@string/copy"
+            tools:drawableTop="@drawable/ic_lds_action_copy_24dp"/>
+
+        <TextView
+            android:id="@+id/shareHighlightMenuTextView"
+            style="@style/HighlightMenuItem"
+            android:text="@string/share"
+            tools:drawableTop="@drawable/ic_lds_action_share_24dp"/>
+
+        <TextView
+            android:id="@+id/searchHighlightMenuTextView"
+            style="@style/HighlightMenuItem"
+            android:text="@string/search"
+            tools:drawableTop="@drawable/ic_lds_action_search_24dp"/>
+
+        <TextView
+            android:id="@+id/defineHighlightMenuTextView"
+            style="@style/HighlightMenuItem"
+            android:text="@string/define"
+            tools:drawableTop="@drawable/ic_lds_action_define_24dp"
+            />
+
+        <TextView
+            android:id="@+id/removeHighlightMenuTextView"
+            style="@style/HighlightMenuItem"
+            android:text="@string/remove"
+            tools:drawableTop="@drawable/ic_lds_action_delete_24dp"/>
+    </LinearLayout>
+</LinearLayout>

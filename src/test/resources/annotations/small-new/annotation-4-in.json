@@ -1,0 +1,65 @@
+{
+  "syncAnnotations": {
+    "count": 1,
+    "timeDiff": "PT0.746S",
+    "changes": [
+      {
+        "annotationId": "df55b62c-55c0-4ff6-b6c0-11274666b833",
+        "changeType": "new",
+        "timestamp": "2016-01-23T11:23:10.894-07:00",
+        "annotation": {
+          "bookmark": {
+            "@uri": "/manual/new-testament-seminary-teacher-manual/matthew/lesson-18-matthew-15.title1",
+            "@pid": "128124921",
+            "@offset": "-1"
+          },
+          "source": "Windows Gospel Library",
+          "device": "winmo",
+          "timestamp": "2016-09-29T07:03:23.000-06:00",
+          "created": "2016-09-29T07:03:23.000-06:00",
+          "@id": "df55b62c-55c0-4ff6-b6c0-11274666b833",
+          "@uri": "/manual/new-testament-seminary-teacher-manual/matthew/lesson-18-matthew-15",
+          "@type": "bookmark",
+          "@locale": "eng",
+          "@person-id": "3445719805445643",
+          "@contentVersion": "2",
+          "@docId": "128124917"
+        }
+      },
+      {
+        "annotationId": "491158b7-692c-4cc0-ac8a-d3b8a3211639",
+        "changeType": "new",
+        "timestamp": "2016-01-23T11:23:10.894-07:00",
+        "annotation": {
+          "source": "Android Gospel Library | App: 3.5.0.2-PREVIEW | OS: 23",
+          "device": "android",
+          "timestamp": "2016-01-23T11:23:10.894-07:00",
+          "created": "2016-01-17T16:11:32.231-07:00",
+          "@id": "491158b7-692c-4cc0-ac8a-d3b8a3211639",
+          "@uri": "/manual/primary-4/lesson-3",
+          "@type": "highlight",
+          "@locale": "eng",
+          "@person-id": "3446128307130937",
+          "@contentVersion": "2",
+          "@docId": "17680202",
+          "highlights": {
+            "highlight": [
+              {
+                "@uri": "/manual/primary-4/lesson-3.p1",
+                "@pid": "17680208",
+                "@offset-start": "9",
+                "@offset-end": "9",
+                "@color": "yellow"
+              }
+            ]
+          },
+          "tags": {
+            "tag": [
+              "Atonement"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

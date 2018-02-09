@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        TODO: this is a temp workaround for a bug in the design library 22.2.0 (it will be fixed in the next version)
+        where on API 21+ the margin (and shadow) doesn't show up for the FAB
+    -->
+    <dimen name="fab_margin_default">16dp</dimen>
+</resources>

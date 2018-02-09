@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainToolbar"
+    style="?attr/themeStyleToolbarDim"
+    android:elevation="6dp"
+    android:theme="@style/AppTheme.Widget.Toolbar.Dim"
+    app:popupTheme="@style/AppTheme.Widget.Toolbar.Popup"
+    app:subtitleTextAppearance="?attr/themeStyleSubTitleTextAppearanceDim"
+    app:titleTextAppearance="?attr/themeStyleTitleTextAppearanceDim"
+    tools:targetApi="lollipop">
+
+    <ImageView
+        android:id="@+id/dropArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="@color/white"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_lds_arrow_drop_down_24dp"
+        tools:ignore="ContentDescription"/>
+
+</android.support.v7.widget.Toolbar>
+

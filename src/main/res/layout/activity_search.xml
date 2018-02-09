@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/themeStyleColorBackground"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/themeStyleColorBackground"
+        android:elevation="2dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1">
+
+        <ImageView
+            android:id="@+id/backImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:background="?attr/selectableItemBackground"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:visibility="visible"
+            android:tint="?attr/themeStyleColorToolbarActionModeIcon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_lds_arrow_back_24dp"
+            tools:ignore="ContentDescription"/>
+
+        <!-- saveEnabled = false because the app will handle restoring state manually -->
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:background="?attr/themeStyleColorBackground"
+            android:gravity="center_vertical"
+            android:hint="@string/search_all_content"
+            android:imeOptions="actionSearch|flagNoExtractUi|flagNoFullscreen"
+            android:inputType="text"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:saveEnabled="false"
+            android:textColor="?attr/themeStyleColorTextDefault"
+            android:textColorHint="?attr/themeStyleColorTextHint"
+            app:layout_constraintEnd_toStartOf="@+id/searchClearTextImageView"
+            app:layout_constraintStart_toEndOf="@+id/backImageView"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="LabelFor,RtlHardcoded"
+            tools:text="The search text"/>
+
+        <ImageView
+            android:id="@+id/searchMicImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="?attr/selectableItemBackground"
+            android:tint="?attr/themeStyleColorToolbarActionModeIcon"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_lds_keyboard_voice_24dp"
+            tools:ignore="ContentDescription"
+            tools:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/searchEditText"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <ImageView
+            android:id="@+id/searchClearTextImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:background="?attr/selectableItemBackground"
+            android:tint="?attr/themeStyleColorToolbarActionModeIcon"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_lds_action_clear_24dp"
+            tools:ignore="ContentDescription"
+            tools:visibility="visible"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        >
+
+        <ProgressBar
+            android:id="@+id/searchProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-4dp"
+            android:visibility="gone"/>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/searchHeaderLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/themeStyleColorListBackground"
+            android:elevation="1dp"
+            >
+
+            <TextView
+                android:id="@+id/searchHeaderTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:textAllCaps="true"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Scriptures"/>
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/searchRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <org.lds.mobile.ui.widget.EmptyStateIndicator
+        android:id="@+id/searchEmptyStateIndicator"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        app:image="@drawable/ic_lds_action_search_80dp"
+        app:imageTint="?attr/emptyStateImageColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        app:subTitle="@string/no_matches_description"
+        app:subTitleTextColor="?attr/emptyStateSubTitleColor"
+        app:title="@string/no_matches"
+        app:titleTextColor="?attr/emptyStateTitleColor"
+        />
+</android.support.constraint.ConstraintLayout>

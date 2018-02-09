@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/allAnnotationsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/fab_list_bottom_padding"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp"
+        android:scrollbars="vertical"/>
+
+
+    <org.lds.mobile.ui.widget.EmptyStateIndicator
+        android:id="@+id/emptyStateIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        app:image="@drawable/ic_lds_note_80dp"
+        app:imageTint="?attr/emptyStateImageColor"
+        app:subTitle="@string/no_notes_description"
+        app:subTitleTextColor="?attr/emptyStateSubTitleColor"
+        app:title="@string/no_notes"
+        app:titleTextColor="?attr/emptyStateTitleColor"
+        tools:visibility="visible"
+        />
+
+
+    <org.lds.ldssa.ui.widget.LoadingView
+        android:id="@+id/allAnnotationsLoadingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

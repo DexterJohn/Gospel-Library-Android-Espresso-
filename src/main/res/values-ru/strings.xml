@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Добавить</string>
+    <string name="all">Все</string>
+    <string name="app_name">Евангельская библиотека</string>
+    <string name="auto">Автоматически</string>
+    <string name="allow_in_app_notifications">Разрешить уведомления в приложении</string>
+    <string name="exact_phrase">Точная фраза</string>
+    <string name="keywords">Ключевые слова</string>
+    <string name="bookmark">Закладка</string>
+    <string name="cancel">Отменить</string>
+    <string name="cancel_all">Отменить все</string>
+    <string name="content">Контент</string>
+    <string name="copy">Копировать</string>
+    <string name="delete">Удалить</string>
+    <string name="define">Определить</string>
+    <string name="display">Управление интерфейсом</string>
+    <string name="done">Готово</string>
+    <string name="download">Скачать</string>
+    <string name="download_all">Загрузить все</string>
+    <string name="download_item">Загрузить объект</string>
+    <string name="feedback">Отзыв</string>
+    <string name="keep">Хранить</string>
+    <string name="library">Библиотека</string>
+    <string name="link">Перекрестная ссылка</string>
+    <string name="links">Перекрестные ссылки</string>
+    <string name="merge">Объединить</string>
+    <string name="never">Никогда</string>
+    <string name="no">Нет</string>
+    <string name="note">Заметка</string>
+    <string name="none">Нет</string>
+    <string name="ok">ОК</string>
+    <string name="remove">Удалить</string>
+    <string name="remove_all">Удалить все</string>
+    <string name="rename">Переименовать</string>
+    <string name="search">Поиск</string>
+    <string name="settings">Настройки</string>
+    <string name="screen_settings">Настройки экрана</string>
+    <string name="share">Поделиться</string>
+    <string name="skip">Пропустить</string>
+    <string name="sort">Сортировать</string>
+    <string name="tag">Метка</string>
+    <string name="tags">Метки</string>
+    <string name="theme_default">По умолчанию</string>
+    <string name="theme_night">Ночной</string>
+    <string name="theme_sepia">Сепия</string>
+    <string name="theme_dark_blue">Темно-синий</string>
+    <string name="today">Сегодня</string>
+    <string name="undo">Отменить</string>
+    <string name="update">Обновить</string>
+    <string name="view">Просмотр</string>
+    <string name="yes">Да</string>
+    <string name="yesterday">Вчера</string>
+    <!-- Other -->
+    <string name="add_bookmark">Добавить закладку</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Добавить метку</string>
+    <string name="add_to">Добавить в</string>
+    <string name="add_to_ellipsis">Добавить в...</string>
+    <string name="add_to_notebook">Добавить в блокнот</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">Невозможно показать аннотацию, потому что раздел “%s” не установлен.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Нажмите, чтобы установить обновление.</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">Доступно обновление приложения Библиотека Евангелия.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Настройки звука</string>
+    <string name="backup_annotations_message">Неудачная попытка входа в систему перед очередным обновлением приложения Евангельская библиотека приведет к потере ваших личных аннотаций (выделения, заметок, закладок и т.д.).</string>
+    <string name="backup_annotations_title">Резервное копирование аннотаций</string>
+    <string name="bookmarks">Закладки</string>
+    <string name="bookmark_added">Закладка добавлена</string>
+    <string name="bookmark_empty">Вы не добавили каких-либо закладок.</string>
+    <string name="bookmark_updated">Закладка обновлена</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Транслировать</string>
+    <string name="catalog_title">Каталог приложения Евангельская библиотека</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Выбрать цвет выделения</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Удалить скаченные медиа-файлы</string>
+    <string name="clear_history">Удалить историю</string>
+    <string name="content_no_content" comment="Shown in content drawer">"Не удается отобразить контент по причине того, что раздел “%s” не установлен
+ "</string>
+    <string name="content_not_downloaded">%s не скачан.</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Непрерывное воспроизведение</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Текст скопирован в буфер обмена</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">Скачать “%s”</string>
+    <string name="current_downloads">Текущие скачивания</string>
+    <string name="custom_collections">Пользовательские коллекции</string>
+    <string name="delete_annotation_title">Удалить аннотацию</string>
+    <string name="delete_annotation_message">Все заметки, метки или перекрестные ссылки, связанные с этим выделением также будут удалены.</string>
+    <string name="delete_collection_item_title">Удалить “%1$s”?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s будут удалены.\n\nУдалить все медиа-файлы?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">Не удалось удалить все медиа-файлы</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s будет удалено из “%1$s”.\n\nУдалить медиа-файл?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Удалить медиафайлы</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Удалить блокноты</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Удалить выбранные блокноты?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Удалить метку</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Удалить метки</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">Вы уверены, что хотите удалить этот метку из всех заметок и выделений?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">Вы уверены, что хотите удалить эти метки из всех заметок и выделений?</string>
+    <string name="deleted">%s удален</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">закладка %s удалена</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">%s блокнот удален</string>
+    <string name="dialog_sign_out_confirmation">Вы уверены, что хотите выйти?</string>
+    <string name="double_tap_fullscreen_training">Совет: Дважды коснитесь экрана для выхода из полноэкранного режима.</string>
+    <string name="download_audio" comment="download audio">Скачать аудио</string>
+    <string name="download_all_selected_confirm">%d наименований будут скачены.\n\nСкачать выбранные наименования?</string>
+    <string name="download_cancel_confirm_all">Все текущие скачивания будут отменены.\n\nОтменить скачивания?</string>
+    <string name="download_cancel">Отменить скачивание?</string>
+    <string name="download_canceling">Отмена скачивания...</string>
+    <string name="download_item_message">Раздел %s не установлен. Хотите загрузить сейчас?</string>
+    <string name="download_video" comment="download video">Скачать видео</string>
+    <string name="downloaded_media">Скаченные медиа-файлы</string>
+    <string name="downloading_ellipsis">Скачивается...</string>
+    <string name="downloading_audio">Скачивание аудио для %s</string>
+    <string name="downloading_video">Скачивание видео для %s</string>
+    <string name="download_file_failed_insufficient_space">Не удалось загрузить [%s].\nНедостаточно места.</string>
+    <string name="download_file_failed">Не удалось загрузить [%s].\nПроверьте подключение к Интернету и повторите попытку.</string>
+    <string name="download_dir_error">Не удалось создать каталог загрузки.</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">Название фонда</string>
+    <string name="existing_annotations_prompt">%d аннотация(ий) уже существуют на этом устройстве. Что бы вы хотели предпринять в отношении существующих аннотаций?</string>
+    <string name="existing_annotations">Существующие анотации</string>
+    <string name="featured_apps">Избранные приложения</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Женский</string>
+    <string name="finalizing_ellipsis">Завершается…</string>
+    <string name="find_by_name">Найти по названию</string>
+    <string name="find_count">%1$d из %2$d</string>
+    <string name="find_x_on_page">Найти “%s” на странице</string>
+    <string name="find_x_in_x">Найти “%1$s” в %2$s</string>
+    <string name="find_exact_x_in_x">Найти точную фразу “%1$s” в %2$s</string>
+    <string name="marked_text_position">Результат %1$d из %2$d</string>
+    <string name="marked_text_position_no_results">Результат 0</string>
+    <string name="sign_in_error" comment="Failed to login invalid username or password.">Ошибка при входе в систему</string>
+    <string name="highlight_style">Стиль выделения</string>
+    <string name="history">История</string>
+    <string name="history_cleared">История удалена</string>
+    <string name="installing_ellipsis">Устанавливается…</string>
+    <string name="journal">Дневник</string>
+    <string name="journal_restore">Восстановить дневник</string>
+    <string name="journal_create_notebook">Создать блокнот дневника</string>
+    <string name="journal_restore_description">Несмотря на то, что раздел Дневник был удален, ваши заметки были сохранены. Если хотите, мы можем скомпилировать все заметки из прошлого раздела Дневник и поместить их в новый блокнот под названием Дневник.</string>
+    <string name="journal_restore_result">Завершено восстановление журнала. %d заметок перемещено.</string>
+    <string name="language">Язык</string>
+    <string name="lds_account_summary">Для резервного копирования и синхронизации ваших аннотаций между устройствами и на сайте LDS.org используется учетная запись LDS Account.</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">до %1$s</string>
+    <string name="loading_ellipsis">Скачивание...</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Мужской</string>
+    <string name="mark" comment="Select highlight color">Выделить</string>
+    <string name="media_type">Тип медиа-файла</string>
+    <string name="menu_new_screen">Новая страница...</string>
+    <string name="merged_notebook_name_prompt">Выбранные блокноты будут объединены. Введите название конечного блокнота.</string>
+    <string name="merged_notebook_name">Название объединенного блокнота</string>
+    <string name="merged_tag_name">Название объединенной метки</string>
+    <string name="move_to_notebook">Переместить в Блокнот</string>
+    <string name="my_collections">Мои коллекции</string>
+    <string name="network_required" comment="Not connected to any network">Для выполнения данного действия необходимо подключение к сети. Подключитесь к сети (мобильной или Wi-Fi), а затем повторите попытку.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">Согласно установленным вами параметрам для выполнения данного действия необходимо подключиться к Wi-Fi.</string>
+    <string name="no_bookmarks">Нет закладок</string>
+    <string name="no_bookmarks_description">Добавить закладку, чтобы быстро вернуться туда, где вы были ранее.</string>
+    <string name="no_content">Нет контента</string>
+    <string name="no_collection_content_description">Добавить наименования в  коллекцию для быстрого доступа</string>
+    <string name="no_custom_collections">Нет пользовательских коллекций</string>
+    <string name="no_custom_collections_description">Создать пользовательские коллекции для быстрого доступа к связанным наименованиям.</string>
+    <string name="no_downloads_in_progress">Нет активных скачиваний</string>
+    <string name="no_downloads_in_progress_description">Скачиваемые в настоящий момент медиа-файлы и контент</string>
+    <string name="no_downloaded_media">Нет закаченных материалов</string>
+    <string name="no_downloaded_media_description">Скачайте аудио или видео для доступа в автономном режиме</string>
+    <string name="no_history">Нет истории</string>
+    <string name="no_history_description">Исследуйте контент, определите свой путь и вернитесь обратно к нему.</string>
+    <string name="no_matches" comment="No results">Нет результатов</string>
+    <string name="no_matches_description">Нет результатов для для указанного поиска</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">Нет блокнотов</string>
+    <string name="no_notebooks_description">Создавайте любое количество блокнотов для организации всех своих заметок.</string>
+    <string name="no_notes">Нет заметок</string>
+    <string name="no_notes_in_notebook">Нет заметок в этом блокноте</string>
+    <string name="no_notes_description">Запишите заметки, чтобы сохранить свои мысли и обретенное свыше вдохновение.</string>
+    <string name="no_related_content">Нет связанного контента</string>
+    <string name="no_related_content_description2">Нет сносок или другого связанного контента</string>
+    <string name="no_tags" comment="The message to show when there are no tags">Нет меток</string>
+    <string name="no_tags_description">Создайте метку для группировки контента в любом месте программного приложения.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">Контент без меток</string>
+    <string name="no_tagged_content_description">Прикрепите тег к любому фрагменту контента для дальнейшего использования.</string>
+    <string name="no_thanks">Нет, благодарю</string>
+    <string name="no_tips">Отсутствуют советы</string>
+    <string name="no_tips_description">Советы описывают полезные функции программного приложения</string>
+    <string name="note_content">Контент заметки</string>
+    <string name="notebook">Блокнот</string>
+    <string name="notebooks">Блокноты</string>
+    <string name="notes">Примечания</string>
+    <string name="num_item_add_to">наименование %1$s  добавлено в %2$s</string>
+    <string name="num_item">%d наименование</string>
+    <string name="num_items_add_to">%1$s наименований добавлено в %2$s</string>
+    <string name="num_items">%d наименования</string>
+    <string name="open">Открыть</string>
+    <string name="open_in_music">Открыть в Музыка СПД</string>
+    <string name="open_in_new_screen">Открыть в новой странице</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Закрепить боковую панель</string>
+    <string name="play_audio">Воспроизвести аудио-файл</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Скорость воспроизведения</string>
+    <string name="playback_speed_0.5x">0.5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1.25x</string>
+    <string name="playback_speed_1.5x">1.5x</string>
+    <string name="playback_speed_1.75x">1.75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Войдите снова, чтобы исправить свое имя пользователя и пароль.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Управление или просмотр скаченного аудио и видео</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"«Малыми и простыми средствами совершаются великие дела; и ничтожное во многих случаях смущает мудрых»."</string>
+    <string name="pref_general_list_mode">Режим списка</string>
+    <string name="pref_hide_footnotes">Скрыть сноски</string>
+    <string name="pref_limit_mobile_network_subtitle">Только скачивание и передача по Wi-Fi</string>
+    <string name="pref_limit_mobile_network">Ограничение использования мобильной сети</string>
+    <string name="pref_theme">Фон</string>
+    <string name="problem_playing_video">Возникла проблема при воспроизведении видео.</string>
+    <string name="read_more">Читать дальше</string>
+    <string name="recent" comment="label for study notebook">Недавно</string>
+    <string name="related_content">Связанный контент</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">Вы действительно хотите удалить выбранные наименования?</string>
+    <string name="remove_from_collection">Удалить из коллекции</string>
+    <string name="rename_bookmark">Переименовать закладку</string>
+    <string name="rename_screen">Переименовать страницу</string>
+    <string name="requested_ellipsis">Запрашивается…</string>
+    <string name="requested_paused_retry_ellipsis">Запрашивается... (ожидание повтора)</string>
+    <string name="requested_paused_network_ellipsis">Запрашивается... (ожидание сети)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">результат %d</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">результаты %d</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">результат %1$s - %2$d</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">результаты %1$s - %2$d</string>
+    <string name="save">Сохранить</string>
+    <string name="screens">Страницы</string>
+    <string name="screen_missing_content">Вы не загрузили контент для выбранного экрана.\n\nХотите сейчас загрузить контент для “%1$s”?</string>
+    <string name="screens_separate_windows">Показывать страницы в виде отдельных окон</string>
+    <string name="search_all_content">Поиск по всему содержанию</string>
+    <string name="search_for_links">Поиск ключевых слов, стихов или названий</string>
+    <string name="select_highlight">Выбрать выделение</string>
+    <string name="select_items">Выбрать наименования</string>
+    <string name="select_link">Выбрать ссылку</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Выбрать текст для создания ссылки</string>
+    <string name="selected_media_unavailable">Выбранные медиа-файлы недоступны.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Последняя синхронизация: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Сортировать по счету</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Сортировать по самым последним</string>
+    <string name="sort_by_name" comment="sort items by their name">Сортировать по названию</string>
+    <string name="sort_by_size" comment="sort media items">Сортировать по размеру</string>
+    <string name="sort_by_item" comment="sort media items">Сортировать по наименованию</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Версия %s</string>
+    <string name="style">Стиль</string>
+    <string name="sync_error_invalid_credentials">"Неверное имя пользователя/пароль
+"</string>
+    <string name="sync_error_no_network">Отсутствует сетевое подключение</string>
+    <string name="sync_notification_failure">Ошибка синхронизации аннотации</string>
+    <string name="sync_notification_gathering_changes">Сбор изменений</string>
+    <string name="sync_notification_processing_changes">Обработка изменений</string>
+    <string name="sync_notification_receiving_changes">Получение изменений</string>
+    <string name="sync_notification_receiving_update_list">Получение списка обновлений</string>
+    <string name="sync_notification_sending_changes">Отправка изменений</string>
+    <string name="sync_notification_sending_update_request">Отправка запроса на обновление</string>
+    <string name="syncing_notebooks">Синхронизация блокнотов</string>
+    <string name="syncing_annotations">Синхронизация аннотаций</string>
+    <string name="notification_channel_general">Общие уведомления</string>
+    <string name="notification_channel_sync">Синхронизация аннотаций</string>
+    <string name="notification_channel_media_playback">Воспроизведение медиа-файла</string>
+    <string name="text_size" comment="">Размер текста</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Преобразование текста в речь</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Настройки преобразования текста в речь</string>
+    <string name="tips">Советы</string>
+    <string name="title_optional">Название (необязательно)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Открепить панель</string>
+    <string name="update_catalog_wifi_required">Обновленный контент доступен, но для скачивания необходимо подключиться к Wi-Fi .</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">Редактировать метку</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Качество видео</string>
+    <string name="video_unavailable">Видео недоступно</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Основной голос</string>
+    <string name="whats_new">Что нового</string>
+</resources>

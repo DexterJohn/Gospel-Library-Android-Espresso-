@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ListFilterEditText">
+        <attr name="inputHint" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="IndicatorImageSelection">
+        <attr name="image" format="reference" />
+        <attr name="image_tint" format="color" />
+        <attr name="indicator_image" format="reference" />
+        <attr name="indicator_image_tint" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ContentExpandableLayout">
+        <attr name="handle" format="reference" />
+        <attr name="content" format="reference" />
+        <attr name="viewgroup" format="reference"/>
+        <attr name="isviewgroup" format="boolean"/>
+        <attr name="maxCollapsedHeight" format="dimension"/>
+        <attr name="animationDuration" format="integer"/>
+        <attr name="collapsible" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="EmptyListIndicator">
+        <attr name="image" />
+        <attr name="title" />
+        <attr name="subTitle" format="string" />
+    </declare-styleable>
+
+    <!-- References for the themes -->
+    <attr name="colorAccentDim" format="color" />
+
+    <attr name="themeStyleColorMainContentBackground" format="color" />
+    <attr name="themeStyleColorSideBarContentBackground" format="color" />
+
+    <attr name="themeStyleToolbar" format="reference" />
+    <attr name="themeStyleToolbarDim" format="reference" />
+
+    <attr name="themeStyleColorToolbarIcon" format="reference" />
+    <attr name="themeStyleColorToolbarIconDim" format="reference" />
+    <attr name="themeStyleColorToolbarIconDimDisabled" format="reference" />
+    <attr name="themeStyleColorToolbarActionModeIcon" format="reference" />
+
+    <attr name="themeStyleColorSidebarToolbar" format="color" />
+    <attr name="themeStyleColorSidebarReferenceBackground" format="color" />
+
+    <attr name="themeStyleTitleTextAppearanceDim" format="reference" />
+    <attr name="themeStyleSubTitleTextAppearanceDim" format="reference" />
+
+    <attr name="themeStyleWidgetTextSubtle" format="reference" />
+    <attr name="themeStyleWidgetText" format="reference" />
+
+    <attr name="themeStyleColorTextDefault" format="reference" />
+    <attr name="themeStyleColorTextItemTitle" format="reference" />
+    <attr name="themeStyleColorTextItemSubTitle" format="reference" />
+    <attr name="themeStyleColorTextHint" format="reference" />
+
+    <attr name="themeStyleColorTextCatalogGridTitle" format="reference" />
+    <attr name="themeStyleColorTextCatalogGridSummary" format="reference" />
+    <attr name="themeStyleColorTextCatalogGridMenuIcon" format="reference" />
+
+    <attr name="themeStyleColorBackground" format="reference" />
+    <attr name="themeStyleColorListBackground" format="reference" />
+    <attr name="themeStyleColorCatalogItemBackground" format="reference" />
+
+    <attr name="themeStyleColorBackgroundCard" format="reference" />
+    <attr name="themeStyleColorBackgroundCardNote" format="reference" />
+    <attr name="themeStyleColorBackgroundDialog" format="reference" />
+
+    <attr name="themeStyleColorBackgroundCardTab" format="reference" />
+    <attr name="themeStyleColorBackgroundCardTabBottom" format="reference" />
+
+    <attr name="themeStyleColorBackgroundFilter" format="reference" />
+    <attr name="themeStyleColorBackgroundFilterInput" format="reference" />
+
+    <attr name="themeStyleColorBackgroundSearch" format="reference" />
+
+    <attr name="themeStyleColorBackgroundFindOnPage" format="reference" />
+    <attr name="themeStyleColorIconFindOnPage" format="reference" />
+
+    <attr name="themeStyleColorPlaybackControlsBackground" format="reference" />
+
+    <attr name="themeStyleColorLinkIcon" format="reference"/>
+
+    <!-- Empty State -->
+    <attr name="emptyStateImageColor" format="color"/>
+    <attr name="emptyStateTitleColor" format="color"/>
+    <attr name="emptyStateSubTitleColor" format="color"/>
+
+
+    <!-- Highlight colors -->
+    <attr name="themeStyleColorHighlightRed" />
+    <attr name="themeStyleColorHighlightRedUnderline" />
+
+    <attr name="themeStyleColorHighlightOrange" />
+    <attr name="themeStyleColorHighlightOrangeUnderline" />
+
+    <attr name="themeStyleColorHighlightYellow" />
+    <attr name="themeStyleColorHighlightYellowUnderline" />
+
+    <attr name="themeStyleColorHighlightGreen" />
+    <attr name="themeStyleColorHighlightGreenUnderline" />
+
+    <attr name="themeStyleColorHighlightBlue" />
+    <attr name="themeStyleColorHighlightBlueUnderline" />
+
+    <attr name="themeStyleColorHighlightDarkBlue" />
+    <attr name="themeStyleColorHighlightDarkBlueUnderline" />
+
+    <attr name="themeStyleColorHighlightPurple" />
+    <attr name="themeStyleColorHighlightPurpleUnderline" />
+
+    <attr name="themeStyleColorHighlightPink" />
+    <attr name="themeStyleColorHighlightPinkUnderline" />
+
+    <attr name="themeStyleColorHighlightBrown" />
+    <attr name="themeStyleColorHighlightBrownUnderline" />
+
+    <attr name="themeStyleColorHighlightGray" />
+    <attr name="themeStyleColorHighlightGrayUnderline" />
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/themeStyleColorBackground"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/mainToolbar"
+        layout="@layout/toolbar_dim"/>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/themeStyleColorBackground"
+            android:orientation="vertical"
+            app:elevation="0dp">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/tagsFlexboxLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/themeStyleColorBackground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                app:flexWrap="wrap"
+                app:showDivider="beginning|middle"
+                app:dividerDrawable="@drawable/divider_flexbox_default">
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <EditText
+                android:id="@+id/tagNameEditText"
+                style="?themeStyleWidgetText"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:hint="@string/add_tag_hint"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="textCapSentences"
+                android:maxLength="@integer/tag_name_max_length"
+                android:minWidth="48dp"
+                android:textColorHint="?attr/themeStyleColorTextHint"
+                tools:ignore="LabelFor"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha="0.2"
+                android:background="@color/black"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/tagsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/appBarLayout"
+            android:scrollbars="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+        <org.lds.mobile.ui.widget.EmptyStateIndicator
+            android:id="@+id/emptyStateIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appBarLayout"
+            app:image="@drawable/ic_lds_tag_80dp"
+            app:imageTint="?attr/emptyStateImageColor"
+            app:subTitle="@string/no_tags_description"
+            app:subTitleTextColor="?attr/emptyStateSubTitleColor"
+            app:title="@string/no_tags"
+            app:titleTextColor="?attr/emptyStateTitleColor"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            />
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

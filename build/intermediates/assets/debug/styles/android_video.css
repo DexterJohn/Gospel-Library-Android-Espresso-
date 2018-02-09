@@ -1,0 +1,25 @@
+.video_button_play {
+    position: absolute;
+    content:url('file:///android_asset/images/play_icon.png');
+    
+    left: 1em;
+    bottom: -0.2em;
+    width: 3.5em;
+    height: 3.5em;
+    font-size: 12pt;
+}
+
+.video_button_download {
+    position: absolute;
+    content:url('file:///android_asset/images/download_icon.png');
+
+    left: 1.5em;
+    bottom: 4.4em;
+    width: 2.5em;
+    height: 2.5em;
+    font-size: 12pt;
+}
+
+.video_container {
+    position: relative;
+}

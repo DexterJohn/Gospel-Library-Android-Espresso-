@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:id="@+id/searchItemLayout"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+                                             android:background="?attr/themeStyleColorBackground"
+                                             android:foreground="?attr/selectableItemBackground"
+                                             android:minHeight="48dp"
+                                             tools:layout_editor_absoluteX="0dp"
+                                             tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        style="?attr/themeStyleWidgetText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="9dp"
+        android:textColor="?attr/themeStyleColorTextItemTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded"
+        tools:text="Scriptures"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/subTitleTextView"
+        style="?attr/themeStyleWidgetTextSubtle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="9dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="?attr/themeStyleColorTextItemSubTitle"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="@+id/titleTextView"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        tools:text="577 results"
+        tools:visibility="visible"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

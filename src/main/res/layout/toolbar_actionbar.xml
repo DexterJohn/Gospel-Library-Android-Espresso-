@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainToolbar"
+    style="?attr/themeStyleToolbar"
+    android:orientation="horizontal"
+    android:theme="@style/AppTheme.Widget.Toolbar"
+    app:popupTheme="@style/AppTheme.Widget.Toolbar.Popup"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!-- MissingPrefix ignored... because of unknown issue with sdk... but it works anyway  (error goes away without LinearLayout) -->
+        <TextView
+            android:id="@+id/mainToolbarTitleTextView"
+            style="@style/AppTheme.Widget.Toolbar.Title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:autoSizeMaxTextSize="20sp"
+            app:autoSizeMinTextSize="13sp"
+            app:autoSizeStepGranularity="1sp"
+            app:autoSizeTextType="uniform"
+            tools:text="Book of Mormon"
+            tools:ignore="MissingPrefix"/>
+
+        <ImageView
+            android:id="@+id/dropArrowImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:tint="@color/white"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_lds_arrow_drop_down_24dp"
+            tools:ignore="ContentDescription"/>
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

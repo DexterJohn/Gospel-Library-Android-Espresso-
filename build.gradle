@@ -1,0 +1,570 @@
+import groovy.json.JsonSlurper
+
+buildscript {
+    ext.kotlinVersion = '1.1.61'
+    ext.dbtoolsVersion = '10.3.0'
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        google()
+        jcenter()
+        maven { url 'https://code.lds.org/nexus/content/groups/mobile/' } // required here for version plugin support
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath "org.dbtools:gradle-dbtools-plugin:$dbtoolsVersion"
+        classpath 'com.github.ben-manes:gradle-versions-plugin:0.17.0' // version plugin support
+        classpath 'io.fabric.tools:gradle:1.24.5'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+        classpath "org.jetbrains.kotlin:kotlin-android-extensions:$kotlinVersion"
+    }
+}
+
+plugins {
+    id "de.undercouch.download" version "3.3.0" // download latest content
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+apply plugin: 'dbtools'
+apply plugin: 'jacoco'
+apply plugin: 'com.github.ben-manes.versions' // ./gradlew dependencyUpdates -Drevision=release
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+//apply plugin: 'kotlin-kapt'
+
+kapt {
+    generateStubs = true
+}
+
+def versionMajor = 4
+def versionMinor = 3
+def versionPatch = 0
+def versionBuild = 15
+def versionMajorMinorPatchBuild = "${versionMajor}.${versionMinor}.${versionPatch}.${versionBuild}"
+def buildTimestamp = new Date().getTime()
+
+// tips
+def tipVersion = "4.2" // version of tips to show on welcome screen
+
+// catalog
+def schemaVersion = "v3"
+def catalogBetaLocation = "http://edge.ldscdn.org/mobile/gospelstudy/beta/${schemaVersion}"
+def catalogProdLocation = "http://edge.ldscdn.org/mobile/gospelstudy/production/${schemaVersion}"
+def catalogStagingLocation = "https://ldscdn.org/mobile/GospelStudy/n8kxfbdzzr82enr0qhh7pzbc777rx4uiuxxbkpvy/${schemaVersion}"
+def catalogTemplateLocation = "https://ldscdn.org/mobile/GospelStudy/AwboX9kGSvtKZoT1NVdnYXFHbIXAGXmK9k5wll9a1dL9juuk57Uq/${schemaVersion}"
+def catalogDevLocation = "https://tech.lds.org/mobile/gospelstudy/staging-content/${schemaVersion}"
+
+// special content
+//def contentLocation = catalogStagingLocation // special build for content team
+//def catalogTemplateLocation = catalogStagingLocation // special build for content team to review new templates
+
+// tips
+def tipsSchemaVersion = "v1"
+def tipsLocation = "http://ldscdn.org/mobile/gltips/android/${tipsSchemaVersion}"
+//def tipsLocation = "http://ldscdn.org/mobile/gltips_beta/android/${tipsSchemaVersion}" // BETA
+
+// support emails
+def prodSupportEmail = "android-support@ldsmail.net"
+def previewSupportEmail = "gl-android-preview@ldsmail.net"
+
+repositories {
+    mavenLocal()
+    maven { url 'https://code.lds.org/nexus/content/groups/mobile/' }
+    mavenCentral()
+    google()
+    jcenter()
+    maven { url 'https://maven.fabric.io/public' }
+    maven { url 'http://maven.localytics.com/public' }
+    maven { url 'https://jitpack.io' } // for appintro
+}
+
+ext {
+    supportLibVersion = '27.0.1'
+    archVersionLifecycleRT = '1.0.3'
+    archVersion = '1.0.0'
+    playServicesVersion = '11.6.0'
+    daggerVersion = '2.13'
+    okhttpVersion = '3.9.1'
+    loganSquareVersion = '1.3.7'
+    pocketKnifeVersion = '3.2.1'
+    pocketBusVersion = '1.2.0'
+    butterKnifeVersion = '8.7.0'
+    parcelerVersion = '1.1.9'
+    glideVersion = '4.3.1'
+    devToolsVersion = '2.1.0'
+}
+
+// todo JetBrains has indicated that coroutines are stable, but the kotlinx-coroutines designs may change ... remove this when kotlinx-coroutines are no longer experimental
+kotlin {
+    experimental {
+        coroutines 'enable'
+    }
+}
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '26.0.2'
+
+    dexOptions {
+        jumboMode true
+        javaMaxHeapSize "4g"
+    }
+
+    defaultConfig {
+        applicationId 'org.lds.ldssa'
+
+        minSdkVersion 17
+        targetSdkVersion 27
+
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+
+        versionCode versionMajor * 10000 + versionMinor * 1000 + versionPatch * 100 + versionBuild
+        versionName versionMajorMinorPatchBuild
+        buildConfigField "String", "USER_AGENT_APP_NAME", "\"Gospel Library\""
+        buildConfigField "String", "WELCOME_TIPS_VERSION", "\"${tipVersion}\""
+        buildConfigField "String", "CONTENT_SCHEMA_VERSION", "\"${schemaVersion}\""
+        buildConfigField "String", "CONTENT_STAGING_LOCATION", "\"$catalogStagingLocation\""
+        buildConfigField "String", "CONTENT_DEV_LOCATION", "\"$catalogDevLocation\""
+        buildConfigField "String", "CONTENT_TEMPLATE_LOCATION", "\"$catalogTemplateLocation\""
+        buildConfigField "String", "CONTENT_BETA_LOCATION", "\"$catalogBetaLocation\""
+        buildConfigField "String", "CONTENT_PROD_LOCATION", "\"$catalogProdLocation\""
+        buildConfigField "int", "MIN_SUPPORTED_SDK", "${minSdkVersion.mApiLevel}"
+
+        // Espresso
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    // set dummy signing values if not defined in ~/.gradle/gradle.properties
+    if (!project.hasProperty('ldsmobileKeystore')) {
+        println "Using dummy signing values"
+        project.ext.setProperty('ldsmobileKeystore', 'dummy')
+        project.ext.setProperty('ldsmobileKeystorePassword', 'dummy')
+        project.ext.setProperty('ldsmobileKeyAlias', 'dummy')
+        project.ext.setProperty('ldsmobileKeyPassword', 'dummy')
+    }
+
+    // defined values in ~/.gradle/gradle.properties
+    signingConfigs {
+        prodConfig {
+            storeFile file(ldsmobileKeystore)
+            storePassword ldsmobileKeystorePassword
+            keyAlias ldsmobileKeyAlias
+            keyPassword ldsmobileKeyPassword
+        }
+    }
+
+    lintOptions {
+        abortOnError true
+        disable 'InvalidPackage'
+        warning 'MissingTranslation'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    // for gradle-1.9+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+
+        // For Espresso
+        exclude 'LICENSE.txt'
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix '.dev'
+            //signingConfig signingConfigs.prodConfig
+            versionNameSuffix '-DEV'
+
+            resValue "string", "search_provider", "org.lds.ldssa.search.dev.SearchSuggestionProvider"
+            resValue "string", "facebook_provider", "com.facebook.app.dev.FacebookContentProvider1450355775239261"
+            resValue "string", "file_provider", "org.lds.ldssa.dev.fileprovider"
+            buildConfigField "long", "BUILD_TIME", "0L" // don't constantly change to improve build time
+            buildConfigField "String", "FEEDBACK_EMAIL", "\"${previewSupportEmail}\""
+
+            // annotations
+            buildConfigField "org.lds.ldssa.model.prefs.model.AnnotationServerType", "ANNOTATION_SERVER_TYPE", "org.lds.ldssa.model.prefs.model.AnnotationServerType.PROD"
+            // content - be sure to update tasks.whenTaskAdded
+            buildConfigField "org.lds.ldssa.model.prefs.model.ContentServerType", "DEFAULT_CONTENT_SERVER_TYPE", "org.lds.ldssa.model.prefs.model.ContentServerType.PROD"
+        }
+        alpha {
+            initWith(buildTypes.release)
+            signingConfig signingConfigs.prodConfig
+            applicationIdSuffix '.dev'
+            versionNameSuffix '-ALPHA'
+            debuggable true
+
+            resValue "string", "search_provider", "org.lds.ldssa.search.dev.SearchSuggestionProvider"
+            resValue "string", "facebook_provider", "com.facebook.app.dev.FacebookContentProvider1450355775239261"
+            resValue "string", "file_provider", "org.lds.ldssa.alpha.fileprovider"
+            buildConfigField "long", "BUILD_TIME", "${buildTimestamp}L"
+            buildConfigField "String", "FEEDBACK_EMAIL", "\"${previewSupportEmail}\""
+
+            // annotations
+            buildConfigField "org.lds.ldssa.model.prefs.model.AnnotationServerType", "ANNOTATION_SERVER_TYPE", "org.lds.ldssa.model.prefs.model.AnnotationServerType.PROD"
+            // content - be sure to update tasks.whenTaskAdded
+            buildConfigField "org.lds.ldssa.model.prefs.model.ContentServerType", "DEFAULT_CONTENT_SERVER_TYPE", "org.lds.ldssa.model.prefs.model.ContentServerType.PROD"
+        }
+        preview {
+            initWith(buildTypes.release)
+            signingConfig signingConfigs.prodConfig
+            applicationIdSuffix '.preview'
+            versionNameSuffix '-PREVIEW'
+
+            resValue "string", "search_provider", "org.lds.ldssa.search.preview.SearchSuggestionProvider"
+            resValue "string", "facebook_provider", "com.facebook.app.preview.FacebookContentProvider1450355775239261"
+            resValue "string", "file_provider", "org.lds.ldssa.preview.fileprovider"
+            buildConfigField "long", "BUILD_TIME", "${buildTimestamp}L"
+            buildConfigField "String", "FEEDBACK_EMAIL", "\"${previewSupportEmail}\""
+
+            // annotations
+            buildConfigField "org.lds.ldssa.model.prefs.model.AnnotationServerType", "ANNOTATION_SERVER_TYPE", "org.lds.ldssa.model.prefs.model.AnnotationServerType.PROD"
+            // content - be sure to update tasks.whenTaskAdded
+            buildConfigField "org.lds.ldssa.model.prefs.model.ContentServerType", "DEFAULT_CONTENT_SERVER_TYPE", "org.lds.ldssa.model.prefs.model.ContentServerType.PROD"
+        }
+        content { // special build for content review
+            initWith(buildTypes.release)
+            applicationIdSuffix '.content'
+            versionNameSuffix '-CONTENT-REVIEW'
+            signingConfig signingConfigs.prodConfig
+            // debuggable true // (content build gets published to Google Play Store, so this cannot be enabled)
+
+            resValue "string", "search_provider", "org.lds.ldssa.search.content.SearchSuggestionProvider"
+            resValue "string", "facebook_provider", "com.facebook.app.content.FacebookContentProvider1450355775239261"
+            resValue "string", "file_provider", "org.lds.ldssa.content.fileprovider"
+            buildConfigField "long", "BUILD_TIME", "${buildTimestamp}L"
+            buildConfigField "String", "FEEDBACK_EMAIL", "\"${previewSupportEmail}\""
+
+            // annotations
+            buildConfigField "org.lds.ldssa.model.prefs.model.AnnotationServerType", "ANNOTATION_SERVER_TYPE", "org.lds.ldssa.model.prefs.model.AnnotationServerType.PROD"
+            // content - be sure to update tasks.whenTaskAdded
+            buildConfigField "org.lds.ldssa.model.prefs.model.ContentServerType", "DEFAULT_CONTENT_SERVER_TYPE", "org.lds.ldssa.model.prefs.model.ContentServerType.STAGING"
+        }
+        beta {
+            initWith(buildTypes.release)
+            signingConfig signingConfigs.prodConfig
+            versionNameSuffix '-BETA'
+
+            resValue "string", "search_provider", "org.lds.ldssa.search.SearchSuggestionProvider"
+            resValue "string", "facebook_provider", "com.facebook.app.FacebookContentProvider1450355775239261"
+            resValue "string", "file_provider", "org.lds.ldssa.fileprovider"
+            buildConfigField "long", "BUILD_TIME", "${buildTimestamp}L"
+            buildConfigField "String", "FEEDBACK_EMAIL", "\"${prodSupportEmail}\""
+
+            // annotations
+            buildConfigField "org.lds.ldssa.model.prefs.model.AnnotationServerType", "ANNOTATION_SERVER_TYPE", "org.lds.ldssa.model.prefs.model.AnnotationServerType.PROD"
+            // content - be sure to update tasks.whenTaskAdded
+            buildConfigField "org.lds.ldssa.model.prefs.model.ContentServerType", "DEFAULT_CONTENT_SERVER_TYPE", "org.lds.ldssa.model.prefs.model.ContentServerType.PROD"
+        }
+        release {
+            signingConfig signingConfigs.prodConfig
+            versionNameSuffix ''
+
+            resValue "string", "search_provider", "org.lds.ldssa.search.SearchSuggestionProvider"
+            resValue "string", "facebook_provider", "com.facebook.app.FacebookContentProvider1450355775239261"
+            resValue "string", "file_provider", "org.lds.ldssa.fileprovider"
+            buildConfigField "long", "BUILD_TIME", "${buildTimestamp}L"
+            buildConfigField "String", "FEEDBACK_EMAIL", "\"${prodSupportEmail}\""
+
+            // annotations
+            buildConfigField "org.lds.ldssa.model.prefs.model.AnnotationServerType", "ANNOTATION_SERVER_TYPE", "org.lds.ldssa.model.prefs.model.AnnotationServerType.PROD"
+            // content - be sure to update tasks.whenTaskAdded
+            buildConfigField "org.lds.ldssa.model.prefs.model.ContentServerType", "DEFAULT_CONTENT_SERVER_TYPE", "org.lds.ldssa.model.prefs.model.ContentServerType.PROD"
+        }
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+        test.java.srcDirs += 'src/test/kotlin'
+    }
+}
+
+dependencies {
+    // LDS
+    implementation 'org.lds.mobile:ldsaccount:10.1.1'
+    implementation 'org.lds.mobile:lds-ui-kit:1.6.9'
+    implementation 'org.lds.mobile:ldsmobile-media:10.1.0'
+    implementation 'org.lds.mobile:ldsmobile-commons:14.3.2'
+    implementation 'org.lds.mobile:ldsmobile-network:4.1.0'
+    implementation 'org.lds.mobile:ldsmobile-download:6.1.0'
+    implementation 'org.lds.mobile:ldsmobile-about:7.1.1'
+    implementation 'org.lds.mobile:ldsmobile-markdown:1.3.0'
+    implementation 'org.lds.mobile:lds-analytics:6.1.0'
+
+    // Android
+    implementation "com.android.support:appcompat-v7:${supportLibVersion}"
+    implementation "com.android.support:customtabs:${supportLibVersion}" // facebook was using an older version... force newer version
+    implementation "com.android.support:mediarouter-v7:${supportLibVersion}" // facebook was using an older version... force newer version
+    implementation "com.android.support:preference-v14:${supportLibVersion}"
+    implementation "com.android.support:design:${supportLibVersion}"
+    implementation "com.android.support:support-v13:${supportLibVersion}" // used by material dialog
+    implementation "com.android.support:percent:${supportLibVersion}" // used by material dialog
+    implementation "com.android.support:cardview-v7:${supportLibVersion}" // used by material dialog
+    implementation 'com.android.support:multidex:1.0.2'
+    implementation 'com.android.support:multidex-instrumentation:1.0.2'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.google.android:flexbox:0.3.1'
+
+    // Android Architecture Components
+    implementation "android.arch.lifecycle:runtime:$archVersionLifecycleRT"
+    implementation "android.arch.lifecycle:extensions:$archVersion"
+//    implementation "android.arch.persistence.room:runtime:$archVersion"
+    kapt "android.arch.lifecycle:compiler:$archVersion"
+//    kapt "android.arch.persistence.room:compiler:$archVersion"
+    implementation "android.arch.paging:runtime:1.0.0-alpha3"
+
+    // Google Play Services
+    implementation "com.google.android.gms:play-services-cast-framework:${playServicesVersion}" // required for LDS Mobile Media
+    implementation "com.google.android.gms:play-services-gcm:${playServicesVersion}"// required for Localytics
+
+    // Annotations
+    implementation 'com.google.code.findbugs:jsr305:3.0.1'
+
+    // Code
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:0.19.3"
+    implementation 'com.devbrackets.android:recyclerext:2.1.1'
+    implementation 'com.jakewharton.timber:timber:4.6.0'
+    implementation 'com.jakewharton.threetenabp:threetenabp:1.0.5'
+    implementation 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
+    implementation ('com.facebook.android:facebook-android-sdk:4.28.0') {
+        exclude module: 'support-v4'
+    }
+    implementation 'org.apache.commons:commons-lang3:3.1'
+    implementation 'commons-io:commons-io:2.5'
+    implementation 'org.jsoup:jsoup:1.11.2'
+    implementation 'com.evernote:android-job:1.2.1'
+    implementation "com.vikingsen:pocketbus:$pocketBusVersion"
+    kapt "com.vikingsen:pocketbus-compiler:$pocketBusVersion"
+    implementation 'me.eugeniomarletti:android-extras-delegates:1.0.5'
+
+    // UI
+    implementation 'com.github.paolorotolo:appintro:v4.2.2'
+    implementation 'me.zhanghai.android.materialprogressbar:library:1.4.2' // can be replaced by placing lollipop vectors
+    implementation 'com.afollestad.material-dialogs:commons:0.9.6.0'
+
+    // Glide
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    kapt "com.github.bumptech.glide:compiler:$glideVersion"
+    implementation "com.github.bumptech.glide:okhttp3-integration:$glideVersion"
+
+    // Network
+    implementation "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
+
+    // JSON Parsing
+    implementation "com.google.code.gson:gson:2.8.2"
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+
+    // Injection
+    implementation "com.jakewharton:butterknife:${butterKnifeVersion}"
+    kapt "com.jakewharton:butterknife-compiler:${butterKnifeVersion}"
+    implementation "com.vikingsen:pocketknife-core:${pocketKnifeVersion}"
+    kapt "com.vikingsen:pocketknife-compiler:${pocketKnifeVersion}"
+
+    // Dagger 2
+    implementation "com.google.dagger:dagger:${daggerVersion}"
+    // Change `kapt` on the line below to `annotationProcessor` when you get the NonExistentClass compile error.
+    // This will allow the build to show you the real cause of the build failure. See https://stackoverflow.com/a/45330452
+    kapt "com.google.dagger:dagger-compiler:${daggerVersion}"
+
+    // Database
+    implementation 'org.sqlite.sqliteX:sqlite-android:3.15.2'
+    implementation "org.dbtools:dbtools-android:$dbtoolsVersion"
+
+    //RX Java/Android
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.6'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+    // Analytics
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.7.1'
+
+    // debugging
+    debugCompile "org.lds.mobile:ldsmobile-devtools:$devToolsVersion"
+
+    alphaCompile "org.lds.mobile:ldsmobile-devtools-no-op:$devToolsVersion"
+    betaCompile "org.lds.mobile:ldsmobile-devtools-no-op:$devToolsVersion"
+    previewCompile "org.lds.mobile:ldsmobile-devtools-no-op:$devToolsVersion"
+    contentCompile "org.lds.mobile:ldsmobile-devtools-no-op:$devToolsVersion"
+    releaseCompile "org.lds.mobile:ldsmobile-devtools-no-op:$devToolsVersion"
+
+    // Test (Integration)
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:3.0.1'
+    androidTestCompile 'com.android.support.test:runner:1.0.1'
+    androidTestCompile 'com.android.support.test:rules:1.0.1'
+    androidTestCompile "com.android.support:support-annotations:${supportLibVersion}" // fix dependency conflict warning
+
+    // Espresso contrib dependencies
+    androidTestCompile 'com.android.support.test.espresso:espresso-contrib:3.0.1'
+    androidTestCompile "com.android.support:appcompat-v7:${supportLibVersion}"
+    androidTestCompile "com.android.support:recyclerview-v7:${supportLibVersion}"
+    androidTestCompile "com.android.support:design:${supportLibVersion}"
+    androidTestCompile "com.android.support.test.espresso:espresso-web:3.0.1"
+
+    androidTestCompile 'tools.fastlane:screengrab:1.1.0'
+
+    // Test (Unit)
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.mockito:mockito-core:2.11.0'
+    testImplementation 'org.threeten:threetenbp:1.3.6' // required for DBTools java junit tests
+    testImplementation 'org.xerial:sqlite-jdbc:3.21.0'
+    kaptTest "com.google.dagger:dagger-compiler:${daggerVersion}"
+}
+
+dbtools {
+    type 'ANDROID-KOTLIN'
+
+    basePackageName 'org.lds.ldssa.model.database'
+    outputSrcDir 'src/main/kotlin/org/lds/ldssa/model/database'
+
+    injectionSupport true
+    jsr305Support true
+    includeDatabaseNameInPackage true
+    dateType 'JSR-310'
+    sqlQueryBuilderSupport true
+    rxJavaSupport true
+}
+
+tasks.whenTaskAdded { task ->
+    if (task.name == 'generateDebugBuildConfig') {
+        task.dependsOn downloadProdCatalogs
+    } else if (task.name == 'generateAlphaBuildConfig') {
+        task.dependsOn downloadProdCatalogs
+    } else if (task.name == 'generatePreviewBuildConfig') {
+        task.dependsOn downloadProdCatalogs
+    } else if (task.name == 'generateContentBuildConfig') {
+        task.dependsOn downloadStagingCatalogs
+    } else if (task.name == 'generateBetaBuildConfig') {
+        task.dependsOn downloadProdCatalogs
+    } else if (task.name == 'generateReleaseBuildConfig') {
+        task.dependsOn downloadProdCatalogs
+    }
+}
+
+task downloadProdCatalogs << {
+    println "++++++++++++++++++++++++++++++++++++++++ DOWNLOADING PROD CATALOGS +++++++++++++++++++++++++++++++++++++++++++++++++++"
+    downloadCatalogs(catalogProdLocation, tipsLocation)
+}
+
+task downloadBetaCatalogs << {
+    println "++++++++++++++++++++++++++++++++++++++++ DOWNLOADING BETA CATALOGS +++++++++++++++++++++++++++++++++++++++++++++++++++"
+    downloadCatalogs(catalogBetaLocation, tipsLocation)
+}
+
+task downloadStagingCatalogs << {
+    println "++++++++++++++++++++++++++++++++++++++++ DOWNLOADING STAGING CATALOGS +++++++++++++++++++++++++++++++++++++++++++++++++++"
+    downloadCatalogs(catalogStagingLocation, tipsLocation)
+}
+
+def downloadCatalogs(String contentLocation, String tipsLocation) {
+    // Catalog
+    String catalogDestZipFilename = "${projectDir}/src/main/assets/catalog.zip"
+    downloadCatalog("${contentLocation}/index.json", "${projectDir}/src/main/assets/index.json", "${contentLocation}/catalogs", catalogDestZipFilename)
+    copy {
+        from zipTree(catalogDestZipFilename)
+        into "src/test/resources/db/"
+    }
+
+    // Tips
+    String tipsDestZipFilename = "${projectDir}/src/main/assets/tips.zip"
+    downloadCatalog("${tipsLocation}/index.json", "${projectDir}/src/main/assets/tips_index.json", "${tipsLocation}/bundles", tipsDestZipFilename)
+    copy {
+        from zipTree(tipsDestZipFilename)
+        into "src/test/resources/db/"
+        include "Catalog.sqlite"
+        rename "Catalog.sqlite", "tips.sqlite"
+    }
+
+}
+
+def downloadCatalog(String indexSource, String indexDest, String zipSource, String zipDest) {
+    logger.warn("Downloading index from: " + indexSource)
+    try {
+        download {
+            src indexSource
+            dest indexDest
+            onlyIfNewer false
+            quiet true
+        }
+    } catch (Exception e) {
+        logger.warn("*WARNING* Failed to download index:\n\t" + e.getMessage())
+    }
+
+    try {
+        def slurper = new JsonSlurper()
+        def reader = new BufferedReader(new FileReader(indexDest))
+        def parsedIndex = slurper.parse(reader)
+
+        def catalogVersion = parsedIndex.catalogVersion
+//        def catalogVersion = 286 // force/override version number that is bundled in app... You may need to manually delete assets/catalog.zip or assets/tips.zip
+
+        String source = zipSource + "/${catalogVersion}.zip"
+        logger.warn("Downloading zip from: " + source)
+        try {
+            download {
+                src source
+                dest zipDest
+                onlyIfNewer true
+                quiet true
+            }
+        } catch (Exception e) {
+            logger.warn("*WARNING* Failed to download catalog:\n\t" + e.getMessage())
+        }
+    } catch (Exception e) {
+        logger.warn("*WARNING* Failed to parse index:\n\t" + e.getMessage())
+    }
+}
+
+// ===== TEST TASKS =====
+
+// show JUnit failure reason in console (the following may fail tests run from IDE)
+tasks.withType(Test) {
+    testLogging {
+        exceptionFormat "full"
+    }
+}
+
+// Define coverage source.
+// If you have rs/aidl etc... add them here.
+def coverageSourceDirs = [
+        'src/main/java',
+]
+
+task testDebugJacoco(type: JacocoReport, dependsOn: "testDebugUnitTest") {
+    group = "Reporting"
+    description = "Generate Jacoco coverage reports after running tests."
+    reports {
+        xml.enabled = true
+        html.enabled = true
+    }
+    classDirectories = fileTree(
+            dir: './build/intermediates/classes/debug',
+            excludes: ['**/R*.class',
+                       '**/*$InjectAdapter.class',
+                       '**/*$ModuleAdapter.class',
+                       '**/*$ViewInjector*.class'
+            ])
+    sourceDirectories = files(coverageSourceDirs)
+    executionData = files("$buildDir/jacoco/testDebugUnitTest.exec")
+    // Bit hacky but fixes https://code.google.com/p/android/issues/detail?id=69174.
+    // We iterate through the compiled .class tree and rename $$ to $.
+    doFirst {
+        new File("$buildDir/intermediates/classes/").eachFileRecurse { file ->
+            if (file.name.contains('$$')) {
+                file.renameTo(file.path.replace('$$', '$'))
+            }
+        }
+    }
+}

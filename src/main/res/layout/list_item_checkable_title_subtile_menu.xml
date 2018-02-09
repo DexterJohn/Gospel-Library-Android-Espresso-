@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/themeStyleColorBackground"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:minHeight="56dp">
+
+    <ImageView
+        android:id="@+id/listItemImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/checkmark_in_circle"/>
+
+    <TextView
+        android:id="@+id/titleView"
+        style="?attr/themeStyleWidgetText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:textColor="?attr/themeStyleColorTextItemTitle"
+        app:layout_constraintBottom_toTopOf="@+id/subTitleView"
+        app:layout_constraintEnd_toStartOf="@+id/menuButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="The Title"/>
+
+    <TextView
+        android:id="@+id/subTitleView"
+        style="?attr/themeStyleWidgetTextSubtle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="?attr/themeStyleColorTextItemSubTitle"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/titleView"
+        app:layout_constraintStart_toStartOf="@+id/titleView"
+        app:layout_constraintTop_toBottomOf="@+id/titleView"
+        tools:text="The subtitle"/>
+
+    <ImageButton
+        android:id="@+id/menuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.64"
+        android:background="?attr/selectableItemBackground"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:tint="?attr/themeStyleColorTextItemSubTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_lds_more_vert_24dp"
+        tools:ignore="ContentDescription,RtlHardcoded"/>
+
+</android.support.constraint.ConstraintLayout>

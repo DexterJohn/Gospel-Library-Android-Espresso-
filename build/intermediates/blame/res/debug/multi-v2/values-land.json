@@ -1,0 +1,125 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/67d4e4f830c482351279f7ee9e3bad7a/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "/Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/f418685a9e21a67c47d5eb6a5a252389/res/values-land/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "0,0,0,0,0,0",
+                        "startOffsets": "183,264,344,414,483,578",
+                        "endColumns": "80,79,69,68,94,90",
+                        "endOffsets": "263,343,413,482,577,668"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "328,413,497,571,644,743",
+                        "endColumns": "84,83,73,72,98,94",
+                        "endOffsets": "408,492,566,639,738,833"
+                    }
+                },
+                {
+                    "source": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/res/values-land/styles_base.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "168"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "1240",
+                        "endLines": "20",
+                        "endColumns": "12",
+                        "endOffsets": "1353"
+                    }
+                },
+                {
+                    "source": "/Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-27.0.1.aar/f7006a37b22aef5a6eb289c6a8598275/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,208",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "125,203,278"
+                    },
+                    "to": {
+                        "startLines": "12,13,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "838,913,991",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "908,986,1061"
+                    }
+                },
+                {
+                    "source": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/res/values-land/integers.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "62",
+                        "endOffsets": "113"
+                    },
+                    "to": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "1177",
+                        "endColumns": "62",
+                        "endOffsets": "1235"
+                    }
+                },
+                {
+                    "source": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/res/values-land/dimensions.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "112,57",
+                        "endColumns": "56,53",
+                        "endOffsets": "164,106"
+                    },
+                    "to": {
+                        "startLines": "15,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "1066,1123",
+                        "endColumns": "56,53",
+                        "endOffsets": "1118,1172"
+                    }
+                },
+                {
+                    "source": "/Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/design-27.0.1.aar/4fc49deef723d52ca8518157b42e6c09/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "1358",
+                        "endLines": "24",
+                        "endColumns": "12",
+                        "endOffsets": "1535"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Kaniseli</string>
+    <string name="fingerprint_disabled_use_pin">Tāmateʻi fakataimi ʻa e fakaʻilonga nimá. Fakaʻaongaʻi ʻa e PIN pe toe feinga ʻamuiange.</string>
+    <string name="fingerprint_not_recognized">ʻIkai ʻiloʻi e fakaʻilonga nimá. Kātaki ʻo toe feinga pē.</string>
+    <string name="fingerprint_please">Fakaʻilonga Nimá, Kātaki</string>
+    <string name="fingerprint_please_try_again">Kātaki ʻo toe feinga pē.</string>
+    <string name="ok">OK</string>
+    <string name="pin_confirm">Fakapapauʻi ʻa e PIN</string>
+    <string name="pin_create_title">Fili hoʻo PIN</string>
+    <string name="pin_enter_title">Fakahū hoʻo PIN</string>
+    <string name="pin_error_incorrect_title">Hala ʻa e PIN naʻe fakahuú.</string>
+    <string name="pin_error_invalid_pin">He ʻikai lava ke  fakahokohoko pe toutou hā ha mataʻifika tatau ʻi he PIN.</string>
+    <string name="pin_error_mismatch">ʻOku ʻikai ke tatau ʻa e PIN</string>
+    <string name="pref_reset_data">Hū ki Tuʻa</string>
+    <string name="pref_reset_data_explanation">ʻOkú ke fakapapauʻi ʻokú ke fie hū ki tuʻa mei he polokalamá?</string>
+    <string name="signin">Hū ki he Polokalamá</string>
+    <string name="signin_authenticating">Fakapapau\'i (Authenticating)</string>
+    <string name="signin_create_account">Fokotuʻu ha ʻAkauni LDS</string>
+    <string name="signin_error">Fehalaaki</string>
+    <string name="signin_instructions">Hū ki hoʻo ʻAkauni LDS</string>
+    <string name="signin_ok">OK</string>
+    <string name="signin_password">Lea Fufuú</string>
+    <string name="signin_prefs_signout">Hū ki Tuʻa</string>
+    <string name="signin_username">Hingoa Ngāué</string>
+</resources>

@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Created by Jeff Campbell on September 11, 2014 -->
+<dbSchema xmlns='https://github.com/jeffdcamp/dbtools-gen'
+          xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+          xsi:schemaLocation='https://github.com/jeffdcamp/dbtools-gen dbschema.xsd'>
+    <!-- read-only database -->
+    <database name="catalog" fieldsDefaultNotNull="true" readOnly="true">
+        <table name="item">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="external_id" jdbcDataType="VARCHAR" size="255"/>
+            <field name="language_id" jdbcDataType="BIGINT"/>
+            <field name="source_id" jdbcDataType="BIGINT"/>
+            <field name="platform_id" jdbcDataType="INTEGER" varName="platform" enumerationClass="org.lds.ldssa.model.database.types.PlatformType" enumerationDefault="ALL"/>
+            <field name="uri" jdbcDataType="VARCHAR" size="255"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="item_cover_renditions" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="item_category_id" jdbcDataType="BIGINT"/>
+            <field name="version" jdbcDataType="INTEGER"/>
+            <field name="is_obsolete" defaultValue="false" jdbcDataType="BOOLEAN" varName="obsolete"/>
+            <unique>
+                <uniqueField name="external_id"/>
+            </unique>
+        </table>
+        <table name="item_category">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="name" jdbcDataType="VARCHAR" size="255"/>
+            <unique>
+                <uniqueField name="name"/>
+            </unique>
+        </table>
+        <table name="language">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="lds_language_code" jdbcDataType="VARCHAR" size="255"/>
+            <field name="iso639_3" jdbcDataType="VARCHAR" size="255"/>
+            <field name="bcp47" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="root_library_collection_id" jdbcDataType="BIGINT"/>
+            <field name="root_library_collection_external_id" jdbcDataType="BIGINT"/>
+        </table>
+        <table name="language_name">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="language_id" jdbcDataType="BIGINT"/>
+            <field name="localization_language_id" jdbcDataType="BIGINT"/>
+            <field name="name" jdbcDataType="VARCHAR" size="255"/>
+            <unique>
+                <uniqueField name="language_id"/>
+                <uniqueField name="localization_language_id"/>
+            </unique>
+        </table>
+        <table name="library_collection">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="external_id" jdbcDataType="VARCHAR" size="255"/>
+            <field name="library_section_id" jdbcDataType="BIGINT" notNull="false"/>
+            <field name="library_section_external_id" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+            <field name="title_html" jdbcDataType="VARCHAR" size="255"/>
+            <field name="cover_renditions" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="type_id" jdbcDataType="INTEGER" varName="type" enumerationClass="org.lds.ldssa.model.database.types.LibraryCollectionType" enumerationDefault="DEFAULT"/>
+            <unique>
+                <uniqueField name="external_id"/>
+            </unique>
+        </table>
+        <table name="library_item">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="external_id" jdbcDataType="VARCHAR" size="255"/>
+            <field name="library_section_id" jdbcDataType="BIGINT" notNull="false"/>
+            <field name="library_section_external_id" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+            <field name="title_html" jdbcDataType="VARCHAR" size="255"/>
+            <field name="is_obsolete" defaultValue="false" jdbcDataType="BOOLEAN" varName="obsolete"/>
+            <field name="item_id" jdbcDataType="BIGINT"/>
+            <field name="item_external_id" jdbcDataType="VARCHAR" size="255"/>
+            <unique>
+                <uniqueField name="external_id"/>
+            </unique>
+        </table>
+        <table name="library_section">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="external_id" jdbcDataType="VARCHAR" size="255"/>
+            <field name="library_collection_id" jdbcDataType="BIGINT"/>
+            <field name="library_section_external_id" jdbcDataType="VARCHAR" size="255"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="index_title" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <unique>
+                <uniqueField name="external_id"/>
+            </unique>
+        </table>
+        <table name="metadata" className="CatalogMetaData">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="key" jdbcDataType="VARCHAR" size="255"/>
+            <field name="value" jdbcDataType="VARCHAR" size="255"/>
+            <unique>
+                <uniqueField name="KEY"/>
+            </unique>
+        </table>
+        <table name="source" className="CatalogSource">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="name" jdbcDataType="VARCHAR" size="255"/>
+            <field name="type_id" jdbcDataType="INTEGER" varName="sourceType" enumerationClass="org.lds.ldssa.model.database.types.CatalogItemSourceType" enumerationDefault="DEFAULT"/>
+            <unique>
+                <uniqueField name="name"/>
+            </unique>
+        </table>
+        <table name="stopword" className="StopWord">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="language_id" jdbcDataType="BIGINT" foreignKeyTable="language" foreignKeyField="_id"/>
+            <field name="word" jdbcDataType="VARCHAR" size="255"/>
+        </table>
+        <table name="subitem_metadata" className="SubItemMetadata">
+            <!--<field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>-->  <!-- not needed -->
+            <field name="item_id" jdbcDataType="BIGINT"/>
+            <field name="subitem_id" jdbcDataType="BIGINT"/>
+            <field name="doc_id" jdbcDataType="VARCHAR" size="255"/>
+            <field name="doc_version" jdbcDataType="INTEGER"/>
+        </table>
+
+        <table name="search_goto" className="SearchGoto">
+            <field name="language_id" jdbcDataType="BIGINT"/>
+            <field name="item_id" varName="contentItemId" jdbcDataType="BIGINT"/>
+            <field name="item_position" jdbcDataType="INTEGER"/>
+            <field name="nav_section_id" jdbcDataType="INTEGER"/>
+            <field name="nav_collection_id" jdbcDataType="BIGINT" notNull="false"/>
+            <field name="nav_position" jdbcDataType="INTEGER"/>
+            <field name="subitem_id" jdbcDataType="BIGINT" notNull="false"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="short_title" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="chapter_count" jdbcDataType="INTEGER"/>
+            <field name="has_verses" jdbcDataType="BOOLEAN" defaultValue="false"/>
+        </table>
+
+        <view name="item_collection_view">
+            <field name="item_id" jdbcDataType="BIGINT"/> <!-- item_id -->
+            <field name="item_title" jdbcDataType="VARCHAR"/>
+            <field name="item_position" jdbcDataType="INTEGER"/>
+            <field name="collection_id" jdbcDataType="BIGINT"/>
+            <field name="collection_title" jdbcDataType="VARCHAR"/>
+            <field name="collection_position" jdbcDataType="INTEGER"/>
+            <field name="section_id" jdbcDataType="BIGINT"/>
+            <field name="section_position" jdbcDataType="INTEGER"/>
+        </view>
+
+        <query name="search_goto_query" className="SearchGotoQuery">
+            <field name="language_id" jdbcDataType="BIGINT"/>
+            <field name="item_id" varName="contentItemId" jdbcDataType="BIGINT"/>
+            <field name="item_position" jdbcDataType="INTEGER"/>
+            <field name="nav_section_id" jdbcDataType="INTEGER"/>
+            <field name="nav_collection_id" jdbcDataType="BIGINT" notNull="false"/>
+            <field name="nav_position" jdbcDataType="INTEGER"/>
+            <field name="subitem_id" jdbcDataType="BIGINT" notNull="false"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="short_title" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="sub_title" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="chapter_count" jdbcDataType="INTEGER"/>
+            <field name="has_verses" jdbcDataType="BOOLEAN" defaultValue="false"/>
+        </query>
+
+        <query name="catalog_item_query">
+            <field name="_id" jdbcDataType="BIGINT"/> <!-- collectionId, contentItemId, customCollectionId (depending on type)-->
+            <field name="type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.CatalogItemQueryType" enumerationDefault="UNKNOWN"/>
+            <field name="parent_id" jdbcDataType="BIGINT"/>
+            <field name="language_id" jdbcDataType="BIGINT"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="uri" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="library_section_id" jdbcDataType="BIGINT"/>
+            <field name="section_id" jdbcDataType="BIGINT"/>
+            <field name="section_title" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="section_position" jdbcDataType="INTEGER"/>
+            <field name="collection_type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.LibraryCollectionType" enumerationDefault="UNKNOWN"/>
+            <field name="external_id" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="item_cover_renditions" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="item_position" jdbcDataType="INTEGER"/>
+            <field name="installed" jdbcDataType="BOOLEAN" defaultValue="false"/>
+        </query>
+        <query name="library_collection_query">
+            <field name="_id" jdbcDataType="BIGINT"/> <!-- _id from library collection -->
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="root" jdbcDataType="BOOLEAN"/>
+            <field name="parent_title" jdbcDataType="VARCHAR" size="255"/>
+        </query>
+        <query name="all_items_in_collection_query">
+            <field name="content_item_id" jdbcDataType="BIGINT" /> <!-- library_item.item_id -->
+        </query>
+        <query name="navigation_trail_query">
+            <field name="_id" jdbcDataType="BIGINT"/> <!-- library_collection._id -->
+            <field name="content_item_id" jdbcDataType="BIGINT"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.ScreenSourceType" enumerationDefault="CATALOG_DIRECTORY"/>
+        </query>
+    </database>
+
+    <!-- read-only database -->
+    <database name="content" fieldsDefaultNotNull="true" readOnly="true">
+        <table name="author">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="given_name" jdbcDataType="VARCHAR" size="255"/>
+            <field name="family_name" jdbcDataType="VARCHAR" size="255"/>
+            <field name="image_renditions" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <unique>
+                <uniqueField name="given_name,family_name"/>
+            </unique>
+        </table>
+        <table name="author_role">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="author_id" jdbcDataType="BIGINT"/>
+            <field name="role_id" jdbcDataType="BIGINT"/>
+            <field name="position" jdbcDataType="BIGINT"/>
+            <unique>
+                <uniqueField name="author_id"/>
+                <uniqueField name="role_id"/>
+            </unique>
+        </table>
+        <table name="metadata" className="ContentMetaData">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="key" jdbcDataType="VARCHAR" size="255"/>
+            <field name="value" jdbcDataType="VARCHAR" size="255"/>
+            <unique>
+                <uniqueField name="KEY"/>
+            </unique>
+        </table>
+        <table name="nav_collection">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="nav_section_id" jdbcDataType="BIGINT" notNull="false"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+            <field name="image_renditions" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="title_html" jdbcDataType="VARCHAR" size="255"/>
+            <field name="subtitle" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="uri" jdbcDataType="VARCHAR" size="255" unique="true"/>
+            <unique>
+                <uniqueField name="nav_section_id"/>
+                <uniqueField name="position"/>
+            </unique>
+        </table>
+        <table name="nav_collection_index_entry">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="nav_collection_id" jdbcDataType="BIGINT"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+            <field name="title" jdbcDataType="VARCHAR"/>
+            <field name="list_index" jdbcDataType="BIGINT"/>
+            <field name="section" jdbcDataType="INTEGER"/>
+            <field name="row" jdbcDataType="INTEGER"/>
+            <unique>
+                <uniqueField name="nav_collection_id"/>
+                <uniqueField name="position"/>
+            </unique>
+        </table>
+        <table name="nav_item">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="nav_section_id" jdbcDataType="BIGINT"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+            <field name="image_renditions" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="title_html" jdbcDataType="VARCHAR" size="255"/>
+            <field name="subtitle" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="preview" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="uri" jdbcDataType="VARCHAR" size="255" unique="true"/>
+            <field name="subitem_id" jdbcDataType="BIGINT"/>
+            <unique>
+                <uniqueField name="nav_section_id"/>
+                <uniqueField name="position"/>
+            </unique>
+        </table>
+        <table name="nav_section">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="nav_collection_id" jdbcDataType="BIGINT"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+            <field name="indent_level" jdbcDataType="INTEGER"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <unique>
+                <uniqueField name="nav_collection_id"/>
+                <uniqueField name="position"/>
+            </unique>
+        </table>
+        <table name="paragraph_metadata">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="subitem_id" jdbcDataType="INTEGER" index="true" unique="true"/>
+            <field name="paragraph_id" jdbcDataType="VARCHAR" size="255"/>
+            <field name="paragraph_aid" jdbcDataType="VARCHAR" size="255"/>
+            <field name="verse_number" jdbcDataType="VARCHAR" notNull="false"/>
+            <field name="start_index" jdbcDataType="INTEGER"/>
+            <field name="end_index" jdbcDataType="INTEGER"/>
+            <unique>
+                <uniqueField name="subitem_id"/>
+                <uniqueField name="paragraph_id"/>
+            </unique>
+        </table>
+        <table name="related_audio_item">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="subitem_id" jdbcDataType="BIGINT"/>
+            <field name="media_url" jdbcDataType="VARCHAR" size="255"/>
+            <field name="file_size" jdbcDataType="INTEGER"/>
+            <field name="duration" jdbcDataType="INTEGER"/>
+            <field name="related_audio_voice_id" jdbcDataType="INTEGER" notNull="false"/>
+        </table>
+        <table name="related_audio_voice">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="name" jdbcDataType="VARCHAR" size="255"/>
+        </table>
+        <table name="related_content_item">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="subitem_id" jdbcDataType="INTEGER"/>
+            <field name="ref_id" jdbcDataType="VARCHAR" size="255"/>
+            <field name="label_html" jdbcDataType="VARCHAR" size="255"/>
+            <field name="origin_id" jdbcDataType="VARCHAR" size="255"/>
+            <field name="content_html" jdbcDataType="VARCHAR" size="255"/>
+            <field name="word_offset" jdbcDataType="INTEGER"/>
+            <field name="byte_location" jdbcDataType="INTEGER"/>
+            <unique>
+                <uniqueField name="subitem_id"/>
+                <uniqueField name="byte_location"/>
+            </unique>
+        </table>
+        <table name="related_video_item">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="subitem_id" jdbcDataType="INTEGER"/>
+            <field name="poster_url" jdbcDataType="VARCHAR" notNull="false"/>
+            <field name="video_id" jdbcDataType="VARCHAR"/>
+            <field name="title" jdbcDataType="VARCHAR"/>
+        </table>
+        <table name="related_video_item_source">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="media_url" jdbcDataType="VARCHAR" size="255"/>
+            <field name="type" jdbcDataType="VARCHAR" size="255"/>
+            <field name="width" jdbcDataType="INTEGER" notNull="false"/>
+            <field name="height" jdbcDataType="INTEGER" notNull="false"/>
+            <field name="file_size" jdbcDataType="BIGINT" notNull="false"/>
+            <field name="related_video_item_id" jdbcDataType="BIGINT" notNull="false"/>
+        </table>
+        <table name="role">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="name" jdbcDataType="VARCHAR" size="255"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+            <unique>
+                <uniqueField name="name"/>
+            </unique>
+        </table>
+        <table name="subitem" className="SubItem">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="uri" jdbcDataType="VARCHAR" size="255"/>
+            <field name="position" jdbcDataType="INTEGER" unique="true"/>
+            <field name="title_html" jdbcDataType="VARCHAR" size="255"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="web_url" jdbcDataType="VARCHAR" size="255"/>
+            <field name="doc_id" jdbcDataType="VARCHAR" size="255"/>
+            <field name="doc_version" jdbcDataType="INTEGER"/>
+            <field name="content_type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.SubItemContentType" enumerationDefault="UNKNOWN"/>
+        </table>
+        <table name="subitem_author">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="subitem_id" jdbcDataType="INTEGER"/>
+            <field name="author_id" jdbcDataType="INTEGER"/>
+            <unique>
+                <uniqueField name="subitem_id"/>
+                <uniqueField name="author_id"/>
+            </unique>
+        </table>
+        <table name="subitem_topic">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="subitem_id" jdbcDataType="INTEGER"/>
+            <field name="topic_id" jdbcDataType="INTEGER"/>
+            <unique>
+                <uniqueField name="subitem_id"/>
+                <uniqueField name="topic_id"/>
+            </unique>
+        </table>
+        <table name="subitem_content" className="SubItemContent"> <!-- this is actually a VIEW in the database... but since we don't create it, treat it as a table -->
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="subitem_id" jdbcDataType="INTEGER"/>
+            <field name="content_html" jdbcDataType="VARCHAR" size="255"/>
+        </table>
+
+        <query name="content_directory_item_query">
+            <field name="_id" jdbcDataType="BIGINT"/> <!-- NavCollectionId or NavItemId -->
+            <field name="type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.QueryItemType" enumerationDefault="UNKNOWN"/>
+            <field name="section_id" jdbcDataType="BIGINT"/>
+            <field name="section_position" jdbcDataType="INTEGER"/>
+            <field name="section_title" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="section_indent_level" jdbcDataType="INTEGER"/>
+
+            <field name="position" jdbcDataType="INTEGER"/>
+            <field name="image_renditions" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="title_html" jdbcDataType="VARCHAR" size="255"/>
+            <field name="subtitle" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="preview" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="uri" jdbcDataType="VARCHAR" size="255"/>
+        </query>
+        <query name="subitem_search_query" className="SubItemSearchQuery">
+            <field name="sub_item_id" jdbcDataType="BIGINT" />
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="snippet" jdbcDataType="VARCHAR" size="255"/>
+            <field name="match_info" jdbcDataType="BLOB"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+            <field name="search_result_count_type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.search.SearchResultCountType" enumerationDefault="KEYWORD"/>
+        </query>
+        <query name="available_related_type_query">
+            <field name="_id" jdbcDataType="BIGINT"/> <!-- NavItemId -->
+            <field name="subitem_id" jdbcDataType="INTEGER" />
+            <field name="audio_available" jdbcDataType="BOOLEAN" defaultValue="false" />
+            <field name="pdfAvailable" jdbcDataType="BOOLEAN" defaultValue="false" />
+        </query>
+        <query name="playlist_item_query">
+            <field name="_id" jdbcDataType="BIGINT" /> <!-- NavItemId -->
+            <field name="subitem_id" jdbcDataType="INTEGER" />
+            <field name="content_item_id" jdbcDataType="BIGINT" defaultValue="0" />
+            <field name="media_url" jdbcDataType="VARCHAR" defaultValue="" />
+            <field name="downloaded_media_url" jdbcDataType="VARCHAR" defaultValue="" />
+            <field name="title" jdbcDataType="VARCHAR" defaultValue="" />
+            <field name="artwork_renditions" jdbcDataType="VARCHAR" />
+            <field name="voice" jdbcDataType="VARCHAR" notNull="false"/>
+        </query>
+        <query name="nav_parent_collection_query">
+            <field name="_id" jdbcDataType="BIGINT"/> <!-- nav_collection._id -->
+            <field name="nav_section_id" jdbcDataType="BIGINT"/>
+        </query>
+        <query name="all_sub_items_in_nav_collection_query">
+            <field name="sub_item_id" jdbcDataType="BIGINT" />
+        </query>
+    </database>
+
+    <!-- read-only tips database -->
+    <database name="tips" fieldsDefaultNotNull="true" readOnly="true">
+        <table name="metadata" className="TipsMetaData">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="key" jdbcDataType="VARCHAR" size="255"/>
+            <field name="value" jdbcDataType="VARCHAR" size="255"/>
+            <unique>
+                <uniqueField name="KEY"/>
+            </unique>
+        </table>
+        <table name="tip">
+            <field name="_id" jdbcDataType="BIGINT" primaryKey="true" increment="true"/>
+            <field name="version_id" jdbcDataType="BIGINT"  foreignKeyTable="version" foreignKeyField="_id"/>
+            <field name="iso639_3" jdbcDataType="VARCHAR" size="255"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="description" jdbcDataType="VARCHAR" size="255"/>
+            <field name="phone_image_filename" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="phone_image_renditions" jdbcDataType="VARCHAR" size="255"/>
+            <field name="phone_video_url" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="tablet_image_filename" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="tablet_image_renditions" jdbcDataType="VARCHAR" size="255"/>
+            <field name="tablet_video_url" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="show_in_welcome" jdbcDataType="BOOLEAN" defaultValue="false"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+        </table>
+        <table name="version" className="TipsAppVersion">
+            <field name="_id" jdbcDataType="BIGINT" primaryKey="true" increment="true"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+        </table>
+        <query name="tip_query">
+            <field name="_id" jdbcDataType="BIGINT"/>
+            <field name="iso639_3" jdbcDataType="VARCHAR" size="255"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="version_id" jdbcDataType="BIGINT"/>
+            <field name="version_name" jdbcDataType="VARCHAR" size="255"/>
+            <field name="viewed" jdbcDataType="BOOLEAN" defaultValue="false"/>
+        </query>
+    </database>
+
+    <!--not sync'd database-->
+    <database name="gl" fieldsDefaultNotNull="true">
+        <table name="role_catalog"> <!-- details on ONLY role based content-->
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" />
+            <field name="name" jdbcDataType="VARCHAR"/>
+            <field name="base_url" jdbcDataType="VARCHAR"/>
+            <field name="catalog_item_source_type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.CatalogItemSourceType" enumerationDefault="DEFAULT"/>
+            <field name="version" jdbcDataType="INTEGER" />
+            <field name="installed" jdbcDataType="BOOLEAN" />
+        </table>
+        <table name="downloaded_item">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="content_item_id" jdbcDataType="BIGINT" notNull="true"/>
+            <field name="catalog_item_source_type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.CatalogItemSourceType" enumerationDefault="DEFAULT"/>
+            <field name="external_id" jdbcDataType="VARCHAR" size="255" notNull="false"/> <!-- content item external_id -->
+            <field name="installed_version" jdbcDataType="BIGINT" defaultValue="0"/>
+            <field name="library_section_id" jdbcDataType="BIGINT"/>
+            <unique sqliteOnConflict="REPLACE">
+                <uniqueField name="content_item_id"/>
+                <uniqueField name="external_id"/>
+            </unique>
+        </table>
+        <table name="downloaded_media">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="content_item_id" jdbcDataType="BIGINT" />
+            <field name="sub_item_id" jdbcDataType="BIGINT" />
+            <field name="tertiary_id" jdbcDataType="VARCHAR" notNull="false" />
+            <field name="title" jdbcDataType="VARCHAR" />
+            <field name="type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.ItemMediaType" enumerationDefault="UNKNOWN"/>
+            <field name="file" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="size" jdbcDataType="INTEGER" defaultValue="0"/>
+            <field name="quality" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <unique sqliteOnConflict="REPLACE">
+                <uniqueField name="content_item_id"/>
+                <uniqueField name="sub_item_id" />
+                <uniqueField name="tertiary_id" />
+                <uniqueField name="type" />
+            </unique>
+        </table>
+        <table name="download_queue_item">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="android_download_id" jdbcDataType="BIGINT" index="true"/> <!-- Android DownloadManager Id -->
+            <field name="type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.ItemMediaType" enumerationDefault="UNKNOWN"/>
+            <field name="processing_downloaded_item" jdbcDataType="BOOLEAN" defaultValue="false"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="content_item_id" jdbcDataType="BIGINT" index="true"/>
+            <field name="version" jdbcDataType="INTEGER" index="true"/>
+            <field name="sub_item_id" jdbcDataType="BIGINT" defaultValue="-1" notNull="true"/>
+            <field name="tertiary_id" jdbcDataType="VARCHAR" notNull="false"/>
+            <field name="source_uri" jdbcDataType="VARCHAR" />
+            <field name="destination_uri" jdbcDataType="VARCHAR" defaultValue=""/>  <!-- DO NOT USE destination location is managed in the AndroidDownloadManager -->
+
+            <!--catalog specifics-->
+            <field name="catalog_name" jdbcDataType="VARCHAR" size="255"/>
+            <field name="catalog_item_source_type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.CatalogItemSourceType" enumerationDefault="DEFAULT"/>
+        </table>
+        <table name="media_playback_position">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" />
+            <field name="content_item_id" jdbcDataType="BIGINT" notNull="true" />
+            <field name="sub_item_id" jdbcDataType="BIGINT" notNull="true" />
+            <field name="type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.ItemMediaType" enumerationDefault="UNKNOWN"/>
+            <field name="media_id" jdbcDataType="VARCHAR" defaultValue=""/> <!-- Used for extra id's such as videoId when we can have multiple videos per nav item -->
+            <field name="playback_position" jdbcDataType="INTEGER" defaultValue="0" />
+            <unique sqliteOnConflict="REPLACE">
+                <uniqueField name="content_item_id" />
+                <uniqueField name="sub_item_id" />
+                <uniqueField name="type" />
+                <uniqueField name="media_id" />
+            </unique>
+        </table>
+        <table name="tab">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" />
+            <field name="androidTaskId" jdbcDataType="INTEGER"/> <!-- used to associate multiple screens in overview to a specific tab -->
+            <field name="language_id" jdbcDataType="BIGINT"/>
+            <field name="name" jdbcDataType="VARCHAR"/>
+            <field name="display_order" jdbcDataType="INTEGER"/>
+        </table>
+        <table name="tab_history_item">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" />
+            <field name="tab_id" jdbcDataType="BIGINT" notNull="true" />
+            <field name="history_position" jdbcDataType="INTEGER" notNull="true" defaultValue="0"/> <!-- 0 == root -->
+            <field name="source_type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.ScreenSourceType" enumerationDefault="UNKNOWN"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="description" jdbcDataType="VARCHAR" size="255"/>
+            <field name="extras_json" jdbcDataType="VARCHAR"/>
+        </table>
+        <table name="sidebar_history_item">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" />
+            <field name="history_position" jdbcDataType="INTEGER" notNull="true" defaultValue="0"/> <!-- 0 == root -->
+            <field name="source_type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.SideBarSourceType" enumerationDefault="UNKNOWN"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="extras_json" jdbcDataType="VARCHAR"/>
+        </table>
+        <table name="history">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" />
+            <field name="time" jdbcDataType="TIMESTAMP" notNull="true"/>
+
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="description" jdbcDataType="VARCHAR" size="255"/>
+
+            <field name="content_item_id" jdbcDataType="BIGINT" notNull="true" defaultValue="0" /> <!-- based on type... some types don't use an external id (contentItemId, customCollectionDirectoryId, notes tab) -->
+            <field name="item_uri" jdbcDataType="VARCHAR" notNull="false" /> <!-- id based on type CONTENT: subItem.uri, COLLECTION, navItem.uri -->
+            <field name="scroll_position" jdbcDataType="INTEGER"/>
+        </table>
+        <table name="tip_viewed" fieldsDefaultNotNull="true">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true"/>
+            <field name="tip_id" jdbcDataType="BIGINT"/>
+            <unique sqliteOnConflict="IGNORE">
+                <uniqueField name="tip_id" />
+            </unique>
+        </table>
+        <table name="recent_language" fieldsDefaultNotNull="true">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true"/>
+            <field name="language_id" jdbcDataType="BIGINT"/> <!-- _id from language -->
+            <field name="timestamp" jdbcDataType="TIMESTAMP"/>
+            <unique sqliteOnConflict="REPLACE">
+                <uniqueField name="language_id" />
+            </unique>
+        </table>
+
+        <view name="downloaded_media_collection">
+            <field name="_id" jdbcDataType="BIGINT"/> <!-- content_item_id -->
+            <field name="item_count" jdbcDataType="BIGINT" />
+            <field name="total_size" jdbcDataType="BIGINT" />
+        </view>
+
+    </database>
+
+    <!-- sync'd database -->
+    <database name="userdata" fieldsDefaultNotNull="true">
+        <table name="annotation">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="unique_id" jdbcDataType="VARCHAR" size="255" defaultValue="" index="true"/>
+            <field name="content_version" jdbcDataType="INTEGER"/>
+            <field name="device" jdbcDataType="VARCHAR" size="255" defaultValue="android" notNull="false"/>
+            <field name="source" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="status" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.AnnotationStatusType" enumerationDefault="ACTIVE"/>
+            <field name="doc_id" jdbcDataType="VARCHAR" size="255" notNull="false" index="true"/>
+            <field name="last_modified" jdbcDataType="TIMESTAMP"/>
+
+            <!-- following not used in Gospel Library, but must be preserved with sync -->
+            <field name="citation" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="scope" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+        </table>
+        <table name="notebook"> <!-- folder in annotation sync -->
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="unique_id" jdbcDataType="VARCHAR" size="255" defaultValue=""/>
+            <field name="name" jdbcDataType="VARCHAR" size="255" defaultValue=""/>
+            <field name="description" jdbcDataType="VARCHAR" size="255" defaultValue=""/> <!-- not used in Gospel Library, but must be preserved with sync -->
+            <field name="status" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.AnnotationStatusType" enumerationDefault="ACTIVE"/>
+            <field name="last_modified" jdbcDataType="TIMESTAMP"/>
+            <unique sqliteOnConflict="REPLACE">
+                <uniqueField name="unique_id"/>
+            </unique>
+        </table>
+        <table name="notebook_annotation">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="notebook_id" jdbcDataType="BIGINT" index="true"/>
+            <field name="annotation_id" jdbcDataType="BIGINT" index="true"/>
+            <field name="display_order" jdbcDataType="INTEGER" defaultValue="-1"/>
+            <field name="unique_annotation_id" jdbcDataType="VARCHAR" size="255" defaultValue=""/> <!-- needed because annotation_id is not available when sync of folder/notebook occurs -->
+            <unique sqliteOnConflict="REPLACE">
+                <uniqueField name="unique_annotation_id"/>
+                <uniqueField name="notebook_id"/>
+            </unique>
+        </table>
+        <table name="tag">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="annotation_id" jdbcDataType="BIGINT" index="true"/>
+            <field name="name" jdbcDataType="VARCHAR" size="255"/>
+        </table>
+        <table name="bookmark">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="annotation_id" jdbcDataType="BIGINT" index="true"/>
+            <field name="paragraph_aid" jdbcDataType="VARCHAR" size="255" notNull="false"/> <!-- pId in annotation service -->
+            <field name="offset" jdbcDataType="INTEGER"/>
+            <field name="display_order" jdbcDataType="INTEGER" defaultValue="0"/>
+            <field name="name" jdbcDataType="VARCHAR" size="255"/>
+            <field name="citation" jdbcDataType="VARCHAR" size="255"/> <!-- Not sync'd with annotation service -->
+        </table>
+        <table name="highlight">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="annotation_id" jdbcDataType="BIGINT" index="true"/>
+            <field name="paragraph_aid" jdbcDataType="VARCHAR" size="255" notNull="false"/> <!-- pId in annotation service -->
+            <field name="offset_start" jdbcDataType="INTEGER" defaultValue="-1"/>
+            <field name="offset_end" jdbcDataType="INTEGER" defaultValue="-1"/>
+            <field name="color" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="style" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+        </table>
+        <table name="link">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="annotation_id" jdbcDataType="BIGINT" index="true"/>
+            <field name="name" jdbcDataType="VARCHAR" size="255"/>
+            <field name="doc_id" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="paragraph_aid" jdbcDataType="VARCHAR" size="255" notNull="false"/> <!-- pId in annotation service -->
+            <field name="content_version" jdbcDataType="INTEGER"/> <!-- contentVersion for target doc_id -->
+        </table>
+        <table name="note">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" notNull="true"/>
+            <field name="annotation_id" jdbcDataType="BIGINT" index="true"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="content" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+        </table>
+        <!-- Unsynced tables -->
+        <table name="custom_collection">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" />
+            <field name="unique_id" jdbcDataType="VARCHAR" size="255" index="true"/> <!-- unique id among ALL lists (guid) -->
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="order_position" jdbcDataType="INTEGER"/>
+            <field name="created" jdbcDataType="TIMESTAMP"/>
+            <field name="last_modified" jdbcDataType="TIMESTAMP"/>
+        </table>
+        <table name="custom_collection_item">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" />
+            <field name="custom_collection_id" jdbcDataType="BIGINT"/>
+            <field name="order_position" jdbcDataType="INTEGER"/>
+            <field name="catalog_item_external_id" jdbcDataType="VARCHAR" size="255"/>
+            <unique sqliteOnConflict="REPLACE">
+                <uniqueField name="custom_collection_id" />
+                <uniqueField name="catalog_item_external_id" />
+            </unique>
+        </table>
+        <table name="screen">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" />
+            <field name="androidTaskId" jdbcDataType="INTEGER"/> <!-- used to associate multiple screens in overview to a specific screen -->
+            <field name="language_id" jdbcDataType="BIGINT"/>
+            <field name="name" jdbcDataType="VARCHAR"/>
+            <field name="display_order" jdbcDataType="INTEGER"/>
+        </table>
+        <table name="screen_history_item">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" />
+            <field name="screen_id" jdbcDataType="BIGINT" notNull="true" />
+            <field name="history_position" jdbcDataType="INTEGER" notNull="true" defaultValue="0"/> <!-- 0 == root -->
+            <field name="source_type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.ScreenSourceType" enumerationDefault="UNKNOWN"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="description" jdbcDataType="VARCHAR" size="255"/>
+            <field name="extras_json" jdbcDataType="VARCHAR"/>
+        </table>
+
+        <!-- list of content items that got updated that need to have its annotations considered updated (if the versions don't match) -->
+        <table name="sync_content_item_annotations_queue_item">
+            <field name="_id" jdbcDataType="BIGINT" increment="true" primaryKey="true" />
+            <field name="content_item_id" jdbcDataType="BIGINT"/>
+        </table>
+
+        <view name="notebook_view">
+            <field name="_id" jdbcDataType="BIGINT" notNull="true"/> <!-- notebook id -->
+            <field name="unique_id" jdbcDataType="VARCHAR" size="255" defaultValue=""/>
+            <field name="name" jdbcDataType="VARCHAR" size="255" defaultValue=""/>
+            <field name="count" jdbcDataType="INTEGER" defaultValue="0"/>
+            <field name="status" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.AnnotationStatusType" enumerationDefault="ACTIVE"/>
+            <field name="last_modified" jdbcDataType="TIMESTAMP"/>
+            <field name="selected" jdbcDataType="BOOLEAN" defaultValue="false"/> <!-- used for notebook selection for specific annotations -->
+        </view>
+        <view name="tag_view" fieldsDefaultNotNull="true">
+            <field name="name" jdbcDataType="VARCHAR" size="255"/>
+            <field name="count" jdbcDataType="INTEGER"/>
+            <field name="last_modified" jdbcDataType="TIMESTAMP"/>
+            <field name="selected" jdbcDataType="BOOLEAN" defaultValue="false"/> <!-- used for tag selection for specific annotations -->
+        </view>
+        <query name="bookmark_query">
+            <field name="_id" jdbcDataType="BIGINT"/>
+            <field name="annotation_id" jdbcDataType="BIGINT"/>
+            <field name="doc_id" jdbcDataType="VARCHAR" size="255"/>
+            <field name="paragraph_aid" jdbcDataType="VARCHAR" size="255" notNull="false"/> <!-- pId in annotation service -->
+            <field name="name" jdbcDataType="VARCHAR" size="255"/>
+            <field name="citation" jdbcDataType="VARCHAR" size="255"/>
+            <field name="display_order" jdbcDataType="INTEGER" defaultValue="0"/>
+            <field name="last_modified" jdbcDataType="TIMESTAMP"/>
+        </query>
+        <query name="note_search_query">
+            <field name="note_id" jdbcDataType="BIGINT"/>
+            <field name="annotation_id" jdbcDataType="BIGINT"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255"/>
+            <field name="content" jdbcDataType="VARCHAR" size="255"/>
+            <field name="title_snippet" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="content_snippet" jdbcDataType="VARCHAR" size="255" notNull="false"/>
+            <field name="match_info" jdbcDataType="BLOB"/>
+            <field name="search_result_count_type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.search.SearchResultCountType" enumerationDefault="KEYWORD"/>
+        </query>
+    </database>
+
+    <database name="search" fieldsDefaultNotNull="true">
+        <table name="search_collection">
+            <field name="screen_id" jdbcDataType="BIGINT" notNull="true" />
+            <field name="collection_id" jdbcDataType="BIGINT"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+            <field name="title" jdbcDataType="VARCHAR"/>
+            <field name="parent_collection_is_root" jdbcDataType="BOOLEAN" defaultValue="false"/>
+            <field name="parent_collection_id" jdbcDataType="BIGINT"/>
+            <field name="parent_collection_title" jdbcDataType="VARCHAR"/>
+        </table>
+        <table name="search_content_collection_map">
+            <field name="screen_id" jdbcDataType="BIGINT" notNull="true" />
+            <field name="content_item_id" jdbcDataType="BIGINT"/>
+            <field name="collection_id" jdbcDataType="BIGINT"/>
+        </table>
+        <table name="search_count_content">
+            <field name="screen_id" jdbcDataType="BIGINT" notNull="true" />
+            <field name="content_item_id" jdbcDataType="BIGINT"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+            <field name="title" jdbcDataType="VARCHAR"/>
+            <field name="phrase_count" jdbcDataType="BIGINT"/>
+            <field name="keyword_count" jdbcDataType="BIGINT"/>
+        </table>
+        <table name="search_preview_subitem">
+            <field name="screen_id" jdbcDataType="BIGINT" notNull="true" />
+            <field name="content_item_id" jdbcDataType="BIGINT"/>
+            <field name="sub_item_id" jdbcDataType="BIGINT"/>
+            <field name="title" jdbcDataType="VARCHAR"/>
+            <field name="text" jdbcDataType="VARCHAR"/>
+            <field name="search_result_count_type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.search.SearchResultCountType" enumerationDefault="KEYWORD"/>
+            <field name="count" jdbcDataType="BIGINT"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+            <field name="visited" jdbcDataType="BOOLEAN" defaultValue="false"/>
+        </table>
+        <table name="search_count_all_notes">
+            <field name="screen_id" jdbcDataType="BIGINT" notNull="true" />
+            <field name="note_count" jdbcDataType="BIGINT"/>
+            <field name="phrase_count" jdbcDataType="BIGINT"/>
+            <field name="keyword_count" jdbcDataType="BIGINT"/>
+        </table>
+        <table name="search_preview_note">
+            <field name="screen_id" jdbcDataType="BIGINT" notNull="true" />
+            <field name="annotation_id" jdbcDataType="BIGINT"/>
+            <field name="title" jdbcDataType="VARCHAR"/>
+            <field name="text" jdbcDataType="VARCHAR"/>
+            <field name="search_result_count_type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.search.SearchResultCountType" enumerationDefault="KEYWORD"/>
+            <field name="count" jdbcDataType="BIGINT"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+            <field name="visited" jdbcDataType="BOOLEAN" defaultValue="false"/>
+        </table>
+
+        <table name="search_history">
+            <field name="_id" jdbcDataType="BIGINT"/> <!-- id based on type -->
+            <field name="content_item_id" jdbcDataType="BIGINT"/>
+            <field name="chapter_number" jdbcDataType="VARCHAR"/>
+            <field name="verse_number" jdbcDataType="VARCHAR"/>
+            <field name="type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.SearchSuggestionType" enumerationDefault="UNKNOWN"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255" notNull="true"/>
+            <field name="sub_title" jdbcDataType="VARCHAR" size="255"/>
+
+            <field name="language_id" jdbcDataType="BIGINT"/>
+            <field name="last_update" jdbcDataType="TIMESTAMP"/>
+            <unique sqliteOnConflict="REPLACE">
+                <uniqueField name="title"/>
+                <uniqueField name="sub_title"/>
+            </unique>
+        </table>
+
+        <view name="search_count_collection">
+            <field name="screen_id" jdbcDataType="BIGINT" notNull="true" />
+            <field name="collection_id" jdbcDataType="BIGINT"/>
+            <field name="collection_title" jdbcDataType="VARCHAR"/>
+            <field name="parent_collection_id" jdbcDataType="BIGINT"/>
+            <field name="parent_collection_title" jdbcDataType="VARCHAR"/>
+            <field name="content_item_count" jdbcDataType="BIGINT"/>
+            <field name="phrase_count" jdbcDataType="BIGINT"/>
+            <field name="keyword_count" jdbcDataType="BIGINT"/>
+            <field name="position" jdbcDataType="INTEGER"/>
+        </view>
+        <view name="search_all_count">
+            <field name="id" jdbcDataType="BIGINT"/> <!-- id based on type -->
+            <field name="screen_id" jdbcDataType="BIGINT" notNull="true" />
+            <field name="type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.search.SearchAllType" enumerationDefault="COLLECTION"/>
+            <field name="title" jdbcDataType="VARCHAR"/>
+            <field name="subtitle" jdbcDataType="VARCHAR"/>
+            <field name="item_count" jdbcDataType="BIGINT"/>
+            <field name="phrase_count" jdbcDataType="BIGINT"/>
+            <field name="keyword_count" jdbcDataType="BIGINT"/>
+            <field name="position" jdbcDataType="INTEGER"/> <!-- sort order with-in type -->
+        </view>
+
+        <query name="search_suggestion">
+            <field name="_id" jdbcDataType="BIGINT"/> <!-- id based on type -->
+            <field name="content_item_id" jdbcDataType="BIGINT"/>
+            <field name="chapter_number" jdbcDataType="VARCHAR"/>
+            <field name="verse_number" jdbcDataType="VARCHAR"/>
+            <field name="type" jdbcDataType="INTEGER" enumerationClass="org.lds.ldssa.model.database.types.SearchSuggestionType" enumerationDefault="UNKNOWN"/>
+            <field name="title" jdbcDataType="VARCHAR" size="255" notNull="true"/>
+            <field name="sub_title" jdbcDataType="VARCHAR" size="255"/>
+        </query>
+    </database>
+</dbSchema>

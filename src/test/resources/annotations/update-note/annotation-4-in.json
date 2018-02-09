@@ -1,0 +1,34 @@
+{
+  "syncAnnotations": {
+    "count": 1,
+    "timeDiff": "PT0.746S",
+    "changes": [
+      {
+        "annotationId": "0d203893-7b17-4635-9470-d83158749cfc",
+        "changeType": "new",
+        "timestamp": "2016-02-15T15:46:35.435-07:00",
+        "annotation": {
+          "note": {
+            "content": "testing 456 ABC"
+          },
+          "source": "Android Gospel Library | App: 3.5.0.4-DEV | OS: 23",
+          "device": "android",
+          "timestamp": "2016-03-15T15:46:35.435-07:00",
+          "created": "2016-02-15T15:46:35.435-07:00",
+          "@id": "0d203893-7b17-4635-9470-d83158749cfc",
+          "@uri": "",
+          "@type": "journal",
+          "@locale": "eng",
+          "@person-id": "3446128307130937",
+          "folders": {
+            "folder": [
+              {
+                "@uri": "/study-tools/folders/3446128307130937/e2b42eb3-fe9b-4fc6-a6a7-47668824bbde"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

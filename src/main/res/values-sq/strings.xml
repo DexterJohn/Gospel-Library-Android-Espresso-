@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Shto</string>
+    <string name="all">Të Gjithë</string>
+    <string name="app_name">Biblioteka e Ungjillit</string>
+    <string name="auto">Auto</string>
+    <string name="allow_in_app_notifications">Lejoji Njoftimet brenda Programit</string>
+    <string name="exact_phrase">Fraza e Saktë</string>
+    <string name="keywords">Fjalët Kyç</string>
+    <string name="bookmark">Referencë e Parapëlqyer</string>
+    <string name="cancel">Anulo</string>
+    <string name="cancel_all">Anuloji Të Gjitha</string>
+    <string name="content">Përmbajtja</string>
+    <string name="copy">Kopjo</string>
+    <string name="delete">Fshi</string>
+    <string name="define">Përkufizo</string>
+    <string name="display">Paraqitja</string>
+    <string name="done">U krye</string>
+    <string name="download">Shkarko</string>
+    <string name="download_all">Shkarkoji të Gjitha</string>
+    <string name="feedback">Përshtypje</string>
+    <string name="keep">Mbaji</string>
+    <string name="library">Biblioteka</string>
+    <string name="link">Hallkë lidhëse</string>
+    <string name="links">Hallka lidhëse</string>
+    <string name="merge">Bashko</string>
+    <string name="never">Kurrë</string>
+    <string name="no">Jo</string>
+    <string name="note">Shëno</string>
+    <string name="none">Nuk ka</string>
+    <string name="ok">Në Rregull</string>
+    <string name="remove">Hiq</string>
+    <string name="remove_all">Hiqi të Gjitha</string>
+    <string name="rename">Riemërto</string>
+    <string name="search">Kërko</string>
+    <string name="settings">Veçoritë</string>
+    <string name="screen_settings">Veçoritë e Ekranit</string>
+    <string name="share">Shpërnda</string>
+    <string name="skip">Kapërceje</string>
+    <string name="sort">Radhit</string>
+    <string name="tag">Etiketim</string>
+    <string name="tags">Etiketime</string>
+    <string name="theme_default">E paracaktuar</string>
+    <string name="theme_night">Natë</string>
+    <string name="theme_sepia">Sepie</string>
+    <string name="theme_dark_blue">Blu e Errët</string>
+    <string name="today">Sot</string>
+    <string name="undo">Zhbëje</string>
+    <string name="update">Përditëso</string>
+    <string name="view">Pamja</string>
+    <string name="yes">Po</string>
+    <string name="yesterday">Dje</string>
+    <!-- Other -->
+    <string name="add_bookmark">Shto një Referencë të Parapëlqyer</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Shto një etiketim</string>
+    <string name="add_to">Shtoje te</string>
+    <string name="add_to_ellipsis">Shtoje te...</string>
+    <string name="add_to_notebook">Shtoje te Blloku i Shënimeve</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">Nuk mund të shfaqet shënimi shpjegues sepse \"%s\" nuk është i instaluar.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Preke me gisht për ta instaluar përditësimin.</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">Është në dispozicion një përditësim për programin Biblioteka e Ungjillit.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Veçoritë e Zërit</string>
+    <string name="backup_annotations_message">Moskryerja e nënshkrimit të hyrjes përpara përditësimit vijues të programit Biblioteka e Ungjillit do të shkaktojë humbjen e shënimeve tuaja vetjake shpjeguese (theksimet me ngjyra, shënimet, referencat e parapëlqyera dhe kështu me radhë).</string>
+    <string name="backup_annotations_title">Krijo Kopje Rezervë për Shënimet Shpjeguese</string>
+    <string name="bookmarks">Referenca të Parapëlqyera</string>
+    <string name="bookmark_added">U Shtua një Referencë e Parapëlqyer</string>
+    <string name="bookmark_empty">Nuk keni shtuar asnjë referencë të parapëlqyer.</string>
+    <string name="bookmark_updated">U Përditësua Referenca e Parapëlqyer</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Transmeto në pajisjen</string>
+    <string name="catalog_title">Katalogu i Programit Biblioteka e Ungjillit</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Zgjidh Theksimin me Ngjyrë</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Fshiji Materialet Zanore dhe Pamore të Shkarkuara</string>
+    <string name="clear_history">Fshije Historinë</string>
+    <string name="content_no_content" comment="Shown in content drawer">Nuk mund të shfaqet përmbajtja sepse \"%s\" nuk është instaluar</string>
+    <string name="content_not_downloaded">%s nuk u shkarkua.</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Vënie e Vazhdueshme e Materialit Zanor</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Teksti u Kopjua te Tabela e Kujtesës</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">Krijo \"%s\"</string>
+    <string name="current_downloads">Shkarkimet e Tanishme</string>
+    <string name="custom_collections">Përmbledhjet e Përshtatura</string>
+    <string name="delete_annotation_title">Hiqe Shënimin Shpjegues</string>
+    <string name="delete_annotation_message">Çdo shënim, etiketim ose hallkë lidhëse e bashkëngjitur me këtë theksim me ngjyrë do të hiqet gjithashtu.</string>
+    <string name="delete_collection_item_title">A t\'i fshij \"%1$s\"?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s do të fshihen. \nA t\'i fshij të gjitha materialet zanore dhe pamore?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">E Pamundur të Fshiheshin të Gjitha Materialet Zanore dhe Pamore</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s do të fshihen nga \"%1$s\".\nA t\'i fshij të gjitha materialet zanore dhe pamore?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Fshiji Materialet Zanore dhe Pamore</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Fshiji Blloqet e Shënimeve</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">A t\'i fshij të gjitha blloqet e përzgjedhura të shënimeve?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Fshije Etiketimin</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Fshiji Etiketimet</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">A jeni të sigurt se dëshironi ta hiqni këtë etiketim nga të gjitha shënimet dhe theksimet me ngjyrë?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">A jeni të sigurt se dëshironi t\'i hiqni këto etiketime nga të gjitha shënimet dhe theksimet me ngjyrë?</string>
+    <string name="deleted">%s u Fshi</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">Referenca e parapëlqyer %s u fshi</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">Blloku i shënimit %s u fshi</string>
+    <string name="dialog_sign_out_confirmation">A jeni i sigurt që dëshironi të nënshkruani daljen?</string>
+    <string name="double_tap_fullscreen_training">Këshillë: Prekeni ekranin dy herë për të dalë nga pamja e ekranit të plotë.</string>
+    <string name="download_audio" comment="download audio">Shkarko Material Zanor</string>
+    <string name="download_all_selected_confirm">%d zëra do të shkarkohen.\nA t\'i shkarkoj zërat e përzgjedhur?</string>
+    <string name="download_cancel_confirm_all">Të gjitha shkarkimet e tanishme do të anulohen.\nA t\'i anuloj shkarkimet?</string>
+    <string name="download_cancel">A ta anuloj shkarkimin?</string>
+    <string name="download_canceling">Shkarkimi po anulohet...</string>
+    <string name="download_item_message">%s nuk është instaluar. A do të donit ta shkarkoni tani?</string>
+    <string name="download_video" comment="download video">Shkarkoje Materialin Filmik</string>
+    <string name="downloaded_media">Materialet Zanore dhe Pamore të Shkarkuara</string>
+    <string name="downloading_ellipsis">Po shkarkohet...</string>
+    <string name="downloading_audio">Po shkarkohet materiali zanor për %s</string>
+    <string name="downloading_video">Po shkarkohet materiali filmik për %s</string>
+    <string name="download_file_failed_insufficient_space">Nuk u arrit të shkarkohej [%s].\nNuk ka vend të mjaftueshëm.</string>
+    <string name="download_file_failed">Nuk u arrit të shkarkohej [%s].\nKontrollojeni lidhjen tuaj të internetit dhe provojeni përsëri.</string>
+    <string name="download_dir_error">Nuk u arrit të krijohej direktoria e shkarkimit.</string>
+    <string name="existing_annotations_prompt">%d shënime shpjeguese ekzistojnë tashmë në këtë aparat. Çfarë do të donit të bënit me shënimin/et shpjegues/e që ekzistojnë tashmë?</string>
+    <string name="existing_annotations">Shënimet Shpjeguese Ekzistuese</string>
+    <string name="featured_apps">Programet e Përfshira</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Femër</string>
+    <string name="finalizing_ellipsis">Po përfundohet…</string>
+    <string name="find_by_name">Gjeje sipas emrit</string>
+    <string name="find_count">%1$d nga %2$d</string>
+    <string name="find_x_on_page">Gjeje \"%s\" në faqe</string>
+    <string name="find_x_in_x">Gjeje \"%1$s\" në %2$s</string>
+    <string name="find_exact_x_in_x">Gjeje frazën e saktë \"%1$s\" në %2$s</string>
+    <string name="marked_text_position">%1$d nga %2$d rezultate</string>
+    <string name="marked_text_position_no_results">0 rezultate</string>
+    <string name="highlight_style">Stili i Theksimit me Ngjyrë</string>
+    <string name="history">Historia</string>
+    <string name="history_cleared">Historia u Fshi Tërësisht</string>
+    <string name="installing_ellipsis">Po instalohet…</string>
+    <string name="journal">Ditar</string>
+    <string name="journal_restore">Riktheje ditarin</string>
+    <string name="journal_create_notebook">Krijo Bllok Shënimi si Ditar</string>
+    <string name="journal_restore_description">Ndonëse pjesa e ditarit është hequr, shënimet tuaja janë ruajtur. Nëse doni, mund t\'i mbledhim të gjitha shënimet që qenë më parë në pjesën e ditarit, dhe t\'i vendosim ato në një bllok të ri shënimi të quajtur Ditar.</string>
+    <string name="journal_restore_result">Riktheje të gjithë ditarin. U lëvizën %d shënime.</string>
+    <string name="language">Gjuha</string>
+    <string name="lds_account_summary">Përdoret një Llogari SHDM për të krijuar kopje rezervë të shënimeve tuaja shpjeguese dhe për t\'i sinkronizuar ato nëpër aparate dhe në LDS.org.</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">me %1$s</string>
+    <string name="loading_ellipsis">Po ngarkohet…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Mashkull</string>
+    <string name="mark" comment="Select highlight color">Shenjo</string>
+    <string name="media_type">Lloji i materialeve zanore dhe pamore</string>
+    <string name="menu_new_screen">Ekran i Ri...</string>
+    <string name="merged_notebook_name_prompt">Blloqet e përzgjedhura të Shënimeve do të bashkohen në një. Ju lutem, shkruani një emër për Bllokun e Shënimeve që do të krijohet.</string>
+    <string name="merged_notebook_name">Emri i Bllokut të Shënimeve të Krijuar nga Bashkimi</string>
+    <string name="merged_tag_name">Emri i Etiketimit të Krijuar nga Bashkimi</string>
+    <string name="move_to_notebook">Lëvize për te Blloku i Shënimeve</string>
+    <string name="my_collections">Përmbledhjet e Mia</string>
+    <string name="network_required" comment="Not connected to any network">Ky veprim kërkon një lidhje interneti. Ju lutemi, lidhuni me një  rrjet celulari ose Wi-Fi dhe provojeni përsëri.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">Bazuar në veçoritë tuaja, ju duhet të lidheni me Wi-Fi për ta kryer këtë veprim.</string>
+    <string name="no_bookmarks">Nuk Ka Referenca të Parapëlqyera</string>
+    <string name="no_bookmarks_description">Shto një referencë të parapëlqyer për t\'u kthyer me shpejtësi atje ku e latë.</string>
+    <string name="no_content">Nuk Ka Përmbajtje</string>
+    <string name="no_collection_content_description">Shtojini materiale përmbledhjes për përdorim të lehtë</string>
+    <string name="no_custom_collections">Nuk Ka Përmbledhje të Përshtatura</string>
+    <string name="no_custom_collections_description">Krijoni përmbledhje të përshtatura për t\'i përdorur më lehtë materialet e përafërta nga tema.</string>
+    <string name="no_downloads_in_progress">Nuk Ka Asnjë Shkarkim në Proces e Sipër</string>
+    <string name="no_downloads_in_progress_description">Përmbajtja dhe materialet zanore dhe pamore që po shkarkohen aktualisht</string>
+    <string name="no_downloaded_media">Nuk Ka Asnjë Material Zanor dhe Pamor të Shkarkuar</string>
+    <string name="no_downloaded_media_description">Shkarkoni material zanor ose filmik për përdorim pa internet</string>
+    <string name="no_history">Nuk Ka Asnjë Histori</string>
+    <string name="no_history_description">Shqyrtojeni përmbajtjen, gjejeni shtegun tuaj dhe kthejuni përsëri atij.</string>
+    <string name="no_matches" comment="No results">Nuk Ka Asnjë Rezultat</string>
+    <string name="no_matches_description">Nuk ka asnjë rezultat për kërkimin e cilësuar</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">Nuk Ka Asnjë Bllok Shënimi</string>
+    <string name="no_notebooks_description">Krijoni aq blloqe shënimesh sa të dëshironi për t\'i organizuar të gjitha shënimet tuaja.</string>
+    <string name="no_notes">Nuk Ka Asnjë Shënim</string>
+    <string name="no_notes_in_notebook">Nuk Ka Asnjë Shënim në Këtë Bllok Shënimesh</string>
+    <string name="no_notes_description">Regjistrojini shënimet për t\'i ruajtur mendimet dhe frymëzimin tuaj.</string>
+    <string name="no_related_content">Nuk Ka Asnjë Përmbajtje me Temë të Përafërt</string>
+    <string name="no_related_content_description2">Nuk ka asnjë poshtëshënim ose përmbajtje tjetër me temë të përafërt në dispozicion</string>
+    <string name="no_tags" comment="The message to show when there are no tags">Nuk Ka Asnjë Etiketim</string>
+    <string name="no_tags_description">Krijoni një etiketim për të grupuar një përmbajtje nga kudo në program.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">Nuk Ka Asnjë Përmbajtje të Etiketuar</string>
+    <string name="no_tagged_content_description">Bashkëngjitni një etiketim për çfarëdo lloj pjese përmbajtjeje për t\'iu referuar në të ardhmen.</string>
+    <string name="no_thanks">Jo Faleminderit</string>
+    <string name="no_tips">Nuk Ka Asnjë Këshillë</string>
+    <string name="no_tips_description">Këshillat ju tregojnë funksionet e dobishme të programit</string>
+    <string name="note_content">Përmbajtja e Shënimit</string>
+    <string name="notebook">Blloku i Shënimeve</string>
+    <string name="notebooks">Blloqet e Shënimeve</string>
+    <string name="notes">Shënimet</string>
+    <string name="num_item_add_to">%1$s material u shtua në %2$s</string>
+    <string name="num_item">%d material</string>
+    <string name="num_items_add_to">%1$s materiale u shtuan në %2$s</string>
+    <string name="num_items">%d materiale</string>
+    <string name="open">Hap</string>
+    <string name="open_in_music">Hape te LDS Music</string>
+    <string name="open_in_new_screen">Hape në Ekran të Ri</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Ngjite në Ekran Shiritin Anësor të Referencave</string>
+    <string name="play_audio">Filloje Materialin Zanor</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Shpejtësia e Dëgjimit</string>
+    <string name="playback_speed_0.5x">0,5 x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1,25x</string>
+    <string name="playback_speed_1.5x">1,5x</string>
+    <string name="playback_speed_1.75x">1,75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Ju lutemi, nënshkruajini hyrjen përsëri për ta rregulluar emrin tuaj të përdoruesit dhe fjalëkalimin.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Rregullojini ose shikojini materialet e shkarkuara zanore dhe pamore</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"vër re, unë të them ty se nëpërmjet gjërave të vogla dhe të thjeshta gjëra të mëdha bëhen; dhe shpeshherë mjetet e thjeshta ngatërrojnë të urtët."</string>
+    <string name="pref_general_list_mode">Stili i Listës</string>
+    <string name="pref_hide_footnotes">Fshihi Poshtëshënimet</string>
+    <string name="pref_limit_mobile_network_subtitle">Shkarko dhe Transmeto Vetëm në Wi-Fi</string>
+    <string name="pref_limit_mobile_network">Kufizoje Përdorimin e Rrjetit të Celularit</string>
+    <string name="pref_theme">Sfondi</string>
+    <string name="problem_playing_video">Pati një problem gjatë vënies së materialit filmik.</string>
+    <string name="read_more">Lexoni më Shumë</string>
+    <string name="recent" comment="label for study notebook">Të Kohëve të Fundit</string>
+    <string name="related_content">Përmbajtje me Temë të Përafërt</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">A jeni i sigurt që dëshironi t\'i hiqni materialet e përzgjedhura?</string>
+    <string name="remove_from_collection">Hiqe nga Përmbledhja</string>
+    <string name="rename_bookmark">Riemërtoje Referencën e Parapëlqyer</string>
+    <string name="rename_screen">Riemërtoje Ekranin</string>
+    <string name="requested_ellipsis">U kërkua...</string>
+    <string name="requested_paused_retry_ellipsis">U kërkua... (në pritje për ta provuar përsëri)</string>
+    <string name="requested_paused_network_ellipsis">U kërkua... (në pritje të rrjetit)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d rezultat</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d rezultate</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s-%2$d rezultat</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s-%2$d rezultate</string>
+    <string name="save">Ruaj</string>
+    <string name="screens">Ekranet</string>
+    <string name="screen_missing_content">Nuk e keni shkarkuar përmbajtjen për ekranin e përzgjedhur.\nA do të donit ta shkarkonit përmbajtjen për \"%1$s\" tani?</string>
+    <string name="screens_separate_windows">Shfaqi Ekranet si Dritare të Veçanta</string>
+    <string name="search_for_links">Kërko fjalë kyçe, vargje ose tituj</string>
+    <string name="select_highlight">Përzgjidh një Theksim me Ngjyrë</string>
+    <string name="select_items">Përzgjidh Materiale</string>
+    <string name="select_link">Përzgjidh një Hallkë Lidhëse</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Përzgjidh një Tekst për ta Bërë Hallkë Lidhëse</string>
+    <string name="selected_media_unavailable">Materiali i përzgjedhur zanor ose pamor nuk është në dispozicion.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Sinkronizimi i Fundit: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Radhit sipas Numërimit</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Radhit sipas Të Kohëve më të Fundit</string>
+    <string name="sort_by_name" comment="sort items by their name">Radhit sipas Emrit</string>
+    <string name="sort_by_size" comment="sort media items">Radhit sipas Përmasës</string>
+    <string name="sort_by_item" comment="sort media items">Radhit sipas Materialit</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Varianti %s</string>
+    <string name="style">Stili</string>
+    <string name="sync_error_invalid_credentials">Emër Përdoruesi/Fjalëkalim i Pavlefshëm</string>
+    <string name="sync_error_no_network">Nuk ka lidhje rrjeti në dispozicion</string>
+    <string name="sync_notification_failure">Sinkronizimi i Shënimeve Shpjeguese Dështoi</string>
+    <string name="sync_notification_gathering_changes">Ndryshimet po Mblidhen</string>
+    <string name="sync_notification_processing_changes">Ndryshimet po Përpunohen</string>
+    <string name="sync_notification_receiving_changes">Ndryshimet po Merren</string>
+    <string name="sync_notification_receiving_update_list">Lista e Përditësimit po Merret</string>
+    <string name="sync_notification_sending_changes">Po Dërgohen Ndryshimet</string>
+    <string name="sync_notification_sending_update_request">Po Dërgohet Kërkesa për Përditësim</string>
+    <string name="syncing_notebooks">Blloqet e Shënimeve po Sinkronizohen</string>
+    <string name="syncing_annotations">Shënimet Shpjeguese po Sinkronizohen</string>
+    <string name="notification_channel_general">Njoftimet e Përgjithshme</string>
+    <string name="notification_channel_sync">Sinkronizimi i Shënimeve Shpjeguese</string>
+    <string name="notification_channel_media_playback">Zëri i Materialeve Zanore ose Pamore</string>
+    <string name="text_size" comment="">Madhësia e Shkrimit</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Tekst i lexuar automatikisht nga pajisja</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Veçoritë e Tekstit të lexuar automatikisht nga pajisja</string>
+    <string name="tips">Këshilla</string>
+    <string name="title_optional">Titulli (Me dëshirë)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Hiqe nga Ekrani Shiritin Anësor të Referencave</string>
+    <string name="update_catalog_wifi_required">Ka në dispozicion përmbajtje të përditësuar, por duhet të jeni i lidhur me Wi-Fi për ta shkarkuar.</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Cilësia e Materialit Filmik</string>
+    <string name="video_unavailable">Materiali Filmik Nuk Është në Dispozicion</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Zëri Kryesor</string>
+    <string name="whats_new">Çfarë Ka të Re</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Styles to use for general (non themed) contexts -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- This is a small 1-off theme, so it will live in the general styles -->
+    <style name="AppTheme.Startup" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/branded_splash</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="lollipop">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@android:color/transparent</item>
+        <item name="android:windowAllowReturnTransitionOverlap" tools:targetApi="lollipop">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap" tools:targetApi="lollipop">true</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="AppTheme.Widget.Toolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Widget.Toolbar.Dim" parent="ThemeOverlay.AppCompat.ActionBar">
+
+    </style>
+
+    <style name="AppTheme.Widget.Toolbar.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppTheme.Widget.Toolbar.SubTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Widget.Toolbar.Popup" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">?attr/themeStyleColorBackgroundCard</item>
+    </style>
+
+
+
+    <!-- Buttons -->
+    <style name="AppTheme.Widget.Button.FloatingActionButton" parent="Widget.Design.FloatingActionButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+
+        <!-- NOTE: this is a fix for a design library bug (see dimen declaration for link) -->
+        <item name="android:layout_margin">@dimen/fab_margin_default</item>
+        <item name="backgroundTint">?attr/colorAccent</item>
+        <item name="fabSize">normal</item>
+    </style>
+
+    <style name="AppTheme.Widget.Button.FloatingActionButton.New">
+        <item name="android:tint">@color/white</item>
+        <item name="srcCompat">@drawable/ic_lds_action_add_24dp</item>
+    </style>
+
+    <style name="AppTheme.Widget.Button.FloatingActionButton.Edit">
+        <item name="android:tint">@color/white</item>
+        <item name="srcCompat">@drawable/ic_lds_action_edit_24dp</item>
+    </style>
+
+    <style name="AppTheme.Widget.Button.MediaControls" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">44dp</item>
+        <item name="android:minWidth">44dp</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+
+
+    <!-- Miscellaneous -->
+    <style name="AppTheme.Widget.DropShadow" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/drop_shadow_height</item>
+        <item name="android:layout_below">@+id/mainToolbar</item>
+        <item name="android:background">@drawable/drop_shadow</item>
+    </style>
+
+    <style name="AppTheme.Widget.ProgressBar.Horizontal" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/material_progress_horizontal</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <!-- Audio Player -->
+    <style name="AudioPlayerToolbarTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="AudioPlayerToolbarSubtitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Highlight Popup-->
+    <style name="HighlightMenuItem">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <!-- Highlight Palette -->
+    <style name="HighlightPaletteStyleItem">
+        <item name="android:layout_width">@dimen/highlight_palette_item_size</item>
+        <item name="android:layout_height">75dp</item>
+    </style>
+    <style name="HighlightPaletteColorItem">
+        <item name="android:layout_width">@dimen/highlight_palette_item_size</item>
+        <item name="android:layout_height">@dimen/highlight_palette_item_size</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+</resources>

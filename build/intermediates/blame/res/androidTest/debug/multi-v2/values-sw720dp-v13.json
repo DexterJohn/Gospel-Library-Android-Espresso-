@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/fb9e6db16decf00bd30c324ff1bbc6a9/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "172",
+                        "endColumns": "51",
+                        "endOffsets": "219"
+                    }
+                },
+                {
+                    "source": "/Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/appintro-v4.2.2.aar/dc8e0d67fe3aedfad46dc5d692a2c9d6/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,58",
+                        "endOffsets": "108,167"
+                    }
+                },
+                {
+                    "source": "/Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-27.0.1.aar/f7006a37b22aef5a6eb289c6a8598275/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,124",
+                        "endColumns": "68,68",
+                        "endOffsets": "119,188"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "224,293",
+                        "endColumns": "68,68",
+                        "endOffsets": "288,357"
+                    }
+                }
+            ]
+        }
+    ]
+}

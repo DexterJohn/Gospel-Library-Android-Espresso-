@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/androidTest/assets"/><source path="/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/build/generated/assets/shaders/androidTest/debug"/></dataSet><dataSet config="debug"><source path="/Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/androidTestDebug/assets"/></dataSet></merger>

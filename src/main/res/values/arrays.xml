@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_options">
+        <item>@string/theme_default</item>
+        <item>@string/theme_sepia</item>
+        <item>@string/theme_night</item>
+        <item>@string/theme_dark_blue</item>
+        <item>@string/theme_magenta</item>
+    </string-array>
+    <string-array translatable="false" name="theme_options_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="audio_playback_options">
+        <item>@string/playback_speed_0.5x</item>
+        <item>@string/playback_speed_1x</item>
+        <item>@string/playback_speed_1.25x</item>
+        <item>@string/playback_speed_1.5x</item>
+        <item>@string/playback_speed_1.75x</item>
+        <item>@string/playback_speed_2x</item>
+    </string-array>
+    <string-array translatable="false" name="audio_playback_options_values">
+        <item>0.5</item>
+        <item>1</item>
+        <item>1.25</item>
+        <item>1.5</item>
+        <item>1.75</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="note_collection_tab_titles">
+        <item>@string/all</item>
+        <item>@string/tags</item>
+        <item>@string/notebooks</item>
+    </string-array>
+
+    <!-- Developer settings -->
+    <string-array name="dev_settings_server">
+        <item>@string/prod</item>
+        <item>@string/beta</item>
+        <item>@string/staging</item>
+        <item>@string/template</item>
+        <item>@string/dev</item>
+    </string-array>
+
+    <string-array translatable="false" name="dev_settings_server_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!--Audio Voice Settings-->
+    <string-array name="voice_options">
+        <item>@string/male</item>
+        <item>@string/female</item>
+        <item>@string/text_to_speech</item>
+    </string-array>
+    <string-array translatable="false" name="voice_options_values">
+        <!--These values must conform to the prefValue in the AudioPlaybackVoiceType-->
+        <item>Male</item>
+        <item>Female</item>
+        <item>Text-to-speech</item>
+    </string-array>
+</resources>

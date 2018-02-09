@@ -1,0 +1,3 @@
+# Referenced at /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/build/intermediates/manifests/full/debug/AndroidManifest.xml:50
+-keep class org.lds.ldssa.App { <init>(...); }
+

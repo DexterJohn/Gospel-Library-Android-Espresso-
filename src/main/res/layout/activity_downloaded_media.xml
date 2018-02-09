@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/themeStyleColorListBackground"
+                android:orientation="vertical">
+
+
+    <org.lds.mobile.ui.widget.toolbar.ToolbarExpandLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mainToolbar">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/list_item_downloaded_media"/>
+
+        <org.lds.mobile.ui.widget.EmptyStateIndicator
+            android:id="@+id/emptyListIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            app:image="@drawable/ic_lds_action_download_80dp"
+            app:imageTint="?attr/emptyStateImageColor"
+            app:subTitle="@string/no_downloaded_media_description"
+            app:subTitleTextColor="?attr/emptyStateSubTitleColor"
+            app:title="@string/no_downloaded_media"
+            app:titleTextColor="?attr/emptyStateTitleColor"
+            />
+
+    </org.lds.mobile.ui.widget.toolbar.ToolbarExpandLayout>
+
+    <include
+        android:id="@+id/mainToolbar"
+        layout="@layout/toolbar_actionbar"/>
+
+    <include layout="@layout/toolbar_expanded"/>
+
+    <org.lds.ldssa.ui.widget.MiniPlaybackControls
+        android:id="@+id/miniPlaybackControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+</RelativeLayout>

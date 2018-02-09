@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lds.ldssa.dev"
+    android:installLocation="auto"
+    android:versionCode="43015"
+    android:versionName="4.3.0.15-DEV" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- The following Permissions are required for taking automated screenshots -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+    <permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <!-- Some Chromebooks don't support touch. Although not essential, it's a good idea to explicitly include this declaration. -->
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+    <!-- fingerprint -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" /> <!-- doesn't require user permission -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name="org.lds.ldssa.App"
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:fullBackupContent="@xml/backup_configuration"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:resizeableActivity="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme.Light" >
+        <activity
+            android:name="org.lds.ldssa.ui.activity.StartupActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/AppTheme.Startup" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.lds.ldssa.ux.signin.SignInActivity" />
+        <activity
+            android:name="org.lds.ldssa.ux.catalog.CatalogDirectoryActivity"
+            android:label="@string/library" >
+        </activity>
+        <activity android:name="org.lds.ldssa.ux.content.directory.ContentDirectoryActivity" />
+        <activity
+            android:name="org.lds.ldssa.ux.content.item.ContentActivity"
+            android:windowSoftInputMode="adjustNothing" >
+
+            <!-- External Intents to display content -->
+            <intent-filter>
+                <action android:name="org.lds.ldssa.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.lds.ldssa.ux.annotations.links.LinksActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="org.lds.ldssa.ux.annotations.links.LinkContentActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="org.lds.ldssa.ui.activity.LanguageChangeActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true" />
+        <activity
+            android:name="org.lds.ldssa.ui.activity.UriRouterActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="gospellibrary" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="*.lds.org"
+                    android:pathPrefix="/scriptures"
+                    android:scheme="http" />
+                <data
+                    android:host="*.lds.org"
+                    android:pathPrefix="/scriptures"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="*.lds.org"
+                    android:pathPrefix="/general-conference"
+                    android:scheme="http" />
+                <data
+                    android:host="*.lds.org"
+                    android:pathPrefix="/general-conference"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.lds.ldssa.ui.activity.BookmarkRouterActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true" />
+        <activity android:name="org.lds.ldssa.ux.about.AboutActivity" />
+        <activity android:name="org.lds.ldssa.ux.about.AppInfoActivity" />
+        <activity android:name="org.lds.ldssa.ux.about.AnnotationInfoActivity" />
+        <activity android:name="org.lds.ldssa.ui.activity.ContentSourceActivity" />
+        <activity android:name="org.lds.ldssa.ui.activity.ImageViewerActivity" />
+        <activity android:name="org.lds.ldssa.ui.activity.HighlightSelectionActivity" />
+        <activity
+            android:name="org.lds.ldssa.ui.activity.SettingsActivity"
+            android:label="@string/settings"
+            android:theme="@style/AppTheme.Light.Settings" />
+        <activity
+            android:name="org.lds.ldssa.ui.activity.ScreenSettingsActivity"
+            android:label="@string/screen_settings"
+            android:theme="@style/AppTheme.Light.Settings" />
+        <activity
+            android:name="org.lds.ldssa.ui.activity.AudioSettingsActivity"
+            android:label="@string/audio_settings"
+            android:theme="@style/AppTheme.Light.Settings" />
+        <activity
+            android:name="org.lds.ldssa.ui.activity.VideoPlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout" />
+        <activity android:name="org.lds.ldssa.ux.annotations.AnnotationsActivity" />
+        <activity
+            android:name="org.lds.ldssa.ux.currentdownloads.CurrentDownloadsActivity"
+            android:launchMode="singleTop" />
+        <activity android:name="org.lds.ldssa.ui.activity.NoteActivity" />
+        <activity
+            android:name="org.lds.ldssa.ux.annotations.tagselection.TagSelectionActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name="org.lds.ldssa.ux.annotations.notebookselection.NotebookSelectionActivity" />
+        <activity android:name="org.lds.ldssa.ux.annotations.notes.NotesActivity" />
+        <activity android:name="org.lds.ldssa.ux.annotations.SingleAnnotationActivity" />
+        <activity android:name="org.lds.ldssa.ux.locations.LocationsActivity" />
+        <activity android:name="org.lds.ldssa.ux.customcollection.items.CustomCollectionDirectoryActivity" />
+        <activity android:name="org.lds.ldssa.ux.customcollection.collections.CustomCollectionsActivity" />
+        <activity android:name="org.lds.ldssa.ui.activity.HighlightPaletteActivity" />
+        <activity
+            android:name="org.lds.ldssa.ux.welcome.WelcomeActivity"
+            android:theme="@style/AppTheme.Welcome" />
+        <activity
+            android:name="org.lds.ldssa.ux.tips.pages.TipsPagerActivity"
+            android:theme="@style/AppTheme.Welcome" />
+        <activity android:name="org.lds.ldssa.ux.tips.lists.TipListPagerActivity" />
+        <activity
+            android:name="org.lds.ldssa.ux.search.SearchActivity"
+            android:windowSoftInputMode="stateAlwaysVisible" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.lds.ldssa.ux.downloadedmedia.DownloadedMediaActivity" />
+        <activity
+            android:name="org.lds.ldssa.ux.share.ShareIntentActivity"
+            android:launchMode="singleTop" />
+
+        <!-- Localytics ONLY Activity (for tracking hits of in-app Notifications) -->
+        <activity android:name="com.localytics.android.PushTrackingActivity" />
+
+        <!-- Facebook ONLY Activity (For Sharing) -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/com_facebook_activity_theme" />
+        <activity android:name="org.lds.ldssa.ux.study.plans.StudyPlansActivity" />
+        <activity android:name="org.lds.ldssa.ux.study.items.StudyItemsActivity" />
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".activity.SearchActivity" />
+
+        <!-- support 18:9 form factors -->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+
+        <service
+            android:name="org.lds.ldssa.media.texttospeech.TextToSpeechService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="org.lds.ldssa.media.exomedia.service.MediaService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="org.lds.ldssa.search.SearchService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name="org.lds.ldssa.ui.widget.BookmarkWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_launcher_bookmark" />
+        </receiver>
+        <receiver android:name="org.lds.ldssa.receiver.DownloadManagerReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="org.lds.ldssa.service.BookmarkWidgetService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="@string/facebook_provider"
+            android:exported="true" />
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="@string/file_provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="4f4d88ab806d4a9593625e8cc97364459c05b345" />
+        <meta-data
+            android:name="LOCALYTICS_APP_KEY"
+            android:value="@string/localytics_key" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+            android:value="org.lds.ldssa.util.CastOptionsProvider" />
+
+        <activity
+            android:name="org.lds.mobile.about.AboutLibrariesActivity"
+            android:theme="@style/Theme.About.Base" />
+        <activity
+            android:name="org.lds.mobile.about.AboutLicenseActivity"
+            android:theme="@style/Theme.About.Base" />
+        <activity
+            android:name="org.lds.mobile.about.AboutTvLibrariesActivity"
+            android:theme="@style/Theme.About.Base" />
+        <activity
+            android:name="org.lds.mobile.about.AboutTvLicenseActivity"
+            android:theme="@style/Theme.About.Base" />
+        <activity
+            android:name="org.lds.mobile.about.AboutTvWebActivity"
+            android:theme="@style/Theme.About.Base" />
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+
+        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+
+        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+        <service
+            android:name="com.evernote.android.job.v21.PlatformJobService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.evernote.android.job.v14.PlatformAlarmService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.evernote.android.job.v14.PlatformAlarmServiceExact"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.evernote.android.job.v14.PlatformAlarmReceiver"
+            android:exported="false" >
+            <intent-filter>
+
+                <!-- Keep the filter for legacy intents -->
+                <action android:name="com.evernote.android.job.v14.RUN_JOB" />
+                <action android:name="net.vrallev.android.job.v14.RUN_JOB" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.evernote.android.job.JobBootReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.evernote.android.job.gcm.PlatformGcmService"
+            android:enabled="false"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.evernote.android.job.JobRescheduleService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="org.lds.ldssa.dev.FacebookInitProvider"
+            android:exported="false" />
+        <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="org.lds.ldssa.dev.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="org.lds.ldssa.dev.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <service
+            android:name="com.squareup.leakcanary.internal.HeapAnalyzerService"
+            android:enabled="false"
+            android:process=":leakcanary" />
+        <service
+            android:name="com.squareup.leakcanary.DisplayLeakService"
+            android:enabled="false"
+            android:process=":leakcanary" />
+
+        <activity
+            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
+            android:enabled="false"
+            android:icon="@drawable/leak_canary_icon"
+            android:label="@string/leak_canary_display_activity_label"
+            android:process=":leakcanary"
+            android:taskAffinity="com.squareup.leakcanary.org.lds.ldssa.dev"
+            android:theme="@style/leak_canary_LeakCanary.Base" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity"
+            android:enabled="false"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/leak_canary_icon"
+            android:label="@string/leak_canary_storage_permission_activity_label"
+            android:process=":leakcanary"
+            android:taskAffinity="com.squareup.leakcanary.org.lds.ldssa.dev"
+            android:theme="@style/leak_canary_Theme.Transparent" />
+
+        <receiver
+            android:name="com.devbrackets.android.playlistcore.components.mediasession.DefaultMediaSessionControlsReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.localytics.android.LocationUpdateReceiver"
+            android:enabled="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,265 @@
+/* ===================================
+ * Light (Default) theme
+ * =================================== */
+.hl-red-box {
+    background-color: rgba(253, 79, 102, 0.22);
+}
+.hl-red-underline {
+    border-bottom-color: rgba(253, 79, 102, 1);
+}
+
+.hl-orange-box {
+    background-color: rgba(253, 152, 41, 0.27);
+}
+.hl-orange-underline {
+    border-bottom-color:rgba(253, 152, 41, 1) ;
+}
+
+.hl-yellow-box {
+    background-color: rgba(252, 218, 60, 0.32);
+}
+.hl-yellow-underline {
+    border-bottom-color:rgba(252, 218, 60, 1) ;
+}
+
+.hl-green-box {
+    background-color: rgba(169, 213, 39, 0.27);
+}
+.hl-green-underline {
+    border-bottom-color: rgba(169, 213, 39, 1);
+}
+
+.hl-blue-box {
+    background-color: rgba(16, 216, 225, 0.24);
+}
+.hl-blue-underline {
+    border-bottom-color: rgba(16, 216, 225, 1);
+}
+
+.hl-dark_blue-box {
+    background-color: rgba(37, 150, 255, 0.25);
+}
+.hl-dark_blue-underline {
+    border-bottom-color: rgba(37, 150, 255, 1);
+}
+
+.hl-purple-box {
+    background-color: rgba(157, 83, 253, 0.20);
+}
+.hl-purple-underline {
+    border-bottom-color: rgba(157, 83, 253, 1);
+}
+
+.hl-pink-box {
+    background-color: rgba(248, 91, 234, 0.24);
+}
+.hl-pink-underline {
+    border-bottom-color: rgba(248, 91, 234, 1);
+}
+
+.hl-brown-box {
+    background-color: rgba(205, 125, 90, 0.24);
+}
+.hl-brown-underline {
+    border-bottom-color: rgba(205, 125, 90, 1);
+}
+
+.hl-gray-box {
+    background-color: rgba(174, 184, 193, 0.30);
+}
+.hl-gray-underline {
+    border-bottom-color: rgba(174, 184, 193, 1);
+}
+
+
+
+/* ===================================
+ * Sepia theme
+ * =================================== */
+body[data-scheme = 'sepia']  .hl-red-box {
+    background-color: rgba(277, 70, 90, 0.22);
+}
+body[data-scheme = 'sepia'] .hl-red-underline {
+    border-bottom-color: rgba(277, 70, 90, 1);
+}
+
+body[data-scheme = 'sepia'] .hl-orange-box {
+    background-color: rgba(234, 132, 20, 0.27);
+}
+body[data-scheme = 'sepia'] .hl-orange-underline {
+    border-bottom-color:rgba(234, 132, 20, 1) ;
+}
+
+body[data-scheme = 'sepia'] .hl-yellow-box {
+    background-color: rgba(236, 203, 49, 0.32);
+}
+body[data-scheme = 'sepia'] .hl-yellow-underline {
+    border-bottom-color:rgba(236, 203, 49, 1) ;
+}
+
+body[data-scheme = 'sepia'] .hl-green-box {
+    background-color: rgba(148, 187, 34, 0.27);
+}
+body[data-scheme = 'sepia'] .hl-green-underline {
+    border-bottom-color: rgba(148, 187, 34, 1);
+}
+
+body[data-scheme = 'sepia'] .hl-blue-box {
+    background-color: rgba(26, 198, 205, 0.24);
+}
+body[data-scheme = 'sepia'] .hl-blue-underline {
+    border-bottom-color: rgba(26, 198, 205, 1);
+}
+
+body[data-scheme = 'sepia'] .hl-dark_blue-box {
+    background-color: rgba(38, 128, 213, 0.25);
+}
+body[data-scheme = 'sepia'] .hl-dark_blue-underline {
+    border-bottom-color: rgba(38, 128, 213, 1);
+}
+
+body[data-scheme = 'sepia'] .hl-purple-box {
+    background-color: rgba(133, 73, 210, 0.20);
+}
+body[data-scheme = 'sepia'] .hl-purple-underline {
+    border-bottom-color: rgba(133, 73, 210, 1);
+}
+
+body[data-scheme = 'sepia'] .hl-pink-box {
+    background-color: rgba(222, 82, 212, 0.24);
+}
+body[data-scheme = 'sepia'] .hl-pink-underline {
+    border-bottom-color: rgba(222, 82, 212, 1);
+}
+
+body[data-scheme = 'sepia'] .hl-brown-box {
+    background-color: rgba(180, 109, 77, 0.24);
+}
+body[data-scheme = 'sepia'] .hl-brown-underline {
+    border-bottom-color: rgba(180, 109, 77, 1);
+}
+
+body[data-scheme = 'sepia'] .hl-gray-box {
+    background-color: rgba(152, 160, 167, 0.30);
+}
+body[data-scheme = 'sepia'] .hl-gray-underline {
+    border-bottom-color: rgba(152, 160, 167, 1);
+}
+
+
+
+/* ===================================
+ * Dark theme
+ * =================================== */
+body[data-scheme = 'night']  .hl-red-box {
+    background-color: rgba(253, 79, 102, 0.24);
+}
+body[data-scheme = 'night'] .hl-red-underline {
+    border-bottom-color: rgba(186, 80, 93, 1);
+}
+
+body[data-scheme = 'night'] .hl-orange-box {
+    background-color: rgba(236, 143, 42, 0.28);
+}
+body[data-scheme = 'night'] .hl-orange-underline {
+    border-bottom-color: rgba(198, 140, 78, 1);
+}
+
+body[data-scheme = 'night'] .hl-yellow-box {
+    background-color: rgba(252, 218, 60, 0.32);
+}
+body[data-scheme = 'night'] .hl-yellow-underline {
+    border-bottom-color: rgba(213, 192, 89, 1);
+}
+
+body[data-scheme = 'night'] .hl-green-box {
+    background-color: rgba(169, 213, 39, 0.27);
+}
+body[data-scheme = 'night'] .hl-green-underline {
+    border-bottom-color: rgba(140, 160, 81, 1);
+}
+
+body[data-scheme = 'night'] .hl-blue-box {
+    background-color: rgba(16, 216, 225, 0.24);
+}
+body[data-scheme = 'night'] .hl-blue-underline {
+    border-bottom-color: rgba(96, 180, 184, 1);
+}
+
+body[data-scheme = 'night'] .hl-dark_blue-box {
+    background-color: rgba(37, 150, 255, 0.27);
+}
+body[data-scheme = 'night'] .hl-dark_blue-underline {
+    border-bottom-color: rgba(87, 135, 180, 1);
+}
+
+body[data-scheme = 'night'] .hl-purple-box {
+    background-color: rgba(157, 83, 253, 0.24);
+}
+body[data-scheme = 'night'] .hl-purple-underline {
+    border-bottom-color: rgba(119, 84, 165, 1);
+}
+
+body[data-scheme = 'night'] .hl-pink-box {
+    background-color: rgba(248, 91, 234, 0.26);
+}
+body[data-scheme = 'night'] .hl-pink-underline {
+    border-bottom-color: rgba(182, 107, 177, 1);
+}
+
+body[data-scheme = 'night'] .hl-brown-box {
+    background-color: rgba(205, 125, 90, 0.24);
+}
+body[data-scheme = 'night'] .hl-brown-underline {
+    border-bottom-color: rgba(149, 109, 92, 1);
+}
+
+body[data-scheme = 'night'] .hl-gray-box {
+    background-color: rgba(131, 145, 158, 0.30);
+}
+body[data-scheme = 'night'] .hl-gray-underline {
+    border-bottom-color: rgba(142, 150, 158, 1);
+}
+
+/* ===================================
+ * General
+ * =================================== */
+.hl-clear-box {
+    background-color: transparent;
+}
+.hl-clear-underline {
+    background-color: transparent;
+}
+
+.hl-box-selection {
+    background-color: rgba(67, 178, 229, 0.30);
+    -webkit-user-select: none;
+    margin-left: -0.15em;
+    padding-left: 0.15em;
+    margin-right: -0.15em;
+    padding-right: 0.15em;
+    z-index: -15;
+
+    padding-top: .15em;
+}
+
+.hl-box {
+    -webkit-user-select: none;
+    margin-left: -0.15em;
+    padding-left: 0.15em;
+    margin-right: -0.15em;
+    padding-right: 0.15em;
+    border-radius: 0.2em;
+    z-index: -15;
+}
+
+.hl-underline {
+    background-color: transparent;
+    border-radius: 0px;
+    border-bottom-width: 0.15em;
+    border-bottom-style: solid;
+
+    padding: 0px;
+    margin: 0px;
+    margin-top: -0.1em;
+}

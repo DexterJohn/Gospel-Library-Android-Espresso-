@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colors used by all themes -->
+<resources>
+
+    <color name="graphite">#1E2021</color> <!-- app bar background, -->
+    <color name="drawer_scrim">#25000000</color> <!-- color to use for the scrim that obscures primary content while a drawer is open -->
+    <color name="splash_background">#242d33</color>
+
+    <!-- View Pagers -->
+    <color name="tab_text">#baffffff</color>
+    <color name="tab_selected_text">#ffffffff</color>
+
+
+    <!-- Bookmark widget -->
+    <color name="bookmark_widget_background">#dcdcde</color>
+    <color name="bookmark_widget_divider">#c8cccccc</color>
+    <color name="bookmark_widget_list_background">#efeff1</color>
+
+    <!-- Media -->
+    <color name="media_media_player_icon">@color/white</color>
+
+
+    <!-- TODO bmw: theme dependent -->
+    <color name="accent">#43b2e5</color>
+    <color name="accent_dim">#3343b2e5</color>
+
+    <color name="media_player_control_background">#C8000000</color>
+
+    <color name="icon_grey_light">#b6b6b6</color>
+    <color name="icon_grey">#737373</color>
+    <color name="icon_grey_indicator">#D3D3D3</color>
+
+    <!-- TODO Removed from LDS Mobile Resources.  Replace with UI Kit colors? -->
+    <color name="citrine_600">#ffbf1c</color>
+    <color name="bronzite_600">#66462E</color>
+    <color name="turquoise_600">#00bad3</color>
+
+    <color name="onyx_05">#fafafa</color>
+    <color name="onyx_40">#c0c2c3</color>
+    <color name="onyx_60">#a1a3a5</color>
+    <color name="onyx_80">#717577</color>
+    <color name="onyx_110">#36393e</color>
+    <color name="onyx_123">#18191b</color>
+    <color name="black">#000000</color>
+
+</resources>

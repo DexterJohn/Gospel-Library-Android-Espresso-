@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.lds.ldssa"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+     <!--The following Permissions are required for taking automated screenshots -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false"/>
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false"/>
+
+    <!-- Some Chromebooks don't support touch. Although not essential, it's a good idea to explicitly include this declaration. -->
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false"/>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"/>
+
+    <application
+        android:name=".App"
+        android:allowBackup="false"
+        android:fullBackupContent="@xml/backup_configuration"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:resizeableActivity="true"
+        android:theme="@style/AppTheme.Light"
+        >
+
+        <activity
+            android:name=".ui.activity.StartupActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/AppTheme.Startup">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ux.signin.SignInActivity"/>
+
+        <activity
+            android:name=".ux.catalog.CatalogDirectoryActivity"
+            android:label="@string/library"
+            >
+        </activity>
+        <activity android:name=".ux.content.directory.ContentDirectoryActivity"/>
+        <activity
+            android:name=".ux.content.item.ContentActivity"
+            android:windowSoftInputMode="adjustNothing"
+            >
+            <!--External Intents to display content-->
+            <intent-filter>
+                <action android:name="org.lds.ldssa.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ux.annotations.links.LinksActivity"
+            android:windowSoftInputMode="stateVisible"/>
+        <activity
+            android:name=".ux.annotations.links.LinkContentActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity
+            android:name=".ui.activity.LanguageChangeActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"/>
+        <activity
+            android:name=".ui.activity.UriRouterActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data android:scheme="gospellibrary"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data
+                    android:host="*.lds.org"
+                    android:pathPrefix="/scriptures"
+                    android:scheme="http"
+                    />
+                <data
+                    android:host="*.lds.org"
+                    android:pathPrefix="/scriptures"
+                    android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data
+                    android:host="*.lds.org"
+                    android:pathPrefix="/general-conference"
+                    android:scheme="http"/>
+                <data
+                    android:host="*.lds.org"
+                    android:pathPrefix="/general-conference"
+                    android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.BookmarkRouterActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            />
+        <activity android:name=".ux.about.AboutActivity"/>
+        <activity android:name=".ux.about.AppInfoActivity"/>
+        <activity android:name=".ux.about.AnnotationInfoActivity"/>
+        <activity android:name=".ui.activity.ContentSourceActivity"/>
+        <activity android:name=".ui.activity.ImageViewerActivity"/>
+        <activity android:name=".ui.activity.HighlightSelectionActivity"/>
+
+        <activity
+            android:name=".ui.activity.SettingsActivity"
+            android:label="@string/settings"
+            android:theme="@style/AppTheme.Light.Settings"
+            />
+        <activity
+            android:name=".ui.activity.ScreenSettingsActivity"
+            android:label="@string/screen_settings"
+            android:theme="@style/AppTheme.Light.Settings"
+            />
+        <activity
+            android:name=".ui.activity.AudioSettingsActivity"
+            android:label="@string/audio_settings"
+            android:theme="@style/AppTheme.Light.Settings"
+            />
+
+        <activity
+            android:name=".ui.activity.VideoPlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"/>
+
+        <activity android:name=".ux.annotations.AnnotationsActivity"/>
+        <activity
+            android:name=".ux.currentdownloads.CurrentDownloadsActivity"
+            android:launchMode="singleTop"/>
+
+        <activity
+            android:name=".ui.activity.NoteActivity"
+            />
+
+        <activity
+            android:name=".ux.annotations.tagselection.TagSelectionActivity"
+            android:windowSoftInputMode="stateVisible"/>
+
+        <activity android:name=".ux.annotations.notebookselection.NotebookSelectionActivity"/>
+        <activity android:name=".ux.annotations.notes.NotesActivity"/>
+        <activity android:name=".ux.annotations.SingleAnnotationActivity"/>
+        <activity android:name=".ux.locations.LocationsActivity"/>
+        <activity android:name=".ux.customcollection.items.CustomCollectionDirectoryActivity"/>
+        <activity android:name=".ux.customcollection.collections.CustomCollectionsActivity"/>
+        <activity android:name=".ui.activity.HighlightPaletteActivity"/>
+        <activity
+            android:name=".ux.welcome.WelcomeActivity"
+            android:theme="@style/AppTheme.Welcome"/>
+        <activity
+            android:name=".ux.tips.pages.TipsPagerActivity"
+            android:theme="@style/AppTheme.Welcome"/>
+        <activity android:name=".ux.tips.lists.TipListPagerActivity"/>
+        <activity
+            android:name=".ux.search.SearchActivity"
+            android:windowSoftInputMode="stateAlwaysVisible">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ux.downloadedmedia.DownloadedMediaActivity"/>
+
+        <activity
+            android:name=".ux.share.ShareIntentActivity"
+            android:launchMode="singleTop"/>
+
+        <!-- Localytics ONLY Activity (for tracking hits of in-app Notifications) -->
+        <activity android:name="com.localytics.android.PushTrackingActivity"/>
+
+        <!-- Facebook ONLY Activity (For Sharing) -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            />
+        <activity android:name=".ux.study.plans.StudyPlansActivity" />
+        <activity android:name=".ux.study.items.StudyItemsActivity" />
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".activity.SearchActivity"/>
+
+        <!-- support 18:9 form factors -->
+        <meta-data android:name="android.max_aspect"
+                   android:value="2.1"/>
+
+        <service
+            android:name=".media.texttospeech.TextToSpeechService"
+            android:enabled="true"
+            android:exported="false"/>
+
+        <service
+            android:name=".media.exomedia.service.MediaService"
+            android:enabled="true"
+            android:exported="false"/>
+
+        <service
+            android:name=".search.SearchService"
+            android:enabled="true"
+            android:exported="false"/>
+
+        <receiver
+            android:name=".ui.widget.BookmarkWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_launcher_bookmark"/>
+        </receiver>
+
+        <receiver
+            android:name=".receiver.DownloadManagerReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".service.BookmarkWidgetService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS"/>
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="@string/facebook_provider"
+            android:exported="true"
+            tools:ignore="ExportedContentProvider"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="@string/file_provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths"/>
+        </provider>
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="4f4d88ab806d4a9593625e8cc97364459c05b345"/>
+        <meta-data
+            android:name="LOCALYTICS_APP_KEY"
+            android:value="@string/localytics_key"/>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <meta-data
+            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+            android:value="org.lds.ldssa.util.CastOptionsProvider"/>
+    </application>
+</manifest>

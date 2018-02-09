@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--suppress AndroidElementNotAllowed -->
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="tabs_in_overview"
+        android:persistent="false"
+        android:title="@string/screens_separate_windows"
+        />
+</PreferenceScreen>

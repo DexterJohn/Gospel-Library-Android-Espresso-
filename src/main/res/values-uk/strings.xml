@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Додати</string>
+    <string name="all">Усі</string>
+    <string name="app_name">Євангельська бібліотека</string>
+    <string name="auto">Авто</string>
+    <string name="allow_in_app_notifications">Увімкнути сповіщення застосунку</string>
+    <string name="exact_phrase">Точна фраза</string>
+    <string name="keywords">Ключові слова</string>
+    <string name="bookmark">Закладка</string>
+    <string name="cancel">Відмінити</string>
+    <string name="cancel_all">Відмінити все</string>
+    <string name="content">Вміст</string>
+    <string name="copy">Копіювати</string>
+    <string name="delete">Видалити</string>
+    <string name="define">Визначити</string>
+    <string name="display">Управління інтерфейсом</string>
+    <string name="done">Завершено</string>
+    <string name="download">Завантажити</string>
+    <string name="download_all">Завантажити все</string>
+    <string name="download_item">Завантажити матеріал</string>
+    <string name="feedback">Відгуки</string>
+    <string name="keep">Залишити</string>
+    <string name="library">Бібліотека</string>
+    <string name="link">Створити посилання</string>
+    <string name="links">Посилання</string>
+    <string name="merge">Об’єднати</string>
+    <string name="never">Ніколи</string>
+    <string name="no">Ні</string>
+    <string name="note">Нотатка</string>
+    <string name="none">Немає</string>
+    <string name="ok">Добре</string>
+    <string name="remove">Видалити</string>
+    <string name="remove_all">Видалити все</string>
+    <string name="rename">Перейменувати</string>
+    <string name="search">Шукати</string>
+    <string name="settings">Налаштування</string>
+    <string name="screen_settings">Налаштування екрану</string>
+    <string name="share">Поділитися</string>
+    <string name="skip">Пропустити</string>
+    <string name="sort">Сортувати</string>
+    <string name="tag">Тег</string>
+    <string name="tags">Теги</string>
+    <string name="theme_default">За умовчанням</string>
+    <string name="theme_night">Ніч</string>
+    <string name="theme_sepia">Сепія</string>
+    <string name="theme_dark_blue">Темно-синя</string>
+    <string name="today">Сьогодні</string>
+    <string name="undo">Відмінити</string>
+    <string name="update">Оновити</string>
+    <string name="view">Переглянути</string>
+    <string name="yes">Так</string>
+    <string name="yesterday">Вчора</string>
+    <!-- Other -->
+    <string name="add_bookmark">Додати закладку</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Додати тег</string>
+    <string name="add_to">Додати до</string>
+    <string name="add_to_ellipsis">Додати до ...</string>
+    <string name="add_to_notebook">Додати в записник</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">Примітки не можуть відображатися, оскільки “%s” не встановлено.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Торкніться, щоб установити оновлення.</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">Доступне оновлення Євангельської бібліотеки.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Налаштування аудіо</string>
+    <string name="backup_annotations_message">Невдала спроба увійти перед наступним оновленням застосунку Євангельська бібліотека спричинить втрату особистих приміток (виділень, нотаток, закладок тощо).</string>
+    <string name="backup_annotations_title">Створити резервну копію приміток</string>
+    <string name="bookmarks">Закладки</string>
+    <string name="bookmark_added">Закладку додано</string>
+    <string name="bookmark_empty">Ви ще не додали жодної закладки.</string>
+    <string name="bookmark_updated">Закладку оновлено</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Транслювати</string>
+    <string name="catalog_title">Каталог Євангельської бібліотеки</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Виберіть виділення</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Очистити завантажені медіа файли</string>
+    <string name="clear_history">Очистити журнал</string>
+    <string name="content_no_content" comment="Shown in content drawer">Неможливо відобразити вміст, оскільки не встановлено “%s”</string>
+    <string name="content_not_downloaded">%s не завантажено.</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Безперервне відтворення</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Текст скопійовано до буфера обміну</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">Створити “%s”</string>
+    <string name="current_downloads">Поточні завантаження</string>
+    <string name="custom_collections">Нетипові збірки</string>
+    <string name="delete_annotation_title">Видалити примітку</string>
+    <string name="delete_annotation_message">Всі нотатки, теги або посилання, прив\'язані до виділеного тексту, також будуть видалені.</string>
+    <string name="delete_collection_item_title">Видалити “%1$s”?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s буде видалено.\n\nВидалити всі медіа файли?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">Неможливо видалити всі медіа файли</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s буде видалено з “%1$s”.\n\nВидалити медіа?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Видалити медіа</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Видалити записники</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Видалити вибрані записники?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Видалити тег</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Видалити теги</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">Ви впевнені, що хочете видалити цей тег з усіх нотаток і виділень?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">Ви впевнені, що хочете видалити ці теги з усіх нотаток і виділень?</string>
+    <string name="deleted">%s видалено</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">Видалено закладку %s</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">%s записник видалено</string>
+    <string name="dialog_sign_out_confirmation">Ви впевнені, що хочете вийти?</string>
+    <string name="double_tap_fullscreen_training">Порада: двічі торкніться до екрану, щоб вийти з повноекранного режиму.</string>
+    <string name="download_audio" comment="download audio">Завантажити аудіо</string>
+    <string name="download_all_selected_confirm">%d матеріалів буде завантажено.\n\nЗавантажити вибрані матеріали?</string>
+    <string name="download_cancel_confirm_all">Всі поточні завантаження буде відмінено.\n\nВідмінити завантаження?</string>
+    <string name="download_cancel">Відмінити завантаження?</string>
+    <string name="download_canceling">Завантаження відміняється...</string>
+    <string name="download_item_message">%s не встановлено. Чи бажаєте ви завантажити це зараз?</string>
+    <string name="download_video" comment="download video">Завантажити відео</string>
+    <string name="downloaded_media">Завантажені медіаматеріали</string>
+    <string name="downloading_ellipsis">Завантажується…</string>
+    <string name="downloading_audio">Завантаження аудіо для %s</string>
+    <string name="downloading_video">Завантаження відео для %s</string>
+    <string name="download_file_failed_insufficient_space">Не вдалося завантажити [%s].\nНедостатньо місця.</string>
+    <string name="download_file_failed">Не вдалося завантажити [%s].\nПеревірте з\'єднання з Інтернетом і спробуйте знову.</string>
+    <string name="download_dir_error">Не вдалося створити каталог для завантаження файлів.</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">Назва збірки</string>
+    <string name="existing_annotations_prompt">%d приміток вже існують на цьому пристрої. Що ви хочете зробити з існуючими примітками?</string>
+    <string name="existing_annotations">Поточні примітки</string>
+    <string name="featured_apps">Інші застосунки</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Жіночий</string>
+    <string name="finalizing_ellipsis">Фіналізується…</string>
+    <string name="find_by_name">Знайти за назвою</string>
+    <string name="find_count">%1$d з %2$d</string>
+    <string name="find_x_on_page">Знайти на сторінці “%s”</string>
+    <string name="find_x_in_x">Знайти “%1$s” в %2$s</string>
+    <string name="find_exact_x_in_x">Знайти точну фразу “%1$s” в %2$s</string>
+    <string name="marked_text_position">%1$d з %2$d результатів</string>
+    <string name="marked_text_position_no_results">0 результатів</string>
+    <string name="sign_in_error" comment="Failed to login invalid username or password.">Помилка авторизації</string>
+    <string name="highlight_style">Стиль виділення</string>
+    <string name="history">Історія</string>
+    <string name="history_cleared">Історію очищено</string>
+    <string name="installing_ellipsis">Інсталяція…</string>
+    <string name="journal">Журнал</string>
+    <string name="journal_restore">Відновити журнал</string>
+    <string name="journal_create_notebook">Створити записник журналу</string>
+    <string name="journal_restore_description">Хоча розділ \"Журнал\" було видалено, ваші нотатки були збережені. Якщо ви бажаєте, ми можемо зібрати всі нотатки, які раніше були в розділі \"Журнал\", і помістити їх в новий записник під назвою \"Журнал\".</string>
+    <string name="journal_restore_result">Відновлення журналу завершене. %d приміток переміщено.</string>
+    <string name="language">Мова</string>
+    <string name="lds_account_summary">Аккаунт СОД використовується, щоб створювати резервні копії і синхронізацію ваших приміток в усіх пристроях і на сайті LDS.org.</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">до %1$s</string>
+    <string name="loading_ellipsis">Завантажується…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Чоловічий</string>
+    <string name="mark" comment="Select highlight color">Створити позначку</string>
+    <string name="media_type">Тип медіа</string>
+    <string name="menu_new_screen">Новий екран...</string>
+    <string name="merged_notebook_name_prompt">Вибрані записники буде об\'єднано. Будь ласка, введіть назву нового записника, який буде створено в результаті цієї дії.</string>
+    <string name="merged_notebook_name">Назва записника, створеного в результаті об\'єднання</string>
+    <string name="merged_tag_name">Назва тегу, створеного в результаті об\'єднання</string>
+    <string name="move_to_notebook">Перемістити в записник</string>
+    <string name="my_collections">Мої збірки</string>
+    <string name="network_required" comment="Not connected to any network">Щоб отримати доступ на сервер, ви маєте з’єднатися з мережею (через мобільний зв’язок або Wi-Fi).</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">Залежно від ваших налаштувань, для доступу на сервер ви маєте бути з’єднані з Wi-Fi.</string>
+    <string name="no_bookmarks">Закладок немає</string>
+    <string name="no_bookmarks_description">Додайте закладку, щоб швидко повернутися туди, де ви зупинилися.</string>
+    <string name="no_content">Вмісту немає</string>
+    <string name="no_collection_content_description">Для легкого доступу додайте до збірки вміст</string>
+    <string name="no_custom_collections">Нетипових збірок немає</string>
+    <string name="no_custom_collections_description">Для легкого доступу до пов\'язаного вмісту, створюйте нетипові збірки.</string>
+    <string name="no_downloads_in_progress">Зараз не виконується жодних завантажень</string>
+    <string name="no_downloads_in_progress_description">Зараз завантажуються вміст і медіа</string>
+    <string name="no_downloaded_media">Завантаженого медіа немає</string>
+    <string name="no_downloaded_media_description">Завантажте аудіо або відео для доступу оф-лайн</string>
+    <string name="no_history">Історії немає</string>
+    <string name="no_history_description">Дослідіть вміст, знайдіть свій шлях і поверніться до нього.</string>
+    <string name="no_matches" comment="No results">Результатів немає</string>
+    <string name="no_matches_description">За вказаними даними пошуку результатів немає</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">Записників немає</string>
+    <string name="no_notebooks_description">Щоб впорядкувати всі ваші нотатки створюйте стільки записників, скільки бажаєте.</string>
+    <string name="no_notes">Нотаток немає</string>
+    <string name="no_notes_in_notebook">У цьому записнику нотаток немає</string>
+    <string name="no_notes_description">Створюйте нотатки, щоб зберегти свої думки і натхненні ідеї.</string>
+    <string name="no_related_content">Пов\'язаного вмісту немає</string>
+    <string name="no_related_content_description2">Виноски або інший пов\'язаний вміст не доступні</string>
+    <string name="no_tags" comment="The message to show when there are no tags">Тегів немає</string>
+    <string name="no_tags_description">Створіть тег, щоб згрупувати вміст по всьому застосунку.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">Вмісту, позначеного тегами, немає</string>
+    <string name="no_tagged_content_description">Приєднайте тег до будь-якої частини вмісту, щоб звертатися до нього в майбутньому.</string>
+    <string name="no_thanks">Ні, дякую</string>
+    <string name="no_tips">Порад немає</string>
+    <string name="no_tips_description">В порадах надається корисна інформація щодо функцій застосунку</string>
+    <string name="note_content">Вміст приміток</string>
+    <string name="notebook">Записник</string>
+    <string name="notebooks">Записники</string>
+    <string name="notes">Нотатки</string>
+    <string name="num_item_add_to">%1$s позицію додано до %2$s</string>
+    <string name="num_item">%d позиція</string>
+    <string name="num_items_add_to">%1$s позицій додано до %2$s</string>
+    <string name="num_items">%d позиції/й</string>
+    <string name="open">Відкрити</string>
+    <string name="open_in_music">Відкрито в LDS Music</string>
+    <string name="open_in_new_screen">Відкрити на новому екрані</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Закріпити бокову панель</string>
+    <string name="play_audio">Відтворити аудіо</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Швидкість відтворення</string>
+    <string name="playback_speed_0.5x">0.5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1.25x</string>
+    <string name="playback_speed_1.5x">1.5x</string>
+    <string name="playback_speed_1.75x">1.75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Будь ласка, увійдіть ще раз, щоб вірно вказати ваші ім\'я користувача і пароль.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Управління завантаженими аудіо та відео файлами або їх перегляд</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"…знай, я кажу тобі, що через мале і просте відбувається велике; і незначні засоби у багатьох випадках примушують мовчати мудрих."</string>
+    <string name="pref_general_list_mode">Режим списку</string>
+    <string name="pref_hide_footnotes">Сховати виноски</string>
+    <string name="pref_limit_mobile_network_subtitle">Завантаження і стріми здійснюються лише при наявності з\'єднання з Wi-Fi</string>
+    <string name="pref_limit_mobile_network">Мережа мобільного зв\'язку з обмеженням використання</string>
+    <string name="pref_theme">Тема</string>
+    <string name="problem_playing_video">Під час відтворення цього відео виникла проблема.</string>
+    <string name="read_more">Читати далі</string>
+    <string name="recent" comment="label for study notebook">Недавно використане</string>
+    <string name="related_content">Пов\'язаний вміст</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">Ви впевнені, що хочете видалити вибрані позиції?</string>
+    <string name="remove_from_collection">Видалити зі збірки</string>
+    <string name="rename_bookmark">Перейменувати закладку</string>
+    <string name="rename_screen">Перейменувати екран</string>
+    <string name="requested_ellipsis">Запит надіслано…</string>
+    <string name="requested_paused_retry_ellipsis">Запит надіслано… (очікує на повторну спробу)</string>
+    <string name="requested_paused_network_ellipsis">Запит надіслано... (очікує на з\'єднання з мережею)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d результат</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d результатів</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s - %2$d результат</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s - %2$d результатів</string>
+    <string name="save">Зберегти</string>
+    <string name="screens">Екрани</string>
+    <string name="screen_missing_content">Ви не завантажили вміст вибраного екрану.\n\nЧи хочете ви зараз завантажити вміст “%1$s”?</string>
+    <string name="screens_separate_windows">Відображати екрани окремими вікнами</string>
+    <string name="search_all_content">Шукати серед всього вмісту</string>
+    <string name="search_for_links">Шукати ключові слова, вірші або назви</string>
+    <string name="select_highlight">Вибрати виділене</string>
+    <string name="select_items">Вибрати позиції</string>
+    <string name="select_link">Вибрати посилання</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Вибрати текст для посилання</string>
+    <string name="selected_media_unavailable">Вибране медіа не доступне.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Остання синхронізація: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Сортувати за кількістю</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Сортувати за недавнім</string>
+    <string name="sort_by_name" comment="sort items by their name">Сортувати за назвою</string>
+    <string name="sort_by_size" comment="sort media items">Сортувати за розміром</string>
+    <string name="sort_by_item" comment="sort media items">Сортувати за позицією</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Версія %s</string>
+    <string name="style">Стиль</string>
+    <string name="sync_error_invalid_credentials">Недійсне ім’я користувача/пароль</string>
+    <string name="sync_error_no_network">З\'єднання з мережею не доступне</string>
+    <string name="sync_notification_failure">Синхронізувати примітки не вдалося</string>
+    <string name="sync_notification_gathering_changes">Збирання змін</string>
+    <string name="sync_notification_processing_changes">Обробка змін</string>
+    <string name="sync_notification_receiving_changes">Отримання змін</string>
+    <string name="sync_notification_receiving_update_list">Отримання оновленого списку</string>
+    <string name="sync_notification_sending_changes">Надсилання змін</string>
+    <string name="sync_notification_sending_update_request">Запит на надсилання оновлення</string>
+    <string name="syncing_notebooks">Синхронізація записників</string>
+    <string name="syncing_annotations">Синхронізація приміток</string>
+    <string name="notification_channel_general">Загальні сповіщення</string>
+    <string name="notification_channel_sync">Синхронізація приміток</string>
+    <string name="notification_channel_media_playback">Відтворення медіа</string>
+    <string name="text_size" comment="">Розмір тексту</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Перетворення тексту на мову</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Налаштування перетворення тексту на мову</string>
+    <string name="tips">Поради</string>
+    <string name="title_optional">Заголовок (необов\'язково)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Відкріпити бокову панель</string>
+    <string name="update_catalog_wifi_required">Оновлений вміст доступний, але вам слід з\'єднатися з Wi-Fi, щоб завантажити його.</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">Редагувати тег</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Якість відео</string>
+    <string name="video_unavailable">Відео не доступне</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Основний голос</string>
+    <string name="whats_new">Що нового?</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Avbryt</string>
+    <string name="fingerprint_disabled_use_pin">Fingeravtrykksidentifisering er midlertidig deaktivert. Bruk PIN eller prøv igjen senere.</string>
+    <string name="fingerprint_not_recognized">Fingeravtrykk ikke gjenkjent. Vennligst prøv på nytt.</string>
+    <string name="fingerprint_please">Fingeravtrykk, vennligst</string>
+    <string name="fingerprint_please_try_again">Vennligst prøv på nytt.</string>
+    <string name="ok">OK</string>
+    <string name="pin_confirm">Bekreft PIN-kode</string>
+    <string name="pin_create_title">Velg PIN-kode</string>
+    <string name="pin_enter_title">Angi PIN-koden din</string>
+    <string name="pin_error_incorrect_title">Feil PIN-kode angitt.</string>
+    <string name="pin_error_invalid_pin">PIN-koden kan ikke ha fortløpende eller gjentatte tall.</string>
+    <string name="pin_error_mismatch">Pin-kodene samsvarer ikke.</string>
+    <string name="pref_reset_data">Logg ut</string>
+    <string name="signin">Logg inn</string>
+    <string name="signin_authenticating">Godkjenner</string>
+    <string name="signin_create_account">Opprett en LDS Account-konto</string>
+    <string name="signin_error">Feil</string>
+    <string name="signin_instructions">Logg inn på din LDS Account-konto</string>
+    <string name="signin_ok">OK</string>
+    <string name="signin_password">Passord</string>
+    <string name="signin_prefs_signout">Logg ut</string>
+    <string name="signin_username">Brukernavn</string>
+</resources>

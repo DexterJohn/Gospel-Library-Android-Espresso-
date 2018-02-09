@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Tānaki</string>
+    <string name="all">Kotoa</string>
+    <string name="app_name">Laipeli ʻo e Ongoongoleleí</string>
+    <string name="auto">Auto</string>
+    <string name="allow_in_app_notifications">Fakangofua e Fakamatala Fakatokanga ʻi Loto he Polokalamá</string>
+    <string name="exact_phrase">Fakalea Totonú</string>
+    <string name="keywords">Ngaahi Foʻi Lea Mahuʻingá</string>
+    <string name="bookmark">Fakaʻilongaʻi</string>
+    <string name="cancel">Kaniseli</string>
+    <string name="cancel_all">Kaniseli Kotoa</string>
+    <string name="content">Kanotohí</string>
+    <string name="copy">Hiki-tatau</string>
+    <string name="delete">Tāmateʻi</string>
+    <string name="define">Fakaʻuhingaʻi</string>
+    <string name="display">Interface Controls</string>
+    <string name="done">\'Osi Fakahoko</string>
+    <string name="download">Download</string>
+    <string name="download_all">Download Kotoa</string>
+    <string name="feedback">Fakamatala</string>
+    <string name="keep">Tauhi</string>
+    <string name="library">Laipelí</string>
+    <string name="link">Fehokotaki</string>
+    <string name="links">Ngaahi Fehokotakiʻangá</string>
+    <string name="merge">Fakatahaʻi</string>
+    <string name="never">ʻIkai ʻAupito</string>
+    <string name="no">ʻIkai</string>
+    <string name="note">Kiʻi Fakamatala</string>
+    <string name="none">Halaʻatā</string>
+    <string name="ok">OK</string>
+    <string name="remove">Toʻo</string>
+    <string name="remove_all">Toʻo Kotoa</string>
+    <string name="rename">Toe Fakahingoa</string>
+    <string name="search">Kumi</string>
+    <string name="settings">Fokotuʻutuʻú</string>
+    <string name="screen_settings">Fokotuʻutuʻu ʻo e Screen</string>
+    <string name="share">Vahevahe</string>
+    <string name="skip">Hiki</string>
+    <string name="sort">Fakafaʻahinga</string>
+    <string name="tag">Fakaʻilongaʻi (Tag)</string>
+    <string name="tags">Tags</string>
+    <string name="theme_default">Hinehina</string>
+    <string name="theme_night">Taimi Poʻuli</string>
+    <string name="theme_sepia">Sepia</string>
+    <string name="theme_dark_blue">Pulū Mālohi</string>
+    <string name="today">ʻAhó ni</string>
+    <string name="undo">Toe Fakafoki</string>
+    <string name="update">Fakatonutonu</string>
+    <string name="view">Vakaiʻi</string>
+    <string name="yes">ʻIo</string>
+    <string name="yesterday">ʻAneafi</string>
+    <!-- Other -->
+    <string name="add_bookmark">Tānaki ha Fakaʻilonga Tohi</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Tānaki e Tag</string>
+    <string name="add_to">Tānaki ki he</string>
+    <string name="add_to_ellipsis">Tānaki ki he...</string>
+    <string name="add_to_notebook">Tānaki ki he  Notebook</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">ʻIkai lava ke fakaʻasi e fakamatalá koʻehí ʻoku teʻeki ai install ʻa e “%s”.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Tap ke install ʻa e liliu fakamuimuitahá</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">ʻOku malava ke maʻu atu ha liliu fakamuimuitaha ki he Laipeli ʻo e Ongoongoleleí.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Fokotuʻutuʻu ʻo e Ongó</string>
+    <string name="backup_annotations_message">Kapau he ʻikai hū ki loto ki he polokalamá kimuʻa ʻi he liliu fakamuimuitaha hoko mai ʻo e Laipeli ki he Ongoongoleleí, ʻe iku mole ʻa e ngaahi fakamatala fakatāutahá (highlights, fakamatalá, ngaahi fakaʻilongá, mo e alā meʻa pehē).</string>
+    <string name="backup_annotations_title">Back Up ʻa e Ngaahi Fakamatalá</string>
+    <string name="bookmarks">Ngaahi Fakaʻilonga Tohí (Bookmarks)</string>
+    <string name="bookmark_added">Tānakí atu e Fakaʻilonga Tohí</string>
+    <string name="bookmark_empty">ʻOku teʻeki ai ke ke tānaki atu ha ngaahi fakaʻilonga tohi.</string>
+    <string name="bookmark_updated">Fakatonutonu e Fakaʻilonga Tohí</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Cast</string>
+    <string name="catalog_title">Catalog ʻa e Laipeli ʻo e Ongoongoleleí</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Fili e Konga Fakaʻilongaʻí</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Fakaʻataʻatā e Mītia kuo Download</string>
+    <string name="clear_history">Toʻo e Hisitōliá</string>
+    <string name="content_no_content" comment="Shown in content drawer">ʻIkai lava ke ʻasi ʻa e kongatohí koeʻuhí ʻoku teʻeki ai ke install ʻa e “%s\".</string>
+    <string name="content_not_downloaded">Teʻeki ai ke download e %s.</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Play Hokohoko</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Fakalea kuo hikitatau ki he Papa Fakamaʻú (clipboard)</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">Faʻu “%s”</string>
+    <string name="current_downloads">Ngaahi Meʻa Lolotonga Download</string>
+    <string name="custom_collections">Custom Collections</string>
+    <string name="delete_annotation_title">Toʻo e Kiʻi Fakamatalá</string>
+    <string name="delete_annotation_message">ʻE toʻo foki mo ha faʻahinga fakamatala, tags, pe fehokotaki ʻoku kaunga mo e konga ko ʻeni ʻoku fakaʻilongaʻí.</string>
+    <string name="delete_collection_item_title">Tāmateʻi e “%1$s”?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">ʻE tāmateʻi ʻa e meʻ ʻe  %s\n\nTāmateʻi kotoa e mītiá?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">ʻIkai lava ʻo Tāmateʻi Kotoa e Mītiá</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">ʻE tāmate e meʻa ʻe %2$s mei he “%1$s”.\n\nTāmateʻi kotoa e mītiá?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Toʻo ʻa e Mītiá</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Tāmateʻi e Notebook</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Tāmateʻi e notebook kuo filifilí?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Tāmateʻi e Tag</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Tāmateʻi e Ngaahi Tag</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">ʻOkú ke fakapapauʻi ʻokú ke fie tāmateʻi ʻa e tag ko ʻení mei he kotoa ʻo e ngaahi fakamatalá mo e meʻa kuo fakaʻilongaʻí?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">ʻOkú ke fakapapauʻi ʻokú ke fie toʻo ʻa e ngaahi tag ko ʻení mei he kotoa ʻo e ngaahi fakamatalá mo e meʻa kuo fakaʻilongaʻí?</string>
+    <string name="deleted">"Tāmateʻi e %s "</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">"Tāmateʻi e fakaʻilonga tohi %s "</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">"Tāmateʻi e notebook %s "</string>
+    <string name="dialog_sign_out_confirmation">ʻOkú ke fakapapauʻi ʻokú ke fie hū ki tuʻa mei he polokalamá?</string>
+    <string name="double_tap_fullscreen_training">Tokoni: tap tuʻo ua ʻi he screen ke hū ki tuʻa mei he mode screen kakató</string>
+    <string name="download_audio" comment="download audio">Download e Ongó</string>
+    <string name="download_all_selected_confirm">ʻE download ha meʻa ʻe %d.\n\nDownload e ngaahi meʻa ne filí?</string>
+    <string name="download_cancel_confirm_all">ʻE kaniseli ʻa e meʻa kotoa ʻoku lolotonga download.\n\nKaniseli e download?</string>
+    <string name="download_cancel">Kaniseli e download?</string>
+    <string name="download_canceling">Kaniseli ʻa e download...</string>
+    <string name="download_item_message">ʻOku teʻeki ai ke install ʻa e %s . ʻOkú ke loto ke download ia ʻi he taimí ni?</string>
+    <string name="download_video" comment="download video">Download e Vitioó</string>
+    <string name="downloaded_media">Mītia kuo Download</string>
+    <string name="downloading_ellipsis">Downloading…</string>
+    <string name="downloading_audio">Downloading e ongo ki he %s</string>
+    <string name="downloading_video">Downloading  e vitiō ki he  %s</string>
+    <string name="download_file_failed_insufficient_space">ʻIkai lava hono download e [%s].\n ʻIkai lahi feʻunga e konga ke seivi ai.</string>
+    <string name="download_file_failed">ʻIkai lava hono download e [%s].\nVakaiʻi e tuʻunga hoʻo ʻinitanetí pea toe feinga..</string>
+    <string name="download_dir_error">ʻIkai lava ha fehokotaki ki he directory ke download</string>
+    <string name="existing_annotations_prompt">ʻOku ʻosi ʻi ai ha fanga (ngaahi) kiʻi fakamatala ʻe %d ʻi he meʻangāue ko ʻení. Ko e hā ʻa e meʻa ʻokú ke loto ke fakahoko ki he fanga (ngaahi) kiʻi fakamatala ʻoku ʻosi ʻi lotó?</string>
+    <string name="existing_annotations">Fanga Kiʻi Fakamatala Lolotongá</string>
+    <string name="featured_apps">Featured Apps</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Fefine</string>
+    <string name="finalizing_ellipsis">Fakaʻosiʻosí…</string>
+    <string name="find_by_name">Kumi ʻaki ʻa e hingoá</string>
+    <string name="find_count">%1$d ʻo e %2$d</string>
+    <string name="find_x_on_page">Kumi ʻa e “%s” ʻi he pēsí</string>
+    <string name="find_x_in_x">Kumi ʻa e “%1$s” ʻi he %2$s</string>
+    <string name="find_exact_x_in_x">Kumi ʻa e kupuʻi lea tatau tofu pē ko e  “%1$s” ʻi he %2$s</string>
+    <string name="marked_text_position">Ola ʻe %1$d ʻo e %2$d</string>
+    <string name="marked_text_position_no_results">olá ko e 0</string>
+    <string name="highlight_style">Kalasi ke Fakaʻilongaʻi ʻAkí</string>
+    <string name="history">Hisitōliá</string>
+    <string name="history_cleared">Toʻo ʻa e Hisitōliá</string>
+    <string name="installing_ellipsis">Fakahū…</string>
+    <string name="journal">Tohinoa</string>
+    <string name="journal_restore">Toe Fakafoki Mai e Tohinoá</string>
+    <string name="journal_create_notebook">Faʻu ha Journal Notebook</string>
+    <string name="journal_restore_description">ʻOku kei tauhi pē ʻa hoʻo ngaahi fakamatalá, neongo kuo toʻo ʻa e konga ki he Tohinoá. Kapau te ke fie maʻu, te mau lava ʻo tānaki fakataha e ngaahi fakamatala ne ʻi he konga tohinoá pea tuku kinautolu ʻi ha notebook foʻou ʻo fakahingoa ko e Tohinoá.</string>
+    <string name="journal_restore_result">Kakato ʻa hono fakafoki mai ʻo e tohinoá. ʻOsi ʻunuki ʻa e fakamatala ʻe %d.</string>
+    <string name="language">Faka-Tonga</string>
+    <string name="lds_account_summary">ʻOku fakaʻaongaʻi ʻa e ʻAkauni LDS ki hono synchronize ʻa hoʻo fakanga kiʻi fakamatalá ʻi he kotoa hoʻo ngaahi meʻangāué pea mo e LDS.org</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">ki he %1$s</string>
+    <string name="loading_ellipsis">Loading…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Tangata</string>
+    <string name="mark" comment="Select highlight color">Fakaʻilongaʻi</string>
+    <string name="media_type">faʻahinga ʻo e mītiá</string>
+    <string name="menu_new_screen">Screen Foʻou</string>
+    <string name="merged_notebook_name_prompt">ʻE merged ʻa e Notebook ʻoku lolotonga filí. Kātaki ʻo fakahū ha hingoa ki he Notebook ʻe fokotuʻú.</string>
+    <string name="merged_notebook_name">Hingoa ʻo e Notebook ne Fakatahaʻí</string>
+    <string name="merged_tag_name">Hingoa ʻo e Tag ke Fakatahaʻí</string>
+    <string name="move_to_notebook">ʻAve ki he Notebook</string>
+    <string name="my_collections">Ko ʻEku Collection</string>
+    <string name="network_required" comment="Not connected to any network">ʻOku fie maʻu ha fehokotaki ʻinitaneti kae toki lava ʻo fakahoko ʻeni. Kātaki ʻo fakafehokotaki ki he netiueka telefoni pe Wi-Fi pea toe feinga.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">Fakatatau mo hoʻo settings, ʻoku fie maʻu ke ke hū ki he Wi-Fi ka e lava ke ke hū ki he server.</string>
+    <string name="no_bookmarks">ʻIkai ha Fakaʻilonga Tohi</string>
+    <string name="no_bookmarks_description">Tānaki atu ha fakaʻilonga tohi ke vave ʻa hoʻo foki ki he konga naʻá ke ngata aí.</string>
+    <string name="no_content">ʻIkai ha Kanotohi</string>
+    <string name="no_collection_content_description">Tānaki atu ha ngaahi meʻa ki he collection ke faingofua ʻa hono maʻú.</string>
+    <string name="no_custom_collections">ʻIkai ha Custom Collection</string>
+    <string name="no_custom_collections_description">Fokotuʻu ha custom collection ke faingofua hoʻo hū ki he ngaahi meʻa ʻoku nau felāveʻí.</string>
+    <string name="no_downloads_in_progress">ʻIkai ha Download Lolotonga</string>
+    <string name="no_downloads_in_progress_description">Kanotohi mo e mītia ʻoku lolotonga download</string>
+    <string name="no_downloaded_media">ʻIkai ha Mītia ʻe Download</string>
+    <string name="no_downloaded_media_description">Download e ongó pe vitioó ke lava ʻo maʻu offline</string>
+    <string name="no_history">ʻIkai ha Hisitōlia</string>
+    <string name="no_history_description">Vakavakaiʻi holo e kanotohí, kumi ʻa e konga ʻokú ke ʻi aí, pea foki leva ki ai.</string>
+    <string name="no_matches" comment="No results">ʻIkai ha Ngaahi Ola</string>
+    <string name="no_matches_description">ʻIkai ha ola ki he kumi ne fakapapauʻi maí</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">ʻIkai ha Ngaahi Notebook</string>
+    <string name="no_notebooks_description">Fokotuʻu ʻa e lahi taha ʻo e ngaahi notebook ʻokú ke fie maʻu ke fokotuʻutuʻu ki ai hoʻo ngaahi fakamatalá</string>
+    <string name="no_notes">ʻIkai ha Ngaahi Fakamatala</string>
+    <string name="no_notes_in_notebook">ʻIkai ha Ngaahi Fakamatala ʻi he Notebook ko ʻEní</string>
+    <string name="no_notes_description">"Lekooti ha ngaahi fakamatala ke tauhi hoʻo ngaahi fakakaukaú mo e ueʻi fakalaumālié. "</string>
+    <string name="no_related_content">ʻIkai Fakafekauʻaki e Kanotohí</string>
+    <string name="no_related_content_description2">ʻIkai malava ke maʻu ha footnote pe kanotohi ʻe kaunga ki ai</string>
+    <string name="no_tags" comment="The message to show when there are no tags">ʻIkai ha Ngaahi Tag</string>
+    <string name="no_tags_description">Fokotuʻu ha tag ke fakakulupu ha kanotohi mei he feituʻu pē ʻi he app.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">ʻIkai ha Kanotohi ne Tag</string>
+    <string name="no_tagged_content_description">Fakapipiki ha tag ki ha faʻahinga meʻa pē ke toki fakaʻaongaʻi ʻamui ange.</string>
+    <string name="no_thanks">ʻIkai Mālō Pē</string>
+    <string name="no_tips">ʻIkai ha Tokoni</string>
+    <string name="no_tips_description">ʻOku fakahaaʻi atu ʻe he tokoní ha ngaahi ngāue ʻe ʻaonga ki he app</string>
+    <string name="note_content">Fakatokangaʻi ange e Kanotohí</string>
+    <string name="notebook">Notebook</string>
+    <string name="notebooks">Notebooks</string>
+    <string name="notes">Ngaahi fakamatalá</string>
+    <string name="num_item_add_to">Tānaki atu ha meʻa ʻe %1$s ki he %2$s</string>
+    <string name="num_item">Meʻa ʻe %d</string>
+    <string name="num_items_add_to">Meʻa ʻe %1$s ne tānaki ki he %2$s</string>
+    <string name="num_items">Meʻa ʻe %d</string>
+    <string name="open">Fakaava</string>
+    <string name="open_in_music">Fakaava ʻi he LDS Music</string>
+    <string name="open_in_new_screen">Fakaava ʻi ha Screen Foʻou</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Pin Sidebar</string>
+    <string name="play_audio">Play ʻa e Ongó</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Oma ʻo hono Play</string>
+    <string name="playback_speed_0.5x">0.5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1.25x</string>
+    <string name="playback_speed_1.5x">1.5x</string>
+    <string name="playback_speed_1.75x">1.75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Kātaki ʻo toe hū ki loto ki he polokalamá ke fakaleleiʻi hoʻo hingoa ngāué mo e lea fufuú.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Tokangaʻi pe vakai ki he ongo mo e vitiō ne download</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"...kae vakai, ʻoku ou pehē kiate koe, ʻoku fakahoko ʻe he fanga kiʻi meʻa iiki mo faingofuá ʻa e ngaahi fuʻu meʻa lalahi; pea ʻoku hanga ʻe he ngaahi meʻa īkí ʻi he taimi ʻe niʻihi ʻo veuveuki ʻa e potó."</string>
+    <string name="pref_general_list_mode">List Mode</string>
+    <string name="pref_hide_footnotes">ʻOua Fakaʻasi e Ngaahi Footnote</string>
+    <string name="pref_limit_mobile_network_subtitle">Download mo Hulu Pē ʻi he Wi-Fi</string>
+    <string name="pref_limit_mobile_network">Fakangatangata ʻa Hono Ngāue ʻaki ʻo e Netiueka Telefoní</string>
+    <string name="pref_theme">Kaveingá</string>
+    <string name="problem_playing_video">Ne ʻi ai ha palopalema lolotonga hono play ʻa e vitioó.</string>
+    <string name="read_more">Lau ke Toe Lahi Ange</string>
+    <string name="recent" comment="label for study notebook">Kimuí Ni Mai</string>
+    <string name="related_content">Ngaahi Kanotohi ʻoku Fekauʻakí</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">ʻOkú ke fakapapauʻi nai ʻokú ke loto ke toʻo ʻa e ngaahi meʻa kuo filí?</string>
+    <string name="remove_from_collection">Toʻo mei he Collection</string>
+    <string name="rename_bookmark">Toe Fakahingoa e Collection</string>
+    <string name="rename_screen">Toe Fakahingoa e Screen</string>
+    <string name="requested_ellipsis">Kole…</string>
+    <string name="requested_paused_retry_ellipsis">Kole... (tali ke toe feinga)</string>
+    <string name="requested_paused_network_ellipsis">Kole... (tali ki he netiueka)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">Ola ʻe %d</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">Ola ʻe %d</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">Ola %1$s - %2$d</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">Ola %1$s - %2$d</string>
+    <string name="save">Seivi</string>
+    <string name="screens">Screens</string>
+    <string name="screen_missing_content">ʻOku teʻeki ai ke download ʻa e kanotohi ki he screen ne filí.\n\nʻOkú ke loto ke download ʻa e kanotohi ki he “%1$s” ʻi he taimí ni?</string>
+    <string name="screens_separate_windows">Fakaʻasii ʻa e Screen ʻi ha Window Makehe</string>
+    <string name="search_for_links">Fekumi ki ha ngaahi lea mahuʻinga, veesi, pe hingoa.</string>
+    <string name="select_highlight">Fili e Konga ne Fakaʻilongaʻí</string>
+    <string name="select_items">Fili ha Ngaahi Meʻa</string>
+    <string name="select_link">Fili e Fehokotakí</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Fili e Text ke Fakafehokotakí</string>
+    <string name="selected_media_unavailable">ʻOku ʻikai maʻu ʻa e mītia ne filí.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Sync Fakamuimuitahá: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Fakahokohoko ʻaki ʻa e Lahí</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Fakahokohoko ʻaki ʻa e ʻAho Fakamuimuitahá</string>
+    <string name="sort_by_name" comment="sort items by their name">Fakahokohoko ʻaki ʻa e Hingoá</string>
+    <string name="sort_by_size" comment="sort media items">Fakahokohoko ʻaki ʻa e Lahi ʻo e Failé</string>
+    <string name="sort_by_item" comment="sort media items">Fakahokohoko ʻaki ʻa e Item</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Version %s</string>
+    <string name="style">Style</string>
+    <string name="sync_error_invalid_credentials">Hala ʻa e Hingoa Ngāué/Lea Fufuú</string>
+    <string name="sync_error_no_network">ʻIkai maʻu ʻa e netiueka ʻinitanetí</string>
+    <string name="sync_notification_failure">ʻIkai Lava ʻa Hono Sync e Fakamatalá</string>
+    <string name="sync_notification_gathering_changes">Liliu ʻi he Ngaahi Fakatahaʻangá</string>
+    <string name="sync_notification_processing_changes">Liliu ʻi he Hono Fakahuú</string>
+    <string name="sync_notification_receiving_changes">Maʻu Mai ha Ngaahi Liliu</string>
+    <string name="sync_notification_receiving_update_list">Maʻu Mai ha Liliu ki he Lisí</string>
+    <string name="sync_notification_sending_changes">ʻAve Ngaahi Liliú</string>
+    <string name="sync_notification_sending_update_request">ʻAve e Kole ke Fakatonutonú</string>
+    <string name="syncing_notebooks">Sync e Ngaahi Notebook</string>
+    <string name="syncing_annotations">Sync e Ngaahi Fakamatalá</string>
+    <string name="notification_channel_general">Ngaahi Fanongonongo Angamahení</string>
+    <string name="notification_channel_sync">Sync e Fakamatala Fakatokangá</string>
+    <string name="notification_channel_media_playback">Play Fakafoki ʻa e Mītiá</string>
+    <string name="text_size" comment="">Lalahi ʻo e Mataʻitohí</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Text-to-speech</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Fokotuʻutuʻu ki he Text-to-speech</string>
+    <string name="tips">Ngaahi Tokoní</string>
+    <string name="title_optional">Hingoá (Fili pē)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Unpin Sidebar</string>
+    <string name="update_catalog_wifi_required">ʻOku ʻi ai ha liliu fakamuimui ki he kanotohí, ka ʻe fie maʻu ke ke fehokotaki ki he Wi-Fi ka e toki lava ʻo download.</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Video Quality</string>
+    <string name="video_unavailable">ʻIkai Maʻu ʻa e Vitioó</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Leʻo Angamahení</string>
+    <string name="whats_new">Meʻa ʻOku Foʻoú</string>
+</resources>

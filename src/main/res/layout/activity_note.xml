@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/themeStyleColorBackground">
+
+    <include
+        android:id="@+id/mainToolbar"
+        layout="@layout/toolbar_dim"/>
+
+    <org.lds.ldssa.ui.widget.MarkdownControls
+        android:id="@+id/markdownControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/themeStyleColorBackground"
+        android:elevation="6dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mainToolbar"
+        android:layout_above="@id/markdownControls"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="48dp">
+
+            <EditText
+                android:id="@+id/noteTitleEditText"
+                style="?attr/themeStyleWidgetText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:hint="@string/title_optional"
+                android:inputType="textCapSentences|textAutoCorrect"
+                android:maxLength="@integer/note_title_max_length"
+                android:minHeight="24dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="16dp"
+                android:textColorHint="?attr/themeStyleColorTextHint"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <org.lds.mobile.markdown.widget.MarkdownEditText
+                android:id="@+id/markdownEditText"
+                style="?attr/themeStyleWidgetText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="top"
+                android:hint="@string/note_content"
+                android:inputType="textMultiLine|textCapSentences"
+                android:maxLength="@integer/note_content_max_length"
+                android:paddingBottom="16dp"
+                android:textColorHint="?attr/themeStyleColorTextHint"
+                android:textSize="16sp"
+                android:imeOptions="flagNoExtractUi"
+                android:clipToPadding="false"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

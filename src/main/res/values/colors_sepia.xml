@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colors for the Sepia theme -->
+<resources>
+    <color name="theme_sepia_primary">@color/bronzite_600</color>
+    <color name="theme_sepia_primary_dark">#553A26</color>
+    <color name="theme_sepia_accent">@color/yellow_30</color>
+    <color name="theme_sepia_accent_dim">#33d45311</color>
+
+    <color name="theme_sepia_main_content_background">@color/theme_sepia_background</color>
+    <color name="theme_sepia_sidebar_content_background">@color/theme_sepia_background_card</color>
+
+    <color name="theme_sepia_background">@color/theme_sepia_background_card_note</color>
+    <color name="theme_sepia_background_dim">#ECDEC9</color>
+
+    <color name="theme_sepia_background_dialog">#F7ECDC</color>
+    <color name="theme_sepia_background_menu">#F7ECDC</color>
+
+    <color name="theme_sepia_background_card">#F7ECDC</color>
+    <color name="theme_sepia_background_card_note">#FCF5E7</color>
+    <color name="theme_sepia_background_card_tag">#F7EEE1</color>
+
+    <color name="theme_sepia_filter_background">#FCF5E7</color>
+
+    <color name="theme_sepia_toolbar_icon">@color/white</color>
+    <color name="theme_sepia_toolbar_icon_dim">@color/graphite</color>
+    <color name="theme_sepia_toolbar_icon_dim_disabled">#7F333333</color>
+    <color name="theme_sepia_toolbar_action_mode_icon">@color/black</color>
+
+    <color name="theme_sepia_background_action_mode">#F7ECDC</color>
+
+    <color name="theme_sepia_side_bar_toolbar_background">#6B4B31</color>
+    <color name="theme_sepia_side_bar_reference_background">#EBE1D0</color>
+
+    <color name="theme_sepia_catalog_grid_title">#FF33322E</color>
+    <color name="theme_sepia_catalog_grid_summary">#8833322E</color>
+    <color name="theme_sepia_catalog_item_background">#E7DDCD</color>
+
+    <color name="theme_sepia_item_title">#FF4D413F</color>
+    <color name="theme_sepia_item_sub_title">#CC4D413F</color>
+
+    <color name="theme_sepia_text_normal">#333333</color>
+    <color name="theme_sepia_text_secondary">#8F333333</color>
+    <color name="theme_sepia_text_hint">#7A4D413F</color>
+
+    <color name="theme_sepia_widget_playback_controls_background">#CC000000</color>
+
+    <color name="theme_sepia_link_icon">@color/theme_sepia_accent</color>
+
+    <color name="theme_sepia_find_on_page_background">#64d45311</color>
+    <color name="theme_sepia_find_on_page_icon">@color/theme_sepia_text_normal</color>
+
+    <!-- Highlight Colors:
+         these values are also defined in the HighlightColorUtil.java and in android_main.css
+    -->
+    <color name="theme_sepia_highlight_red">#22E4465A</color>
+    <color name="theme_sepia_highlight_red_underline">#E4465A</color>
+
+    <color name="theme_sepia_highlight_orange">#27EB8414</color>
+    <color name="theme_sepia_highlight_orange_underline">#EB8414</color>
+
+    <color name="theme_sepia_highlight_yellow">#32ECCC31</color>
+    <color name="theme_sepia_highlight_yellow_underline">#ECCC31</color>
+
+    <color name="theme_sepia_highlight_green">#2795BC22</color>
+    <color name="theme_sepia_highlight_green_underline">#95BC22</color>
+
+    <color name="theme_sepia_highlight_blue">#2419C6CD</color>
+    <color name="theme_sepia_highlight_blue_underline">#19C6CD</color>
+
+    <color name="theme_sepia_highlight_dark_blue">#252580D6</color>
+    <color name="theme_sepia_highlight_dark_blue_underline">#2580D6</color>
+
+    <color name="theme_sepia_highlight_purple">#208549D2</color>
+    <color name="theme_sepia_highlight_purple_underline">#8549D2</color>
+
+    <color name="theme_sepia_highlight_pink">#24DE52D5</color>
+    <color name="theme_sepia_highlight_pink_underline">#DE52D5</color>
+
+    <color name="theme_sepia_highlight_brown">#24B56D4D</color>
+    <color name="theme_sepia_highlight_brown_underline">#B56D4D</color>
+
+    <color name="theme_sepia_highlight_gray">#3098A0A7</color>
+    <color name="theme_sepia_highlight_gray_underline">#98A0A7</color>
+</resources>

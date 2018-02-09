@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Kanselahin</string>
+    <string name="fingerprint_disabled_use_pin">Pansamantalang hindi gumagana ang Fingerprint. Gumamit ng PIN o subukan ulit maya-maya.</string>
+    <string name="fingerprint_not_recognized">Hindi kilala ang Fingerprint. Subukan lamang ulit.</string>
+    <string name="fingerprint_please">Fingerprint, Dito</string>
+    <string name="fingerprint_please_try_again">Subukan lamang ulit.</string>
+    <string name="ok">OK</string>
+    <string name="pin_confirm">Kumpirmahin ang PIN</string>
+    <string name="pin_create_title">Piliin ang Iyong PIN</string>
+    <string name="pin_enter_title">I-enter ang Iyong PIN</string>
+    <string name="pin_error_incorrect_title">Mali ang ipinasok na PIN.</string>
+    <string name="pin_error_invalid_pin">Hindi maaaring magkaroon ng sunud-sunod o paulit-ulit na mga numero ang PIN.</string>
+    <string name="pin_error_mismatch">Hindi magkatugma ang mga PIN.</string>
+    <string name="pref_reset_data">Sign Out</string>
+    <string name="pref_reset_data_explanation">Sigurado ka ba na gusto mong mag-sign out?</string>
+    <string name="signin">Mag-sign In</string>
+    <string name="signin_authenticating">Ina-authenticate</string>
+    <string name="signin_create_account">Gumawa ng isang LDS Account</string>
+    <string name="signin_error">Error</string>
+    <string name="signin_failure">Hindi natuloy ang pagsign in. Siguraduhin ang iyong Username at Password.</string>
+    <string name="signin_instructions">Mag-sign in sa iyong LDS Account</string>
+    <string name="signin_no_internet">Hindi natuloy ang pagsign in. Walang koneksyon sa internet.</string>
+    <string name="signin_ok">OK</string>
+    <string name="signin_password">Password</string>
+    <string name="signin_prefs_signout">Sign Out</string>
+    <string name="signin_required_field">Kailangan</string>
+    <string name="signin_trouble">Ikaw ba ay nahihirapang makapag-sign in?</string>
+    <string name="signin_username">Username</string>
+</resources>

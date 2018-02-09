@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><!--These values also need to be in values-sw600dp-->
+<resources>
+
+    <!-- Catalog Directory Sizes -->
+    <dimen name="catalog_grid_horizontal_padding">92.5dp</dimen>
+
+    <!-- Tab Sizes -->
+    <dimen name="tab_min_card_separation_padding">24dp</dimen>
+    <dimen name="tab_recycler_horizontal_padding">24dp</dimen>
+</resources>

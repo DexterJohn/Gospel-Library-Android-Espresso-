@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colors for the Dark Blue theme -->
+<resources>
+    <color name="theme_dark_blue_primary">@color/blue_40</color>
+    <color name="theme_dark_blue_primary_dark">#002949</color>
+    <color name="theme_dark_blue_accent">@color/turquoise_600</color>
+    <color name="theme_dark_blue_accent_dim">#3300bad3</color>
+
+    <color name="theme_dark_blue_main_content_background">@color/theme_light_background</color>
+    <color name="theme_dark_blue_sidebar_content_background">@color/theme_light_background</color>
+
+    <color name="theme_dark_blue_background">@color/theme_light_background</color> <!-- Calling the light theme color for consistency -->
+    <color name="theme_dark_blue_background_dim">@color/theme_light_background_dim</color> <!-- Calling the light theme color for consistency -->
+
+    <color name="theme_dark_blue_background_dialog">@color/theme_light_background_dialog</color>
+    <color name="theme_dark_blue_background_menu">@color/theme_light_background_menu</color>
+
+    <color name="theme_dark_blue_background_card">@color/theme_light_background_card</color>
+    <color name="theme_dark_blue_background_card_note">@color/theme_light_background_card_note</color>
+
+    <color name="theme_dark_blue_filter_background">@color/theme_light_filter_background</color>
+
+    <color name="theme_dark_blue_toolbar_icon">@color/theme_light_toolbar_icon</color>
+    <color name="theme_dark_blue_toolbar_icon_dim">@color/graphite</color>
+    <color name="theme_dark_blue_toolbar_icon_dim_disabled">#7F333333</color>
+    <color name="theme_dark_blue_toolbar_action_mode_icon">@color/black</color>
+
+    <color name="theme_dark_blue_background_action_mode">#f4f4f4</color>
+
+    <color name="theme_dark_blue_side_bar_toolbar_background">#023F64</color>
+    <color name="theme_dark_blue_side_bar_reference_background">@color/gray_03</color>
+
+    <color name="theme_dark_blue_catalog_grid_title">#FF33322E</color>
+    <color name="theme_dark_blue_catalog_grid_summary">#8833322E</color>
+    <color name="theme_dark_blue_catalog_item_background">#F1F1F1</color>
+
+    <color name="theme_dark_blue_item_title">#FF333333</color>
+    <color name="theme_dark_blue_item_sub_title">#8F333333</color>
+
+    <color name="theme_dark_blue_text_normal">#333333</color>
+    <color name="theme_dark_blue_text_secondary">#8F333333</color>
+
+    <color name="theme_dark_blue_widget_playback_controls_background">#CC000000</color>
+
+    <color name="theme_dark_blue_link_icon">@color/theme_dark_blue_accent</color>
+
+    <color name="theme_dark_blue_find_on_page_background">#6400bad3</color>
+    <color name="theme_dark_blue_find_on_page_icon">@color/theme_light_text_normal</color>
+
+    <!-- Highlight Colors:
+         these values are also defined in the HighlightColorUtil.java and in android_main.css
+    -->
+    <color name="theme_dark_blue_highlight_red">#27fd4a69</color>
+    <color name="theme_dark_blue_highlight_red_underline">#FFfd4a69</color>
+
+    <color name="theme_dark_blue_highlight_orange">#33FC9326</color>
+    <color name="theme_dark_blue_highlight_orange_underline">#FFFC9326</color>
+
+    <color name="theme_dark_blue_highlight_yellow">#33FFD50E</color>
+    <color name="theme_dark_blue_highlight_yellow_underline">#FFFFD50E</color>
+
+    <color name="theme_dark_blue_highlight_green">#33A4D512</color>
+    <color name="theme_dark_blue_highlight_green_underline">#FFA4D512</color>
+
+    <color name="theme_dark_blue_highlight_blue">#3410D8E1</color>
+    <color name="theme_dark_blue_highlight_blue_underline">#FF10D8E1</color>
+
+    <color name="theme_dark_blue_highlight_dark_blue">#261789FF</color>
+    <color name="theme_dark_blue_highlight_dark_blue_underline">#FF1789FF</color>
+
+    <color name="theme_dark_blue_highlight_purple">#267E34E3</color>
+    <color name="theme_dark_blue_highlight_purple_underline">#FF7E34E3</color>
+
+    <color name="theme_dark_blue_highlight_pink">#31FF5AF4</color>
+    <color name="theme_dark_blue_highlight_pink_underline">#FFFF5AF4</color>
+
+    <color name="theme_dark_blue_highlight_brown">#4DD48C63</color>
+    <color name="theme_dark_blue_highlight_brown_underline">#FFD48C63</color>
+
+    <color name="theme_dark_blue_highlight_gray">#4DAEB8C1</color>
+    <color name="theme_dark_blue_highlight_gray_underline">#FFAEB8C1</color>
+</resources>

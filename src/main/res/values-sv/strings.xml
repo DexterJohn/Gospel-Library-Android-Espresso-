@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Lägg till</string>
+    <string name="all">Alla</string>
+    <string name="app_name">Evangeliebiblioteket</string>
+    <string name="auto">Auto</string>
+    <string name="allow_in_app_notifications">Tillåt aviseringar i appen</string>
+    <string name="exact_phrase">Exakt uttryck</string>
+    <string name="keywords">Nyckelord</string>
+    <string name="bookmark">Bokmärke</string>
+    <string name="cancel">Avbryt</string>
+    <string name="cancel_all">Avbryt alla</string>
+    <string name="content">Innehåll</string>
+    <string name="copy">Kopiera</string>
+    <string name="delete">Radera</string>
+    <string name="define">Definiera</string>
+    <string name="display">Display</string>
+    <string name="done">Klart</string>
+    <string name="download">Ladda ner</string>
+    <string name="download_all">Ladda ner alla</string>
+    <string name="download_item">Hämta objekt</string>
+    <string name="edit_note">Ändra anteckning</string>
+    <string name="feedback">Feedback</string>
+    <string name="keep">Behåll</string>
+    <string name="library">Bibliotek</string>
+    <string name="link">Länka</string>
+    <string name="links">Länkar</string>
+    <string name="merge">Slå ihop</string>
+    <string name="never">Aldrig</string>
+    <string name="no">Nej</string>
+    <string name="note">Anteckna</string>
+    <string name="none">Ingen</string>
+    <string name="ok">OK</string>
+    <string name="remove">Ta bort</string>
+    <string name="remove_all">Ta bort alla</string>
+    <string name="rename">Byt namn</string>
+    <string name="search">Sök</string>
+    <string name="settings">Inställningar</string>
+    <string name="screen_settings">Skärminställningar</string>
+    <string name="share">Dela</string>
+    <string name="skip">Hoppa över</string>
+    <string name="sort">Sortera</string>
+    <string name="tag">Tagga</string>
+    <string name="tags">Taggar</string>
+    <string name="theme_default">Standard</string>
+    <string name="theme_night">Kvällsläge</string>
+    <string name="theme_sepia">Sepia</string>
+    <string name="theme_dark_blue">Mörkblå</string>
+    <string name="today">I dag</string>
+    <string name="undo">Ångra</string>
+    <string name="update">Uppdatera</string>
+    <string name="view">Visa</string>
+    <string name="yes">Ja</string>
+    <string name="yesterday">I går</string>
+    <!-- Other -->
+    <string name="add_bookmark">Lägg till bokmärke</string>
+    <string name="create_note">Skapa anteckning</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Lägg till tagg</string>
+    <string name="add_to">Lägg till i</string>
+    <string name="add_to_ellipsis">Lägg till i …</string>
+    <string name="add_to_notebook">Lägg till i anteckningsbok</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">Det går inte att visa noteringen eftersom ”%s” inte är installerad.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Tryck för att installera uppdatering.</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">Det finns en uppdatering för Evangeliebiblioteket.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Ljudinställningar</string>
+    <string name="backup_annotations_message">Om du inte loggar in innan nästa uppdatering av Evangeliebiblioteket förlorar du dina personliga noteringar (markeringar, anteckningar, bokmärken och så vidare).</string>
+    <string name="backup_annotations_title">Säkerhetskopiera noteringar</string>
+    <string name="bookmarks">Bokmärken</string>
+    <string name="bookmark_added">Bokmärket har lagts till</string>
+    <string name="bookmark_empty">Du har inte lagt till några bokmärken.</string>
+    <string name="bookmark_updated">Bokmärket har uppdaterats</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Casta</string>
+    <string name="catalog_title">Evangeliebibliotekets katalog</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Välj markering</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Rensa nedladdad media</string>
+    <string name="clear_history">Rensa historik</string>
+    <string name="content_no_content" comment="Shown in content drawer">Det går inte att visa innehållet eftersom ”%s” inte är installerad</string>
+    <string name="content_not_downloaded">%s ej nedladdad.</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Oavbruten uppspelning</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Texten har kopierats till urklipp</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">Skapa “%s”</string>
+    <string name="current_downloads">Aktuella nedladdningar</string>
+    <string name="custom_collections">Anpassade samlingar</string>
+    <string name="delete_annotation_title">Ta bort notering</string>
+    <string name="delete_annotation_message">Alla anteckningar, taggar eller länkar som hör ihop med denna markering kommer också att tas bort.</string>
+    <string name="delete_collection_item_title">Radera “%1$s”?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s kommer att raderas.\n\nVill du radera all media?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">Det gick inte att radera all media</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s kommer att raderas från “%1$s”.\n\nVill du radera media?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Radera media</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Radera anteckningsböcker</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Vill du radera valda anteckningsböcker?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Radera tagg</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Radera taggar</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">Är du säker på att du vill ta bort den här taggen från alla anteckningar och markeringar?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">Är du säker på att du vill ta bort de här taggarna från alla anteckningar och markeringar?</string>
+    <string name="deleted">%s har raderats</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">Bokmärket %s har raderats</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">Anteckningsboken %s har raderats</string>
+    <string name="dialog_sign_out_confirmation">Är du säker på att du vill logga ut?</string>
+    <string name="double_tap_fullscreen_training">Tips: Dubbeltryck på skärmen för att gå ur helskärmsläge.</string>
+    <string name="download_audio" comment="download audio">Ladda ner ljud</string>
+    <string name="download_all_selected_confirm">%d objekt laddas ner.\n\nVill du ladda ner valda objekt?</string>
+    <string name="download_cancel_confirm_all">Alla aktuella nedladdningar kommer att avbrytas.\n\nVill du avbryta nedladdningarna?</string>
+    <string name="download_cancel">Vill du avbryta ledladdningen?</string>
+    <string name="download_canceling">Avbryter nedladdning …</string>
+    <string name="download_item_message">%s är inte installerad. Vill du ladda ner den nu?</string>
+    <string name="download_video" comment="download video">Ladda ner video</string>
+    <string name="downloaded_media">Nedladdad media</string>
+    <string name="downloading_ellipsis">Laddar ner …</string>
+    <string name="downloading_audio">Ladda ner ljud för %s</string>
+    <string name="downloading_video">Ladda ner video för %s</string>
+    <string name="download_file_failed_insufficient_space">Det gick inte att ladda ner [%s].\nOtillräckligt utrymme.</string>
+    <string name="download_file_failed">Det gick inte att ladda ner [%s].\nKontrollera internetanslutningen och försök igen.</string>
+    <string name="download_dir_error">Det gick inte att skapa nedladdningskatalogen.</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">Samlingens namn</string>
+    <string name="create_notebook" comment="prompt for the name of a new Notebook">Skapa anteckningsbok</string>
+    <string name="edit_notebook" comment="prompt for renaming a Notebook">Anteckningsbok</string>
+    <string name="existing_annotations_prompt">%d notering(ar) finns redan på den här enheten. Vad vill du göra med befintliga notering(ar)?</string>
+    <string name="existing_annotations">Befintliga noteringar</string>
+    <string name="featured_apps">Utvalda appar</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Kvinna</string>
+    <string name="finalizing_ellipsis">Slutför …</string>
+    <string name="find_by_name">Sök via namn</string>
+    <string name="find_count">%1$d av %2$d</string>
+    <string name="find_x_on_page">Hitta ”%s” på sidan</string>
+    <string name="find_x_in_x">Hitta ”%1$s” i %2$s</string>
+    <string name="find_exact_x_in_x">Hitta det exakta uttrycket “%1$s” i %2$s</string>
+    <string name="marked_text_position">%1$d av %2$d resultat</string>
+    <string name="marked_text_position_no_results">0 resultat</string>
+    <string name="sign_in_error" comment="Failed to login invalid username or password.">Fel vid inloggning</string>
+    <string name="highlight_style">Markeringsstil</string>
+    <string name="history">Historik</string>
+    <string name="history_cleared">Historik rensad</string>
+    <string name="installing_ellipsis">Installerar …</string>
+    <string name="journal">Dagbok</string>
+    <string name="journal_restore">Återställ dagbok</string>
+    <string name="journal_create_notebook">Skapa anteckningsboken Dagbok</string>
+    <string name="journal_restore_description">Delen Dagbok har tagits bort, men dina anteckningar bevarades. Om du vill kan vi samla alla anteckningar som var i dagboken och spara dem i en ny anteckningsbok som då får namnet Dagbok.</string>
+    <string name="journal_restore_result">Dagbok återställd! %d anteckningar flyttade.</string>
+    <string name="language">Språk</string>
+    <string name="lds_account_summary">Ett SDH-konto används för att säkerhetskopiera och synka dina noteringar mellan enheter och på LDS.org.</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">till %1$s</string>
+    <string name="loading_ellipsis">Läser in …</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Man</string>
+    <string name="mark" comment="Select highlight color">Markera</string>
+    <string name="media_type">Medietyp</string>
+    <string name="menu_new_screen">Ny skärmbild …</string>
+    <string name="merged_notebook_name_prompt">De valda anteckningsböckerna kommer att slås ihop. Ange ett namn för den nya anteckningsboken.</string>
+    <string name="merged_notebook_name">Namn på sammanslagen anteckningsbok</string>
+    <string name="merged_tag_name">Namn på sammanslagen tagg</string>
+    <string name="move_to_notebook">Flytta till anteckningsbok</string>
+    <string name="my_collections">Mina samlingar</string>
+    <string name="network_required" comment="Not connected to any network">Den här åtgärden kräver en internetanslutning. Anslut till ett nätverk (mobilt eller wi-fi) och försök igen.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">Enligt dina inställningar måste du vara ansluten till wi-fi för att utföra den här åtgärden.</string>
+    <string name="no_bookmarks">Inga bokmärken</string>
+    <string name="no_bookmarks_description">Lägg till ett bokmärke så att du snabbt kan komma tillbaka till där du är.</string>
+    <string name="no_content">Inget innehåll</string>
+    <string name="no_collection_content_description">Lägg till objekt i samlingen för enkel åtkomst</string>
+    <string name="no_custom_collections">Inga anpassade samlingar</string>
+    <string name="no_custom_collections_description">Skapa anpassade samlingar för enkel tillgång till relaterade objekt.</string>
+    <string name="no_downloads_in_progress">Inga nedladdningar pågår</string>
+    <string name="no_downloads_in_progress_description">Pågående nedladdningar av innehåll och media</string>
+    <string name="no_downloaded_media">Ingen nedladdad media</string>
+    <string name="no_downloaded_media_description">Ladda ner ljud eller video för offlineåtkomst</string>
+    <string name="no_history">Ingen historik</string>
+    <string name="no_history_description">Utforska innehåll, hitta var du var tidigare och gå tillbaka dit.</string>
+    <string name="no_matches" comment="No results">Inga resultat</string>
+    <string name="no_matches_description">Inga resultat för de angivna sökvillkoren</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">Inga anteckningböcker</string>
+    <string name="no_notebooks_description">Skapa så många anteckningsböcker du behöver för att organisera alla dina anteckningar.</string>
+    <string name="no_notes">Inga anteckningar</string>
+    <string name="no_notes_in_notebook">Inga anteckningar i denna anteckningsbok</string>
+    <string name="no_notes_description">Lägg till anteckningar för att bevara dina tankar och den inspiration du får.</string>
+    <string name="no_related_content">Inget relaterat innehåll</string>
+    <string name="no_related_content_description2">Inga fotnoter eller annat relaterat innehåll finns tillgängligt</string>
+    <string name="no_tags" comment="The message to show when there are no tags">Inga taggar</string>
+    <string name="no_tags_description">Skapa en tagg för att gruppera innehåll i appens olika samlingar.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">Inget taggat innehåll</string>
+    <string name="no_tagged_content_description">Tagga innehåll för framtida referens.</string>
+    <string name="no_thanks">Nej tack</string>
+    <string name="no_tips">Inga tips</string>
+    <string name="no_tips_description">Tips visar användbara appfunktioner</string>
+    <string name="note_content">Anteckningens innehåll</string>
+    <string name="notebook">Anteckningsbok</string>
+    <string name="notebooks">Anteckningsböcker</string>
+    <string name="notes">Anteckningar</string>
+    <string name="num_item_add_to">%1$s objekt har lagts till i %2$s</string>
+    <string name="num_item">%d objekt</string>
+    <string name="num_items_add_to">%1$s objekt lades till i %2$s</string>
+    <string name="num_items">%d objekt</string>
+    <string name="open">Öppna</string>
+    <string name="open_in_music">Öppna i SDH Musik</string>
+    <string name="open_in_new_screen">Öppna i ny skärmbild</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Fäst sidofält</string>
+    <string name="play_audio">Spela upp ljud</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Uppspelningshastighet</string>
+    <string name="playback_speed_0.5x">0,5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1,25x</string>
+    <string name="playback_speed_1.5x">1,5x</string>
+    <string name="playback_speed_1.75x">1,75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Du måste logga in igen för att rätta till ditt användarnamn och lösenord.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Hantera eller visa nedladdade ljud- eller videofiler</string>
+    <string name="pref_show_obsolete">Visar föråldrat innehåll</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"… se, jag säger dig att med små och enkla medel uträttas mycket stort, och små ting bringar många gånger de visa på skam."</string>
+    <string name="pref_general_list_mode">Listläge</string>
+    <string name="pref_hide_footnotes">Göm fotnoter</string>
+    <string name="pref_limit_mobile_network_subtitle">Ladda ner och strömma endast via wifi</string>
+    <string name="pref_limit_mobile_network">Begränsa användning av mobilt nätverk</string>
+    <string name="pref_theme">Tema</string>
+    <string name="problem_playing_video">Ett problem uppstod när videon spelades upp.</string>
+    <string name="read_more">Läs mer</string>
+    <string name="recent" comment="label for study notebook">Senaste</string>
+    <string name="related_content">Relaterat innehåll</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">Är du säker på att du vill ta bort de valda objekten?</string>
+    <string name="remove_from_collection">Ta bort från samlingen</string>
+    <string name="rename_bookmark">Byt namn på bokmärke</string>
+    <string name="rename_screen">Byt namn på skärmbild</string>
+    <string name="requested_ellipsis">Begärd …</string>
+    <string name="requested_paused_retry_ellipsis">Begärd … (väntar på återförsök)</string>
+    <string name="requested_paused_network_ellipsis">Begärd … (väntar på nätverk)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d resultat</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d resultat</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s - %2$d resultat</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s - %2$d resultat</string>
+    <string name="save">Spara</string>
+    <string name="screens">Skärmbilder</string>
+    <string name="screen_missing_content">Du har inte laddat ner innehållet för den valda skärmbilden.\n\nVill du ladda ner innehållet för ”%1$s” nu?</string>
+    <string name="screens_separate_windows">Visa skärmbilder som separata fönster</string>
+    <string name="search_all_content">Sök allt innehåll</string>
+    <string name="search_for_links">Sök efter nyckelord, verser eller titlar</string>
+    <string name="select_highlight">Välj markering</string>
+    <string name="select_items">Välj objekt</string>
+    <string name="select_link">Välj länk</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Markera texten som ska länkas</string>
+    <string name="selected_media_unavailable">Vald media är för närvarande inte tillgänglig.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Senaste synkning: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Sortera efter antal</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Sortera efter senaste</string>
+    <string name="sort_by_name" comment="sort items by their name">Sortera efter namn</string>
+    <string name="sort_by_size" comment="sort media items">Sortera efter storlek</string>
+    <string name="sort_by_item" comment="sort media items">Sortera efter objekt</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Version %s</string>
+    <string name="style">Stil</string>
+    <string name="sync_error_invalid_credentials">Ogiltigt användarnamn/lösenord</string>
+    <string name="sync_error_no_network">Nätverksanslutningen är inte tillgänglig</string>
+    <string name="sync_notification_failure">Synkroniseringen av noteringar misslyckades</string>
+    <string name="sync_notification_gathering_changes">Samlar in ändringar</string>
+    <string name="sync_notification_processing_changes">Bearbetar ändringar</string>
+    <string name="sync_notification_receiving_changes">Tar emot ändringar</string>
+    <string name="sync_notification_receiving_update_list">Tar emot lista över uppdateringar</string>
+    <string name="sync_notification_sending_changes">Skickar ändringar</string>
+    <string name="sync_notification_sending_update_request">Skickar uppdateringsbegäran</string>
+    <string name="syncing_notebooks">Synkar anteckningsböcker</string>
+    <string name="syncing_annotations">Synkar noteringar</string>
+    <string name="notification_channel_general">Allmänna aviseringar</string>
+    <string name="notification_channel_sync">Synkning av noteringar</string>
+    <string name="notification_channel_media_playback">Medieuppspelning</string>
+    <string name="text_size" comment="">Textstorlek</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Text till tal</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Inställningar för text till tal</string>
+    <string name="tips">Tips</string>
+    <string name="title_optional">Titel (valfritt)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Lossa sidofält</string>
+    <string name="update_catalog_wifi_required">Det finns uppdaterat innehåll, men du måste vara ansluten till wifi för att ladda ner det.</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">Ändra tagg</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Videokvalité</string>
+    <string name="video_unavailable">Video ej tillgänglig</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Primär röst</string>
+    <string name="whats_new">Nyheter</string>
+</resources>

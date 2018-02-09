@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_cast"
+        android:title="@string/cast"
+        android:icon="@drawable/ic_lds_cast_24dp"
+        app:actionProviderClass="org.lds.ldssa.ui.widget.LDSCastButton$ThemeCompliantActionProvider"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_item_download"
+        android:title="@string/download"
+        android:icon="@drawable/ic_lds_action_download_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_item_share"
+        android:icon="@drawable/ic_lds_action_share_24dp"
+        android:title="@string/share"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_item_video_quality"
+        android:title="@string/video_quality"
+        app:showAsAction="never">
+        <!--suppress CheckTagEmptyBody -->
+        <menu></menu>
+    </item>
+</menu>

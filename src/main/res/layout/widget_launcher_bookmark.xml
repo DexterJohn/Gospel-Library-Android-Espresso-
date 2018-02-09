@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            style="@style/AppTheme.Light.Widget.Toolbar.Title.Dim"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/icon"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/icon"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/bookmarks"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/titleLayout"
+        android:background="@color/bookmark_widget_divider"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/divider"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:background="@color/bookmark_widget_list_background">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#dcdcde"
+            android:dividerHeight="1dp"/>
+
+        <TextView
+            android:id="@+id/empty"
+            style="@style/AppTheme.Light.Widget.Toolbar.Title.Dim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/bookmark_empty"
+            android:textSize="14sp"
+            android:visibility="visible"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

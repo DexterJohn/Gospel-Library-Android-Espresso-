@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/notebook_selection_menu_sort_recent"
+            android:title="@string/sort_by_most_recent"/>
+        <item
+            android:id="@+id/notebook_selection_menu_sort_name"
+            android:title="@string/sort_by_name"/>
+        <item
+            android:id="@+id/notebook_selection_menu_sort_count"
+            android:title="@string/sort_by_count"/>
+    </group>
+</menu>

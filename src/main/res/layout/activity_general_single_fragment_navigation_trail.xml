@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:background="?attr/themeStyleColorListBackground"
+                android:orientation="vertical">
+
+    <include
+        android:id="@+id/mainToolbar"
+        layout="@layout/toolbar_actionbar"/>
+
+    <org.lds.mobile.ui.widget.toolbar.ToolbarExpandLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mainToolbar">
+
+        <FrameLayout
+            android:id="@+id/fragment_pos1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+    </org.lds.mobile.ui.widget.toolbar.ToolbarExpandLayout>
+
+    <include layout="@layout/toolbar_expanded"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/newFloatingActionButton"
+        style="@style/AppTheme.Widget.Button.FloatingActionButton.New"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+</RelativeLayout>

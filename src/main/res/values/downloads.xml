@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array translatable="false" name="initial_downloads">
+        <item>/manual/user-guide</item>
+        <item>/scriptures/bofm</item>
+        <item>/scriptures/dc-testament</item>
+        <item>/scriptures/pgp</item>
+        <item>/scriptures/nt</item>
+        <item>/scriptures/ot</item>
+        <item>/scriptures/tg</item>
+        <item>/scriptures/bd</item>
+        <item>/scriptures/bible-chron</item>
+        <item>/scriptures/harmony</item>
+        <item>/scriptures/jst</item>
+        <item>/scriptures/bible-maps</item>
+        <item>/scriptures/bible-photos</item>
+        <item>/scriptures/triple-index</item>
+        <item>/scriptures/history-maps</item>
+        <item>/scriptures/history-photos</item>
+        <item>/scriptures/gs</item>
+        <item>/scriptures/bible/quad</item>
+    </string-array>
+</resources>

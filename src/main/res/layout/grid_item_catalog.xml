@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/catalog_card_height"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardBackgroundColor="?attr/themeStyleColorBackgroundCard"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true"
+    tools:layout_width="@dimen/content_card_width">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/grid_item_image_container"
+            android:layout_width="@dimen/catalog_card_artwork_width"
+            android:layout_height="@dimen/catalog_card_artwork_height"
+            android:layout_above="@+id/catalog_title_layout"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/coverArtImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/cover_default_grid"
+                tools:ignore="ContentDescription"/>
+
+            <View
+                android:id="@+id/coverArtAlphaView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha=".5"
+                android:background="?attr/themeStyleColorListBackground"
+                android:scaleType="centerCrop"
+                android:visibility="gone"
+                tools:visibility="visible"/>
+
+            <ProgressBar
+                android:id="@+id/installProgressBar"
+                style="@style/AppTheme.Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_alignParentBottom="true"
+                android:visibility="gone"
+                tools:max="100"
+                tools:progress="78"
+                tools:visibility="visible"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/overflowMenuView"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/grid_item_image_container"
+            android:background="?attr/selectableItemBackground"
+            android:paddingBottom="16dp"
+            android:paddingStart="16dp"
+            app:srcCompat="?attr/themeStyleColorTextCatalogGridMenuIcon"
+            tools:ignore="ContentDescription,RtlHardcoded,RtlSymmetry"
+            tools:visibility="visible"/>
+
+        <LinearLayout
+            android:id="@+id/catalog_title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:clickable="false"
+            android:ellipsize="end"
+            android:gravity="top"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/titleTextView"
+                style="?attr/themeStyleWidgetText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="2"
+                android:textColor="?attr/themeStyleColorTextItemTitle"
+                android:textSize="13sp"
+                tools:text="Book of Mormon"/>
+
+            <!-- android:singleLine="true" is required with android:ellipsize="start" -->
+            <!-- Bug: https://code.google.com/p/android/issues/detail?id=33868 -->
+            <TextView
+                android:id="@+id/subTitleTextView"
+                style="?attr/themeStyleWidgetText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:singleLine="true"
+                android:textColor="?attr/themeStyleColorTextItemTitle"
+                android:textSize="13sp"
+                android:visibility="gone"
+                tools:text="Sub Title"/>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

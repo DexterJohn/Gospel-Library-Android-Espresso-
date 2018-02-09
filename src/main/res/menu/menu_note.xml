@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/note_menu_tag"
+        android:icon="@drawable/ic_lds_tag_24dp"
+        android:title="@string/tag"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/note_menu_link"
+        android:icon="@drawable/ic_lds_link_24dp"
+        android:title="@string/link"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/note_menu_add_to_notebook"
+        android:icon="@drawable/ic_lds_notebook_24dp"
+        android:title="@string/add_to_notebook"
+        app:showAsAction="ifRoom" />
+
+    <!-- Developer -->
+    <item
+        android:id="@+id/note_menu_show_annotation_info"
+        android:title="Show Annotation Info"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText"
+        android:visible="false"
+        />
+</menu>

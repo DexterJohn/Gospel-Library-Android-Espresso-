@@ -1,0 +1,33 @@
+package org.lds.ldssa.model.database.types
+
+enum class ItemCategoryType {
+    UNKOWN,
+    SCRIPTURES, // ordinal 1
+    MUSIC,
+    GENERAL_CONFERENCE,
+    TEACHING_OF_PRESIDENTS,
+    FAMILY,
+    YOUTH,
+    CHILDREN,
+    MISSIONARY,
+    TEMPLE_AND_FAMILY_HISTORY,
+    LEADERSHIP,
+    MELCHIZEDEK_PRIESTHOOD,
+    AARONIC_PRIESTHOOD,
+    RELIEF_SOCIETY,
+    YOUNG_WOMEN,
+    PRIMARY,
+    SUNDAY_SCHOOL,
+    SEMINARY,
+    INSTITUTE,
+    ENSIGN,
+    NEW_ERA,
+    FRIEND,
+    LIAHONA,
+    VIDEOS,
+    HELP,
+    TEST,
+    SELF_RELIANCE,
+    YOUNG_ADULTS,
+    LESSONS
+}

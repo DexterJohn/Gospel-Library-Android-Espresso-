@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- LDS Account -->
+    <PreferenceCategory
+        android:key="account_category"
+        android:title="@string/signin_lds_account">
+
+        <Preference
+            android:key="account_sign_in_out"
+            android:order="0"
+            android:summary="@string/lds_account_summary"
+            android:title="@string/signin"/>
+
+        <Preference
+            android:key="account_create"
+            android:order="1"
+            android:title="@string/signin_create_account"/>
+    </PreferenceCategory>
+
+    <!-- Content -->
+    <PreferenceCategory
+        android:key="content_category"
+        android:title="@string/content">
+
+        <Preference
+            android:key="prefs_downloaded_media"
+            android:summary="@string/pref_downloaded_media_summary"
+            android:title="@string/downloaded_media"/>
+
+        <!--suppress AndroidElementNotAllowed -->
+        <SwitchPreferenceCompat
+            android:key="limit_mobile_network"
+            android:persistent="false"
+            android:summary="@string/pref_limit_mobile_network_subtitle"
+            android:title="@string/pref_limit_mobile_network"/>
+    </PreferenceCategory>
+
+
+    <!-- Display -->
+    <PreferenceCategory
+        android:key="category_ui"
+        android:title="@string/display">
+
+        <ListPreference
+            android:title="@string/pref_theme"
+            android:key="display_theme"
+            android:entries="@array/theme_options"
+            android:entryValues="@array/theme_options_values"
+            android:defaultValue="0"
+            android:persistent="false"/> <!-- Backed up Preference handle persisting in code -->
+
+        <Preference
+            android:key="font_options"
+            android:title="@string/text_size"
+            android:persistent="false"/>
+
+        <!--suppress AndroidElementNotAllowed -->
+        <SwitchPreferenceCompat
+            android:key="key_show_as_list"
+            android:title="@string/pref_general_list_mode"
+            android:persistent="false"/> <!-- Backed up Preference handle persisting in code -->
+
+        <!--suppress AndroidElementNotAllowed -->
+        <SwitchPreferenceCompat
+            android:key="hide_footnotes"
+            android:title="@string/pref_hide_footnotes"
+            android:persistent="false"/> <!-- Backed up Preference handle persisting in code -->
+
+        <!--suppress AndroidElementNotAllowed -->
+        <SwitchPreferenceCompat
+            android:key="tabs_in_overview"
+            android:persistent="false"
+            android:defaultValue="true"
+            android:title="@string/screens_separate_windows"
+            />
+
+        <!--suppress AndroidElementNotAllowed -->
+        <SwitchPreferenceCompat
+            android:key="pref_enable_obsolete_items"
+            android:title="@string/pref_show_obsolete"
+            android:persistent="false"/> <!-- Backed up Preference handle persisting in code -->
+
+        <!--suppress AndroidElementNotAllowed -->
+        <SwitchPreferenceCompat
+            android:key="pref_allow_in_app_notifications"
+            android:title="@string/allow_in_app_notifications"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

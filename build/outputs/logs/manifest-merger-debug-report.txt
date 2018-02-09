@@ -1,0 +1,1218 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:2:1-300:12
+INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:2:1-300:12
+INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:2:1-300:12
+INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:2:1-300:12
+MERGED from [org.lds.mobile:ldsmobile-devtools:2.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-devtools-2.1.0.aar/f945cebbe0c01acda01391cbcc1cdeb3/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:multidex-instrumentation:1.0.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/multidex-instrumentation-1.0.2.aar/10ee08de2a03c7d913f31c6f50d85b83/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/cc83fc14ff24021c9e35819573ada882/AndroidManifest.xml:17:1-22:12
+MERGED from [org.lds.mobile:ldsaccount:10.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/AndroidManifest.xml:2:1-19:12
+MERGED from [org.lds.mobile:lds-ui-kit:1.6.9] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/lds-ui-kit-1.6.9.aar/96807f240e8dee9bc847f86bd58466ac/AndroidManifest.xml:2:1-9:12
+MERGED from [org.lds.mobile:ldsmobile-media:10.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-media-10.1.0.aar/e4ebbb48ba7a2a959240e41e827e063e/AndroidManifest.xml:2:1-11:12
+MERGED from [org.lds.mobile:ldsmobile-commons:14.3.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-commons-14.3.2.aar/326c1ae550b24c1ad0f37bb458894502/AndroidManifest.xml:2:1-13:12
+MERGED from [org.lds.mobile:ldsmobile-network:4.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-network-4.1.0.aar/847ea1feceeb228fc6d57f505886174b/AndroidManifest.xml:2:1-13:12
+MERGED from [org.lds.mobile:ldsmobile-download:6.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-download-6.1.0.aar/d32c67ff8caacfffac31716b35f410c8/AndroidManifest.xml:2:1-12:12
+MERGED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:2:1-30:12
+MERGED from [org.lds.mobile:ldsmobile-markdown:1.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-markdown-1.3.0.aar/ce012a05b461e7020bc5373404a68170/AndroidManifest.xml:2:1-12:12
+MERGED from [org.lds.mobile:lds-analytics:6.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/lds-analytics-6.1.0.aar/aa97bf2735c024d389fb2f64b1295a16/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:preference-v14:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/preference-v14-27.0.1.aar/45010dd303ad64d7fd258390887e1538/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/design-27.0.1.aar/4fc49deef723d52ca8518157b42e6c09/AndroidManifest.xml:17:1-22:12
+MERGED from [com.devbrackets.android:recyclerext:2.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/recyclerext-2.1.1.aar/535560b552f212e494794d7eee909aa8/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.paolorotolo:appintro:v4.2.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/appintro-v4.2.2.aar/dc8e0d67fe3aedfad46dc5d692a2c9d6/AndroidManifest.xml:2:1-13:12
+MERGED from [org.sqlite.sqliteX:sqlite-android:3.15.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/sqlite-android-3.15.2.aar/ca7bacb88b529690b044fdda6d06ebc8/AndroidManifest.xml:2:1-12:12
+MERGED from [com.afollestad:digitus:0.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/digitus-0.3.0.aar/da939ecc5d835b87be9ca9f68fafc1f5/AndroidManifest.xml:2:1-14:12
+MERGED from [com.devbrackets.android:exomedia:4.0.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exomedia-4.0.3.aar/0f0389c5bc6eb18ef53d9b8b2c129b15/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:preference-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/preference-v7-27.0.1.aar/9f53d961b0d71f140e23462823621f1f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/66ac9b14a2fa6e4ff7c7c89ff8066b4d/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/1de393a1e8b9fe69af95e1bee08ea7a7/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/13dc1f767674c49caacebf51b750de67/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/0fcd99de0bf76ae58fa2fcda790dd569/AndroidManifest.xml:21:1-36:12
+MERGED from [com.afollestad.material-dialogs:commons:0.9.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/commons-0.9.6.0.aar/afeaaf112cd57adb5080adf3bec85283/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-cast-framework:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/f418685a9e21a67c47d5eb6a5a252389/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cast:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.6.0.aar/42c7bebe6640da57e4695d5b8cd205fd/AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:mediarouter-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-27.0.1.aar/f7006a37b22aef5a6eb289c6a8598275/AndroidManifest.xml:17:1-22:12
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/fb9e6db16decf00bd30c324ff1bbc6a9/AndroidManifest.xml:2:1-15:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/library-1.4.2.aar/0df3a731d6c75a600bff632b482ae91e/AndroidManifest.xml:6:1-16:12
+MERGED from [com.android.support:appcompat-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/67d4e4f830c482351279f7ee9e3bad7a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.1.aar/7f457c863f8419f36924fb03b3867348/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v13:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.1.aar/15be3eecb535c4fec918dc15ee27bcc6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:percent:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/percent-27.0.1.aar/aae1877724863de69a6f906d1d5d26ee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.1.aar/8657000f56f2c7c76dc81e890a243e0f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a4f072784ff3a9746a65c1cf3682a596/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android:flexbox:0.3.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/flexbox-0.3.1.aar/bb3ff484f6c63155a6edee691b18362f/AndroidManifest.xml:17:1-27:12
+MERGED from [android.arch.paging:runtime:1.0.0-alpha3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0-alpha3.aar/3811edbb7c9bb3c3e95a717599a6df0f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton:butterknife:8.7.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/butterknife-8.7.0.aar/382d812c29c9b403fae0e4d05956af90/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:palette-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/palette-v7-27.0.1.aar/c4647c05060fa2a819c6d732fbf6d41c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/transition-27.0.1.aar/69f1fa5426a8d8a0f9a0108a9c0cdfe9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:2:1-65:12
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/6681ddfc53f0de5e89bbd07d6457db8f/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/91c6456329cabdeee628ea2d4bba0852/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/1258ca8f05a570c605c03ebaf6d01a92/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/40851f4399eab3fae14780e1b2b44bf9/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7db387274d4d289d49b6e134834afb01/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/008c8dc080b9240a0eeab79fffb98925/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/8595c95571540a5b596fab63c907d188/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.1.aar/b40894dfed54cc3c35f99e880bc47862/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/4177f3321316c816470c16092aad1c07/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/b40ab157f3a8b1cd1441a9ce55070b3e/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/4733b57bfb0c37138908b3ee1d79a139/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/0bbcc0907af518e97cd8dc22de8d0b97/AndroidManifest.xml:21:1-45:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.4.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.4.3.aar/a6c64ee7e29570cb8d8d55e2abb0ccff/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:extensions:1.0.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/22eaa564f09bb1ee3c50e4a6b172f975/AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.support:support-fragment:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/0d26a1f8adbd87a80cdaf384c2166c0e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/c0a664c4383f4f27c595bbc97361abdc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/d65f472121572854b47b570173551fb9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/dfe4a4b175abbbdc76f7c46ece2cbf7a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/1c6f0f9d11b8b4997e082d8ce8851a8e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/85367161cba632cf6c541bbae62dee69/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/2c583a831a67a1c70a4a633e7a627649/AndroidManifest.xml:17:1-24:12
+MERGED from [org.dbtools:dbtools-android:10.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/dbtools-android-10.3.0.aar/a02b3e30bd62607047315cc6f256410e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/stetho-okhttp3-1.5.0.aar/e3fe0a98dbb8938ecefd09236aacfb3e/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/9c7883306ecd02ac2b7acac9ad933be8/AndroidManifest.xml:2:1-13:12
+MERGED from [me.eugeniomarletti:android-extras-delegates:1.0.5] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-extras-delegates-1.0.5.aar/d9f9e846f81c65b49a20d07b165bfd5c/AndroidManifest.xml:2:1-14:12
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/3d76835ad63c432501fc14ef76936d2d/AndroidManifest.xml:2:1-10:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.0.5] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/threetenabp-1.0.5.aar/f946108297fecc0fd50de9192b2ec6eb/AndroidManifest.xml:2:1-10:12
+MERGED from [com.vikingsen:pocketbus:1.2.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/pocketbus-1.2.0.aar/6742b390e99b4b4d83d5030151fbc2c7/AndroidManifest.xml:2:1-13:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/84adcd352fb75e0ddce63bae181d6bbc/AndroidManifest.xml:15:1-21:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/9daa746441fbc188e7489e471fac8cee/AndroidManifest.xml:2:1-19:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:17:1-61:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.4.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.4.3.aar/3a296f99fe07841785df15efdf327d1c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.4.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.4.3.aar/3c3ef9ca4e1c692feabe5cff283e4ce3/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.4.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.4.3.aar/e74c6b0e2baed0b90ccfa1e55e491204/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.core:runtime:1.0.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a4276fd78d759b96626bcd2cbd1c267e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.devbrackets.android:playlistcore:2.0.0-20171004] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/playlistcore-2.0.0-20171004.aar/620418c466045cdb58710ecb0e26e13c/AndroidManifest.xml:2:1-21:12
+MERGED from [com.localytics.android:library:4.5.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/library-4.5.1.aar/d7d556131c6a98f792375c20609f3d12/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-license-11.6.0.aar/5f04500d223e8910a0898e5a6dd86acf/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.6.0.aar/67e6e492c4f6e916aff6b5ddf68de156/AndroidManifest.xml:2:1-6:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/1fde6d2932a2202731aea9b581cff740/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.4.1.aar/fab006da5203e0645fed8ff64d33708c/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/1fa72181d32058adf77dd55ccc36174a/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d64f22ca3e7885d3b8a02b5f47a4ba06/AndroidManifest.xml:22:1-33:12
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/902e4033e99ec1c3f14c806c29f9e9ca/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/44d005d37659bd20163b7cc54c6481ac/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-license-11.6.0.aar/3a574c50620f349b08550cb7b39ebbab/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/aae73ca9a6ef30162b0d5e60844a5b6c/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.6.0.aar/aa7081a090e48848236c038e9d252c2d/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/35ec44d76744e188e307d9314af898ab/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:2:1-300:12
+INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:2:1-300:12
+INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:2:1-300:12
+	package
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+		INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:2:1-300:12
+		INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:2:1-300:12
+		INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:3:5-63
+	android:installLocation
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:6:5-35
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:8:5-70
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.INTERNET
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:9:5-66
+MERGED from [org.lds.mobile:ldsaccount:10.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/AndroidManifest.xml:9:5-67
+MERGED from [org.lds.mobile:ldsaccount:10.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/AndroidManifest.xml:9:5-67
+MERGED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:9:5-67
+MERGED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/6681ddfc53f0de5e89bbd07d6457db8f/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/6681ddfc53f0de5e89bbd07d6457db8f/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/91c6456329cabdeee628ea2d4bba0852/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/91c6456329cabdeee628ea2d4bba0852/AndroidManifest.xml:21:5-66
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/9daa746441fbc188e7489e471fac8cee/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/9daa746441fbc188e7489e471fac8cee/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/1fde6d2932a2202731aea9b581cff740/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/1fde6d2932a2202731aea9b581cff740/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.4.1.aar/fab006da5203e0645fed8ff64d33708c/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.4.1.aar/fab006da5203e0645fed8ff64d33708c/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/1fa72181d32058adf77dd55ccc36174a/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/1fa72181d32058adf77dd55ccc36174a/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d64f22ca3e7885d3b8a02b5f47a4ba06/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d64f22ca3e7885d3b8a02b5f47a4ba06/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:10:5-79
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:23:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:11:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:12:5-78
+MERGED from [org.lds.mobile:ldsaccount:10.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/AndroidManifest.xml:10:5-79
+MERGED from [org.lds.mobile:ldsaccount:10.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/AndroidManifest.xml:10:5-79
+MERGED from [org.lds.mobile:ldsmobile-commons:14.3.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-commons-14.3.2.aar/326c1ae550b24c1ad0f37bb458894502/AndroidManifest.xml:9:5-79
+MERGED from [org.lds.mobile:ldsmobile-commons:14.3.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-commons-14.3.2.aar/326c1ae550b24c1ad0f37bb458894502/AndroidManifest.xml:9:5-79
+MERGED from [org.lds.mobile:ldsmobile-network:4.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-network-4.1.0.aar/847ea1feceeb228fc6d57f505886174b/AndroidManifest.xml:9:5-79
+MERGED from [org.lds.mobile:ldsmobile-network:4.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-network-4.1.0.aar/847ea1feceeb228fc6d57f505886174b/AndroidManifest.xml:9:5-79
+MERGED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:10:5-79
+MERGED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:10:5-79
+MERGED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:13:5-79
+MERGED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:13:5-79
+MERGED from [com.localytics.android:library:4.5.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/library-4.5.1.aar/d7d556131c6a98f792375c20609f3d12/AndroidManifest.xml:11:5-79
+MERGED from [com.localytics.android:library:4.5.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/library-4.5.1.aar/d7d556131c6a98f792375c20609f3d12/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.NFC
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:13:5-61
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:13:22-59
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:14:5-67
+MERGED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:12:5-68
+MERGED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:14:22-65
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:17:5-78
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:17:22-76
+permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:18:17-73
+permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:19:17-72
+permission#android.permission.CHANGE_CONFIGURATION
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:20:5-74
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:20:17-71
+uses-feature#android.hardware.wifi
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:23:5-25:35
+	android:required
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:24:9-45
+uses-feature#android.hardware.microphone
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:27:5-29:35
+	android:required
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:28:9-51
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:32:5-34:35
+	android:required
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:33:9-52
+supports-screens
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:36:5-40:38
+	android:largeScreens
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:38:9-36
+	android:smallScreens
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:40:9-36
+	android:normalScreens
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:39:9-37
+	android:anyDensity
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:37:9-34
+application
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:42:5-299:19
+MERGED from [org.lds.mobile:ldsmobile-devtools:2.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-devtools-2.1.0.aar/f945cebbe0c01acda01391cbcc1cdeb3/AndroidManifest.xml:10:5-20
+MERGED from [org.lds.mobile:ldsmobile-devtools:2.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-devtools-2.1.0.aar/f945cebbe0c01acda01391cbcc1cdeb3/AndroidManifest.xml:10:5-20
+MERGED from [org.lds.mobile:ldsaccount:10.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/AndroidManifest.xml:16:5-17:19
+MERGED from [org.lds.mobile:ldsaccount:10.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/AndroidManifest.xml:16:5-17:19
+MERGED from [org.lds.mobile:ldsmobile-media:10.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-media-10.1.0.aar/e4ebbb48ba7a2a959240e41e827e063e/AndroidManifest.xml:9:5-20
+MERGED from [org.lds.mobile:ldsmobile-media:10.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-media-10.1.0.aar/e4ebbb48ba7a2a959240e41e827e063e/AndroidManifest.xml:9:5-20
+MERGED from [org.lds.mobile:ldsmobile-commons:14.3.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-commons-14.3.2.aar/326c1ae550b24c1ad0f37bb458894502/AndroidManifest.xml:11:5-20
+MERGED from [org.lds.mobile:ldsmobile-commons:14.3.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-commons-14.3.2.aar/326c1ae550b24c1ad0f37bb458894502/AndroidManifest.xml:11:5-20
+MERGED from [org.lds.mobile:ldsmobile-network:4.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-network-4.1.0.aar/847ea1feceeb228fc6d57f505886174b/AndroidManifest.xml:11:5-20
+MERGED from [org.lds.mobile:ldsmobile-network:4.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-network-4.1.0.aar/847ea1feceeb228fc6d57f505886174b/AndroidManifest.xml:11:5-20
+MERGED from [org.lds.mobile:ldsmobile-download:6.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-download-6.1.0.aar/d32c67ff8caacfffac31716b35f410c8/AndroidManifest.xml:10:5-20
+MERGED from [org.lds.mobile:ldsmobile-download:6.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-download-6.1.0.aar/d32c67ff8caacfffac31716b35f410c8/AndroidManifest.xml:10:5-20
+MERGED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:12:5-28:19
+MERGED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:12:5-28:19
+MERGED from [org.lds.mobile:ldsmobile-markdown:1.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-markdown-1.3.0.aar/ce012a05b461e7020bc5373404a68170/AndroidManifest.xml:10:5-20
+MERGED from [org.lds.mobile:ldsmobile-markdown:1.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-markdown-1.3.0.aar/ce012a05b461e7020bc5373404a68170/AndroidManifest.xml:10:5-20
+MERGED from [org.lds.mobile:lds-analytics:6.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/lds-analytics-6.1.0.aar/aa97bf2735c024d389fb2f64b1295a16/AndroidManifest.xml:10:5-20
+MERGED from [org.lds.mobile:lds-analytics:6.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/lds-analytics-6.1.0.aar/aa97bf2735c024d389fb2f64b1295a16/AndroidManifest.xml:10:5-20
+MERGED from [com.devbrackets.android:recyclerext:2.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/recyclerext-2.1.1.aar/535560b552f212e494794d7eee909aa8/AndroidManifest.xml:12:5-20
+MERGED from [com.devbrackets.android:recyclerext:2.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/recyclerext-2.1.1.aar/535560b552f212e494794d7eee909aa8/AndroidManifest.xml:12:5-20
+MERGED from [com.github.paolorotolo:appintro:v4.2.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/appintro-v4.2.2.aar/dc8e0d67fe3aedfad46dc5d692a2c9d6/AndroidManifest.xml:11:5-47
+MERGED from [com.github.paolorotolo:appintro:v4.2.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/appintro-v4.2.2.aar/dc8e0d67fe3aedfad46dc5d692a2c9d6/AndroidManifest.xml:11:5-47
+MERGED from [org.sqlite.sqliteX:sqlite-android:3.15.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/sqlite-android-3.15.2.aar/ca7bacb88b529690b044fdda6d06ebc8/AndroidManifest.xml:10:5-20
+MERGED from [org.sqlite.sqliteX:sqlite-android:3.15.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/sqlite-android-3.15.2.aar/ca7bacb88b529690b044fdda6d06ebc8/AndroidManifest.xml:10:5-20
+MERGED from [com.afollestad:digitus:0.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/digitus-0.3.0.aar/da939ecc5d835b87be9ca9f68fafc1f5/AndroidManifest.xml:12:5-20
+MERGED from [com.afollestad:digitus:0.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/digitus-0.3.0.aar/da939ecc5d835b87be9ca9f68fafc1f5/AndroidManifest.xml:12:5-20
+MERGED from [com.devbrackets.android:exomedia:4.0.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exomedia-4.0.3.aar/0f0389c5bc6eb18ef53d9b8b2c129b15/AndroidManifest.xml:12:5-20
+MERGED from [com.devbrackets.android:exomedia:4.0.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exomedia-4.0.3.aar/0f0389c5bc6eb18ef53d9b8b2c129b15/AndroidManifest.xml:12:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/66ac9b14a2fa6e4ff7c7c89ff8066b4d/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/66ac9b14a2fa6e4ff7c7c89ff8066b4d/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/1de393a1e8b9fe69af95e1bee08ea7a7/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/1de393a1e8b9fe69af95e1bee08ea7a7/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/13dc1f767674c49caacebf51b750de67/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/13dc1f767674c49caacebf51b750de67/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/0fcd99de0bf76ae58fa2fcda790dd569/AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/0fcd99de0bf76ae58fa2fcda790dd569/AndroidManifest.xml:28:5-34:19
+MERGED from [com.afollestad.material-dialogs:commons:0.9.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/commons-0.9.6.0.aar/afeaaf112cd57adb5080adf3bec85283/AndroidManifest.xml:12:5-20
+MERGED from [com.afollestad.material-dialogs:commons:0.9.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/commons-0.9.6.0.aar/afeaaf112cd57adb5080adf3bec85283/AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/f418685a9e21a67c47d5eb6a5a252389/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/f418685a9e21a67c47d5eb6a5a252389/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.6.0.aar/42c7bebe6640da57e4695d5b8cd205fd/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-cast:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.6.0.aar/42c7bebe6640da57e4695d5b8cd205fd/AndroidManifest.xml:18:5-19
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/fb9e6db16decf00bd30c324ff1bbc6a9/AndroidManifest.xml:13:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/fb9e6db16decf00bd30c324ff1bbc6a9/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a4f072784ff3a9746a65c1cf3682a596/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a4f072784ff3a9746a65c1cf3682a596/AndroidManifest.xml:9:5-20
+MERGED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:16:5-63:19
+MERGED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:16:5-63:19
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/6681ddfc53f0de5e89bbd07d6457db8f/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/6681ddfc53f0de5e89bbd07d6457db8f/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/91c6456329cabdeee628ea2d4bba0852/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/91c6456329cabdeee628ea2d4bba0852/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/1258ca8f05a570c605c03ebaf6d01a92/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/1258ca8f05a570c605c03ebaf6d01a92/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/40851f4399eab3fae14780e1b2b44bf9/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/40851f4399eab3fae14780e1b2b44bf9/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7db387274d4d289d49b6e134834afb01/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7db387274d4d289d49b6e134834afb01/AndroidManifest.xml:19:5-21:19
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/4177f3321316c816470c16092aad1c07/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/4177f3321316c816470c16092aad1c07/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/b40ab157f3a8b1cd1441a9ce55070b3e/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/b40ab157f3a8b1cd1441a9ce55070b3e/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/4733b57bfb0c37138908b3ee1d79a139/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/4733b57bfb0c37138908b3ee1d79a139/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/0bbcc0907af518e97cd8dc22de8d0b97/AndroidManifest.xml:28:5-43:19
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/0bbcc0907af518e97cd8dc22de8d0b97/AndroidManifest.xml:28:5-43:19
+MERGED from [android.arch.lifecycle:extensions:1.0.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/22eaa564f09bb1ee3c50e4a6b172f975/AndroidManifest.xml:24:5-30:19
+MERGED from [android.arch.lifecycle:extensions:1.0.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/22eaa564f09bb1ee3c50e4a6b172f975/AndroidManifest.xml:24:5-30:19
+MERGED from [org.dbtools:dbtools-android:10.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/dbtools-android-10.3.0.aar/a02b3e30bd62607047315cc6f256410e/AndroidManifest.xml:9:5-20
+MERGED from [org.dbtools:dbtools-android:10.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/dbtools-android-10.3.0.aar/a02b3e30bd62607047315cc6f256410e/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/stetho-okhttp3-1.5.0.aar/e3fe0a98dbb8938ecefd09236aacfb3e/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/stetho-okhttp3-1.5.0.aar/e3fe0a98dbb8938ecefd09236aacfb3e/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/9c7883306ecd02ac2b7acac9ad933be8/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/9c7883306ecd02ac2b7acac9ad933be8/AndroidManifest.xml:11:5-20
+MERGED from [me.eugeniomarletti:android-extras-delegates:1.0.5] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-extras-delegates-1.0.5.aar/d9f9e846f81c65b49a20d07b165bfd5c/AndroidManifest.xml:12:5-20
+MERGED from [me.eugeniomarletti:android-extras-delegates:1.0.5] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-extras-delegates-1.0.5.aar/d9f9e846f81c65b49a20d07b165bfd5c/AndroidManifest.xml:12:5-20
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/3d76835ad63c432501fc14ef76936d2d/AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/3d76835ad63c432501fc14ef76936d2d/AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.0.5] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/threetenabp-1.0.5.aar/f946108297fecc0fd50de9192b2ec6eb/AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.0.5] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/threetenabp-1.0.5.aar/f946108297fecc0fd50de9192b2ec6eb/AndroidManifest.xml:8:5-20
+MERGED from [com.vikingsen:pocketbus:1.2.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/pocketbus-1.2.0.aar/6742b390e99b4b4d83d5030151fbc2c7/AndroidManifest.xml:10:5-11:19
+MERGED from [com.vikingsen:pocketbus:1.2.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/pocketbus-1.2.0.aar/6742b390e99b4b4d83d5030151fbc2c7/AndroidManifest.xml:10:5-11:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/9daa746441fbc188e7489e471fac8cee/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/9daa746441fbc188e7489e471fac8cee/AndroidManifest.xml:11:5-17:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:26:5-59:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:26:5-59:19
+MERGED from [com.devbrackets.android:playlistcore:2.0.0-20171004] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/playlistcore-2.0.0-20171004.aar/620418c466045cdb58710ecb0e26e13c/AndroidManifest.xml:11:5-19:19
+MERGED from [com.devbrackets.android:playlistcore:2.0.0-20171004] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/playlistcore-2.0.0-20171004.aar/620418c466045cdb58710ecb0e26e13c/AndroidManifest.xml:11:5-19:19
+MERGED from [com.localytics.android:library:4.5.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/library-4.5.1.aar/d7d556131c6a98f792375c20609f3d12/AndroidManifest.xml:13:5-17:19
+MERGED from [com.localytics.android:library:4.5.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/library-4.5.1.aar/d7d556131c6a98f792375c20609f3d12/AndroidManifest.xml:13:5-17:19
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-license-11.6.0.aar/5f04500d223e8910a0898e5a6dd86acf/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-license-11.6.0.aar/5f04500d223e8910a0898e5a6dd86acf/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.6.0.aar/67e6e492c4f6e916aff6b5ddf68de156/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.6.0.aar/67e6e492c4f6e916aff6b5ddf68de156/AndroidManifest.xml:5:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/1fde6d2932a2202731aea9b581cff740/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/1fde6d2932a2202731aea9b581cff740/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.4.1.aar/fab006da5203e0645fed8ff64d33708c/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.4.1.aar/fab006da5203e0645fed8ff64d33708c/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/1fa72181d32058adf77dd55ccc36174a/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/1fa72181d32058adf77dd55ccc36174a/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d64f22ca3e7885d3b8a02b5f47a4ba06/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d64f22ca3e7885d3b8a02b5f47a4ba06/AndroidManifest.xml:31:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/902e4033e99ec1c3f14c806c29f9e9ca/AndroidManifest.xml:23:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/902e4033e99ec1c3f14c806c29f9e9ca/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/44d005d37659bd20163b7cc54c6481ac/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/44d005d37659bd20163b7cc54c6481ac/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-license-11.6.0.aar/3a574c50620f349b08550cb7b39ebbab/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-license-11.6.0.aar/3a574c50620f349b08550cb7b39ebbab/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/aae73ca9a6ef30162b0d5e60844a5b6c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/aae73ca9a6ef30162b0d5e60844a5b6c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.6.0.aar/aa7081a090e48848236c038e9d252c2d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.6.0.aar/aa7081a090e48848236c038e9d252c2d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/35ec44d76744e188e307d9314af898ab/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/35ec44d76744e188e307d9314af898ab/AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from [com.github.paolorotolo:appintro:v4.2.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/appintro-v4.2.2.aar/dc8e0d67fe3aedfad46dc5d692a2c9d6/AndroidManifest.xml:11:18-44
+	android:label
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:49:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:46:9-43
+	android:fullBackupContent
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:45:9-62
+	android:resizeableActivity
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:50:9-42
+	tools:ignore
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:16:18-44
+	android:roundIcon
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:48:9-54
+	android:icon
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:47:9-43
+	android:allowBackup
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:44:9-36
+	android:theme
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:51:9-46
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:43:9-28
+activity#org.lds.ldssa.ui.activity.StartupActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:54:9-62:20
+	android:configChanges
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:56:13-63
+	android:theme
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:57:13-52
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:55:13-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:58:13-61:29
+action#android.intent.action.MAIN
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:59:17-68
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:59:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:60:17-76
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:60:27-74
+activity#org.lds.ldssa.ux.signin.SignInActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:64:9-61
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:64:19-59
+activity#org.lds.ldssa.ux.catalog.CatalogDirectoryActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:66:9-70:20
+	android:label
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:68:13-44
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:67:13-64
+activity#org.lds.ldssa.ux.content.directory.ContentDirectoryActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:71:9-82
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:71:19-80
+activity#org.lds.ldssa.ux.content.item.ContentActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:72:9-81:20
+	android:windowSoftInputMode
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:74:13-56
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:73:13-60
+intent-filter#android.intent.category.DEFAULT+org.lds.ldssa.action.VIEW
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:77:13-80:29
+action#org.lds.ldssa.action.VIEW
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:78:17-67
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:78:25-65
+category#android.intent.category.DEFAULT
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:79:17-75
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:79:27-73
+activity#org.lds.ldssa.ux.annotations.links.LinksActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:82:9-84:57
+	android:windowSoftInputMode
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:84:13-55
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:83:13-63
+activity#org.lds.ldssa.ux.annotations.links.LinkContentActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:85:9-88:58
+	android:windowSoftInputMode
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:88:13-56
+	android:configChanges
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:87:13-59
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:86:13-69
+activity#org.lds.ldssa.ui.activity.LanguageChangeActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:89:9-92:39
+	android:excludeFromRecents
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:91:13-46
+	android:noHistory
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:92:13-37
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:90:13-63
+activity#org.lds.ldssa.ui.activity.UriRouterActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:93:9-137:20
+	android:excludeFromRecents
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:95:13-46
+	android:noHistory
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:96:13-37
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:94:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:98:13-105:29
+	android:autoVerify
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:106:28-53
+action#android.intent.action.VIEW
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:99:17-68
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:99:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:101:17-77
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:101:27-75
+data
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:104:17-55
+	android:host
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:113:21-45
+	android:scheme
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:104:23-53
+	android:pathPrefix
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:114:21-53
+activity#org.lds.ldssa.ui.activity.BookmarkRouterActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:138:9-142:15
+	android:excludeFromRecents
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:140:13-46
+	android:noHistory
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:141:13-37
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:139:13-63
+activity#org.lds.ldssa.ux.about.AboutActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:143:9-59
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:143:19-57
+activity#org.lds.ldssa.ux.about.AppInfoActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:144:9-61
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:144:19-59
+activity#org.lds.ldssa.ux.about.AnnotationInfoActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:145:9-68
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:145:19-66
+activity#org.lds.ldssa.ui.activity.ContentSourceActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:146:9-70
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:146:19-68
+activity#org.lds.ldssa.ui.activity.ImageViewerActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:147:9-68
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:147:19-66
+activity#org.lds.ldssa.ui.activity.HighlightSelectionActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:148:9-75
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:148:19-73
+activity#org.lds.ldssa.ui.activity.SettingsActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:150:9-154:15
+	android:label
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:152:13-45
+	android:theme
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:153:13-59
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:151:13-57
+activity#org.lds.ldssa.ui.activity.ScreenSettingsActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:155:9-159:15
+	android:label
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:157:13-52
+	android:theme
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:158:13-59
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:156:13-63
+activity#org.lds.ldssa.ui.activity.AudioSettingsActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:160:9-164:15
+	android:label
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:162:13-51
+	android:theme
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:163:13-59
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:161:13-62
+activity#org.lds.ldssa.ui.activity.VideoPlayerActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:166:9-168:89
+	android:configChanges
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:168:13-87
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:167:13-60
+activity#org.lds.ldssa.ux.annotations.AnnotationsActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:170:9-71
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:170:19-69
+activity#org.lds.ldssa.ux.currentdownloads.CurrentDownloadsActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:171:9-173:45
+	android:launchMode
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:173:13-43
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:172:13-73
+activity#org.lds.ldssa.ui.activity.NoteActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:175:9-177:15
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:176:13-53
+activity#org.lds.ldssa.ux.annotations.tagselection.TagSelectionActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:179:9-181:57
+	android:windowSoftInputMode
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:181:13-55
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:180:13-77
+activity#org.lds.ldssa.ux.annotations.notebookselection.NotebookSelectionActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:183:9-95
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:183:19-93
+activity#org.lds.ldssa.ux.annotations.notes.NotesActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:184:9-71
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:184:19-69
+activity#org.lds.ldssa.ux.annotations.SingleAnnotationActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:185:9-76
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:185:19-74
+activity#org.lds.ldssa.ux.locations.LocationsActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:186:9-67
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:186:19-65
+activity#org.lds.ldssa.ux.customcollection.items.CustomCollectionDirectoryActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:187:9-96
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:187:19-94
+activity#org.lds.ldssa.ux.customcollection.collections.CustomCollectionsActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:188:9-94
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:188:19-92
+activity#org.lds.ldssa.ui.activity.HighlightPaletteActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:189:9-73
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:189:19-71
+activity#org.lds.ldssa.ux.welcome.WelcomeActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:190:9-192:54
+	android:theme
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:192:13-52
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:191:13-55
+activity#org.lds.ldssa.ux.tips.pages.TipsPagerActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:193:9-195:54
+	android:theme
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:195:13-52
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:194:13-60
+activity#org.lds.ldssa.ux.tips.lists.TipListPagerActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:196:9-71
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:196:19-69
+activity#org.lds.ldssa.ux.search.SearchActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:197:9-204:20
+	android:windowSoftInputMode
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:199:13-61
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:198:13-53
+intent-filter#android.intent.action.SEARCH+android.intent.category.DEFAULT
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:200:13-203:29
+action#android.intent.action.SEARCH
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:201:17-70
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:201:25-68
+activity#org.lds.ldssa.ux.downloadedmedia.DownloadedMediaActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:206:9-79
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:206:19-77
+activity#org.lds.ldssa.ux.share.ShareIntentActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:208:9-210:45
+	android:launchMode
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:210:13-43
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:209:13-57
+activity#com.localytics.android.PushTrackingActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:213:9-79
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:213:19-77
+activity#com.facebook.FacebookActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:216:9-220:15
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/0fcd99de0bf76ae58fa2fcda790dd569/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/0fcd99de0bf76ae58fa2fcda790dd569/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:219:13-45
+	android:configChanges
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:218:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/0fcd99de0bf76ae58fa2fcda790dd569/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:217:13-57
+activity#org.lds.ldssa.ux.study.plans.StudyPlansActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:221:9-71
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:221:19-68
+activity#org.lds.ldssa.ux.study.items.StudyItemsActivity
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:222:9-71
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:222:19-68
+meta-data#android.app.default_searchable
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:224:9-226:55
+	android:value
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:226:13-53
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:225:13-58
+meta-data#android.max_aspect
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:229:9-230:41
+	android:value
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:230:20-39
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:229:20-53
+service#org.lds.ldssa.media.texttospeech.TextToSpeechService
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:232:9-235:39
+	android:enabled
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:234:13-35
+	android:exported
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:235:13-37
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:233:13-67
+service#org.lds.ldssa.media.exomedia.service.MediaService
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:237:9-240:39
+	android:enabled
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:239:13-35
+	android:exported
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:240:13-37
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:238:13-64
+service#org.lds.ldssa.search.SearchService
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:242:9-245:39
+	android:enabled
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:244:13-35
+	android:exported
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:245:13-37
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:243:13-49
+receiver#org.lds.ldssa.ui.widget.BookmarkWidgetProvider
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:247:9-255:20
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:248:13-61
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:249:13-251:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:250:17-83
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:250:25-81
+meta-data#android.appwidget.provider
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:252:13-254:67
+	android:resource
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:254:17-65
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:253:17-58
+receiver#org.lds.ldssa.receiver.DownloadManagerReceiver
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:257:9-264:20
+	tools:ignore
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:259:13-44
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:258:13-61
+intent-filter#android.intent.action.DOWNLOAD_COMPLETE+android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:260:13-263:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:261:17-81
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:261:25-79
+action#android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:262:17-93
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:262:25-91
+service#org.lds.ldssa.service.BookmarkWidgetService
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:266:9-269:71
+	android:exported
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:268:13-37
+	android:permission
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:269:13-69
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:267:13-58
+provider#com.facebook.FacebookContentProvider
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:271:9-275:53
+	android:authorities
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:273:13-60
+	android:exported
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:274:13-36
+	tools:ignore
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:275:13-51
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:272:13-64
+provider#android.support.v4.content.FileProvider
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:277:9-285:20
+	android:grantUriPermissions
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:281:13-47
+	android:authorities
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:279:13-56
+	android:exported
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:280:13-37
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:278:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:282:13-284:52
+	android:resource
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:284:17-50
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:283:17-67
+meta-data#com.crashlytics.ApiKey
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:287:9-289:71
+	android:value
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:289:13-69
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:288:13-50
+meta-data#LOCALYTICS_APP_KEY
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:290:9-292:53
+	android:value
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:292:13-51
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:291:13-46
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:293:9-295:54
+	android:value
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:295:13-52
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:294:13-58
+meta-data#com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME
+ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:296:9-298:69
+	android:value
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:298:13-67
+	android:name
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml:297:13-93
+uses-sdk
+INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+MERGED from [org.lds.mobile:ldsmobile-devtools:2.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-devtools-2.1.0.aar/f945cebbe0c01acda01391cbcc1cdeb3/AndroidManifest.xml:6:5-8:41
+MERGED from [org.lds.mobile:ldsmobile-devtools:2.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-devtools-2.1.0.aar/f945cebbe0c01acda01391cbcc1cdeb3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:multidex-instrumentation:1.0.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/multidex-instrumentation-1.0.2.aar/10ee08de2a03c7d913f31c6f50d85b83/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex-instrumentation:1.0.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/multidex-instrumentation-1.0.2.aar/10ee08de2a03c7d913f31c6f50d85b83/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/cc83fc14ff24021c9e35819573ada882/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/cc83fc14ff24021c9e35819573ada882/AndroidManifest.xml:20:5-43
+MERGED from [org.lds.mobile:ldsaccount:10.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/AndroidManifest.xml:5:5-7:41
+MERGED from [org.lds.mobile:ldsaccount:10.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/AndroidManifest.xml:5:5-7:41
+MERGED from [org.lds.mobile:lds-ui-kit:1.6.9] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/lds-ui-kit-1.6.9.aar/96807f240e8dee9bc847f86bd58466ac/AndroidManifest.xml:5:5-7:41
+MERGED from [org.lds.mobile:lds-ui-kit:1.6.9] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/lds-ui-kit-1.6.9.aar/96807f240e8dee9bc847f86bd58466ac/AndroidManifest.xml:5:5-7:41
+MERGED from [org.lds.mobile:ldsmobile-media:10.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-media-10.1.0.aar/e4ebbb48ba7a2a959240e41e827e063e/AndroidManifest.xml:5:5-7:41
+MERGED from [org.lds.mobile:ldsmobile-media:10.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-media-10.1.0.aar/e4ebbb48ba7a2a959240e41e827e063e/AndroidManifest.xml:5:5-7:41
+MERGED from [org.lds.mobile:ldsmobile-commons:14.3.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-commons-14.3.2.aar/326c1ae550b24c1ad0f37bb458894502/AndroidManifest.xml:5:5-7:41
+MERGED from [org.lds.mobile:ldsmobile-commons:14.3.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-commons-14.3.2.aar/326c1ae550b24c1ad0f37bb458894502/AndroidManifest.xml:5:5-7:41
+MERGED from [org.lds.mobile:ldsmobile-network:4.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-network-4.1.0.aar/847ea1feceeb228fc6d57f505886174b/AndroidManifest.xml:5:5-7:41
+MERGED from [org.lds.mobile:ldsmobile-network:4.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-network-4.1.0.aar/847ea1feceeb228fc6d57f505886174b/AndroidManifest.xml:5:5-7:41
+MERGED from [org.lds.mobile:ldsmobile-download:6.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-download-6.1.0.aar/d32c67ff8caacfffac31716b35f410c8/AndroidManifest.xml:6:5-8:41
+MERGED from [org.lds.mobile:ldsmobile-download:6.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-download-6.1.0.aar/d32c67ff8caacfffac31716b35f410c8/AndroidManifest.xml:6:5-8:41
+MERGED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:5:5-7:41
+MERGED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:5:5-7:41
+MERGED from [org.lds.mobile:ldsmobile-markdown:1.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-markdown-1.3.0.aar/ce012a05b461e7020bc5373404a68170/AndroidManifest.xml:6:5-8:41
+MERGED from [org.lds.mobile:ldsmobile-markdown:1.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-markdown-1.3.0.aar/ce012a05b461e7020bc5373404a68170/AndroidManifest.xml:6:5-8:41
+MERGED from [org.lds.mobile:lds-analytics:6.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/lds-analytics-6.1.0.aar/aa97bf2735c024d389fb2f64b1295a16/AndroidManifest.xml:6:5-8:41
+MERGED from [org.lds.mobile:lds-analytics:6.1.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/lds-analytics-6.1.0.aar/aa97bf2735c024d389fb2f64b1295a16/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:preference-v14:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/preference-v14-27.0.1.aar/45010dd303ad64d7fd258390887e1538/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v14:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/preference-v14-27.0.1.aar/45010dd303ad64d7fd258390887e1538/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/design-27.0.1.aar/4fc49deef723d52ca8518157b42e6c09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/design-27.0.1.aar/4fc49deef723d52ca8518157b42e6c09/AndroidManifest.xml:20:5-44
+MERGED from [com.devbrackets.android:recyclerext:2.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/recyclerext-2.1.1.aar/535560b552f212e494794d7eee909aa8/AndroidManifest.xml:8:5-10:41
+MERGED from [com.devbrackets.android:recyclerext:2.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/recyclerext-2.1.1.aar/535560b552f212e494794d7eee909aa8/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.paolorotolo:appintro:v4.2.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/appintro-v4.2.2.aar/dc8e0d67fe3aedfad46dc5d692a2c9d6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.paolorotolo:appintro:v4.2.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/appintro-v4.2.2.aar/dc8e0d67fe3aedfad46dc5d692a2c9d6/AndroidManifest.xml:7:5-9:41
+MERGED from [org.sqlite.sqliteX:sqlite-android:3.15.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/sqlite-android-3.15.2.aar/ca7bacb88b529690b044fdda6d06ebc8/AndroidManifest.xml:6:5-8:41
+MERGED from [org.sqlite.sqliteX:sqlite-android:3.15.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/sqlite-android-3.15.2.aar/ca7bacb88b529690b044fdda6d06ebc8/AndroidManifest.xml:6:5-8:41
+MERGED from [com.afollestad:digitus:0.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/digitus-0.3.0.aar/da939ecc5d835b87be9ca9f68fafc1f5/AndroidManifest.xml:8:5-10:41
+MERGED from [com.afollestad:digitus:0.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/digitus-0.3.0.aar/da939ecc5d835b87be9ca9f68fafc1f5/AndroidManifest.xml:8:5-10:41
+MERGED from [com.devbrackets.android:exomedia:4.0.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exomedia-4.0.3.aar/0f0389c5bc6eb18ef53d9b8b2c129b15/AndroidManifest.xml:8:5-10:41
+MERGED from [com.devbrackets.android:exomedia:4.0.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exomedia-4.0.3.aar/0f0389c5bc6eb18ef53d9b8b2c129b15/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:preference-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/preference-v7-27.0.1.aar/9f53d961b0d71f140e23462823621f1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/preference-v7-27.0.1.aar/9f53d961b0d71f140e23462823621f1f/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/66ac9b14a2fa6e4ff7c7c89ff8066b4d/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/66ac9b14a2fa6e4ff7c7c89ff8066b4d/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/1de393a1e8b9fe69af95e1bee08ea7a7/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/1de393a1e8b9fe69af95e1bee08ea7a7/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/13dc1f767674c49caacebf51b750de67/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/13dc1f767674c49caacebf51b750de67/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/0fcd99de0bf76ae58fa2fcda790dd569/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/0fcd99de0bf76ae58fa2fcda790dd569/AndroidManifest.xml:24:5-26:41
+MERGED from [com.afollestad.material-dialogs:commons:0.9.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/commons-0.9.6.0.aar/afeaaf112cd57adb5080adf3bec85283/AndroidManifest.xml:8:5-10:41
+MERGED from [com.afollestad.material-dialogs:commons:0.9.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/commons-0.9.6.0.aar/afeaaf112cd57adb5080adf3bec85283/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-cast-framework:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/f418685a9e21a67c47d5eb6a5a252389/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/f418685a9e21a67c47d5eb6a5a252389/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.6.0.aar/42c7bebe6640da57e4695d5b8cd205fd/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.6.0.aar/42c7bebe6640da57e4695d5b8cd205fd/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-27.0.1.aar/f7006a37b22aef5a6eb289c6a8598275/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:mediarouter-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-27.0.1.aar/f7006a37b22aef5a6eb289c6a8598275/AndroidManifest.xml:20:5-44
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/fb9e6db16decf00bd30c324ff1bbc6a9/AndroidManifest.xml:8:5-11:75
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/fb9e6db16decf00bd30c324ff1bbc6a9/AndroidManifest.xml:8:5-11:75
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/library-1.4.2.aar/0df3a731d6c75a600bff632b482ae91e/AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/library-1.4.2.aar/0df3a731d6c75a600bff632b482ae91e/AndroidManifest.xml:12:5-14:41
+MERGED from [com.android.support:appcompat-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/67d4e4f830c482351279f7ee9e3bad7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/67d4e4f830c482351279f7ee9e3bad7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.1.aar/7f457c863f8419f36924fb03b3867348/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.1.aar/7f457c863f8419f36924fb03b3867348/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.1.aar/15be3eecb535c4fec918dc15ee27bcc6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.1.aar/15be3eecb535c4fec918dc15ee27bcc6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/percent-27.0.1.aar/aae1877724863de69a6f906d1d5d26ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/percent-27.0.1.aar/aae1877724863de69a6f906d1d5d26ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.1.aar/8657000f56f2c7c76dc81e890a243e0f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.1.aar/8657000f56f2c7c76dc81e890a243e0f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a4f072784ff3a9746a65c1cf3682a596/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a4f072784ff3a9746a65c1cf3682a596/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android:flexbox:0.3.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/flexbox-0.3.1.aar/bb3ff484f6c63155a6edee691b18362f/AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android:flexbox:0.3.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/flexbox-0.3.1.aar/bb3ff484f6c63155a6edee691b18362f/AndroidManifest.xml:23:5-25:41
+MERGED from [android.arch.paging:runtime:1.0.0-alpha3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0-alpha3.aar/3811edbb7c9bb3c3e95a717599a6df0f/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.paging:runtime:1.0.0-alpha3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0-alpha3.aar/3811edbb7c9bb3c3e95a717599a6df0f/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton:butterknife:8.7.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/butterknife-8.7.0.aar/382d812c29c9b403fae0e4d05956af90/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.7.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/butterknife-8.7.0.aar/382d812c29c9b403fae0e4d05956af90/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:palette-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/palette-v7-27.0.1.aar/c4647c05060fa2a819c6d732fbf6d41c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/palette-v7-27.0.1.aar/c4647c05060fa2a819c6d732fbf6d41c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/transition-27.0.1.aar/69f1fa5426a8d8a0f9a0108a9c0cdfe9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/transition-27.0.1.aar/69f1fa5426a8d8a0f9a0108a9c0cdfe9/AndroidManifest.xml:20:5-44
+MERGED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:8:5-10:41
+MERGED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/6681ddfc53f0de5e89bbd07d6457db8f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/6681ddfc53f0de5e89bbd07d6457db8f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/91c6456329cabdeee628ea2d4bba0852/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/91c6456329cabdeee628ea2d4bba0852/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/1258ca8f05a570c605c03ebaf6d01a92/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/1258ca8f05a570c605c03ebaf6d01a92/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/40851f4399eab3fae14780e1b2b44bf9/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/40851f4399eab3fae14780e1b2b44bf9/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7db387274d4d289d49b6e134834afb01/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7db387274d4d289d49b6e134834afb01/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/008c8dc080b9240a0eeab79fffb98925/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/008c8dc080b9240a0eeab79fffb98925/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/8595c95571540a5b596fab63c907d188/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/8595c95571540a5b596fab63c907d188/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.1.aar/b40894dfed54cc3c35f99e880bc47862/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.1.aar/b40894dfed54cc3c35f99e880bc47862/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/4177f3321316c816470c16092aad1c07/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/4177f3321316c816470c16092aad1c07/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/b40ab157f3a8b1cd1441a9ce55070b3e/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/b40ab157f3a8b1cd1441a9ce55070b3e/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/4733b57bfb0c37138908b3ee1d79a139/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/4733b57bfb0c37138908b3ee1d79a139/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/0bbcc0907af518e97cd8dc22de8d0b97/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/0bbcc0907af518e97cd8dc22de8d0b97/AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.4.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.4.3.aar/a6c64ee7e29570cb8d8d55e2abb0ccff/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:r2.4.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-r2.4.3.aar/a6c64ee7e29570cb8d8d55e2abb0ccff/AndroidManifest.xml:21:5-23:41
+MERGED from [android.arch.lifecycle:extensions:1.0.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/22eaa564f09bb1ee3c50e4a6b172f975/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:extensions:1.0.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/22eaa564f09bb1ee3c50e4a6b172f975/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-fragment:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/0d26a1f8adbd87a80cdaf384c2166c0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/0d26a1f8adbd87a80cdaf384c2166c0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/c0a664c4383f4f27c595bbc97361abdc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/c0a664c4383f4f27c595bbc97361abdc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/d65f472121572854b47b570173551fb9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/d65f472121572854b47b570173551fb9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/dfe4a4b175abbbdc76f7c46ece2cbf7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/dfe4a4b175abbbdc76f7c46ece2cbf7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/1c6f0f9d11b8b4997e082d8ce8851a8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/1c6f0f9d11b8b4997e082d8ce8851a8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/85367161cba632cf6c541bbae62dee69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/85367161cba632cf6c541bbae62dee69/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/2c583a831a67a1c70a4a633e7a627649/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/2c583a831a67a1c70a4a633e7a627649/AndroidManifest.xml:20:5-22:41
+MERGED from [org.dbtools:dbtools-android:10.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/dbtools-android-10.3.0.aar/a02b3e30bd62607047315cc6f256410e/AndroidManifest.xml:5:5-7:41
+MERGED from [org.dbtools:dbtools-android:10.3.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/dbtools-android-10.3.0.aar/a02b3e30bd62607047315cc6f256410e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/stetho-okhttp3-1.5.0.aar/e3fe0a98dbb8938ecefd09236aacfb3e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/stetho-okhttp3-1.5.0.aar/e3fe0a98dbb8938ecefd09236aacfb3e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/9c7883306ecd02ac2b7acac9ad933be8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/9c7883306ecd02ac2b7acac9ad933be8/AndroidManifest.xml:7:5-9:41
+MERGED from [me.eugeniomarletti:android-extras-delegates:1.0.5] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-extras-delegates-1.0.5.aar/d9f9e846f81c65b49a20d07b165bfd5c/AndroidManifest.xml:8:5-10:41
+MERGED from [me.eugeniomarletti:android-extras-delegates:1.0.5] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-extras-delegates-1.0.5.aar/d9f9e846f81c65b49a20d07b165bfd5c/AndroidManifest.xml:8:5-10:41
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/3d76835ad63c432501fc14ef76936d2d/AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/3d76835ad63c432501fc14ef76936d2d/AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.0.5] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/threetenabp-1.0.5.aar/f946108297fecc0fd50de9192b2ec6eb/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.0.5] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/threetenabp-1.0.5.aar/f946108297fecc0fd50de9192b2ec6eb/AndroidManifest.xml:6:5-44
+MERGED from [com.vikingsen:pocketbus:1.2.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/pocketbus-1.2.0.aar/6742b390e99b4b4d83d5030151fbc2c7/AndroidManifest.xml:6:5-8:41
+MERGED from [com.vikingsen:pocketbus:1.2.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/pocketbus-1.2.0.aar/6742b390e99b4b4d83d5030151fbc2c7/AndroidManifest.xml:6:5-8:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/84adcd352fb75e0ddce63bae181d6bbc/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/84adcd352fb75e0ddce63bae181d6bbc/AndroidManifest.xml:19:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/9daa746441fbc188e7489e471fac8cee/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/9daa746441fbc188e7489e471fac8cee/AndroidManifest.xml:7:5-43
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.4.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.4.3.aar/3a296f99fe07841785df15efdf327d1c/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:r2.4.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-r2.4.3.aar/3a296f99fe07841785df15efdf327d1c/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.4.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.4.3.aar/3c3ef9ca4e1c692feabe5cff283e4ce3/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:r2.4.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-r2.4.3.aar/3c3ef9ca4e1c692feabe5cff283e4ce3/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.4.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.4.3.aar/e74c6b0e2baed0b90ccfa1e55e491204/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:r2.4.3] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/exoplayer-core-r2.4.3.aar/e74c6b0e2baed0b90ccfa1e55e491204/AndroidManifest.xml:21:5-23:41
+MERGED from [android.arch.core:runtime:1.0.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a4276fd78d759b96626bcd2cbd1c267e/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.core:runtime:1.0.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a4276fd78d759b96626bcd2cbd1c267e/AndroidManifest.xml:20:5-22:41
+MERGED from [com.devbrackets.android:playlistcore:2.0.0-20171004] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/playlistcore-2.0.0-20171004.aar/620418c466045cdb58710ecb0e26e13c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.devbrackets.android:playlistcore:2.0.0-20171004] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/playlistcore-2.0.0-20171004.aar/620418c466045cdb58710ecb0e26e13c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.localytics.android:library:4.5.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/library-4.5.1.aar/d7d556131c6a98f792375c20609f3d12/AndroidManifest.xml:7:5-9:41
+MERGED from [com.localytics.android:library:4.5.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/library-4.5.1.aar/d7d556131c6a98f792375c20609f3d12/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-license-11.6.0.aar/5f04500d223e8910a0898e5a6dd86acf/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-license-11.6.0.aar/5f04500d223e8910a0898e5a6dd86acf/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.6.0.aar/67e6e492c4f6e916aff6b5ddf68de156/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.6.0.aar/67e6e492c4f6e916aff6b5ddf68de156/AndroidManifest.xml:4:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/1fde6d2932a2202731aea9b581cff740/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/1fde6d2932a2202731aea9b581cff740/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.4.1.aar/fab006da5203e0645fed8ff64d33708c/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.4.1.aar/fab006da5203e0645fed8ff64d33708c/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/1fa72181d32058adf77dd55ccc36174a/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/1fa72181d32058adf77dd55ccc36174a/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d64f22ca3e7885d3b8a02b5f47a4ba06/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/d64f22ca3e7885d3b8a02b5f47a4ba06/AndroidManifest.xml:27:5-43
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/902e4033e99ec1c3f14c806c29f9e9ca/AndroidManifest.xml:21:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-analyzer-1.5.4.aar/902e4033e99ec1c3f14c806c29f9e9ca/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/44d005d37659bd20163b7cc54c6481ac/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/44d005d37659bd20163b7cc54c6481ac/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-license-11.6.0.aar/3a574c50620f349b08550cb7b39ebbab/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-license-11.6.0.aar/3a574c50620f349b08550cb7b39ebbab/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/aae73ca9a6ef30162b0d5e60844a5b6c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/aae73ca9a6ef30162b0d5e60844a5b6c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.6.0.aar/aa7081a090e48848236c038e9d252c2d/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.6.0.aar/aa7081a090e48848236c038e9d252c2d/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/35ec44d76744e188e307d9314af898ab/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/35ec44d76744e188e307d9314af898ab/AndroidManifest.xml:4:5-43
+INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.afollestad.material-dialogs:core:0.9.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/fb9e6db16decf00bd30c324ff1bbc6a9/AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+		INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+		ADDED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+		INJECTED from /Users/dexterdrysdale/Documents/GitHub/GospelLibrary-Android/src/main/AndroidManifest.xml
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [org.lds.mobile:ldsaccount:10.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from [org.lds.mobile:ldsaccount:10.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/AndroidManifest.xml:12:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from [org.lds.mobile:ldsaccount:10.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from [org.lds.mobile:ldsaccount:10.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsaccount-10.1.1.aar/11774efae3f543bc6ea6eb827e6b4c55/AndroidManifest.xml:14:22-63
+activity#org.lds.mobile.about.AboutLibrariesActivity
+ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:13:9-15:55
+	android:theme
+		ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:15:13-52
+	android:name
+		ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:14:13-71
+activity#org.lds.mobile.about.AboutLicenseActivity
+ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:16:9-18:55
+	android:theme
+		ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:18:13-52
+	android:name
+		ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:17:13-69
+activity#org.lds.mobile.about.AboutTvLibrariesActivity
+ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:19:9-21:55
+	android:theme
+		ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:21:13-52
+	android:name
+		ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:20:13-73
+activity#org.lds.mobile.about.AboutTvLicenseActivity
+ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:22:9-24:55
+	android:theme
+		ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:23:13-71
+activity#org.lds.mobile.about.AboutTvWebActivity
+ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:25:9-27:55
+	android:theme
+		ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:27:13-52
+	android:name
+		ADDED from [org.lds.mobile:ldsmobile-about:7.1.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/ldsmobile-about-7.1.1.aar/5acc9287835cfcb5371ebd74605c0a74/AndroidManifest.xml:26:13-67
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/0fcd99de0bf76ae58fa2fcda790dd569/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/0fcd99de0bf76ae58fa2fcda790dd569/AndroidManifest.xml:33:19-68
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/f418685a9e21a67c47d5eb6a5a252389/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/f418685a9e21a67c47d5eb6a5a252389/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/f418685a9e21a67c47d5eb6a5a252389/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/f418685a9e21a67c47d5eb6a5a252389/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/f418685a9e21a67c47d5eb6a5a252389/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/f418685a9e21a67c47d5eb6a5a252389/AndroidManifest.xml:7:18-90
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:14:22-78
+service#com.evernote.android.job.v21.PlatformJobService
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:17:9-20:72
+	android:exported
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:19:13-37
+	android:permission
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:20:13-69
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:18:13-75
+service#com.evernote.android.job.v14.PlatformAlarmService
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:21:9-24:72
+	android:exported
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:23:13-37
+	android:permission
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:24:13-69
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:22:13-77
+service#com.evernote.android.job.v14.PlatformAlarmServiceExact
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:26:13-82
+receiver#com.evernote.android.job.v14.PlatformAlarmReceiver
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:29:9-38:20
+	android:exported
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:30:13-78
+intent-filter#com.evernote.android.job.v14.RUN_JOB+net.vrallev.android.job.v14.RUN_JOB
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:32:13-37:29
+action#com.evernote.android.job.v14.RUN_JOB
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:35:17-79
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:35:25-76
+action#net.vrallev.android.job.v14.RUN_JOB
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:36:17-78
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:36:25-75
+receiver#com.evernote.android.job.JobBootReceiver
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:39:9-48:20
+	android:exported
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:40:13-68
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.MY_PACKAGE_REPLACED+android.intent.action.QUICKBOOT_POWERON+com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:42:13-47:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:43:17-79
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:43:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:44:17-82
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:44:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:45:17-82
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:45:25-79
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:46:17-84
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:46:25-81
+service#com.evernote.android.job.gcm.PlatformGcmService
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:50:9-58:19
+	android:enabled
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:52:13-36
+	android:exported
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:53:13-36
+	android:permission
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:54:13-93
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:51:13-75
+intent-filter#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:55:13-57:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:56:17-87
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:56:25-84
+service#com.evernote.android.job.JobRescheduleService
+ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:59:9-62:72
+	android:exported
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:61:13-37
+	android:permission
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:62:13-69
+	android:name
+		ADDED from [com.evernote:android-job:1.2.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/android-job-1.2.1.aar/540848be5be42ef2af4389e605894c9d/AndroidManifest.xml:60:13-73
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/6681ddfc53f0de5e89bbd07d6457db8f/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/91c6456329cabdeee628ea2d4bba0852/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/91c6456329cabdeee628ea2d4bba0852/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/6681ddfc53f0de5e89bbd07d6457db8f/AndroidManifest.xml:20:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/1258ca8f05a570c605c03ebaf6d01a92/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/1258ca8f05a570c605c03ebaf6d01a92/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/1258ca8f05a570c605c03ebaf6d01a92/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/1258ca8f05a570c605c03ebaf6d01a92/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7db387274d4d289d49b6e134834afb01/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7db387274d4d289d49b6e134834afb01/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.6.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/7db387274d4d289d49b6e134834afb01/AndroidManifest.xml:20:20-65
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/0bbcc0907af518e97cd8dc22de8d0b97/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/0bbcc0907af518e97cd8dc22de8d0b97/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/0bbcc0907af518e97cd8dc22de8d0b97/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/0bbcc0907af518e97cd8dc22de8d0b97/AndroidManifest.xml:40:13-70
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.0.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/22eaa564f09bb1ee3c50e4a6b172f975/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/22eaa564f09bb1ee3c50e4a6b172f975/AndroidManifest.xml:27:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/22eaa564f09bb1ee3c50e4a6b172f975/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/22eaa564f09bb1ee3c50e4a6b172f975/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.0.0] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0.aar/22eaa564f09bb1ee3c50e4a6b172f975/AndroidManifest.xml:26:13-83
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/9daa746441fbc188e7489e471fac8cee/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/9daa746441fbc188e7489e471fac8cee/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/9daa746441fbc188e7489e471fac8cee/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/9daa746441fbc188e7489e471fac8cee/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/9daa746441fbc188e7489e471fac8cee/AndroidManifest.xml:13:13-75
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:27:9-30:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:30:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:28:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:31:9-34:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:34:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:32:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:36:9-49:20
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:41:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:38:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:40:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:39:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:43:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:42:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:37:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:50:9-58:68
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:56:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:52:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:55:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:53:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:54:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:58:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:57:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/leakcanary-android-1.5.4.aar/48ff11f165030ac846eb7f55f436bf8b/AndroidManifest.xml:51:13-93
+receiver#com.devbrackets.android.playlistcore.components.mediasession.DefaultMediaSessionControlsReceiver
+ADDED from [com.devbrackets.android:playlistcore:2.0.0-20171004] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/playlistcore-2.0.0-20171004.aar/620418c466045cdb58710ecb0e26e13c/AndroidManifest.xml:12:9-18:20
+	android:exported
+		ADDED from [com.devbrackets.android:playlistcore:2.0.0-20171004] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/playlistcore-2.0.0-20171004.aar/620418c466045cdb58710ecb0e26e13c/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.devbrackets.android:playlistcore:2.0.0-20171004] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/playlistcore-2.0.0-20171004.aar/620418c466045cdb58710ecb0e26e13c/AndroidManifest.xml:13:13-124
+intent-filter#android.intent.action.MEDIA_BUTTON
+ADDED from [com.devbrackets.android:playlistcore:2.0.0-20171004] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/playlistcore-2.0.0-20171004.aar/620418c466045cdb58710ecb0e26e13c/AndroidManifest.xml:15:13-17:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from [com.devbrackets.android:playlistcore:2.0.0-20171004] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/playlistcore-2.0.0-20171004.aar/620418c466045cdb58710ecb0e26e13c/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from [com.devbrackets.android:playlistcore:2.0.0-20171004] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/playlistcore-2.0.0-20171004.aar/620418c466045cdb58710ecb0e26e13c/AndroidManifest.xml:16:25-74
+receiver#com.localytics.android.LocationUpdateReceiver
+ADDED from [com.localytics.android:library:4.5.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/library-4.5.1.aar/d7d556131c6a98f792375c20609f3d12/AndroidManifest.xml:14:9-16:39
+	android:enabled
+		ADDED from [com.localytics.android:library:4.5.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/library-4.5.1.aar/d7d556131c6a98f792375c20609f3d12/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.localytics.android:library:4.5.1] /Users/dexterdrysdale/.gradle/caches/transforms-1/files-1.1/library-4.5.1.aar/d7d556131c6a98f792375c20609f3d12/AndroidManifest.xml:15:13-73

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/themeStyleColorBackground"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/mainToolbar"
+        layout="@layout/toolbar_dim"/>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/themeStyleColorBackground"
+            android:orientation="vertical"
+            app:elevation="0dp">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/linksLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                app:flexWrap="wrap"
+                app:showDivider="beginning|middle"
+                app:dividerDrawable="@drawable/divider_flexbox_default"
+                />
+
+            <EditText
+                android:id="@+id/searchEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:background="?attr/themeStyleColorBackground"
+                android:gravity="center_vertical"
+                android:hint="@string/search_for_links"
+                android:imeOptions="flagNoExtractUi|flagNoFullscreen"
+                android:inputType="text"
+                android:minWidth="48dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:maxLines="1"
+                android:textColor="?attr/themeStyleColorTextDefault"
+                android:textColorHint="?attr/themeStyleColorTextHint"
+                tools:ignore="LabelFor,RtlHardcoded"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?attr/themeStyleColorTextItemSubTitle"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/searchResultsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:scrollbars="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

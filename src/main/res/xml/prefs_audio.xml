@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/audio_playback_options"
+        android:entryValues="@array/audio_playback_options_values"
+        android:key="audio_speed"
+        android:title="@string/playback_speed"/>
+
+    <!--suppress AndroidElementNotAllowed -->
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="audio_continuous_play"
+        android:title="@string/continuous_play"
+        />
+
+    <!--The voice default value needs to conform with the default prefValue in AudioPlaybackVoiceType-->
+    <ListPreference
+        android:defaultValue="Male"
+        android:entries="@array/voice_options"
+        android:entryValues="@array/voice_options_values"
+        android:key="audio_voice"
+        android:summary="%s"
+        android:title="@string/voice"
+        />
+
+    <Preference
+        android:key="text_to_speech_settings"
+        android:title="@string/text_to_speech_settings"/>
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+{
+  "syncFolders": {
+    "count": 1,
+    "since": "1970-01-01T00:00:00.000-07:00",
+    "before": "2016-07-06T10:17:51.101-06:00",
+    "timeDiff": "PT0.712S",
+    "changes": [
+      {
+        "folderId": "03B51CC6-66FC-4535-8AA4-04EB4BAEC19B",
+        "changeType": "new",
+        "timestamp": "2015-09-04T09:25:25.268-06:00",
+        "folder": {
+          "label": "Test",
+          "timestamp": "2015-09-04T09:25:25.268-06:00",
+          "@guid": "03B51CC6-66FC-4535-8AA4-04EB4BAEC19B"
+        }
+      }
+    ]
+  }
+}

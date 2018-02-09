@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Lisää</string>
+    <string name="all">Kaikki</string>
+    <string name="app_name">Evankeliumiaiheinen kirjasto</string>
+    <string name="auto">Automaattinen</string>
+    <string name="allow_in_app_notifications">Salli ilmoitukset sovelluksen sisällä</string>
+    <string name="exact_phrase">Sanatarkka ilmaus</string>
+    <string name="keywords">Avainsanat</string>
+    <string name="bookmark">Kirjanmerkki</string>
+    <string name="cancel">Peruuta</string>
+    <string name="cancel_all">Peruuta kaikki</string>
+    <string name="content">Sisältö</string>
+    <string name="copy">Kopioi</string>
+    <string name="delete">Poista</string>
+    <string name="define">Määrittele</string>
+    <string name="display">Näyttö</string>
+    <string name="done">Suoritettu</string>
+    <string name="download">Lataa</string>
+    <string name="download_all">Lataa kaikki</string>
+    <string name="download_item">Lataa kohde</string>
+    <string name="feedback">Palaute</string>
+    <string name="keep">Säilytä</string>
+    <string name="library">Kirjasto</string>
+    <string name="link">Linkki</string>
+    <string name="links">Linkkejä</string>
+    <string name="merge">Yhdistä</string>
+    <string name="never">Ei koskaan</string>
+    <string name="no">Ei</string>
+    <string name="note">Muistiinpano</string>
+    <string name="none">Ei mitään</string>
+    <string name="ok">OK</string>
+    <string name="remove">Poista</string>
+    <string name="remove_all">Poista kaikki</string>
+    <string name="rename">Nimeä uudelleen</string>
+    <string name="search">Hae</string>
+    <string name="settings">Asetukset</string>
+    <string name="screen_settings">Näytön asetukset</string>
+    <string name="share">Jaa</string>
+    <string name="skip">Ohita</string>
+    <string name="sort">Lajittele</string>
+    <string name="tag">Tunniste</string>
+    <string name="tags">Tunnisteet</string>
+    <string name="theme_default">oletus</string>
+    <string name="theme_night">yö</string>
+    <string name="theme_sepia">seepia</string>
+    <string name="theme_dark_blue">tummansininen</string>
+    <string name="today">Tänään</string>
+    <string name="undo">Kumoa</string>
+    <string name="update">Päivitä</string>
+    <string name="view">Näytä</string>
+    <string name="yes">Kyllä</string>
+    <string name="yesterday">Eilen</string>
+    <!-- Other -->
+    <string name="add_bookmark">Lisää kirjanmerkki</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Lisää tunniste</string>
+    <string name="add_to">Lisää…</string>
+    <string name="add_to_ellipsis">Lisää…</string>
+    <string name="add_to_notebook">Lisää muistikirjaan</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">Ei voi näyttää merkintää, koska sisältöä ”%s” ei ole ladattu.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Asenna päivitys napauttamalla.</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">Evankeliumiaiheisen kirjaston päivitys on saatavana.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Ääniasetukset</string>
+    <string name="backup_annotations_message">Mikäli et kirjaudu sisään ennen Evankeliumiaiheinen kirjasto -sovelluksen seuraavaa päivitystä, henkilökohtaiset merkintäsi (korostukset, muistiinpanot, kirjanmerkit jne.) häviävät.</string>
+    <string name="backup_annotations_title">Takaisin merkintöihin</string>
+    <string name="bookmarks">Kirjanmerkit</string>
+    <string name="bookmark_added">Kirjanmerkki lisätty</string>
+    <string name="bookmark_empty">Et ole lisännyt yhtään kirjanmerkkiä.</string>
+    <string name="bookmark_updated">Kirjanmerkki päivitetty</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Lähetä</string>
+    <string name="catalog_title">Evankeliumiaiheinen kirjasto - luettelo</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Valitse korostus</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Tyhjennä ladattu media</string>
+    <string name="clear_history">Tyhjennä historia</string>
+    <string name="content_no_content" comment="Shown in content drawer">Ei voi näyttää sisältöä, koska sisältöä ”%s” ei ole ladattu</string>
+    <string name="content_not_downloaded">Sisältöä %s ei ole ladattu.</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Jatkuva toisto</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Teksti kopioitu leikepöydälle</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">Luo ”%s”</string>
+    <string name="current_downloads">Nykyiset lataukset</string>
+    <string name="custom_collections">Määriteltävät kokoelmat</string>
+    <string name="delete_annotation_title">Poista merkintä</string>
+    <string name="delete_annotation_message">Myös kaikki tähän korostukseen liitetyt muistiinpanot, tunnisteet tai linkit poistetaan.</string>
+    <string name="delete_collection_item_title">Poista ”%1$s”?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s poistetaan.\nPoista kaikki media?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">Kaiken median poistaminen ei onnistu</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s poistetaan sisällöstä ”%1$s”.\nPoista media?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Poista mediaa</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Poista muistikirjat</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Poista valitut muistikirjat?</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Poista tunniste</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Poista tunnisteet</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">Haluatko varmasti poistaa tämän tunnisteen kaikista muistiinpanoista ja korostuksista?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">Haluatko varmasti poistaa nämä tunnisteet kaikista muistiinpanoista ja korostuksista?</string>
+    <string name="deleted">%s poistettu</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">%s kirjanmerkki poistettu</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">%s muistikirja poistettu</string>
+    <string name="dialog_sign_out_confirmation">Haluatko varmasti kirjautua ulos?</string>
+    <string name="double_tap_fullscreen_training">Vinkki: poistu koko näytön tilasta kaksoisnapauttamalla näyttöä.</string>
+    <string name="download_audio" comment="download audio">Lataa ääni</string>
+    <string name="download_all_selected_confirm">%d kohdetta ladataan.\nLataa valitut kohteet?</string>
+    <string name="download_cancel_confirm_all">Kaikki nykyiset lataukset peruutetaan.\nPeruuta lataukset?</string>
+    <string name="download_cancel">Peruuta lataus?</string>
+    <string name="download_canceling">Peruuttaa latauksen…</string>
+    <string name="download_item_message">Sisältöä %s ei ole ladattu. Haluatko ladata sen nyt?</string>
+    <string name="download_video" comment="download video">Lataa video</string>
+    <string name="downloaded_media">Ladattu media</string>
+    <string name="downloading_ellipsis">Lataus käynnissä…</string>
+    <string name="downloading_audio">Lataa sisällön %s ääntä</string>
+    <string name="downloading_video">Lataa sisällön %s videota</string>
+    <string name="download_file_failed_insufficient_space">Sisällön %s lataaminen epäonnistui.\nTila ei riitä.</string>
+    <string name="download_file_failed">Sisällön %s lataaminen epäonnistui.\nTarkista internetyhteys ja yritä uudelleen.</string>
+    <string name="download_dir_error">Lataushakemiston luominen epäonnistui.</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">Kokoelman nimi</string>
+    <string name="existing_annotations_prompt">Tällä laitteella on jo %d merkintää. Mitä haluaisit tehdä olemassa oleville merkinnöille?</string>
+    <string name="existing_annotations">Nykyiset merkinnät</string>
+    <string name="featured_apps">Ajankohtaiset sovellukset</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Nainen</string>
+    <string name="finalizing_ellipsis">Viimeistellään…</string>
+    <string name="find_by_name">Etsi nimellä</string>
+    <string name="find_count">%1$d/%2$d</string>
+    <string name="find_x_on_page">Etsi \"%s\" sivulta</string>
+    <string name="find_x_in_x">Etsi \"%1$s\" sisällöstä %2$s</string>
+    <string name="find_exact_x_in_x">Etsi sanatarkka ilmaus \"%1$s\" sisällöstä %2$s</string>
+    <string name="marked_text_position">%1$d/%2$d tuloksesta</string>
+    <string name="marked_text_position_no_results">0 tulosta</string>
+    <string name="sign_in_error" comment="Failed to login invalid username or password.">Virhe kirjautumisessa</string>
+    <string name="highlight_style">Korostustyyli</string>
+    <string name="history">Historia</string>
+    <string name="history_cleared">Historia tyhjennetty</string>
+    <string name="installing_ellipsis">Asennetaan…</string>
+    <string name="journal">Päiväkirja</string>
+    <string name="journal_restore">Palauta päiväkirja</string>
+    <string name="journal_create_notebook">Luo päiväkirjasta muistikirja</string>
+    <string name="journal_restore_description">Vaikka Päiväkirja-osa on poistettu, muistiinpanosi ovat tallessa. Jos haluat, voimme koota kaikki muistiinpanot, jotka olivat aiemmin Päiväkirja-osassa, ja luoda niistä uuden muistikirjan nimeltä Päiväkirja.</string>
+    <string name="journal_restore_result">Päiväkirjan palautus valmis. %d muistoonpanoa siirretty.</string>
+    <string name="language">Kieli</string>
+    <string name="lds_account_summary">LDS Account -tiliä käytetään merkintöjesi varmuuskopiointiin ja synkronointiin laitteissa ja lds.orgissa.</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">kohtaan %1$s</string>
+    <string name="loading_ellipsis">Ladataan…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Mies</string>
+    <string name="mark" comment="Select highlight color">Merkitse</string>
+    <string name="media_type">Mediatyyppi</string>
+    <string name="menu_new_screen">Uusi näyttö...</string>
+    <string name="merged_notebook_name_prompt">Valitut muistikirjat yhdistetään. Anna yhdistetyn muistikirjan nimi.</string>
+    <string name="merged_notebook_name">Yhdistetyn muistikirjan nimi</string>
+    <string name="merged_tag_name">Yhdistetyn tunnisteen nimi</string>
+    <string name="move_to_notebook">Siirry muistikirjaan</string>
+    <string name="my_collections">Omat kokoelmani</string>
+    <string name="network_required" comment="Not connected to any network">Tämä toimenpide edellyttää internetyhteyttä. Yhdistä mobiili- tai Wi-Fi-verkkoon ja yritä uudelleen.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">Asetustesi vuoksi sinun on oltava yhteydessä Wi-Fi-verkkoon, jotta voit suorittaa tämän toimenpiteen.</string>
+    <string name="no_bookmarks">Ei kirjanmerkkejä</string>
+    <string name="no_bookmarks_description">Lisäämällä kirjanmerkin voit palata nopeasti siihen, mihin jäit.</string>
+    <string name="no_content">Ei sisältöä</string>
+    <string name="no_collection_content_description">Lisää sisältöä kokoelmaan helposti käytettäväksi</string>
+    <string name="no_custom_collections">Ei määriteltyjä kokoelmia</string>
+    <string name="no_custom_collections_description">Luo määriteltyjä kokoelmia, jolloin on helppoa tarkastella toisiinsa liittyvää aineistoa.</string>
+    <string name="no_downloads_in_progress">Ei keskeneräisiä latauksia</string>
+    <string name="no_downloads_in_progress_description">Sisältöä ja mediaa ladataan parhaillaan</string>
+    <string name="no_downloaded_media">Ei ladattua mediaa</string>
+    <string name="no_downloaded_media_description">Lataa ääni tai video käytettäväksi offline-tilassa</string>
+    <string name="no_history">Ei historiaa</string>
+    <string name="no_history_description">Tutki sisältöä, löydä polkusi ja palaa siihen.</string>
+    <string name="no_matches" comment="No results">Ei tuloksia</string>
+    <string name="no_matches_description">Ei tuloksia kyseisestä hausta</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">Ei muistikirjoja</string>
+    <string name="no_notebooks_description">Luo haluamasi määrä muistikirjoja kaikkien muistiinpanojesi järjestämiseksi.</string>
+    <string name="no_notes">Ei muistiinpanoja</string>
+    <string name="no_notes_in_notebook">Ei muistiinpanoja tässä muistikirjassa</string>
+    <string name="no_notes_description">Kirjoita muistiinpanoja tallentaaksesi ajatuksiasi ja saamaasi innoitusta.</string>
+    <string name="no_related_content">Ei samankaltaista sisältöä</string>
+    <string name="no_related_content_description2">Saatavana ei ole alaviitteitä tai muuta samankaltaista sisältöä</string>
+    <string name="no_tags" comment="The message to show when there are no tags">Ei tunnisteita</string>
+    <string name="no_tags_description">Luo tunniste ryhmitelläksesi sisältöä kaikkialta sovelluksesta.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">Ei tunnisteella merkittyä sisältöä</string>
+    <string name="no_tagged_content_description">Liitä tunniste mihin tahansa sisällön kohtaan myöhemmin käytettäväksi.</string>
+    <string name="no_thanks">Ei kiitos</string>
+    <string name="no_tips">Ei vinkkejä</string>
+    <string name="no_tips_description">Vinkeissä näytetään hyödyllisiä toimintoja sovelluksesta</string>
+    <string name="note_content">Muistiinpanon sisältö</string>
+    <string name="notebook">Muistikirja</string>
+    <string name="notebooks">Muistikirjat</string>
+    <string name="notes">Muistiinpanoja</string>
+    <string name="num_item_add_to">%1$s kohde lisätty kohtaan %2$s</string>
+    <string name="num_item">%d kohde</string>
+    <string name="num_items_add_to">%1$s kohdetta lisätty kohtaan %2$s</string>
+    <string name="num_items">%d kohdetta</string>
+    <string name="open">Avaa</string>
+    <string name="open_in_music">Avaa MAP-musiikissa</string>
+    <string name="open_in_new_screen">Avaa uudessa näytössä</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">Kiinnitä sivupalkki</string>
+    <string name="play_audio">Toista ääni</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Toistonopeus</string>
+    <string name="playback_speed_0.5x">0,5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1,25x</string>
+    <string name="playback_speed_1.5x">1,5x</string>
+    <string name="playback_speed_1.75x">1,75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Oikaise käyttäjänimesi ja salasanasi kirjautumalla uudelleen sisään.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Hallinnoi tai katsele ladattuja ääni- ja videotiedostoja</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"– – katso, minä sanon sinulle, että pienillä ja yksinkertaisilla asioilla saadaan aikaan suuria, ja pienet keinot saattavat monta kertaa viisaat ymmälle."</string>
+    <string name="pref_general_list_mode">Luettelotila</string>
+    <string name="pref_hide_footnotes">Piilota alaviitteet</string>
+    <string name="pref_limit_mobile_network_subtitle">Lataa ja suoratoista vain Wi-Fi-yhteydessä</string>
+    <string name="pref_limit_mobile_network">Rajoita mobiiliverkon käyttöä</string>
+    <string name="pref_theme">Teema</string>
+    <string name="problem_playing_video">Videon toistossa tapahtui virhe.</string>
+    <string name="read_more">Lue lisää</string>
+    <string name="recent" comment="label for study notebook">Viimeisimmät</string>
+    <string name="related_content">Samankaltaista sisältöä</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">Haluatko varmasti poistaa valitut kohteet?</string>
+    <string name="remove_from_collection">Poista kokoelmasta</string>
+    <string name="rename_bookmark">Nimeä kirjanmerkki uudelleen</string>
+    <string name="rename_screen">Nimeä näyttö uudelleen</string>
+    <string name="requested_ellipsis">Pyyntö lähetetty…</string>
+    <string name="requested_paused_retry_ellipsis">Pyyntö lähetetty... (odottaa uudelleen lähettämistä)</string>
+    <string name="requested_paused_network_ellipsis">Pyyntö lähetetty... (odottaa verkkoa)</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d tulos</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d tulosta</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s-%2$d tulos</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s-%2$d tulosta</string>
+    <string name="save">Tallenna</string>
+    <string name="screens">Näytöt</string>
+    <string name="screen_missing_content">Et ole ladannut valitun näytön sisältöä.\n\nHaluaisitko ladata kohteen \"%1$s\" sisällön nyt?</string>
+    <string name="screens_separate_windows">Näytä näytöt erillisinä ikkunoina</string>
+    <string name="search_all_content">Hae koko sisällöstä</string>
+    <string name="search_for_links">Hae avainsanojen, jakeiden tai otsikoiden mukaan</string>
+    <string name="select_highlight">Valitse korostus</string>
+    <string name="select_items">Valitse kohteet</string>
+    <string name="select_link">Valitse linkki</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Valitse linkitettävä teksti</string>
+    <string name="selected_media_unavailable">Valittu media ei ole saatavana.</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Edellinen synkronointi: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Lajittele lukumäärän mukaan</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Lajittele viimeisimmän mukaan</string>
+    <string name="sort_by_name" comment="sort items by their name">Lajittele nimen mukaan</string>
+    <string name="sort_by_size" comment="sort media items">Lajittele koon mukaan</string>
+    <string name="sort_by_item" comment="sort media items">Lajittele kohteen mukaan</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Versio %s</string>
+    <string name="style">Tyyli</string>
+    <string name="sync_error_invalid_credentials">Väärä käyttäjänimi/salasana</string>
+    <string name="sync_error_no_network">Verkkoyhteys ei ole saatavana</string>
+    <string name="sync_notification_failure">Merkintöjen synkronointi epäonnistui</string>
+    <string name="sync_notification_gathering_changes">Kokoaa muutoksia</string>
+    <string name="sync_notification_processing_changes">Käsittelee muutoksia</string>
+    <string name="sync_notification_receiving_changes">Ottaa vastaan muutoksia</string>
+    <string name="sync_notification_receiving_update_list">Ottaa vastaan luetteloa päivityksistä</string>
+    <string name="sync_notification_sending_changes">Lähettää muutoksia</string>
+    <string name="sync_notification_sending_update_request">Lähettää päivityspyyntöä</string>
+    <string name="syncing_notebooks">Synkronoi muistikirjoja</string>
+    <string name="syncing_annotations">Synkronoi merkintöjä</string>
+    <string name="notification_channel_general">Yleiset ilmoitukset</string>
+    <string name="notification_channel_sync">Merkintöjen synkronointi</string>
+    <string name="notification_channel_media_playback">Mediasisällön toisto</string>
+    <string name="text_size" comment="">Tekstikoko</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Tekstistä puheeksi</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Tekstistä puheeksi -asetukset</string>
+    <string name="tips">Vinkkejä</string>
+    <string name="title_optional">Otsikko (valinnainen)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Poista sivupalkin kiinnitys</string>
+    <string name="update_catalog_wifi_required">Päivitettyä sisältöä on saatavana, mutta sinun täytyy olla Wi-Fi-yhteydessä ladataksesi sen.</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">Muokkaa tunnistetta</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Videon laatu</string>
+    <string name="video_unavailable">Video ei saatavana</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Pääasiallinen ääni</string>
+    <string name="whats_new">Mitä uutta</string>
+</resources>

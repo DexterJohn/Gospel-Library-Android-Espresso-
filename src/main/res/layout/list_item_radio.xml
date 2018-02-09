@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:orientation="horizontal"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <RadioButton
+        android:id="@+id/list_item_radio_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="center"
+        android:clickable="false" />
+
+    <TextView
+        android:id="@+id/list_item_radio_text"
+        style="?attr/themeStyleWidgetText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:gravity="center_vertical"
+        android:textColor="?attr/themeStyleColorTextItemTitle"
+        tools:ignore="RtlHardcoded"
+        tools:text="Book of Mormon Notes" />
+</LinearLayout>

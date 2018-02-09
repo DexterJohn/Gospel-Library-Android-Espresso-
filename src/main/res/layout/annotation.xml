@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="16dp"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <!-- Last modified -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/ic_lds_event_12dp"
+            />
+
+        <TextView
+            android:id="@+id/lastModifiedTextView"
+            style="?attr/themeStyleWidgetText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:textSize="12sp"
+            tools:text="Fri, Dec 16, 2013"
+            />
+    </LinearLayout>
+
+    <!-- Note title -->
+    <org.lds.mobile.markdown.widget.MarkdownTextView
+        android:id="@+id/noteTitleTextView"
+        style="?attr/themeStyleWidgetText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="24sp"
+        android:visibility="gone"
+        tools:text="Title of my note"
+        tools:visibility="visible"
+        />
+
+    <!-- Note content -->
+    <org.lds.mobile.markdown.widget.MarkdownTextView
+        android:id="@+id/noteMarkdownTextView"
+        style="?attr/themeStyleWidgetText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp"
+        android:textColor="?attr/themeStyleColorTextDefault"
+        android:visibility="gone"
+        tools:text="Test note that I have written about something I thought about"
+        tools:visibility="visible"/>
+
+    <LinearLayout
+        android:id="@+id/highlightLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="24dp"
+        >
+
+        <include layout="@layout/annotation_highlight_reference"/>
+
+    </LinearLayout>
+
+    <!-- Links -->
+    <LinearLayout
+        android:id="@+id/linksLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="24dp"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+    <!-- Tags -->
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/tagsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="24dp"
+        android:visibility="gone"
+        app:flexWrap="wrap"
+        app:showDivider="beginning|middle"
+        app:dividerDrawable="@drawable/divider_flexbox_default"
+        tools:visibility="visible"
+        />
+
+    <!-- Notebooks -->
+    <LinearLayout
+        android:id="@+id/notebooksLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="24dp"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/bookmarks_fragment_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="@dimen/fab_list_bottom_padding"
+            android:paddingTop="8dp"
+            android:scrollbars="vertical"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <org.lds.mobile.ui.widget.EmptyStateIndicator
+        android:id="@+id/emptyStateIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        app:image="@drawable/ic_lds_bookmark_80dp"
+        app:imageTint="?attr/emptyStateImageColor"
+        app:subTitle="@string/no_bookmarks_description"
+        app:subTitleTextColor="?attr/emptyStateSubTitleColor"
+        app:title="@string/no_bookmarks"
+        app:titleTextColor="?attr/emptyStateTitleColor"
+        />
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="download_media_icon_size">32dp</dimen>
+    <dimen name="download_media_icon_padding">5dp</dimen>
+
+    <dimen name="drop_shadow_height">4dp</dimen>
+    <dimen name="drag_elevation_increase">8dp</dimen>
+
+    <dimen name="material_dialog_content_margin">24dp</dimen>
+    <dimen name="material_min_touch_target">48dp</dimen> <!-- The minimum touch size of a selectable view -->
+    <dimen name="material_min_list_item_height">72dp</dimen>
+
+    <dimen name="toolbar_title_size_dim">20sp</dimen>
+    <dimen name="toolbar_subtitle_size_dim">14sp</dimen>
+
+    <!--
+        TODO: this is a temp workaround for a bug in the design library 22.2.x & 23.0.x
+        where on API 21+ the margin (and shadow) doesn't show up for the FAB
+    -->
+    <dimen name="fab_margin_default">0dp</dimen>
+
+    <!-- The amount of padding a list should have at the bottom to accommodate a FAB-->
+    <dimen name="fab_list_bottom_padding">88dp</dimen>
+
+    <!--Grid View stuff-->
+    <dimen name="content_list_item_single_indent">16dp</dimen>
+    <dimen name="catalog_grid_item_font_size">14sp</dimen>
+    <dimen name="catalog_grid_item_preview_font_size">12sp</dimen>
+
+
+    <!-- Catalog Directory Sizes -->
+    <dimen name="catalog_grid_horizontal_padding">0dp</dimen>
+    <dimen name="catalog_card_width">104dp</dimen>
+    <dimen name="catalog_card_height">176dp</dimen>
+    <dimen name="catalog_card_artwork_width">88dp</dimen>
+    <dimen name="catalog_card_artwork_height">120dp</dimen>
+    <dimen name="catalog_list_artwork_width">40dp</dimen>
+    <dimen name="catalog_list_artwork_height">48dp</dimen>
+
+    <!-- Content Directory Sizes -->
+    <dimen name="content_grid_horizontal_padding">8dp</dimen>
+    <dimen name="content_card_width">104dp</dimen>
+    <dimen name="content_card_height">176dp</dimen>
+    <dimen name="content_card_image_height">64dp</dimen>
+
+    <!-- Tab Sizes -->
+    <dimen name="tab_card_width">148dp</dimen>
+    <dimen name="tab_thumb_height">140dp</dimen>
+    <dimen name="tab_thumb_width">@dimen/tab_card_width</dimen>
+    <dimen name="tab_min_card_separation_padding">8dp</dimen>
+    <dimen name="tab_recycler_horizontal_padding">8dp</dimen>
+
+    <dimen name="highlight_popup_menu_top_y_padding">20dp</dimen>
+    <dimen name="highlight_popup_menu_bottom_y_padding">30dp</dimen>
+
+    <dimen name="highlight_recent_padding">8dp</dimen>
+    <dimen name="highlight_palette_item_size">44dp</dimen>
+    <dimen name="highlight_palette_item_spacing">20dp</dimen>
+
+    <dimen name="link_bubble_top_margin">8dp</dimen>
+    <dimen name="link_top_margin">8dp</dimen>
+
+    <!-- Audio Playback -->
+    <dimen name="button_spacing">16dp</dimen>
+
+    <!-- Tips -->
+    <dimen name="tip_preview_image_size">100dp</dimen>
+
+    <!--Sidebar Sizes-->
+    <dimen name="sidebar_min_width">100dp</dimen>
+</resources>

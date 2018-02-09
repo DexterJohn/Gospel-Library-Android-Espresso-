@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Styles to use for the Dark (Black) theme -->
+<resources>
+    <style name="AppTheme.Dark" parent="AppTheme.Light">
+        <item name="colorPrimary">@color/theme_dark_primary</item>
+        <item name="colorPrimaryDark">@color/theme_dark_primary_dark</item>
+        <item name="colorAccent">@color/theme_dark_accent</item>
+        <item name="colorAccentDim">@color/theme_dark_accent_dim</item>
+
+        <item name="themeStyleColorMainContentBackground">@color/theme_dark_main_content_background</item>
+        <item name="themeStyleColorSideBarContentBackground">@color/theme_dark_sidebar_content_background</item>
+
+        <item name="android:textColor">@color/theme_dark_item_title</item>
+        <item name="android:textColorPrimary">@color/theme_dark_item_title</item>
+        <item name="android:textColorSecondary">@color/theme_dark_item_sub_title</item>
+
+        <item name="dialogTheme">@style/AppTheme.Dark.Dialog</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dark.Dialog.Alert</item>
+
+        <item name="actionModeStyle">@style/AppTheme.Dark.Widget.Toolbar.ActionMode</item>
+        <item name="actionOverflowMenuStyle">@style/AppTheme.Dark.Widget.Toolbar.ActionMode.Overflow</item>
+
+        <!-- temp work around for v23.3 Support Library and pre-Android 5.0 issues (use arrow_back_light_wrapper instead)-->
+        <item name="actionModeCloseDrawable">@drawable/ic_arrow_back_light</item>
+
+        <item name="popupMenuStyle">@style/AppTheme.Dark.PopupMenu</item>
+        <item name="android:popupMenuStyle">@style/AppTheme.Dark.PopupMenu</item>
+
+        <!-- Custom Attributes -->
+        <item name="themeStyleToolbar">@style/AppTheme.Dark.Widget.Toolbar</item>
+        <item name="themeStyleToolbarDim">@style/AppTheme.Dark.Widget.Toolbar.Dim</item>
+
+        <item name="themeStyleColorToolbarIcon">@color/theme_dark_toolbar_icon</item>
+        <item name="themeStyleColorToolbarIconDim">@color/theme_dark_toolbar_icon_dim</item>
+        <item name="themeStyleColorToolbarIconDimDisabled">@color/theme_dark_toolbar_icon_dim_disabled</item>
+        <item name="themeStyleColorToolbarActionModeIcon">@color/theme_dark_toolbar_action_mode_icon</item>
+
+        <item name="themeStyleColorSidebarToolbar">@color/theme_dark_side_bar_toolbar_background</item>
+        <item name="themeStyleColorSidebarReferenceBackground">@color/theme_dark_side_bar_reference_background</item>
+
+        <item name="themeStyleTitleTextAppearanceDim">@style/AppTheme.Dark.Widget.Toolbar.Title.Dim</item>
+        <item name="themeStyleSubTitleTextAppearanceDim">@style/AppTheme.Dark.Widget.Toolbar.SubTitle.Dim</item>
+
+        <item name="themeStyleWidgetText">@style/AppTheme.Dark.Widget.Text</item>
+        <item name="themeStyleWidgetTextSubtle">@style/AppTheme.Dark.Widget.Text.Subtle</item>
+
+        <item name="themeStyleColorBackground">@color/theme_dark_background</item>
+        <item name="themeStyleColorListBackground">@color/theme_dark_background_dim</item>
+        <item name="themeStyleColorBackgroundCard">@color/theme_dark_background_card</item>
+        <item name="themeStyleColorBackgroundCardNote">@color/theme_dark_background_card_note</item>
+        <item name="themeStyleColorBackgroundDialog">@color/theme_dark_background_dialog</item>
+        <item name="themeStyleColorCatalogItemBackground">@color/theme_dark_catalog_item_background</item>
+
+        <item name="themeStyleColorBackgroundCardTab">@color/theme_dark_primary_dark</item>
+        <item name="themeStyleColorBackgroundCardTabBottom">@color/theme_dark_background_card</item>
+
+        <item name="themeStyleColorBackgroundFilter">@color/theme_dark_filter_background</item>
+        <item name="themeStyleColorBackgroundFilterInput">@color/theme_dark_background_card_note</item>
+
+        <item name="themeStyleColorBackgroundSearch">@color/theme_dark_background_card_note</item>
+
+        <item name="themeStyleColorPlaybackControlsBackground">@color/theme_dark_widget_playback_controls_background</item>
+
+        <item name="themeStyleColorTextDefault">@color/theme_dark_text_normal</item>
+        <item name="themeStyleColorTextItemTitle">@color/theme_dark_item_title</item>
+        <item name="themeStyleColorTextItemSubTitle">@color/theme_dark_item_sub_title</item>
+        <item name="themeStyleColorTextHint">@color/theme_dark_text_hint</item>
+
+        <item name="themeStyleColorTextCatalogGridTitle">@color/theme_dark_catalog_grid_title</item>
+        <item name="themeStyleColorTextCatalogGridSummary">@color/theme_dark_catalog_grid_summary</item>
+        <item name="themeStyleColorTextCatalogGridMenuIcon">@drawable/ic_lds_more_vert_24dp</item>
+
+        <item name="themeStyleColorLinkIcon">@color/theme_dark_accent</item>
+
+        <item name="themeStyleColorBackgroundFindOnPage">@color/theme_dark_find_on_page_background</item>
+        <item name="themeStyleColorIconFindOnPage">@color/theme_dark_find_on_page_icon</item>
+
+
+        <!-- About library -->
+        <item name="aboutBackgroundColor">@color/theme_dark_background_dim</item>
+        <item name="aboutCopyrightColor">@color/theme_dark_text_normal</item>
+        <item name="aboutSubtitleColor">@color/theme_dark_text_secondary</item>
+        <item name="aboutTitleColor">@color/theme_dark_text_normal</item>
+        <item name="aboutToolbarTheme">@style/AppTheme.Dark.Widget.Toolbar</item>
+        <item name="aboutPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+        <!-- Empty State -->
+        <item name="emptyStateImageColor">@color/theme_dark_item_sub_title</item>
+        <item name="emptyStateTitleColor">@color/theme_dark_item_title</item>
+        <item name="emptyStateSubTitleColor">@color/theme_dark_item_sub_title</item>
+
+        <!-- Highlight colors -->
+        <item name="themeStyleColorHighlightRed">@color/theme_dark_highlight_red</item>
+        <item name="themeStyleColorHighlightRedUnderline">@color/theme_dark_highlight_red_underline</item>
+
+        <item name="themeStyleColorHighlightOrange">@color/theme_dark_highlight_orange</item>
+        <item name="themeStyleColorHighlightOrangeUnderline">@color/theme_dark_highlight_orange_underline</item>
+
+        <item name="themeStyleColorHighlightYellow">@color/theme_dark_highlight_yellow</item>
+        <item name="themeStyleColorHighlightYellowUnderline">@color/theme_dark_highlight_yellow_underline</item>
+
+        <item name="themeStyleColorHighlightGreen">@color/theme_dark_highlight_green</item>
+        <item name="themeStyleColorHighlightGreenUnderline">@color/theme_dark_highlight_green_underline</item>
+
+        <item name="themeStyleColorHighlightBlue">@color/theme_dark_highlight_blue</item>
+        <item name="themeStyleColorHighlightBlueUnderline">@color/theme_dark_highlight_blue_underline</item>
+
+        <item name="themeStyleColorHighlightDarkBlue">@color/theme_dark_highlight_dark_blue</item>
+        <item name="themeStyleColorHighlightDarkBlueUnderline">@color/theme_dark_highlight_dark_blue_underline</item>
+
+        <item name="themeStyleColorHighlightPurple">@color/theme_dark_highlight_purple</item>
+        <item name="themeStyleColorHighlightPurpleUnderline">@color/theme_dark_highlight_purple_underline</item>
+
+        <item name="themeStyleColorHighlightPink">@color/theme_dark_highlight_pink</item>
+        <item name="themeStyleColorHighlightPinkUnderline">@color/theme_dark_highlight_pink_underline</item>
+
+        <item name="themeStyleColorHighlightBrown">@color/theme_dark_highlight_brown</item>
+        <item name="themeStyleColorHighlightBrownUnderline">@color/theme_dark_highlight_brown_underline</item>
+
+        <item name="themeStyleColorHighlightGray">@color/theme_dark_highlight_gray</item>
+        <item name="themeStyleColorHighlightGrayUnderline">@color/theme_dark_highlight_gray_underline</item>
+    </style>
+
+    <style name="AppTheme.Dark.Search">
+        <item name="colorPrimary">@color/theme_dark_primary</item>
+        <item name="colorPrimaryDark">@color/theme_dark_primary_dark</item>
+        <item name="colorAccent">@color/theme_dark_accent</item>
+        <item name="android:windowBackground">@color/theme_dark_background_dim</item>
+    </style>
+
+    <style name="AppTheme.Dark.Settings" parent="AppTheme.Light.Settings">
+        <item name="colorPrimary">@color/theme_dark_primary</item>
+        <item name="colorPrimaryDark">@color/theme_dark_primary_dark</item>
+        <item name="colorAccent">@color/theme_dark_accent</item>
+
+        <item name="android:textColorPrimary">@color/theme_dark_text_normal</item>
+        <item name="android:textColorSecondary">@color/theme_dark_text_secondary</item>
+        <item name="themeStyleColorListBackground">@color/theme_dark_background</item>
+
+        <item name="dialogTheme">@style/AppTheme.Dark.Dialog</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dark.Dialog.Alert</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="AppTheme.Light.Dialog">
+        <item name="colorPrimary">@color/theme_dark_primary</item>
+        <item name="colorPrimaryDark">@color/theme_dark_primary_dark</item>
+        <item name="colorAccent">@color/theme_dark_accent</item>
+
+        <item name="android:textColor">@color/theme_dark_item_title</item>
+        <item name="android:textColorPrimary">@color/theme_dark_item_title</item>
+        <item name="android:textColorSecondary">@color/theme_dark_item_sub_title</item>
+
+        <item name="textColorAlertDialogListItem">@color/theme_dark_item_sub_title</item>
+
+        <item name="android:background">@color/theme_dark_background_dialog</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog.Alert" parent="AppTheme.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/theme_dark_primary</item>
+        <item name="colorPrimaryDark">@color/theme_dark_primary_dark</item>
+        <item name="colorAccent">@color/theme_dark_accent</item> <!-- This fails on 7.0+ because of this bug: https://code.google.com/p/android/issues/detail?id=220699 -->
+
+        <item name="android:textColor">@color/theme_dark_item_title</item>
+        <item name="android:textColorPrimary">@color/theme_dark_item_title</item>
+        <item name="android:textColorSecondary">@color/theme_dark_item_sub_title</item>
+
+        <item name="textColorAlertDialogListItem">@color/theme_dark_item_sub_title</item>
+
+        <item name="android:background">@color/theme_dark_background_dialog</item>
+    </style>
+
+
+    <!-- Toolbar -->
+    <style name="AppTheme.Dark.Widget.Toolbar" parent="AppTheme.Light.Widget.Toolbar">
+        <item name="actionModeStyle">@style/AppTheme.Dark.Widget.Toolbar.ActionMode</item>
+        <!-- temp work around for v23.3 Support Library and pre-Android 5.0 issues (use arrow_back_light_wrapper instead)-->
+        <item name="actionModeCloseDrawable">@drawable/ic_arrow_back_light</item>
+    </style>
+
+    <style name="AppTheme.Dark.Widget.Toolbar.ActionMode" parent="AppTheme.Light.Widget.Toolbar.ActionMode">
+        <item name="titleTextStyle">@style/AppTheme.Dark.Widget.Toolbar.ActionMode.Title</item>
+        <item name="background">@color/theme_dark_background_action_mode</item>
+    </style>
+
+    <style name="AppTheme.Dark.Widget.Toolbar.Dim">
+        <item name="android:background">@color/theme_dark_background_action_mode</item>
+        <item name="background">@color/theme_dark_background_action_mode</item>
+    </style>
+
+    <style name="AppTheme.Dark.Widget.Toolbar.ActionMode.Overflow" parent="AppTheme.Light.Widget.Toolbar.ActionMode.Overflow">
+        <item name="android:popupBackground">@color/theme_dark_background_dialog</item>
+    </style>
+
+
+    <!-- Text -->
+    <style name="AppTheme.Dark.Widget.Text" parent="AppTheme.Light.Widget.Text">
+        <item name="android:textColor">@color/theme_dark_text_normal</item>
+    </style>
+
+    <style name="AppTheme.Dark.Widget.Text.Subtle">
+        <item name="android:textColor">@color/theme_dark_text_hint</item>
+    </style>
+
+    <style name="AppTheme.Dark.Widget.Toolbar.ActionMode.Title" parent="AppTheme.Light.Widget.Toolbar.ActionMode.Title">
+        <item name="android:textColor">@color/theme_dark_text_normal</item>
+    </style>
+
+    <style name="AppTheme.Dark.Widget.Toolbar.Title.Dim" parent="AppTheme.Light.Widget.Toolbar.Title.Dim">
+        <item name="android:textColor">@color/theme_dark_text_normal</item>
+    </style>
+
+    <style name="AppTheme.Dark.Widget.Toolbar.SubTitle.Dim" parent="AppTheme.Light.Widget.Toolbar.SubTitle.Dim">
+        <item name="android:textColor">@color/theme_dark_text_normal</item>
+    </style>
+
+
+
+
+    <style name="AppTheme.Dark.PopupMenu" parent="AppTheme.Light.PopupMenu">
+        <item name="android:popupBackground">@color/theme_dark_background_dialog</item>
+    </style>
+</resources>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">បន្ថែម</string>
+    <string name="app_name">បណ្ណាល័យ​ដំណឹង​ល្អ</string>
+    <string name="auto">ស្វ័យប្រវត្តិ</string>
+    <string name="allow_in_app_notifications">អនុញ្ញាតឲ្យមានការជូនដំណឹង​នៅក្នុង​កម្មវិធី</string>
+    <string name="exact_phrase">ឃ្លាជាក់លាក់</string>
+    <string name="keywords">ពាក្យ​គន្លឹះ</string>
+    <string name="bookmark">ចំណាំ</string>
+    <string name="cancel">បោះបង់</string>
+    <string name="cancel_all">បោះបង់​ទាំងអស់</string>
+    <string name="content">មាតិកា</string>
+    <string name="copy">ថតចម្លង</string>
+    <string name="delete">លុបចោល</string>
+    <string name="define">និយមន័យ</string>
+    <string name="display">បង្ហាញ</string>
+    <string name="done">រួចរាល់</string>
+    <string name="download">ទាញយក</string>
+    <string name="download_all">ទាញយក​ទាំងអស់</string>
+    <string name="feedback">មតិអ្នកប្រើ</string>
+    <string name="keep">រក្សាទុក</string>
+    <string name="library">បណ្ណាល័យ</string>
+    <string name="link">តំណ</string>
+    <string name="links">ពហុតំណ</string>
+    <string name="merge">បញ្ចូលចូលគ្នា</string>
+    <string name="never">កុំ​ធ្វើ</string>
+    <string name="no">អត់ទេ</string>
+    <string name="note">កំណត់ចំណាំ</string>
+    <string name="none">គ្មាន</string>
+    <string name="ok">យល់ព្រម</string>
+    <string name="remove">ដកចេញ</string>
+    <string name="remove_all">ដកចេញ​ទាំងអស់</string>
+    <string name="rename">ប្តូរឈ្មោះឡើងវិញ</string>
+    <string name="search">ស្វែងរក</string>
+    <string name="settings">ការកំណត់</string>
+    <string name="screen_settings">ការកំណត់អេក្រង់</string>
+    <string name="share">ចែករំលែក</string>
+    <string name="skip">រំលង</string>
+    <string name="sort">តម្រៀបតាម</string>
+    <string name="tag">ដាក់ស្លាក</string>
+    <string name="tags">ស្លាក</string>
+    <string name="theme_default">លំនាំដើម</string>
+    <string name="theme_night">ម៉ូដពេលរាត្រី</string>
+    <string name="theme_sepia">ម៉ូដ​ពណ៌សេពផ្យ៉ា</string>
+    <string name="theme_dark_blue">ម៉ូដពណ៌​ខៀវចាស់</string>
+    <string name="today">ថ្ងៃនេះ</string>
+    <string name="undo">មិនធ្វើវិញ</string>
+    <string name="update">ធ្វើបច្ចុប្បន្នភាព</string>
+    <string name="view">មើល</string>
+    <string name="yes">បាទ/ចាស៎</string>
+    <string name="yesterday">ម្សិលមិញ</string>
+    <!-- Other -->
+    <string name="add_bookmark">បន្ថែមចំណាំ</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">បន្ថែម​ស្លាក</string>
+    <string name="add_to">បន្ថែមទៅ</string>
+    <string name="add_to_ellipsis">បន្ថែម​ទៅ…</string>
+    <string name="add_to_notebook">បន្ថែម​ទៅក្នុងសៀវភៅ​កំណត់ចំណាំ</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">ពុំ​អាច​បង្ហាញ​ចំណារពន្យល់បាន​ឡើយ ដោយសារពុំទាន់បាន​ដំឡើង​ “%s” ។</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">ចុច​ដើម្បី​ដំឡើងបច្ចុប្បន្នភាព</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">មាន​កម្មវិធីបណ្ណាល័យ​ដំណឹង​ល្អដែល​មាន​បច្ចុប្បន្នភាព ។</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">ការកំណត់​សំឡេង</string>
+    <string name="backup_annotations_message">បរាជ័យ​ក្នុងការចូល ពីមុនកម្មវិធី​បណ្ណាល័យដំណឹងល្អបន្ទាប់​ទៀត​មានបច្ចុប្បន្នភាព នោះនឹង​បណ្តាល​ឲ្យ​បាត់បង់ចំណារពន្យល់​ផ្ទាល់ខ្លួនរបស់​អ្នក  ( ការគូសចំណាំ, កំណត់ចំណាំ, ចំណាំ ជាដើម ) ។</string>
+    <string name="backup_annotations_title">បម្រុង​ទុក​ចំណារ​ពន្យល់</string>
+    <string name="bookmarks">ចំណាំ</string>
+    <string name="bookmark_added">បាន​បន្ថែម​ចំណាំ</string>
+    <string name="bookmark_empty">អ្នក​ពុំទាន់​បាន​បន្ថែម​ចំណាំណា​មួយឡើយ</string>
+    <string name="bookmark_updated">ចំណាំ​បានធ្វើ​បច្ចុប្បន្នភាព</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">ភ្ជាប់​បង្ហាញ​ទៅលើ​ទូរទស្សន៍</string>
+    <string name="catalog_title">កាតុឡុក​នៃកម្មវិធី​បណ្ណាល័យ​ដំណឹងល្អ</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">ជ្រើសរើស​ការគូសចំណាំ</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">ជម្រះប្រព័ន្ធផ្សព្វផ្សាយ​ដែលបាន​ទាញយក</string>
+    <string name="clear_history">ជម្រះប្រវត្តិ</string>
+    <string name="content_no_content" comment="Shown in content drawer">ពុំ​អាចបង្ហាញ​មាតិកាបាន​ឡើយ ដោយសារពុំទាន់បានដំឡើង “%s”</string>
+    <string name="content_not_downloaded">%s ពុំ​ទាន់បានទាញ​យក​ឡើយ ។</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">បន្ត​បើក</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">បាន​ថតចម្លង​អត្ថបទ​ទៅកាន់ក្តារតម្បៀតខ្ទាស់</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">បង្កើត “%s”</string>
+    <string name="current_downloads">ការទាញយក​បច្ចុប្បន្ន</string>
+    <string name="custom_collections">ការប្រមូល​តាម​តម្រូវការ</string>
+    <string name="delete_annotation_title">ដកចំណារពន្យល់​ចេញ</string>
+    <string name="delete_annotation_message">កំណត់ចំណាំ ស្លាក ឬ​តំណ​ណា​មួយ​ដែល​ភ្ជាប់​នឹង​ការគូសចំណាំ​នេះក៏​នឹងត្រូវ​បានដកចេញ​ផងដែរ ។</string>
+    <string name="delete_collection_item_title">លុបចោល “%1$s”?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s នឹងត្រូវលុបចោល ។\n\nលុបចោល​ប្រព័ន្ធផ្សព្វផ្សាយទាំងអស់ឬ ?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">ពុំ​អាចលុបចោលប្រព័ន្ធផ្សព្វផ្សាយ​ទាំងអស់​ឡើយ</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s នឹង​ត្រូវលុបចោល​ពី “%1$s”។\n\nលុបចោលប្រព័ន្ធផ្សព្វផ្សាយនេះឬ ?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">លុបចោលប្រព័ន្ធផ្សព្វផ្សាយ​</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">លុបចោល​សៀវភៅកំណត់ចំណាំ</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">លុបចោល​សៀវភៅកំណត់ចំណាំ​ដែល​បាន​ជ្រើសរើស</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">លុបចោល​ស្លាក</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">លុបចោល​ស្លាកទាំងនេះ</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">តើ​អ្នកពិតជាចង់​ដកស្លាក​នេះ​ចេញ​ពី​កំណត់ចំណាំ និង​ការគូសចំណាំ​ទាំង​អស់​នេះ​ឬ ?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">តើ​អ្នកពិតជាចង់​ដកស្លាកទាំង​នេះ​ចេញ​ពី​កំណត់ចំណាំ និង​ការគូសចំណាំ​ទាំង​អស់​នេះ​ឬ ?</string>
+    <string name="deleted">%s បាន​លុបចោល</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">%s ចំណាំ​បាន​លុបចោល</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">%s សៀវភៅកត់ចំណាំ​បាន​លុបចោល</string>
+    <string name="dialog_sign_out_confirmation">តើ​អ្នកពិតជាចង់​ចាកចេញ​ឬ ?</string>
+    <string name="double_tap_fullscreen_training">គន្លឹះ ៖ សូម​ចុចអេក្រង់ពីរដង​ដើម្បីចាក​ចេញ​ពីម៉ូដអេក្រង់ពេញ ។</string>
+    <string name="download_audio" comment="download audio">ទាញ​យកសំឡេង</string>
+    <string name="download_all_selected_confirm">%d សម្ភារដែល​នឹង​ត្រូវ​ទាញ​យក ។\n\nទាញយកសម្ភារដែលបាន​ជ្រើសរើសឬ ?</string>
+    <string name="download_cancel_confirm_all">ការទាញយកទាំងអស់​នឹងត្រូវបោះបង់ ។\n\nបោះបង់​ការទាញយក​ឬ ?</string>
+    <string name="download_cancel">បោះបង់​ការទាញយក​ឬ ?</string>
+    <string name="download_canceling">កំពុងបោះបង់​ការទាញយក​…</string>
+    <string name="download_item_message">%s ពុំ​ទាន់​បាន​ដំឡើងនៅឡើយ ។ តើ​អ្នក​ចង់ទាញយកវា​ឥឡូវ​នេះឬ ?</string>
+    <string name="download_video" comment="download video">ទាញយកវីដេអូ</string>
+    <string name="downloaded_media">ប្រព័ន្ធ​ផ្សព្វផ្សាយ​​បាន​ទាញ​យក</string>
+    <string name="downloading_ellipsis">កំពុងទាញយក…</string>
+    <string name="downloading_audio">កំពុងទាញយកសំឡេងសម្រាប់ %s</string>
+    <string name="downloading_video">កំពុងទាញយកវីដេអូសម្រាប់ %s</string>
+    <string name="download_file_failed_insufficient_space">បរាជ័យ​ក្នុងការទាញយក [%s].\n គ្មានទំហំ​គ្រប់គ្រាន់</string>
+    <string name="download_file_failed">បរាជ័យក្នុងការទាញយក [%s].\nសូម​ត្រួតពិនិត្យការភ្ជាប់​អ៊ិនធើរណែត​របស់​អ្នក ហើយ​ព្យាយាម​ម្តង​ទៀត ។</string>
+    <string name="download_dir_error">បរាជ័យ​ក្នុងការបង្កើតថតទាញយក</string>
+    <string name="existing_annotations_prompt">%d ចំណារពន្យល់​នេះមាននៅលើ​ឧបករណ៍​នេះ​ហើយ ។ តើ​អ្នក​ចង់បន្ត​កិច្ចការ​លើ​ចំណារ​ពន្យល់​ដែល​មាន​ស្រាប់​នោះ​ឬ​ទេ ?</string>
+    <string name="existing_annotations">ចំណារពន្យល់​ដែល​មាន​</string>
+    <string name="featured_apps">លក្ខណៈពិសេស​នៃ​កម្មវិធី</string>
+    <string name="female" comment="Option for using a female voice for audio playback">នារី</string>
+    <string name="finalizing_ellipsis">កំពុងបញ្ចប់…</string>
+    <string name="find_by_name">ស្វែងរក​តាម​ឈ្មោះ</string>
+    <string name="find_count">%1$d នៃ %2$d</string>
+    <string name="find_x_on_page">ស្វែងរក “%s” នៅលើទំព័រ</string>
+    <string name="find_x_in_x">ស្វែងរក “%1$s” នៅក្នុង %2$s</string>
+    <string name="find_exact_x_in_x">ស្វែងរកឃ្លាជាក់លាក់ “%1$s” នៅក្នុង %2$s</string>
+    <string name="marked_text_position">លទ្ធផល %1$d នៃ %2$d</string>
+    <string name="marked_text_position_no_results">លទ្ធផល ០</string>
+    <string name="highlight_style">ម៉ូដ​គូសចំណាំ</string>
+    <string name="history">ប្រវត្តិ</string>
+    <string name="history_cleared">ប្រវត្តិបាន​ជម្រះ</string>
+    <string name="installing_ellipsis">កំពុងដំឡើង…</string>
+    <string name="journal">ទិនានុប្បវត្តិ</string>
+    <string name="journal_restore">ស្តារ​ទិនានុប្បវត្តិ​ឡើង​វិញ</string>
+    <string name="journal_create_notebook">បង្កើតសៀវភៅកំណត់ចំណាំនៃ​ទិនានុប្បវត្តិ</string>
+    <string name="journal_restore_description">ទោះបីជា​វគ្គទិនានុប្បវត្តិ​ត្រូវបាន​ដកចេញ​ក្តី កំណត់ចំណាំ​របស់​អ្នក​ត្រូវបាន​រក្សា​ទុក ។ ប្រសិនបើ​អ្នក​ចង់បាន យើង​អាច​ប្រមូល​កំណត់ចំណាំទាំងអស់ ដែល​មាន​ពីមុន​នៅក្នុង​វគ្គទិនានុប្បវត្តិ ហើយ​ដាក់​វា​នៅក្នុង​សៀវភៅកំណត់ចំណាំ​ថ្មី​មួយ​ឈ្មោះថា ទិនានុប្បវត្តិ ។</string>
+    <string name="journal_restore_result">ស្តារ​ទិនានុប្បវត្តិ​ឡើង​វិញ​បាន​បញ្ចប់ ។  %d កំណត់ចំណាំ​បាន​ប្តូរ ។</string>
+    <string name="language">ភាសា</string>
+    <string name="lds_account_summary">គណនី ប. ថ. ក. ត្រូវបាន​ប្រើប្រាស់​ដើម្បីបម្រុង និងធ្វើ​ឲ្យ​ចំណារពន្យល់​របស់​អ្នកធ្វើសមកាលនៅលើ​ឧបករណ៍ផ្សេងៗ និង​នៅលើគេហទំព័រ​ LDS.org ។</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">ទៅកាន់ %1$s</string>
+    <string name="loading_ellipsis">កំពុងផ្ទុក…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">បុរស</string>
+    <string name="mark" comment="Select highlight color">គូស</string>
+    <string name="media_type">ប្រភេទប្រព័ន្ធផ្សព្វផ្សាយ</string>
+    <string name="menu_new_screen">អេក្រង់​ថ្មី…</string>
+    <string name="merged_notebook_name_prompt">សៀវភៅកំណត់ចំណាំ​ដែល​បាន​ជ្រើសរើស​នឹង​ត្រូវ​បញ្ចូលចូល​គ្នា ។ សូម​វាយ​ដាក់ឈ្មោះសៀវភៅកំណត់ចំណាំ​នោះ ។</string>
+    <string name="merged_notebook_name">ឈ្មោះ​សៀវភៅ​កំណត់ចំណាំដែល​បាន​បញ្ចូលចូលគ្នា</string>
+    <string name="merged_tag_name">ឈ្មោះស្លាក​ដែល​បាន​បញ្ចូលចូលគ្នា</string>
+    <string name="move_to_notebook">ប្តូរទៅ​សៀវភៅ​កំណត់ចំណាំ</string>
+    <string name="my_collections">ការប្រមូល​របស់​ខ្ញុំ</string>
+    <string name="network_required" comment="Not connected to any network">សម្មភាពនេះ​ត្រូវការការភ្ជាប់​អ៊ិនធើរណែត ។ សូម​ភ្ជាប់​បណ្តាញ​ទូរសព្ទ ឬ Wi-Fi រួច​ព្យាយាម​ម្តង​ទៀត ។</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">ផ្អែក​លើ​ការ​កំណត់​របស់​អ្នក អ្នក​ត្រូវ​ភ្ជាប់​​ Wi-Fi ដើម្បី​ធ្វើ​សកម្មភាព​នេះ ។</string>
+    <string name="no_bookmarks">គ្មាន​ចំណាំ</string>
+    <string name="no_bookmarks_description">បន្ថែម​ចំណាំ ដើម្បី​ត្រឡប់​ទៅកន្លែង​ដែល​អ្នក​ឈប់កាល​ពីលើកមុន​បាន​លឿន ។</string>
+    <string name="no_content">គ្មាន​មាតិកា</string>
+    <string name="no_collection_content_description">បន្ថែម​សម្ភារ​ទៅក្នុង​ការប្រមូលដើម្បី​ងាយស្រួលចូលដំណើរការ</string>
+    <string name="no_custom_collections">គ្មាន​ការប្រមូល​តាម​តម្រូវការទេ</string>
+    <string name="no_custom_collections_description">បង្កើតការប្រមូលតាមតម្រូវការ ដើម្បីងាយ​ចូល​ដំណើរការសម្ភារ​ដែល​ទាក់ទង ។</string>
+    <string name="no_downloads_in_progress">ការទាញយកពុំ​ដំណើរការ</string>
+    <string name="no_downloads_in_progress_description">មាតិកា និង​ប្រព័ន្ធផ្សព្វផ្សាយកំពុង​ត្រូវបាន​ទាញ​យក</string>
+    <string name="no_downloaded_media">ប្រព័ន្ធផ្សព្វផ្សាយ​ពុំ​បាន​ទាញយក​ឡើយ</string>
+    <string name="no_downloaded_media_description">ទាញយក​សំឡេង ឬ​វីដេអូ​សម្រាប់​ការចូល​ដំណើរការពេលគ្មាន​បណ្តាញ</string>
+    <string name="no_history">គ្មាន​ប្រវត្តិ</string>
+    <string name="no_history_description">រុករក​មាតិកា ស្វែងរកផ្លូវរបស់​អ្នក ហើយត្រឡប់ទៅរក​វា​វិញ ។</string>
+    <string name="no_matches" comment="No results">គ្មាន​លទ្ធផល</string>
+    <string name="no_matches_description">គ្មាន​លទ្ធផល​សម្រាប់​ការស្វែងរកជាក់លាក់​នេះឡើយ</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">គ្មាន​សៀវភៅកំណត់ចំណាំ​</string>
+    <string name="no_notebooks_description">បង្កើត​សៀវភៅ​កំណត់ចំណាំជាច្រើន​តាម​បំណង​ប្រាថ្នា​ដើម្បី​រៀបចំកំណត់ចំណាំទាំងអស់​របស់​អ្នក ។</string>
+    <string name="no_notes">គ្មាន​កំណត់ចំណាំ</string>
+    <string name="no_notes_in_notebook">គ្មាន​កំណត់ចំណាំ​ក្នុង​សៀវភៅ​កំណត់ចំណាំ​នេះទេ</string>
+    <string name="no_notes_description">កត់ត្រា​កំណត់ចំណាំ​ដើម្បីរក្សាទុក​គំនិត និង​ការបំផុសគំនិតនានារបស់​អ្នក ។</string>
+    <string name="no_related_content">គ្មាន​មាតិកា​ដែល​ទាក់ទង​ឡើយ</string>
+    <string name="no_related_content_description2">គ្មានលេខយោង ឬ​មាតិកាផ្សេង​ទៀត​ដែល​ទាក់ទង​ឡើយ</string>
+    <string name="no_tags" comment="The message to show when there are no tags">គ្មាន​ស្លាក</string>
+    <string name="no_tags_description">បង្កើត​ស្លាកមួយ ដើម្បី​ដាក់​មាតិកា​ជាក្រុមចេញ​ពីគ្រប់​កន្លែង​នៅក្នុង​កម្មវិធីនេះ ។</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">គ្មានមាតិកា​ដែល​មាន​ស្លាក​ឡើយ</string>
+    <string name="no_tagged_content_description">ភ្ជាប់ស្លាក​ទៅនឹងផ្នែក​ណាមួយ​នៃមាតិកា​សម្រាប់​ជា​ឯកសារ​យោង​សម្រាប់​ពេល​ក្រោយ ។</string>
+    <string name="no_thanks">អត់ទេ សូមអរគុណ</string>
+    <string name="no_tips">គ្មាន​យោបល់គន្លឺះ​</string>
+    <string name="no_tips_description">យោបល់​គន្លឹះ​បង្ហាញ​អ្នក​អំពីមុខងារ​ដ៏មាន​សារៈប្រយោជន៍របស់​កម្មវិធី</string>
+    <string name="note_content">កំណត់ចំណាំ​របស់​មាតិកា</string>
+    <string name="notebook">សៀវភៅ​កំណត់ចំណាំ</string>
+    <string name="notebooks">សៀវភៅកំណត់ចំណាំ</string>
+    <string name="notes">កំណត់ចំណាំ</string>
+    <string name="num_item_add_to">%1$s នៃសម្ភារនេះបានបន្ថែម​ទៅ %2$s</string>
+    <string name="num_item">សម្ភារ %d</string>
+    <string name="num_items_add_to">%1$s  នៃសម្ភារនេះបានបន្ថែម​ទៅ %2$s</string>
+    <string name="num_items">សម្ភារ %d</string>
+    <string name="open">បើក</string>
+    <string name="open_in_music">បើក​នៅក្នុងតន្ត្រី ប. ថ. ក.</string>
+    <string name="open_in_new_screen">បើក​នៅលើ​អេក្រង់ថ្មី</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">ភ្ជាប់វាទៅ​របារ​ចំហៀង</string>
+    <string name="play_audio">បើកសំឡេង</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">ល្បឿនបើក</string>
+    <string name="playback_speed_0.5x">x ០.៥</string>
+    <string name="playback_speed_1x">x ១</string>
+    <string name="playback_speed_1.25x">x ១.២៥</string>
+    <string name="playback_speed_1.5x">x ១.៥</string>
+    <string name="playback_speed_1.75x">x ១.៧៥</string>
+    <string name="playback_speed_2x">x ២</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">សូមចូល​ម្តង​ទៀត ដើម្បី​កែសម្រួល​ឈ្មោះ​អ្នកប្រើប្រាស់ និង​ពាក្យសម្ងាត់​របស់​អ្នក ។</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">រៀបចំ ឬ​ពិនិត្យមើល​សំឡេង និង​វីដេអូ​ដែល​បាន​ទាញយក</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"…មើល​ចុះ ឪពុក​ប្រាប់​កូន​ថា ដោយ​កិច្ចការ​តូចតាច និង​ងាយ ទើប​នាំ​ឲ្យ​កើត​កិច្ចការ​ដ៏​ធំៗ​បាន ហើយ​នៅ​ក្នុង​ករណី​ជា​ច្រើន មធ្យោបាយ​ដ៏​តូចតាច​ធ្វើ​ឲ្យ​ពួក​អ្នក​ប្រាជ្ញ​ជ្រប់​មុខ ។"</string>
+    <string name="pref_general_list_mode">ម៉ូដបញ្ជីរាយនាម</string>
+    <string name="pref_hide_footnotes">លាក់លេខយោង</string>
+    <string name="pref_limit_mobile_network_subtitle">ទាញយក និង​ចាក់មើលផ្ទាល់​ពេល​មាន Wi-Fi តែប៉ុណ្ណោះ</string>
+    <string name="pref_limit_mobile_network">ប្រើប្រាស់​បណ្តាញ​ទូរសព្ទដែលមាន​កំណត់</string>
+    <string name="pref_theme">ម៉ូដ</string>
+    <string name="problem_playing_video">មាន​បញ្ហា​មួយ​កើតឡើង​អំឡុងពេល​បើកវីដេអូ ។</string>
+    <string name="read_more">អាន​បន្ថែម​ទៀត</string>
+    <string name="recent" comment="label for study notebook">ថ្មីៗ</string>
+    <string name="related_content">មាតិកា​ដែល​ទាក់ទង</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">តើ​អ្នក​ពិតជាចង់​ដកសម្ភារ​ដែល​បាន​ជ្រើសរើស​នេះចេញ​ឬ ?</string>
+    <string name="remove_from_collection">ដកចេញ​ពី​ការប្រមូល</string>
+    <string name="rename_bookmark">ប្តូរឈ្មោះចំណាំឡើង​វិញ</string>
+    <string name="rename_screen">ប្តូរ​ឈ្មោះអេក្រង់​ឡើង​វិញ</string>
+    <string name="requested_ellipsis">បាន​ស្នើសុំ…</string>
+    <string name="requested_paused_retry_ellipsis">បានស្នើសុំ… (រង់ចាំសាកល្បង​ម្តង​ទៀត )</string>
+    <string name="requested_paused_network_ellipsis">បាន​ស្នើសុំ… ( រង់ចាំបណ្តាញ )</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">លទ្ធផល %d</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">លទ្ធផល %d</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">លទ្ធផល %1$s - %2$d</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">លទ្ធផល %1$s - %2$d</string>
+    <string name="save">រក្សាទុក</string>
+    <string name="screens">អេក្រង់</string>
+    <string name="screen_missing_content">អ្នក​ពុំ​បាន​ទាញយក​មាតិកា​សម្រាប់​អេក្រង់​ដែល​បាន​ជ្រើសរើស​ឡើយ ។\n\nឥឡូវ​នេះ​តើ​អ្នក​ចង់​ទាញយកមាតិកា​សម្រាប់ “%1$s” ដែរ​ឬ​ទេ ?</string>
+    <string name="screens_separate_windows">បង្ហាញ​អេក្រង់​នៅលើ​វីនដូ​ផ្សេង</string>
+    <string name="search_for_links">ស្រាវជ្រាវរក​ពាក្យ​គន្លឹះ ខគម្ពីរ ឬ​ចំណងជើង</string>
+    <string name="select_highlight">ជ្រើសរើស​ការគូសចំណាំ</string>
+    <string name="select_items">ជ្រើសរើស​សម្ភារ</string>
+    <string name="select_link">ជ្រើសរើសតំណ</string>
+    <string name="select_text_to_link" comment="title for link to Activity">ជ្រើសរើស​អត្ថបទ​ទៅកាន់​តំណ</string>
+    <string name="selected_media_unavailable">គ្មាន​ប្រព័ន្ធផ្សព្វផ្សាយ​ដែលបាន​ជ្រើសរើស​ឡើយ ។</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">ធ្វើ​សមកាលកម្ម​ចុងក្រោយ ៖ %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">តម្រៀប​តាមការរាប់</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">តម្រៀបតាម​សម្ភារថ្មីៗ​បំផុត</string>
+    <string name="sort_by_name" comment="sort items by their name">តម្រៀប​តាម​ឈ្មោះ</string>
+    <string name="sort_by_size" comment="sort media items">តម្រៀប​តាមទំហំ</string>
+    <string name="sort_by_item" comment="sort media items">តម្រៀបតាម​សម្ភារ</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">កំណែ %s</string>
+    <string name="style">ម៉ូដ</string>
+    <string name="sync_error_invalid_credentials">ឈ្មោះអ្នកប្រើប្រាស់/ពាក្យសម្ងាត់​មិន​ត្រឹមត្រូវ</string>
+    <string name="sync_error_no_network">គ្មានបណ្តាញ​ទំនាក់ទំនង​</string>
+    <string name="sync_notification_failure">សមកាលកម្ម​ចំណារ​ពន្យល់​បាន​បរាជ័យ</string>
+    <string name="sync_notification_gathering_changes">កំពុងប្រមូលផ្តុំការផ្លាស់ប្តូរ​</string>
+    <string name="sync_notification_processing_changes">កំពុងដំណើរការការផ្លាស់ប្តូរ​</string>
+    <string name="sync_notification_receiving_changes">កំពុង​ទទួលការផ្លាស់ប្តូរ​</string>
+    <string name="sync_notification_receiving_update_list">កំពុងទទួល​បញ្ជី​ដែល​ធ្វើ​បច្ចុប្បន្នភាព</string>
+    <string name="sync_notification_sending_changes">កំពុង​ផ្ញើការផ្លាស់ប្តូរ​</string>
+    <string name="sync_notification_sending_update_request">កំពុងផ្ញើសំណើ​ដែល​ធ្វើ​បច្ចុប្បន្នភាព</string>
+    <string name="syncing_notebooks">កំពុងធ្វើសមកាលកម្មសៀវភៅកំណត់ចំណាំ</string>
+    <string name="syncing_annotations">កំពុងធ្វើសមកាលកម្ម​ចំណារ​ពន្យល់</string>
+    <string name="notification_channel_general">ការជូនដំណឹងទូទៅ</string>
+    <string name="notification_channel_sync">ធ្វើ​សមកាលចំណារពន្យល់</string>
+    <string name="notification_channel_media_playback">បើក​ប្រព័ន្ធផ្សព្វផ្សាយ​សារ​ជាថ្មី</string>
+    <string name="text_size" comment="">ទំហំ​អត្ថបទ</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">អត្ថបទ​និយាយ</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">ការកំណត់អត្ថបទ​និយាយ</string>
+    <string name="tips">យោបល់គន្លឹះ</string>
+    <string name="title_optional">ចំណងជើង ( ជម្រើស )</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">លុបចោល​ការភ្ជាប់របារចំហៀង</string>
+    <string name="update_catalog_wifi_required">មាន​មាតិកា​ដែល​ធ្វើ​បច្ចុប្បន្នភាពរួច ប៉ុន្តែ​អ្នក​ត្រូវ​ភ្ជាប់​ទៅនឹង Wi-Fi ដើម្បី​ទាញយក ។</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">គុណភាពវីដេអូ</string>
+    <string name="video_unavailable">គ្មាន​វីដេអូ</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">សំឡេង​ចម្បង</string>
+    <string name="whats_new">មាន​អ្វីថ្មី</string>
+</resources>

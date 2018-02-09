@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">Aggiungi</string>
+    <string name="all">Tutti</string>
+    <string name="app_name">Biblioteca evangelica</string>
+    <string name="auto">Auto</string>
+    <string name="allow_in_app_notifications">Consenti notifiche da parte dell’app</string>
+    <string name="exact_phrase">Frase precisa</string>
+    <string name="keywords">Parole chiave</string>
+    <string name="bookmark">Segnalibro</string>
+    <string name="cancel">Annulla</string>
+    <string name="cancel_all">Annulla tutto</string>
+    <string name="content">Contenuto</string>
+    <string name="copy">Copia</string>
+    <string name="delete">Cancella</string>
+    <string name="define">Definisci</string>
+    <string name="display">Schermata</string>
+    <string name="done">Fatto</string>
+    <string name="download">Scarica</string>
+    <string name="download_all">Scarica tutto</string>
+    <string name="download_item">Scarica elemento</string>
+    <string name="edit_note">Correggi Note</string>
+    <string name="feedback">Feedback</string>
+    <string name="keep">Mantieni</string>
+    <string name="library">Biblioteca</string>
+    <string name="link">Collegamento</string>
+    <string name="links">Collegamenti</string>
+    <string name="merge">Unisci</string>
+    <string name="never">Mai</string>
+    <string name="no">No</string>
+    <string name="note">Nota</string>
+    <string name="none">Nessuna</string>
+    <string name="ok">Ok</string>
+    <string name="remove">Rimuovi</string>
+    <string name="remove_all">Rimuovi tutto</string>
+    <string name="rename">Rinomina</string>
+    <string name="search">Cerca</string>
+    <string name="settings">Impostazioni</string>
+    <string name="screen_settings">configurazione schermo</string>
+    <string name="share">Condividi</string>
+    <string name="skip">Salta</string>
+    <string name="sort">Ordina</string>
+    <string name="tag">Tagga</string>
+    <string name="tags">Tag</string>
+    <string name="theme_default">Impostazione predefinita</string>
+    <string name="theme_night">Notte</string>
+    <string name="theme_sepia">Seppia</string>
+    <string name="theme_dark_blue">Blu scuro</string>
+    <string name="theme_magenta">Magenta</string>
+    <string name="today">Oggi</string>
+    <string name="undo">Annulla</string>
+    <string name="update">Aggiorna</string>
+    <string name="view">Aspetto</string>
+    <string name="yes">Sì</string>
+    <string name="yesterday">Ieri</string>
+    <!-- Other -->
+    <string name="add_bookmark">Aggiungi segnalibro</string>
+    <string name="create_note">Creare delle note</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">Aggiungi un Tag</string>
+    <string name="add_to">Aggiungi a</string>
+    <string name="add_to_ellipsis">Aggiungi a...</string>
+    <string name="add_to_notebook">Aggiungi al taccuino</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">Impossibile mostrare appunti perché “%s” non è installato.</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">Premere per installare aggiornamento</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">Disponibile aggiornamento Biblioteca evangelica.</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">Impostazioni audio</string>
+    <string name="backup_annotations_message">Se non accedi prima del prossimo aggiornamento dell’app Biblioteca evangelica, tutte le note personali (evidenziazioni, note, segnalibri, ecc.) saranno perse.</string>
+    <string name="backup_annotations_title">effettuare un backup degli annotazioni</string>
+    <string name="bookmarks">Segnalibri</string>
+    <string name="bookmark_added">Aggiunto segnalibro</string>
+    <string name="bookmark_empty">Non hai aggiunto alcun segnalibro</string>
+    <string name="bookmark_updated">Segnalibro aggiornato</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">Trasmetti</string>
+    <string name="catalog_title">Catalogo Biblioteca evangelica</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">Scegli evidenziatura</string>
+    <string name="citation_chapter_verse_separator_text">%1$s:%2$s</string>
+    <string name="clear_downloaded_media">Elimina elementi scaricati</string>
+    <string name="clear_history">Svuota cronologia</string>
+    <string name="content_no_content" comment="Shown in content drawer">Impossibile mostrare il contenuto perché “%s” non è installato.</string>
+    <string name="content_not_downloaded">%s non scaricati</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">Riproduzione continua</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">Il testo copiato negli Appunti</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">Crea \"%s\"</string>
+    <string name="current_downloads">Download in corso</string>
+    <string name="custom_collections">Raccolte personalizzate</string>
+    <string name="delete_annotation_title">Rimuovi annotazione</string>
+    <string name="delete_annotation_message">Ogni nota, tag, o collegamento a questa evidenziatura sarà rimosso.</string>
+    <string name="delete_collection_item_title">Cancella \"%1$s\"?</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%s verrà cancellato.\nCancellare tutti gli elementi?</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">Impossibile eliminare tutti gli elementi.</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$s verrà cancellato da \"%1$s\".\nVuoi cancellare?</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">Cancella file multimediale</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">Cancella taccuini</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">Cancella taccuini selezionati</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">Calcella il Tag</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">Cancella i Tag</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">Sei sicuro di voler rimuovere questo tag dalle tue note e dalle sottolineature?</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">Sei sicuro si volwe rimuovere questi tag dalle tue note e dalle sottolineature?</string>
+    <string name="deleted">%s Cancellato</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">"Selezionato segnalibro %s
+"</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">taccuino %s cancellato</string>
+    <string name="dialog_sign_out_confirmation">Sei sicuro di voler uscire?</string>
+    <string name="double_tap_fullscreen_training">Suggerimento: tocca due volte lo schermo per uscire dalla modalità schermo intero</string>
+    <string name="download_audio" comment="download audio">Scarica audio</string>
+    <string name="download_all_selected_confirm">%d elementi saranno scaricati.\nScaricare gli elementi selezionati?</string>
+    <string name="download_cancel_confirm_all">Tutti i download in corso saranno cancellati.\nCancellare i download?</string>
+    <string name="download_cancel">Cancellare i download?</string>
+    <string name="download_canceling">Download annullato...</string>
+    <string name="download_item_message">%s non è installato. Vuoi scaricarlo adesso?</string>
+    <string name="download_video" comment="download video">Scarica video</string>
+    <string name="downloaded_media">File multimediali scaricati</string>
+    <string name="downloading_ellipsis">Scarica…</string>
+    <string name="downloading_audio">Scarica audio per %s</string>
+    <string name="downloading_video">Scarica video per %s</string>
+    <string name="download_file_failed_insufficient_space">Download fallito [%s]\nSpazio insufficiente.</string>
+    <string name="download_file_failed">Download fallito [%s]\nVerifica la connessione Internet e riprova.</string>
+    <string name="download_dir_error">Elenco dei download non creato.</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">Nome della raccolta</string>
+    <string name="create_notebook" comment="prompt for the name of a new Notebook">Creare un Taccuino</string>
+    <string name="edit_notebook" comment="prompt for renaming a Notebook">Modifica taccuino</string>
+    <string name="existing_annotations_prompt">"In questo apparato esiste già l'annotazione %d. Cosa vuoi fare con le annotazioni esistenti?  "</string>
+    <string name="existing_annotations">Annotazioni esistenti</string>
+    <string name="featured_apps">Applicazioni in primo piano</string>
+    <string name="female" comment="Option for using a female voice for audio playback">Femmina</string>
+    <string name="finalizing_ellipsis">Finalizzazione…</string>
+    <string name="find_by_name">Trova per nome</string>
+    <string name="find_count">%1$d di %2$d</string>
+    <string name="find_x_on_page">Trova \"%s\" a pagina</string>
+    <string name="find_x_in_x">Trova \"%1$s\" in %2$s</string>
+    <string name="find_exact_x_in_x">Trova la frase esatta “%1$s” in %2$s</string>
+    <string name="marked_text_position">%1$d di %2$d risultati</string>
+    <string name="marked_text_position_no_results">0 risultati</string>
+    <string name="sign_in_error" comment="Failed to login invalid username or password.">Errore d’accesso</string>
+    <string name="highlight_style">Stile dell’evidenziatore</string>
+    <string name="history">Cronologia</string>
+    <string name="history_cleared">Cronologia cancellata</string>
+    <string name="installing_ellipsis">Installazione…</string>
+    <string name="journal">Diario</string>
+    <string name="journal_restore">Recupera il diario</string>
+    <string name="journal_create_notebook">crea taccuino nel diario</string>
+    <string name="journal_restore_description">Anche se il diario è stato rimosso, le note sono state conservate. Se si desidera, siamo in grado di raccogliere tutte le annotazioni che erano precedentemente nel diario e metterle in un nuovo taccuino nominato diario.</string>
+    <string name="journal_restore_result">Recupera il diario completo. %d annotazioni spostate.</string>
+    <string name="language">Lingua</string>
+    <string name="lds_account_summary">Un conto LDS viene usato per sincronizzare e salvare le tue annotazioni sui diversi dispositivi e il sito LDS.org</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">a %1$s</string>
+    <string name="loading_ellipsis">Caricamento…</string>
+    <string name="male" comment="Option for using a male voice for audio playback">Maschio</string>
+    <string name="mark" comment="Select highlight color">Evidenzia</string>
+    <string name="media_type">tipo di file multimediale</string>
+    <string name="menu_new_screen">Nuovo schermo</string>
+    <string name="merged_notebook_name_prompt">I taccuini selezionati saranno accorpati. Prego indicare il nome del taccuino risultante.</string>
+    <string name="merged_notebook_name">Nome del taccuino unificato</string>
+    <string name="merged_tag_name">Nome delle etichette unite</string>
+    <string name="move_to_notebook">Muovi nel taccuino</string>
+    <string name="my_collections">Le mie raccolte</string>
+    <string name="network_required" comment="Not connected to any network">Devi essere connesso a una rete (mobile o Wi-Fi) per accedere al server.</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">In base alle tue impostazioni devi essere collegato al Wi-Fi per accedere al server.</string>
+    <string name="no_bookmarks">Nessun segnalibro</string>
+    <string name="no_bookmarks_description">Aggiungi un segnalibro per tornare velocemente a dove ti eri fermato</string>
+    <string name="no_content">Nessun contenuto</string>
+    <string name="no_collection_content_description">Aggiungi oggetti alla collezione per un accesso facilitato</string>
+    <string name="no_custom_collections">Nessuna collezione personalizzata</string>
+    <string name="no_custom_collections_description">Crea collezioni personalizzate per accedere facilmente i relativi oggetti</string>
+    <string name="no_downloads_in_progress">Nessun download in progresso</string>
+    <string name="no_downloads_in_progress_description">Contenuto e media in scaricamento</string>
+    <string name="no_downloaded_media">Nessun media scaricato</string>
+    <string name="no_downloaded_media_description">Scarica audio o video per accedere quando si è offline</string>
+    <string name="no_history">Nessuna traccia</string>
+    <string name="no_history_description">Esplora il contenuto, trova il percorso e ritornaci</string>
+    <string name="no_matches" comment="No results">Niente corrisponde</string>
+    <string name="no_matches_description">Nessun articolo corrisponde ai parametri di ricerca</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">Nessun taccuino</string>
+    <string name="no_notebooks_description">Crea tutti i taccuini che vuoi per organizzare le annotazioni</string>
+    <string name="no_notes">Nessuna annotazione</string>
+    <string name="no_notes_in_notebook">Nessuna annotazione in questo taccuino</string>
+    <string name="no_notes_description">Registra le annotazioni per conservare i tuoi pensieri e ispirazioni.</string>
+    <string name="no_related_content">Nessun contenuto correlato</string>
+    <string name="no_related_content_description2">Note piè pagina  o altri contenuti correlati, non disponibili.</string>
+    <string name="no_tags" comment="The message to show when there are no tags">Nessun Tag</string>
+    <string name="no_tags_description">Crea un Tag per raggruppare i contenuti trovati in varie sezioni dell\'applicazione.</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">Nessun contenuto taggato</string>
+    <string name="no_tagged_content_description">Allega un Tag ad ogni informazione, per un uso futuro.</string>
+    <string name="no_thanks">No grazie</string>
+    <string name="no_tips">Nessun suggerimento</string>
+    <string name="no_tips_description">I suggerimenti mostrano le funzioni dell\' applicazione</string>
+    <string name="note_content">Contenuto della nota</string>
+    <string name="notebook">Taccuino</string>
+    <string name="notebooks">Taccuini</string>
+    <string name="notes">Note</string>
+    <string name="num_item_add_to">%1$s oggetto aggiunto a %2$s</string>
+    <string name="num_item">%d oggetto</string>
+    <string name="num_items_add_to">%1$s oggetti aggiunti a %2$s</string>
+    <string name="num_items">%d oggetti</string>
+    <string name="open">Apri</string>
+    <string name="open_in_music">Apri in Musica SUG</string>
+    <string name="open_in_new_screen">Apri in una nuova schermata</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">PIN barra laterale</string>
+    <string name="play_audio">Riproduci</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">Velocità di riproduzione</string>
+    <string name="playback_speed_0.5x">0.5x</string>
+    <string name="playback_speed_1x">1x</string>
+    <string name="playback_speed_1.25x">1.25x</string>
+    <string name="playback_speed_1.5x">1.5x</string>
+    <string name="playback_speed_1.75x">1.75x</string>
+    <string name="playback_speed_2x">2x</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">Registrati di nuovo per sistemare il nome utente e la password.</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">Gestisci o guarda audio e video scaricati</string>
+    <string name="pref_show_obsolete">Mostra contenuti obsoleti</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"Ecco io ti dico che mediante cose piccole e semplici si avverano grandi cose; e in molti casi i piccoli mezzi confondono i savi."</string>
+    <string name="pref_general_list_mode">Modalità elenco</string>
+    <string name="pref_hide_footnotes">Nascondi le note fondo pagina</string>
+    <string name="pref_limit_mobile_network_subtitle">Eseguire Download e Stream solo collegati in WiFi</string>
+    <string name="pref_limit_mobile_network">Limita l\'uso della rete mobile</string>
+    <string name="pref_theme">Tema</string>
+    <string name="problem_playing_video">E\' emerso un problema nel mostrare il video.</string>
+    <string name="read_more">Continua a leggere</string>
+    <string name="recent" comment="label for study notebook">Recente</string>
+    <string name="related_content">Argomento collegato</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">Sei sicuro di voler rimuover gli oggetti selezionati?</string>
+    <string name="remove_from_collection">Elimina dalla Raccolta</string>
+    <string name="rename_bookmark">Rinomina segnalibro</string>
+    <string name="rename_screen">Rinomina schermo</string>
+    <string name="requested_ellipsis">Richiesto…</string>
+    <string name="requested_paused_retry_ellipsis">in corso... (In attesa di riprovare)</string>
+    <string name="requested_paused_network_ellipsis">In corso... (in attesa di collegarsi)</string>
+    <string name="space_parentheses_number" comment="A number in parentheses, preceded by a space">" (%d)"</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">%d risultato</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">%d risultati</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">%1$s - %2$d risultato</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">%1$s - %2$d risultati</string>
+    <string name="save">Salva</string>
+    <string name="screens">Schermate</string>
+    <string name="screen_missing_content">Non hai scaricato il contenuto per lo schermo selezionato.\n\nVuoi scaricare ora il contenuto per \"%1$s\"?</string>
+    <string name="screens_separate_windows">Mostra lo schermo in una nuova finestra</string>
+    <string name="search_all_content">Cerca in tutti i contenuti</string>
+    <string name="search_for_links">Cerca per parole chiave,versetti o titoli</string>
+    <string name="select_footnote">Seleziona nota a piè pagina</string>
+    <string name="select_highlight">Seleziona Evidenza</string>
+    <string name="select_items">Seleziona oggetti</string>
+    <string name="select_link">Seleziona collegamento</string>
+    <string name="select_text_to_link" comment="title for link to Activity">Seleziona il testo da collegare</string>
+    <string name="selected_media_unavailable">Il media selezionato non è disponibile</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">Ultima sincronizzazione: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">Ordina per conteggio</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">Ordina per la più recente</string>
+    <string name="sort_by_name" comment="sort items by their name">Ordina per nome</string>
+    <string name="sort_by_size" comment="sort media items">Ordina per grandezza</string>
+    <string name="sort_by_item" comment="sort media items">Ordine per oggetto</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">Versione %s</string>
+    <string name="style">Stile</string>
+    <string name="sync_error_invalid_credentials">Nome utente o password invalidi</string>
+    <string name="sync_error_no_network">Non disponibile collegamento alla rete</string>
+    <string name="sync_notification_failure">Sincronizzazione delle note fallita</string>
+    <string name="sync_notification_gathering_changes">Raccogliendo i cambiamenti</string>
+    <string name="sync_notification_processing_changes">Elaborando i cambiamenti</string>
+    <string name="sync_notification_receiving_changes">Ricevendo i cambiamenti</string>
+    <string name="sync_notification_receiving_update_list">Ricevendo lista aggiornata</string>
+    <string name="sync_notification_sending_changes">Mandando i cambiamenti</string>
+    <string name="sync_notification_sending_update_request">Mandando richiesta di aggiornamento</string>
+    <string name="syncing_notebooks">Sincronizzando taccuini</string>
+    <string name="syncing_annotations">Sincronizzando annotazioni</string>
+    <string name="notification_channel_general">Notifiche generali</string>
+    <string name="notification_channel_sync">Sincronizzazione annotazioni</string>
+    <string name="notification_channel_media_playback">Riproduzione file multimediale</string>
+    <string name="text_size" comment="">Dimensione testo</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">Sintesi vocale del testo</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">Impostazioni della sintesi vocale</string>
+    <string name="tips">Suggerimenti</string>
+    <string name="title_optional">Titolo (facoltativo)</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">Cancella PIN barra laterale</string>
+    <string name="update_catalog_wifi_required">Aggiornamento disponibile, devi essere collegato al Wi-Fi per scaricare.</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">Modifica l\'etichetta</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">Qualità video</string>
+    <string name="video_unavailable">Viedeo non disponibile</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">Voce principale</string>
+    <string name="whats_new">Novità</string>
+</resources>

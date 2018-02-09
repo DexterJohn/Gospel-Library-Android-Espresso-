@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_tag_sort"
+        android:icon="@drawable/ic_lds_action_sort_24dp"
+        android:title="@string/sort"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_item_tag_sort_recent"
+                    android:title="@string/sort_by_most_recent"/>
+                <item
+                    android:id="@+id/menu_item_tag_sort_alphabetical"
+                    android:title="@string/sort_by_name"/>
+                <item
+                    android:id="@+id/menu_item_tag_sort_count"
+                    android:title="@string/sort_by_count"/>
+            </group>
+        </menu>
+    </item>
+</menu>

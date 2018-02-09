@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="?attr/themeStyleColorBackground"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/mainToolbar"
+        layout="@layout/toolbar_dim"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <org.lds.ldssa.ui.widget.IndicatorImageSelection
+                android:id="@+id/fillIndicator"
+                style="@style/HighlightPaletteStyleItem"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toStartOf="@+id/underlineIndicator"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlHardcoded"
+                tools:image="@drawable/ic_highlight_fill_24dp"
+                tools:layout_conversion_absoluteHeight="0dp"
+                tools:layout_conversion_absoluteWidth="0dp"
+                tools:layout_conversion_absoluteX="142dp"
+                tools:layout_conversion_absoluteY="80dp"/>
+
+            <org.lds.ldssa.ui.widget.IndicatorImageSelection
+                android:id="@+id/underlineIndicator"
+                style="@style/HighlightPaletteStyleItem"
+                android:layout_marginEnd="56dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="0dp"
+                app:layout_constraintEnd_toStartOf="@+id/clearIndicator"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/fillIndicator"
+                app:layout_constraintTop_toTopOf="@+id/fillIndicator"
+                tools:ignore="RtlHardcoded"
+                tools:image="@drawable/ic_highlight_underline_24dp"
+                tools:layout_conversion_absoluteHeight="0dp"
+                tools:layout_conversion_absoluteWidth="0dp"
+                tools:layout_conversion_absoluteX="206dp"
+                tools:layout_conversion_absoluteY="80dp"/>
+
+            <org.lds.ldssa.ui.widget.IndicatorImageSelection
+                android:id="@+id/clearIndicator"
+                style="@style/HighlightPaletteStyleItem"
+                android:layout_marginTop="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/underlineIndicator"
+                app:layout_constraintTop_toTopOf="@+id/fillIndicator"
+                tools:ignore="RtlHardcoded"
+                tools:image="@drawable/ic_highlight_fill_clear_24dp"
+                tools:layout_conversion_absoluteHeight="0dp"
+                tools:layout_conversion_absoluteWidth="0dp"
+                tools:layout_conversion_absoluteX="270dp"
+                tools:layout_conversion_absoluteY="80dp"/>
+
+            <org.lds.ldssa.ui.widget.HighlightColorIndicator
+                android:id="@+id/redColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toStartOf="@+id/orangeColorIndicator"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fillIndicator"/>
+
+            <org.lds.ldssa.ui.widget.HighlightColorIndicator
+                android:id="@+id/orangeColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                app:layout_constraintEnd_toStartOf="@+id/yellowColorIndicator"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/redColorIndicator"
+                app:layout_constraintTop_toTopOf="@+id/redColorIndicator"
+                />
+
+            <org.lds.ldssa.ui.widget.HighlightColorIndicator
+                android:id="@+id/yellowColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                app:layout_constraintEnd_toStartOf="@+id/greenColorIndicator"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/orangeColorIndicator"
+                app:layout_constraintTop_toTopOf="@+id/redColorIndicator"/>
+
+            <org.lds.ldssa.ui.widget.HighlightColorIndicator
+                android:id="@+id/greenColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                app:layout_constraintEnd_toStartOf="@+id/blueColorIndicator"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/yellowColorIndicator"
+                app:layout_constraintTop_toTopOf="@+id/redColorIndicator"
+                />
+
+            <org.lds.ldssa.ui.widget.HighlightColorIndicator
+                android:id="@+id/blueColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/greenColorIndicator"
+                app:layout_constraintTop_toTopOf="@+id/redColorIndicator"
+                />
+
+            <org.lds.ldssa.ui.widget.HighlightColorIndicator
+                android:id="@+id/darkBlueColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toStartOf="@+id/purpleColorIndicator"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/redColorIndicator"/>
+
+            <org.lds.ldssa.ui.widget.HighlightColorIndicator
+                android:id="@+id/purpleColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                app:layout_constraintEnd_toStartOf="@+id/pinkColorIndicator"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/darkBlueColorIndicator"
+                app:layout_constraintTop_toTopOf="@+id/darkBlueColorIndicator"
+                />
+
+            <org.lds.ldssa.ui.widget.HighlightColorIndicator
+                android:id="@+id/pinkColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                app:layout_constraintEnd_toStartOf="@+id/brownColorIndicator"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/purpleColorIndicator"
+                app:layout_constraintTop_toTopOf="@+id/darkBlueColorIndicator"
+                />
+
+            <org.lds.ldssa.ui.widget.HighlightColorIndicator
+                android:id="@+id/brownColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                app:layout_constraintEnd_toStartOf="@+id/grayColorIndicator"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/pinkColorIndicator"
+                app:layout_constraintTop_toTopOf="@+id/darkBlueColorIndicator"
+                />
+
+            <org.lds.ldssa.ui.widget.HighlightColorIndicator
+                android:id="@+id/grayColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/brownColorIndicator"
+                app:layout_constraintTop_toTopOf="@+id/darkBlueColorIndicator"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/recent"
+                android:textAllCaps="true"
+                android:textColor="?attr/themeStyleColorTextItemSubTitle"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/darkBlueColorIndicator"
+                app:layout_constraintTop_toBottomOf="@+id/darkBlueColorIndicator"/>
+
+            <View
+                android:id="@+id/recentSeparatorView"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:alpha="0.16"
+                android:background="?attr/themeStyleColorTextItemSubTitle"
+                app:layout_constraintEnd_toEndOf="@+id/recent5ColorIndicator"
+                app:layout_constraintStart_toStartOf="@+id/recent1ColorIndicator"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+
+            <org.lds.ldssa.ui.widget.HighlightStyleIndicator
+                android:id="@+id/recent1ColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toStartOf="@+id/recent2ColorIndicator"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                android:layout_marginBottom="24dp"/>
+
+            <org.lds.ldssa.ui.widget.HighlightStyleIndicator
+                android:id="@+id/recent2ColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                app:layout_constraintEnd_toStartOf="@+id/recent3ColorIndicator"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/recent1ColorIndicator"
+                app:layout_constraintTop_toTopOf="@+id/recent1ColorIndicator"
+                />
+
+            <org.lds.ldssa.ui.widget.HighlightStyleIndicator
+                android:id="@+id/recent3ColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                app:layout_constraintEnd_toStartOf="@+id/recent4ColorIndicator"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/recent2ColorIndicator"
+                app:layout_constraintTop_toTopOf="@+id/recent1ColorIndicator"
+                />
+
+            <org.lds.ldssa.ui.widget.HighlightStyleIndicator
+                android:id="@+id/recent4ColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                app:layout_constraintEnd_toStartOf="@+id/recent5ColorIndicator"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/recent3ColorIndicator"
+                app:layout_constraintTop_toTopOf="@+id/recent1ColorIndicator"
+                />
+
+            <org.lds.ldssa.ui.widget.HighlightStyleIndicator
+                android:id="@+id/recent5ColorIndicator"
+                style="@style/HighlightPaletteColorItem"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/recent4ColorIndicator"
+                app:layout_constraintTop_toTopOf="@+id/recent1ColorIndicator"
+                />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

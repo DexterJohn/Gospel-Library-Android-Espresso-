@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:its="http://www.w3.org/2005/11/its" its:version="1.0">
+    <!-- Basic -->
+    <string name="add">追加する</string>
+    <string name="all">すべて</string>
+    <string name="app_name">福音ライブラリー</string>
+    <string name="auto">自動</string>
+    <string name="allow_in_app_notifications">アプリ上のお知らせを許可する</string>
+    <string name="exact_phrase">正確なフレーズ</string>
+    <string name="keywords">キーワード</string>
+    <string name="bookmark">ブックマーク</string>
+    <string name="cancel">キャンセル</string>
+    <string name="cancel_all">すべてキャンセルする</string>
+    <string name="content">内容</string>
+    <string name="copy">コピーする</string>
+    <string name="delete">削除する</string>
+    <string name="define">定義</string>
+    <string name="display">ディスプレー</string>
+    <string name="done">完了</string>
+    <string name="download">ダウンロードする</string>
+    <string name="download_all">すべてダウンロードする</string>
+    <string name="download_item">項目をダウンロードする</string>
+    <string name="edit_note">メモを編集する</string>
+    <string name="feedback">フィードバック</string>
+    <string name="keep">残す</string>
+    <string name="library">ライブラリー</string>
+    <string name="link">リンク</string>
+    <string name="links">リンク</string>
+    <string name="merge">統合する</string>
+    <string name="never">Never</string>
+    <string name="no">いいえ</string>
+    <string name="note">メモ</string>
+    <string name="none">なし</string>
+    <string name="ok">OK</string>
+    <string name="remove">削除する</string>
+    <string name="remove_all">すべて削除する</string>
+    <string name="rename">名前の変更</string>
+    <string name="search">検索する</string>
+    <string name="settings">設定</string>
+    <string name="screen_settings">画面設定</string>
+    <string name="share">シェアする</string>
+    <string name="skip">スキップ</string>
+    <string name="sort">ソートする</string>
+    <string name="tag">タグ</string>
+    <string name="tags">タグ</string>
+    <string name="theme_default">デフォルト</string>
+    <string name="theme_night">夜</string>
+    <string name="theme_sepia">セピア</string>
+    <string name="theme_dark_blue">濃紺</string>
+    <string name="today">今日</string>
+    <string name="undo">元に戻す</string>
+    <string name="update">更新する</string>
+    <string name="view">表示</string>
+    <string name="yes">はい</string>
+    <string name="yesterday">昨日</string>
+    <!-- Other -->
+    <string name="add_bookmark">ブックマークを追加する</string>
+    <string name="add_tag_hint" comment="hint to prompt the user to start typing to add a new tag">タグを追加する</string>
+    <string name="add_to">追加する</string>
+    <string name="add_to_ellipsis">追加する</string>
+    <string name="add_to_notebook">ノートブックに追加する</string>
+    <string name="annotation_no_content" comment="Shown on the all notes page when the content associated with a highlight isn't downloaded">\"%s\"がインストールされていないため注釈を表示できません</string>
+    <string name="app_update_available_message" comment="The message displayed on the second line of the notification when an update is available">タップして更新をインストールする</string>
+    <string name="app_update_available" comment="The title displayed as a notification when an update is available">福音ライブラリーの更新があります</string>
+    <string name="audio_settings" comment="Menu option to display settings for audio playback">オーディオの設定</string>
+    <string name="backup_annotations_message">次の「福音ライブラリー」アプリの更新までにサインインしない場合，個人の注釈（ハイライト，メモ，ブックマークなど）が失われます。</string>
+    <string name="backup_annotations_title">注釈をバックアップする</string>
+    <string name="bookmarks">ブックマーク</string>
+    <string name="bookmark_added">ブックマークが追加されました</string>
+    <string name="bookmark_empty">追加されたブックマークはありません</string>
+    <string name="bookmark_updated">ブックマークが更新されました</string>
+    <string name="cast" comment="as in Chromecast; send to a different screen">キャスト</string>
+    <string name="catalog_title">「福音ライブラリー」カタログ</string>
+    <string name="choose_highlight" comment="title for selecting one of many highlights">ハイライトを選択する</string>
+    <string name="citation_chapter_verse_separator">：</string>
+    <string name="citation_chapter_verse_separator_text">%1$s：%2$s</string>
+    <string name="citation_range_separator">—</string>
+    <string name="citation_range_group_separator">"，"</string>
+    <string name="clear_downloaded_media">ダウンロードされたメディアを消去する</string>
+    <string name="clear_history">履歴を削除する</string>
+    <string name="content_no_content" comment="Shown in content drawer">\"%s\"がインストールされていないため内容を表示できません</string>
+    <string name="content_not_downloaded">%sはダウンロードされていません。</string>
+    <string name="continuous_play" comment="Audio setting to continue on to the next chapter/book or stop playback at the end of each chapter">連続再生</string>
+    <string name="copied_to_clipboard" comment="Copy and paste">テキストはクリップボードにコピーされました</string>
+    <string name="create_new_tag" comment="An option given to the user when a tag they entered doesn't exist and needs to be created">“%s”を作成する</string>
+    <string name="current_downloads">現在のダウンロード</string>
+    <string name="custom_collections">カスタムコレクション</string>
+    <string name="delete_annotation_title">注釈を削除する</string>
+    <string name="delete_annotation_message">ハイライトされたすべての注記、タグおよびリンクも削除されます。</string>
+    <string name="delete_collection_item_title">“%1$s”を削除しますか？</string>
+    <string name="delete_media_all_message" comment="message for dialog confirming delete action">%sが削除されます。\nメディアをすべて削除しますか？</string>
+    <string name="delete_media_all_partial_failed" comment="message confirming that some file failed to be deleted">すべてのメディアを削除することができません</string>
+    <string name="delete_media_book_message" comment="message for dialog confirming delete action">%2$sが“%1$s\"から削除されます。\nメディアを削除しますか？</string>
+    <string name="delete_media" comment="title for dialog confirming delete action">メディアを削除する</string>
+    <string name="delete_notebooks_title" comment="title for dialog confirming delete of multiple notebook">ノートブックを削除する</string>
+    <string name="delete_notebooks_message" comment="message for dialog confirming delete of multiple notebooks">選択されたノートブックを削除しますか？</string>
+    <string name="delete_tag_title_single" comment="title for dialog confirming delete of a single tag">タグを削除する</string>
+    <string name="delete_tag_title_multiple" comment="title for dialog confirming delete of multiple tag">複数のタグを削除する</string>
+    <string name="delete_tag_message_single" comment="title for dialog confirming delete of a single tag">すべてのノートやハイライトからこのタグを削除してもよろしいですか？</string>
+    <string name="delete_tag_message_multiple" comment="title for dialog confirming delete of multiple tags">すべてのメモやハイライトからこれらのタグを削除してもよろしいですか？</string>
+    <string name="deleted">%sを削除しました</string>
+    <string name="deleted_bookmark" comment="message stating that a single bookmark was deleted">%sのブックマークを削除しました</string>
+    <string name="deleted_notebook" comment="message stating that a single notebook was deleted">%sのノートブックを削除しました</string>
+    <string name="dialog_sign_out_confirmation">本当にサインアウトしますか？</string>
+    <string name="double_tap_fullscreen_training">ヒント：画面を2度タップすると全画面モードを解除できます。</string>
+    <string name="download_audio" comment="download audio">音声をダウンロードする</string>
+    <string name="download_all_selected_confirm">%d件ダウンロードされます。\n選択した項目をダウンロードしますか？</string>
+    <string name="download_cancel_confirm_all">現在のダウンロードがすべてキャンセルされます。\nダウンロードをキャンセルしますか？</string>
+    <string name="download_cancel">ダウンロードをキャンセルしますか？</string>
+    <string name="download_canceling">ダウンロードをキャンセルする</string>
+    <string name="download_item_message">%sがインストールされていません。今すぐダウンロードしますか？</string>
+    <string name="download_video" comment="download video">ビデオをダウンロードする</string>
+    <string name="downloaded_media">ダウンロードされたメディア</string>
+    <string name="downloading_ellipsis">ダウンロード中です……</string>
+    <string name="downloading_audio">%sの音声をダウンロード中です</string>
+    <string name="downloading_video">%sのビデオをダウンロード中です</string>
+    <string name="download_file_failed_insufficient_space">[%s]のダウンロードに失敗しました。\nスペースが足りません。</string>
+    <string name="download_file_failed">[%s]のダウンロードに失敗しました。\nインターネットの接続を確認して，再度お試しください。</string>
+    <string name="download_dir_error">ダウンロードディレクトリの作成に失敗しました。</string>
+    <string name="collection_name" comment="prompt for the name of a new custom collection">コレクション名</string>
+    <string name="existing_annotations_prompt">%d の注釈がこのデバイスに既に存在しています。既存の注釈をどうしたいですか？</string>
+    <string name="existing_annotations">既存の注釈</string>
+    <string name="featured_apps">注目のアプリ</string>
+    <string name="female" comment="Option for using a female voice for audio playback">女性</string>
+    <string name="finalizing_ellipsis">終了しています……</string>
+    <string name="find_by_name">名前で検索する</string>
+    <string name="find_count">%2$dのうち%1$d</string>
+    <string name="find_x_on_page">“%s”をページでさがす</string>
+    <string name="find_x_in_x">%2$sで\"%1$s\"を検索する</string>
+    <string name="find_exact_x_in_x">%2$sで完全一致のフレーズ\"%1$s\"を検索する</string>
+    <string name="marked_text_position">検索結果：%2$d中%1$d件</string>
+    <string name="marked_text_position_no_results">検索結果：0件</string>
+    <string name="sign_in_error" comment="Failed to login invalid username or password.">サインインエラー</string>
+    <string name="highlight_style">ハイライトのスタイル</string>
+    <string name="history">履歴</string>
+    <string name="history_cleared">履歴が消去されました</string>
+    <string name="installing_ellipsis">インストールしています……</string>
+    <string name="journal">日記帳</string>
+    <string name="journal_restore">日記帳を復元する</string>
+    <string name="journal_create_notebook">日記帳のノートブックを作成する</string>
+    <string name="journal_restore_description">日記帳セクションは削除されていますが，メモは保存されています。 ご希望の場合は，これまで日記帳セクションにあったすべてのメモを集め，日記帳という名前の新しいノートブックに入れることができます。</string>
+    <string name="journal_restore_result">日記帳の回復が完了しました。%d個のメモが移動しました。</string>
+    <string name="language">言語</string>
+    <string name="lds_account_summary">すべてのデバイスおよびLDS.orgで、注釈をバックアップおよび同期化するためにLDSアカウントを使います。</string>
+    <string name="link_to" comment="subtitle for link to Activity... continues sentence for select_text_to_link">%1$sへ</string>
+    <string name="loading_ellipsis">ロードしています……</string>
+    <string name="male" comment="Option for using a male voice for audio playback">男性</string>
+    <string name="mark" comment="Select highlight color">印を付ける</string>
+    <string name="media_type">メディアの種類</string>
+    <string name="menu_new_screen">新しい画面…</string>
+    <string name="merged_notebook_name_prompt">選択されたノートブックが統合されます。新しく作成されるノートブックの名前を入力してください。</string>
+    <string name="merged_notebook_name">統合されたノートブック名</string>
+    <string name="merged_tag_name">統合されたタグ名</string>
+    <string name="move_to_notebook">ノートブックに移動する</string>
+    <string name="my_collections">マイコレクション</string>
+    <string name="network_required" comment="Not connected to any network">このアクションにはインターネット接続が必要です。モバイル機器またはWi-Fiのネットワークに接続してから再試行してください。</string>
+    <string name="network_wifi_required" comment="Not connect to a wireless network">あなたの設定に基づくと，このアクションを実行するにはWi-Fiに接続されている必要があります。</string>
+    <string name="no_bookmarks">ブックマークがありません</string>
+    <string name="no_bookmarks_description">前回中断した箇所にすぐに戻れるようにブックマークを追加する。</string>
+    <string name="no_content">コンテンツがありません</string>
+    <string name="no_collection_content_description">次回に参照しやすいようにコレクションにアイテムを追加する</string>
+    <string name="no_custom_collections">カスタムのコレクションがありません</string>
+    <string name="no_custom_collections_description">関連するアイテムを参照しやすいようカスタム・コレクションを作成する。</string>
+    <string name="no_downloads_in_progress">進行中のダウンロードはありません</string>
+    <string name="no_downloads_in_progress_description">"コンテンツとメディアのダウンロード中です。
+"</string>
+    <string name="no_downloaded_media">ダウンロードされたメディアはありません</string>
+    <string name="no_downloaded_media_description">オフラインアクセス用の音声またはビデオをダウンロードする</string>
+    <string name="no_history">履歴がありません</string>
+    <string name="no_history_description">内容を探索し，パスを見つけ，そこに戻る。</string>
+    <string name="no_matches" comment="No results">一致が見つかりません</string>
+    <string name="no_matches_description">検索内容に該当するものがありません。</string>
+    <string name="no_notebooks" comment="The message to show when there are no notebooks">ノートブックなし</string>
+    <string name="no_notebooks_description">好きなだけノートブックを作成し，すべてのメモを整理する</string>
+    <string name="no_notes">メモがありません</string>
+    <string name="no_notes_in_notebook">このノートブックにはメモがありません</string>
+    <string name="no_notes_description">メモを記入し自分の考えや導きを保管する。</string>
+    <string name="no_related_content">関連コンテンツがありません</string>
+    <string name="no_related_content_description2">脚注，その他の関連コンテンツがありません</string>
+    <string name="no_tags" comment="The message to show when there are no tags">タグはありません</string>
+    <string name="no_tags_description">アプリのどこからでもグループコンテンツにタグを作成する。</string>
+    <string name="no_tagged_content" comment="The message to show when there are no tags">タグされたコンテンツがありません</string>
+    <string name="no_tagged_content_description">タグをコンテンツの好きな部分に付けて将来参照できるようにする</string>
+    <string name="no_thanks">いいえ，けっこうです</string>
+    <string name="no_tips">ヒントはありません</string>
+    <string name="no_tips_description">ヒントには，アプリの役立つ機能が紹介されています</string>
+    <string name="note_content">メモのコンテンツ</string>
+    <string name="notebook">ノートブック</string>
+    <string name="notebooks">ノートブック</string>
+    <string name="notes">メモ</string>
+    <string name="num_item_add_to">%1$sのアイテムが %2$sに追加されました</string>
+    <string name="num_item">%dのアイテム</string>
+    <string name="num_items_add_to">%1$sのアイテムが %2$sに追加されました</string>
+    <string name="num_items">%dのアイテム</string>
+    <string name="open">開く</string>
+    <string name="open_in_music">LDSミュージックで開く</string>
+    <string name="open_in_new_screen">新しい画面で開く</string>
+    <string name="pin" comment="Option to pin the sidebar in an always visible state">スライドバーをピン留めする</string>
+    <string name="play_audio">音声を再生する</string>
+    <string name="playback_speed" comment="Option in audio settings to set the speed for audio playback">再生スピード</string>
+    <string name="playback_speed_0.5x">0.5倍</string>
+    <string name="playback_speed_1x">1倍</string>
+    <string name="playback_speed_1.25x">1.25倍</string>
+    <string name="playback_speed_1.5x">1.5倍</string>
+    <string name="playback_speed_1.75x">1.75倍</string>
+    <string name="playback_speed_2x">2倍</string>
+    <string name="please_sign_in_user_fix" comment="Failed to login invalid username or password.">再度サインインしユーザー名とパスワードを修正してください。</string>
+    <string name="pref_downloaded_media_summary" comment="description of what this option will allow">ダウンロードした音声およびビデオを管理または視聴する</string>
+    <string name="pref_show_obsolete">廃止したコンテンツを表示する</string>
+    <string name="pref_font_size_sample" comment="The sample text displayed to the user when updating the font size">"……見よ，わたしはあなたに言う。小さな，簡単なことによって大いなることが成し遂げられるのである。そして，小さな手段が度々知者を辱める。"</string>
+    <string name="pref_general_list_mode">リストモード</string>
+    <string name="pref_hide_footnotes">脚注を隠す</string>
+    <string name="pref_limit_mobile_network_subtitle">Wi-Fiのみでダウンロードおよびストリーミングする</string>
+    <string name="pref_limit_mobile_network">モバイル機器のネットワーク使用を制限する</string>
+    <string name="pref_theme">テーマ</string>
+    <string name="problem_playing_video">ビデオの再生中に問題がありました</string>
+    <string name="read_more">さらに読む</string>
+    <string name="recent" comment="label for study notebook">最近</string>
+    <string name="related_content">関連コンテンツ</string>
+    <string name="remove_all_selected_confirm" comment="Double checking removal of content">本当に選択したアイテムを削除してよろしいですか？</string>
+    <string name="remove_from_collection">コレクションから削除する</string>
+    <string name="rename_bookmark">ブックマークの名前を変更する</string>
+    <string name="rename_screen">画面の名前を変更する</string>
+    <string name="requested_ellipsis">申請済み……</string>
+    <string name="requested_paused_retry_ellipsis">要請済み……（再試行待ち）</string>
+    <string name="requested_paused_network_ellipsis">要請済み……（ネットワーク待ち）</string>
+    <string name="search_count_result_single" comment="Message that displays the number of search results when there is a single search result">検索結果：%d件</string>
+    <string name="search_count_result_multiple" comment="Message that displays the number of search results when there are multiple search results">検索結果：%d件</string>
+    <string name="search_count_results_subtitle_single" comment="Message that displays a single search result alongside the name of content">検索結果：%1$s－%2$d件</string>
+    <string name="search_count_results_subtitle_multiple" comment="Message that displays multiple search results alongside the name of content">検索結果：%1$s－%2$d件</string>
+    <string name="save">保存</string>
+    <string name="screens">画面</string>
+    <string name="screen_missing_content">選択した画面のコンテンツをダウンロードしていません。\n“%1$s”のコンテンツを，今ダウンロードしますか？</string>
+    <string name="screens_separate_windows">これらの画面を別の画面で表示</string>
+    <string name="search_all_content">すべてのコンテンツを検索する</string>
+    <string name="search_for_links">キーワード，節，タイトルで検索する</string>
+    <string name="select_highlight">ハイライトを選択する</string>
+    <string name="select_items">アイテムを選択する</string>
+    <string name="select_link">リンクを選択する</string>
+    <string name="select_text_to_link" comment="title for link to Activity">リンクするテキストを選択する</string>
+    <string name="selected_media_unavailable">選択されたコンテンツは現在使用できません。</string>
+    <string name="settings_last_sync" comment="the last annotation sync (followed by a date)">最後の同期化: %s</string>
+    <string name="sort_by_count" comment="Sort items by their count">数で分類する</string>
+    <string name="sort_by_most_recent" comment="Sort items with the most recent at the top">新しい順に分類する</string>
+    <string name="sort_by_name" comment="sort items by their name">名前で分類する</string>
+    <string name="sort_by_size" comment="sort media items">サイズで分類する</string>
+    <string name="sort_by_item" comment="sort media items">項目で分類する</string>
+    <string name="splash_version" comment="Information about Gospel Library - app version">バージョン%s</string>
+    <string name="style">様式</string>
+    <string name="sync_error_invalid_credentials">無効なユーザー名/パスワード</string>
+    <string name="sync_error_no_network">ネットワークに接続していません</string>
+    <string name="sync_notification_failure">注釈の同期に失敗しました</string>
+    <string name="sync_notification_gathering_changes">変更を収集しています</string>
+    <string name="sync_notification_processing_changes">変更を処理中</string>
+    <string name="sync_notification_receiving_changes">変更を受信中</string>
+    <string name="sync_notification_receiving_update_list">アップデートリストを受信中</string>
+    <string name="sync_notification_sending_changes">変更を送信中</string>
+    <string name="sync_notification_sending_update_request">更新の申請を送信中</string>
+    <string name="syncing_notebooks">ノートブックを同期化しています</string>
+    <string name="syncing_annotations">注釈を同期化しています</string>
+    <string name="notification_channel_general">全般的なお知らせ</string>
+    <string name="notification_channel_sync">注釈の同期</string>
+    <string name="notification_channel_media_playback">メディア再生</string>
+    <string name="text_size" comment="">文字の大きさ</string>
+    <string name="text_to_speech" comment="Option for using text-to-speech for audio playback">文字を音声に変換する</string>
+    <string name="text_to_speech_settings" comment="This will take users to the system's Text-to-speech settings">文字を音声に変換する設定</string>
+    <string name="tips">ヒント</string>
+    <string name="title_optional">タイトル（任意）</string>
+    <string name="unpin" comment="Option to unpin the sidebar from an always visible state">スライドバーのピン留めを外す</string>
+    <string name="update_catalog_wifi_required">更新されたコンテンツは利用可能ですが，ダウンロードするにはWi-Fiに接続する必要があります。</string>
+    <string name="edit_tag" comment="prompt for editing a tag name">タグを編集する</string>
+    <string name="video_quality_hd_template" comment="High Definition video qualities, e.g. 720p HD">%dp HD</string>
+    <string name="video_quality_template" comment="video qualities, e.g. 640p">%dp</string>
+    <string name="video_quality">ビデオ画質</string>
+    <string name="video_unavailable">ビデオが利用できません</string>
+    <string name="voice" comment="Setting for selecting the type of voice to use for main content audio playback (chapter headers, etc. may be read in a different voice)">主音声</string>
+    <string name="whats_new">最新情報</string>
+</resources>

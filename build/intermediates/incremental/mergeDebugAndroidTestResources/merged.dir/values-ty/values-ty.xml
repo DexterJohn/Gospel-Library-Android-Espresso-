@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Fa’a’ore</string>
+    <string name="ok">Fāri’i</string>
+    <string name="pref_reset_data_explanation">’Ua hina’aro mau ānei ’oe e haere i rāpae?</string>
+    <string name="signin_ok">Fāri’i</string>
+</resources>
